@@ -1,6 +1,8 @@
 ---
 import Temel from '../../layouts/Temel.astro';
+import '../../styles/sozluk.css';
 import { kitaplar, kitapBul } from '../../lib/veri.ts';
+import { normallestir } from '../../lib/normallestir.ts';
 
 export function getStaticPaths() {
   return kitaplar().map((k) => ({ params: { kitap: k.kunye.slug } }));
@@ -8,36 +10,63 @@ export function getStaticPaths() {
 const k = kitapBul(Astro.params.kitap!);
 // Boş tanımlı maddeler gösterilmez; sözlük kitaptaki gibi, yapay zekasız.
 const maddeler = k.sozluk.filter((m) => m.tanim);
+
+// Harfe göre grupla (â, î, û kendi harfinin altında; Türkçe harf sırası).
+const harf = (m: string) => (normallestir(m).match(/\p{L}/u)?.[0] ?? '#').toLocaleUpperCase('tr');
+const gruplar = new Map<string, typeof maddeler>();
+for (const m of maddeler) {
+  const h = harf(m.madde);
+  gruplar.set(h, [...(gruplar.get(h) ?? []), m]);
+}
+const sirali = [...gruplar.entries()].sort((a, b) => a[0].localeCompare(b[0], 'tr'));
 ---
 <Temel baslik={`Sözlük · ${k.kunye.baslik}`}>
   <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › <a href={`/${k.kunye.slug}/`}>{k.kunye.sair}</a> › Sözlük</nav>
-  <h1>Sözlük</h1>
-  <p class="soluk kucuk">{k.kunye.baslik} kitabının sözlüğü; anlamlar kitaptan olduğu gibi alınmıştır.</p>
+  <header class="kitap-ust">
+    <div class="sair">{k.kunye.sair}</div>
+    <h1>Sözlük</h1>
+    <p class="soluk kucuk">Anlamlar kitaptan olduğu gibi alınmıştır.</p>
+  </header>
+
   <div class="araclar" role="search">
     <label class="sr-only" for="ara">Sözlükte ara</label>
     <input type="search" id="ara" placeholder="Madde ara…" autocomplete="off" />
   </div>
   <p class="kucuk soluk" id="sayac" aria-live="polite">{maddeler.length} madde</p>
-  <dl class="sozluk" id="liste">
-    {maddeler.map((m) => (
-      <div data-metin={m.madde.toLocaleLowerCase('tr')}>
-        <dt>{m.madde}</dt>
-        <dd>{m.tanim}</dd>
-      </div>
+
+  <nav class="harfler" aria-label="Harfe git">
+    {sirali.map(([h]) => <a href={`#h-${h}`}>{h}</a>)}
+  </nav>
+
+  <div class="sozluk-sayfa" id="liste">
+    {sirali.map(([h, liste]) => (
+      <section class="harf-grup" id={`h-${h}`} aria-labelledby={`b-${h}`}>
+        <h2 id={`b-${h}`} class="harf-baslik">{h}</h2>
+        <dl>
+          {liste.map((m) => (
+            <div class="madde" data-metin={m.madde}>
+              <dt>{m.madde}</dt>
+              <dd>{m.tanim}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
     ))}
-  </dl>
+  </div>
 </Temel>
 
 <script>
   import { normallestir } from '../../lib/normallestir.ts';
   const ara = document.getElementById('ara') as HTMLInputElement;
   const sayac = document.getElementById('sayac')!;
-  const satirlar = [...document.querySelectorAll<HTMLElement>('#liste > div')];
-  const anahtar = new Map(satirlar.map((s) => [s, normallestir(s.dataset.metin!)]));
+  const gruplar = [...document.querySelectorAll<HTMLElement>('.harf-grup')];
+  const maddeler = [...document.querySelectorAll<HTMLElement>('.madde')];
+  const anahtar = new Map(maddeler.map((s) => [s, normallestir(s.dataset.metin!)]));
   ara.addEventListener('input', () => {
     const q = normallestir(ara.value);
     let n = 0;
-    for (const s of satirlar) { const ok = !q || anahtar.get(s)!.includes(q); s.hidden = !ok; if (ok) n++; }
+    for (const s of maddeler) { const ok = !q || anahtar.get(s)!.includes(q); s.hidden = !ok; if (ok) n++; }
+    for (const g of gruplar) g.hidden = !g.querySelector('.madde:not([hidden])');
     sayac.textContent = `${n} madde`;
   });
 </script>

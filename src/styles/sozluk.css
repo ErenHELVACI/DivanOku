@@ -1,0 +1,18 @@
+/* Sözlük: düz, temiz bir sayfa üstünde; madde solda, anlam sağda. Doku yok, kontrast yüksek. */
+.harfler { display: flex; flex-wrap: wrap; gap: .3rem; justify-content: center; margin: .8rem 0 1.2rem; font-family: var(--sans); }
+.harfler a { min-width: 2.2rem; height: 2.2rem; display: grid; place-items: center; border-radius: .5rem; text-decoration: none; font: 600 .9rem var(--sans); color: var(--lacivert); border: 1px solid var(--cizgi); background: var(--sayfa); }
+.harfler a:hover { border-color: var(--vurgu); color: var(--vurgu); }
+
+.sozluk-sayfa { background: var(--sayfa); border: 1px solid var(--cizgi); border-radius: .6rem; padding: .4rem 1.1rem 1.2rem; box-shadow: var(--golge); }
+.harf-grup { scroll-margin-top: 4.5rem; }
+.harf-baslik { position: sticky; top: 3.1rem; z-index: 5; margin: 0; padding: .9rem 0 .35rem; font: 600 1.7rem var(--display); color: var(--vurgu); background: linear-gradient(var(--sayfa) 78%, transparent); border-bottom: 1px solid var(--yaldiz); }
+.madde { display: grid; grid-template-columns: minmax(7.5rem, 11rem) 1fr; gap: .2rem 1.2rem; padding: .7rem 0; border-bottom: 1px dashed var(--cizgi); }
+.madde:last-child { border-bottom: 0; }
+.madde dt { margin: 0; font: 600 1.2rem/1.3 var(--display); color: var(--lacivert); }
+.madde dd { margin: 0; font-size: 1.2rem; line-height: 1.5; color: var(--yazi); max-width: 38rem; }
+@media (max-width: 560px) {
+  .sozluk-sayfa { padding-inline: .8rem; }
+  .madde { grid-template-columns: 1fr; gap: .05rem; }
+  .madde dt { font-size: 1.15rem; }
+  .harf-baslik { top: 3rem; }
+}
