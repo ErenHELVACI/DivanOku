@@ -1,0 +1,18 @@
+{
+  "slug": "ummi-sinan",
+  "baslik": "Ümmî Sinân Halvetî: Dîvân-ı İlâhiyât",
+  "sair": "Ümmî Sinân",
+  "editor": "Sadık Yalsızuçanlar",
+  "yayinci": "T.C. Diyanet İşleri Başkanlığı, Dini Yayınlar Genel Müdürlüğü",
+  "seri": "Diyanet İşleri Başkanlığı Yayınları 943, Edebî Eserler 23",
+  "baski": "2. Baskı, Ankara, 2014",
+  "baskiYili": 2014,
+  "isbn": "978-975-19-5725-2",
+  "telifNotu": "© T.C. Diyanet İşleri Başkanlığı (künyede yazılı)",
+  "izin": { "durum": "yok", "kaynak": "", "tarih": "" },
+  "siirSayisi": 155,
+  "siirSayisiKaynagi": "Kitabın şiir dizinindeki kayıt sayısı (ön sözde sayı yazmıyor); dizinde bir kaydın numarası basılmamış.",
+  "siirKaynakOnekleri": { "d": "Dîvân-ı İlâhiyât" },
+  "kaynakDosya": "kaynak/ummi-sinan/kaynak.epub",
+  "kunyeNotu": "Künye bilgisi ePUB'daki 'UmmiSinanHalveti-1/2.xhtml' sayfalarından alınmıştır: hazırlayan Sadık Yalsızuçanlar, editör Mustafa Tatcı; 'dc:rights' alanı boştur."
+}

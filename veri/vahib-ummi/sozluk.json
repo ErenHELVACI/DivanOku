@@ -1,0 +1,8334 @@
+[
+ {
+  "madde": "Avân",
+  "tanim": "Yardımcılar, yardım edenler"
+ },
+ {
+  "madde": "A’yân",
+  "tanim": "Açık, belli, meydanda"
+ },
+ {
+  "madde": "Âb",
+  "tanim": "Su."
+ },
+ {
+  "madde": "Abâ",
+  "tanim": "Yünden yapılan bol elbise. Peygamberlerin, Hz. Peygamberin ve sûfîlerin giydiği yünden yapılmış geniş elbise."
+ },
+ {
+  "madde": "Âbâd eylemek",
+  "tanim": "Bayındır ve işlenmiş hâle getirmek."
+ },
+ {
+  "madde": "Abd",
+  "tanim": "Kul."
+ },
+ {
+  "madde": "Abdâl",
+  "tanim": "Kendini Hakk’a vermiş olan ermiş kişiler. Sayıları yedi veya kırk olduğu söylenen bir ermişler zümresi. Büdelâ da denir."
+ },
+ {
+  "madde": "Abdülvehhâblı",
+  "tanim": "XVI. Asırda Elmalı ve çevresinde Vâhib Ümmî’ye mensup dervîşler için kullanılan bir sıfat."
+ },
+ {
+  "madde": "Âb-ı hayât",
+  "tanim": "Hayat suyu, ebedî dirilik verdiğine inanılan efsanevî su. Âb-ı Hayvân da denilir. Tasavvufta hakîki aşk. İlm-i ledün, marifetullah, mürşid-i kâmilin sözleri. İlâhî sır."
+ },
+ {
+  "madde": "Âb-ı hayvân",
+  "tanim": "İçene ebedî ölümsüzlük veren efsanevî su."
+ },
+ {
+  "madde": "Âb-ı Kevser",
+  "tanim": "Kevser suyu. Cennetteki ırmakların kaynağı, yahut cennette bulunan bir havuz. Kevser suyundan gaye, eşya ve varlığa dair sırlar, ilâhî bilgilerdir. Sûfiyyun bu kavram ile kâmillerin sözlerini sözlerini kasdederler."
+ },
+ {
+  "madde": "Âb-ı Zülâl",
+  "tanim": "Berrak, saf, içenlere ferahlık veren buz gibi su."
+ },
+ {
+  "madde": "Âbid",
+  "tanim": "İbadet eden kul, zâhid, çok ibadet eden kişi."
+ },
+ {
+  "madde": "Aceb",
+  "tanim": "Acaba, hayret, şaşılacak şey."
+ },
+ {
+  "madde": "Aceblemek",
+  "tanim": "Şaşırmak, hayret etmek."
+ },
+ {
+  "madde": "Aceblemen",
+  "tanim": "Kınamayın."
+ },
+ {
+  "madde": "Acı söz",
+  "tanim": "İncitici söz."
+ },
+ {
+  "madde": "Acîb",
+  "tanim": "Şüphe."
+ },
+ {
+  "madde": "Âciz",
+  "tanim": "Zayıf, güçsüz."
+ },
+ {
+  "madde": "Acûl",
+  "tanim": "Aceleci."
+ },
+ {
+  "madde": "Acz",
+  "tanim": "Güçsüzlük, beceriksizlik, elinden bir şey gelmemek."
+ },
+ {
+  "madde": "Açılmak",
+  "tanim": "Gizli sırları ifşa etmek."
+ },
+ {
+  "madde": "Âdâb",
+  "tanim": "Edepler, davranış kuralları. tasavvufta, sâlikin uygulaması gereken kurallar."
+ },
+ {
+  "madde": "Adâvet",
+  "tanim": "Düşmanlık; hınç, kin."
+ },
+ {
+  "madde": "Âdem",
+  "tanim": "İlk insan, ilk peygamber, Allah’ın halifesi. Kendisinde isimler tecellî eden ve bu isimleri tâlim ettirmeye yetkili olan kâmil insan."
+ },
+ {
+  "madde": "Âdem-i sâfî",
+  "tanim": "Tasavvufî metinlerde, ilâhî isimlerin kendisinde tecellî ettiği, nefsini arındırmış kişi anlamındadır."
+ },
+ {
+  "madde": "Âfâk",
+  "tanim": "Dış âlem, eşyâ."
+ },
+ {
+  "madde": "Âfet",
+  "tanim": "Belâ, felaket."
+ },
+ {
+  "madde": "Âfitâb",
+  "tanim": "Güneş. Mecazen Hak ve Hakikat."
+ },
+ {
+  "madde": "Âgâh",
+  "tanim": "Bilgili, haberli, uyanık, hâlden anlayan kalp gözü açık velî."
+ },
+ {
+  "madde": "Ağ",
+  "tanim": "Ak, beyaz."
+ },
+ {
+  "madde": "Ağmak",
+  "tanim": "Yükselmek, yukarı çıkmak."
+ },
+ {
+  "madde": "Ağyâr",
+  "tanim": "Yabancılar, rakibler, Cenâb-ı Hakk’ın varlığı dışında var olduğunu sandığımız vehmî şeyler, nefsî istekler ve engeller."
+ },
+ {
+  "madde": "Âh",
+  "tanim": "İnleme, haykırma."
+ },
+ {
+  "madde": "Ahad",
+  "tanim": "Bir olan Allah, zât-ı ulûhiyet."
+ },
+ {
+  "madde": "Ahadiyyet",
+  "tanim": "Birlik. Cenâb-ı Hakk’ın sayıya gelmeyen birliği, zât-ı ulûhiyet âlemi. Uluhiyyet."
+ },
+ {
+  "madde": "Âhar",
+  "tanim": "Başka, diğer."
+ },
+ {
+  "madde": "Ahbâr",
+  "tanim": "Haberler."
+ },
+ {
+  "madde": "Ahbâr-ı Hak",
+  "tanim": "Hakk’ın haberleri."
+ },
+ {
+  "madde": "Ahd eylemek",
+  "tanim": "Söz vermek, yemin etmek, niyet etmek."
+ },
+ {
+  "madde": "Ahd-i Ezel",
+  "tanim": "Ezelde Cenâb-ı Hak ile ruhların yaptığı sözleşme. Ezelî ahd, bezm-i elestte meydana gelmiştir. Bezm-i elest terkibi “Ben sizin Rabbiniz değil miyim” hitabının yapıldığı ve ruhların da “belâ / evet” diye cevap verdikleri meclis anlamında kullanılmaktadır. Kur’ân’da geçmişte Allah’ın Âdem oğullarından yani onların sırtlarından (veya sulplerinden) zürriyetini çıkardığı, kendilerini nefislerine şahit tuttuğu ve onlara “Ben sizin Rabbiniz değil miyim” diye hitap ettiği, onların da “evet” dedikleri anlatılmaktadır (A’râf, 7/172). Allah (c.c.) ile insanlar arasında meydana gelen bu sözleşmeye misâk, kâlu belâ, rûz-i elest, bezm-i ezel, ahid, belâ ahdi gibi çeşitli isimler verilmiştir."
+ },
+ {
+  "madde": "Ahî",
+  "tanim": "Kardeş."
+ },
+ {
+  "madde": "Âhir",
+  "tanim": "Son."
+ },
+ {
+  "madde": "Âhiret",
+  "tanim": "Metinde vezin gereği bazen “Âhret” şeklinde yazılan kavram. Ebedî âlem. Âhiret, kıyâmet koptuktan sonra, bütün varlıkların ve insanların devamlı kalacakları yerdir. Orada ölüm yoktur, hayat sonsuzdur; dinin emirlerine bağlı olanlar için cennet; dine bağlı olmayanlar için de cehennem vardır."
+ },
+ {
+  "madde": "Ahsen",
+  "tanim": "En güzel."
+ },
+ {
+  "madde": "Ahvâl",
+  "tanim": "Hâller, durumlar."
+ },
+ {
+  "madde": "Ahz u kabz etmek",
+  "tanim": "Alıp kabul etmek."
+ },
+ {
+  "madde": "Ahz",
+  "tanim": "Alma, alınma, tutma, tutulma."
+ },
+ {
+  "madde": "Ak ve kara",
+  "tanim": "Kağıt ve kalemden kinaye, çokluğu ifade eden bir deyim. İkilikler, tevhîde aykırı şeyler."
+ },
+ {
+  "madde": "Âkil",
+  "tanim": "Akıllı."
+ },
+ {
+  "madde": "Akl-ı Kül",
+  "tanim": "Tabiatta görülen umûmî âheng. Mecazen Cebrâil."
+ },
+ {
+  "madde": "Akl-ı maâd",
+  "tanim": "Uhrevî akıl, âhireti, cennet ve cehennemi kavramaya yeterli olan akıl."
+ },
+ {
+  "madde": "Akl-ı Maâş",
+  "tanim": "Dünyevî akıl, geçim işlerini düşünen kişinin aklı. Akl-ı maâdın zıddı."
+ },
+ {
+  "madde": "Akreb",
+  "tanim": "Çok yakın."
+ },
+ {
+  "madde": "Aksetmek",
+  "tanim": "Yansımak"
+ },
+ {
+  "madde": "Akvâ",
+  "tanim": "En kavî, çok kuvvetli."
+ },
+ {
+  "madde": "Akvâl",
+  "tanim": "Kaviller, sözler."
+ },
+ {
+  "madde": "Âl",
+  "tanim": "Hile."
+ },
+ {
+  "madde": "Alâ",
+  "tanim": "Yüksek, yüce."
+ },
+ {
+  "madde": "Alâyık",
+  "tanim": "İlgiler, ilişkiler."
+ },
+ {
+  "madde": "Âlem-i ceberût",
+  "tanim": "İlâhî isim ve sıfatlar âlemi. Fânî dünyanın dışındaki âlem. İlâhî tecellîler âlemi."
+ },
+ {
+  "madde": "Âlem-i ekber",
+  "tanim": "İnsan-ı kâmil."
+ },
+ {
+  "madde": "Âlem-i emsâl",
+  "tanim": "Rüyâlar âlemi."
+ },
+ {
+  "madde": "Âlem-i esrâr",
+  "tanim": "Sırlar âlemi."
+ },
+ {
+  "madde": "Âlem-i gayb",
+  "tanim": "Hakk’ın halktan gizlediği hakikatler âlemi. Duyu organları ve akıl ile bilinemeyen uluhiyyet âlemi."
+ },
+ {
+  "madde": "Âlem-i hayret",
+  "tanim": "Ârifin vahdet sırlarına vakıf oldukça şaşırması. Sâlik ilahî varlığa bu marifet neticesinde daha da arzu duyar ve yeni yeni hâller yaşar. Bu hâller onun şaşkınlığını arttırır."
+ },
+ {
+  "madde": "Âlem-i lâhût",
+  "tanim": "İlâhî âlem, sırf vahdet âlemi; bâtınî âlem."
+ },
+ {
+  "madde": "Âlem-i melekût",
+  "tanim": "Arştan arza kadar olan âlem; bâtınî kuvvelerin tecellî ettiği âlem."
+ },
+ {
+  "madde": "Âlem-i misâl",
+  "tanim": "Eşyanın sûretlerinin, örneklerinin bulunduğu âlem; ruhlar âlemi ile madde âlemi arasındaki âlem."
+ },
+ {
+  "madde": "Âlem-i mülk",
+  "tanim": "Mülk âlemi; eşyanın göründüğü zâhir âlem; kâinat."
+ },
+ {
+  "madde": "Âlem-i nâsût",
+  "tanim": "İnsanlar âlemi, dünya hayâtı."
+ },
+ {
+  "madde": "Âlem-i şehâdet",
+  "tanim": "Görünen bu cisimler âlemi. Kevn ü fesâd âlemi de denir. Bu âlemde, Hakk’ın vücûdu, kendini sûretler halinde gösterir. Bu suretler aslında Hakk’ın esmâ, ef’al ve sıfatlarının birer tecellîsinden ibarettir."
+ },
+ {
+  "madde": "Alîl",
+  "tanim": "Kör, sakat, hasta."
+ },
+ {
+  "madde": "Âli-şân",
+  "tanim": "Şan ve şerefi yüce olan."
+ },
+ {
+  "madde": "Allâme",
+  "tanim": "Çok bilen. Alleme’l-Esmâ (Ve alleme âdeme’l-esmâe kullehâ): Allah, Âdem’e bütün eşyanın isimlerini öğretti. (Bakar/31)."
+ },
+ {
+  "madde": "Âm u hâs",
+  "tanim": "Halk ve Allah’ın dostları."
+ },
+ {
+  "madde": "A‘mâ",
+  "tanim": "Hakk’ın Ahadiyet mertebesindeki makamı. Bu kelime “ince bulut” anlamında olup, dilimize “dipsiz karanlık” şeklinde tercüme edilebilir. Cenâb-ı Hak bu mertebede zât halinde olup tecellî söz konusu değildir."
+ },
+ {
+  "madde": "Amîk",
+  "tanim": "Derin."
+ },
+ {
+  "madde": "Âmil",
+  "tanim": "Emeli olan, isteyen."
+ },
+ {
+  "madde": "Amu",
+  "tanim": "Amca."
+ },
+ {
+  "madde": "Ân çün ân",
+  "tanim": "Sürekli."
+ },
+ {
+  "madde": "Ân",
+  "tanim": "Güzellik. lahza, çok az bir zaman."
+ },
+ {
+  "madde": "Anâsır",
+  "tanim": "Unsurlar, ateş, hava, su ve topraktan oluşan dört unsur."
+ },
+ {
+  "madde": "Anber",
+  "tanim": "Kül renginde güzel kokulu bir madde."
+ },
+ {
+  "madde": "Anca",
+  "tanim": "O kadar."
+ },
+ {
+  "madde": "Ancalar",
+  "tanim": "Çokları, öyle kişiler."
+ },
+ {
+  "madde": "Andelîb",
+  "tanim": "Bülbül."
+ },
+ {
+  "madde": "Ânestü Nâran",
+  "tanim": "Ben bir ateş görüyorum. (Taha/10.)"
+ },
+ {
+  "madde": "Anka",
+  "tanim": "İsmi olup cismi belli olmayan mitolojik bir kuş. Cenâb-ı Hakk’ın zâtını ifade eden bir mecaz."
+ },
+ {
+  "madde": "Ankebut",
+  "tanim": "Örümcek."
+ },
+ {
+  "madde": "Âr",
+  "tanim": "Utanma, namus."
+ },
+ {
+  "madde": "Arâf",
+  "tanim": "Cennet ile cehennem arasındaki yer."
+ },
+ {
+  "madde": "Arâm eylemek",
+  "tanim": "Dinlenmek, huzur bulmak, karar etmek."
+ },
+ {
+  "madde": "Arı",
+  "tanim": "Temiz"
+ },
+ {
+  "madde": "Ârif",
+  "tanim": "İrfân sahibi, velî."
+ },
+ {
+  "madde": "Ârif-i Billâh",
+  "tanim": "Allah’ı bilen, marifeti Allah’a ulaşmış, velilik mertebesine gelmiş kişi."
+ },
+ {
+  "madde": "Arş",
+  "tanim": "Dokuzuncu gök. Bütün âlemi çevreleyen, âlem tasavvurunun sonu ve en yüksek noktası kabul edilen yer. Allah’ın izzet ve saltanatının tecellî ettiği mahal. Zatî âlem. Arş-ı a’lâ, arşullah, arş-ı Rahmân gibi ifadeler için de kullanılır. Mecazen Kamil insanın gönlü."
+ },
+ {
+  "madde": "Arşu’llâh",
+  "tanim": "(bk: Arş)."
+ },
+ {
+  "madde": "Arz",
+  "tanim": "Yer yüzü."
+ },
+ {
+  "madde": "Asâ",
+  "tanim": "Değnek, baston, dayanak. Tasavvufta, postnişin tarafından halifeye verilen bir alamet. Dervîş ve abdâlların seyahat sırasında kullandıkları değnek."
+ },
+ {
+  "madde": "Asam",
+  "tanim": "1. Sağır, işitmez, 2. hakikati duymayan kişi."
+ },
+ {
+  "madde": "Âsân",
+  "tanim": "Kolay."
+ },
+ {
+  "madde": "Âsâr",
+  "tanim": "İzler, nişanlar, eserler, belirtiler."
+ },
+ {
+  "madde": "Asfiyâ",
+  "tanim": "Safiyet, takva ve kemâlât sahibi, peygamber varisleri muhakkikler."
+ },
+ {
+  "madde": "Âsi",
+  "tanim": "İsyan eden, günahkâr, emirlere itaat etmeyen kişi."
+ },
+ {
+  "madde": "Âsitân",
+  "tanim": "Eşik, dergâh, tekke; mecazen gönül."
+ },
+ {
+  "madde": "Asl",
+  "tanim": "Öz, hakikat."
+ },
+ {
+  "madde": "Assı",
+  "tanim": "Fayda, menfaat, kazanç."
+ },
+ {
+  "madde": "Âsumân",
+  "tanim": "Gökyüzü."
+ },
+ {
+  "madde": "Aş",
+  "tanim": "Yemek."
+ },
+ {
+  "madde": "Âşıkân",
+  "tanim": "Âşıklar."
+ },
+ {
+  "madde": "Âşık-ı zâr",
+  "tanim": "İnleyen, ağlayan cezbeli âşık."
+ },
+ {
+  "madde": "Âşıkîn",
+  "tanim": "Âşıklar."
+ },
+ {
+  "madde": "Âşikâr",
+  "tanim": "Açık, belli."
+ },
+ {
+  "madde": "Âşikâre",
+  "tanim": "Açıkça."
+ },
+ {
+  "madde": "Âşiyân",
+  "tanim": "Yuva."
+ },
+ {
+  "madde": "Aşk-ı Hak",
+  "tanim": "Tanrı aşkı."
+ },
+ {
+  "madde": "Aşk-ı ilahî",
+  "tanim": "İlâhî aşk, Tanrı aşkı."
+ },
+ {
+  "madde": "Aşk-ı Muhammed",
+  "tanim": "Muhammed aşkı."
+ },
+ {
+  "madde": "Aşk-ı sâfî",
+  "tanim": "Temiz aşk, Tanrı aşkı. Gerçek aşk."
+ },
+ {
+  "madde": "Atâ",
+  "tanim": "Bağış, ihsan."
+ },
+ {
+  "madde": "Atâ",
+  "tanim": "Verme, bağışlama, ihsanda bulunma, cömertlik."
+ },
+ {
+  "madde": "Âteş",
+  "tanim": "Od, mecazen aşk, Yokluk."
+ },
+ {
+  "madde": "Atıyye",
+  "tanim": "Hediyye, bağış."
+ },
+ {
+  "madde": "Attâr",
+  "tanim": "Güzel kokular vs. satan kişiler. Büyük bir İslâm mutasavvıfı Feridüddin-i Attâr’ın lakabı."
+ },
+ {
+  "madde": "Avâm",
+  "tanim": "Halk."
+ },
+ {
+  "madde": "Âvâre",
+  "tanim": "Başıboş, işsiz güçsüz."
+ },
+ {
+  "madde": "Avârız",
+  "tanim": "Kazâlar, belâlar; engeller."
+ },
+ {
+  "madde": "Avâyık",
+  "tanim": "Manâ yolunda engel olan şeyler, putlaştırdığmız değerler."
+ },
+ {
+  "madde": "Ayağı Urgulu",
+  "tanim": "Ayağı zincirli, bukağılı olmak. Bağlı olmak."
+ },
+ {
+  "madde": "Ayak",
+  "tanim": "İçki kadehi."
+ },
+ {
+  "madde": "Ayakdaş",
+  "tanim": "Aynı şeyleri yapan ve aynı şeylerden hoşlanan; biribiriyle iyi anlaşan iki kişi. Mecazen içki arkadaşı. Tasavvufî metinlerde sırdaş."
+ },
+ {
+  "madde": "Ayâr",
+  "tanim": "Düzen; denge; kıymetli madenlerin karışma derecesi."
+ },
+ {
+  "madde": "Âyât",
+  "tanim": "Ayetler, işâretler."
+ },
+ {
+  "madde": "Ayık",
+  "tanim": "Aklı başında, uyanık."
+ },
+ {
+  "madde": "Ayıldayın",
+  "tanim": "Uyandırayım."
+ },
+ {
+  "madde": "Ayıtmak",
+  "tanim": "Söylemek."
+ },
+ {
+  "madde": "Âyîne",
+  "tanim": "Ayna, mir’ât, gözgü. Mecazen, insan-ı kâmil."
+ },
+ {
+  "madde": "Âyîne-i dil",
+  "tanim": "Gönül aynâsı."
+ },
+ {
+  "madde": "Ayn",
+  "tanim": "Gerçek, öz, hakikat, tıpkısı."
+ },
+ {
+  "madde": "Ayne’l-Yakîn",
+  "tanim": "Manâ (gönül) gözüyle görülerek elde edilen kesin bilgi."
+ },
+ {
+  "madde": "Ayn",
+  "tanim": "Hakikat, asıl olan. Su gözü, suyun çıktığı kaynak. Pınar."
+ },
+ {
+  "madde": "Ayn-ı vuslat",
+  "tanim": "Birleşmenin, kavuşmanın gerçeği."
+ },
+ {
+  "madde": "Ayrık",
+  "tanim": "Ayruk otu"
+ },
+ {
+  "madde": "Ayruk",
+  "tanim": "Ayrı, başka, gayrı."
+ },
+ {
+  "madde": "Ayyâr",
+  "tanim": "Hîlekâr, dolandırıcı, kurnaz kişi."
+ },
+ {
+  "madde": "Azâ",
+  "tanim": "Bedenin her bir uzvu."
+ },
+ {
+  "madde": "Azâm",
+  "tanim": "Büyük."
+ },
+ {
+  "madde": "Âzân",
+  "tanim": "Kulaklar."
+ },
+ {
+  "madde": "Azık",
+  "tanim": "Yol hazırlığı, yiyecek. Manen, ibadet ve zikir gibi hususlar."
+ },
+ {
+  "madde": "Azîz",
+  "tanim": "Sevgide üstün tutulan, hürmetli, saygı değer. Tasavvufta mürşid-i kâmil."
+ },
+ {
+  "madde": "Azm eylemek",
+  "tanim": "Karar vermek, niyet etmek, gayret etmek. Yola çıkmak."
+ },
+ {
+  "madde": "Azmak",
+  "tanim": "Şaşırmak, sapıtmak, yoldan çıkmak, ayrılmak, sapkınlığa düşmek."
+ },
+ {
+  "madde": "Azm-i sefer",
+  "tanim": "Yolculuğa niyetlenmek, yolculuğa çıkmak."
+ },
+ {
+  "madde": "Azm-i sılâ",
+  "tanim": "Sılaya dönüş kararı. Metinde İlâhî birliğe ulaşma gayreti."
+ },
+ {
+  "madde": "Bâb",
+  "tanim": "Kapı; bölüm, kısım, konu, mevzu’, fasıl."
+ },
+ {
+  "madde": "Bâd",
+  "tanim": "Rüzgâr, nefes."
+ },
+ {
+  "madde": "Bâde",
+  "tanim": "İçki kadehi. Mürşid-i kâmilin ağzı, sözleri."
+ },
+ {
+  "madde": "Bâğ-ı cinân",
+  "tanim": "Cennet bahçesi"
+ },
+ {
+  "madde": "Bâğ-ı dil",
+  "tanim": "Gönül bağı."
+ },
+ {
+  "madde": "Bâğ-ı hüsn",
+  "tanim": "Dervîşin gönül dünyasında meydana gelen İlâhî cemâl tecellîleri."
+ },
+ {
+  "madde": "Bâğ-ı melekût",
+  "tanim": "Misâl âlemi"
+ },
+ {
+  "madde": "Bağrı başı",
+  "tanim": "Gönül yarası."
+ },
+ {
+  "madde": "Bahr",
+  "tanim": "Deniz."
+ },
+ {
+  "madde": "Bahr-i aşk",
+  "tanim": "Aşk denizi."
+ },
+ {
+  "madde": "Bahr-i mutlak",
+  "tanim": "Hakk’ın ahadiyyet makamındaki vücudu."
+ },
+ {
+  "madde": "Bahr-i vahdet",
+  "tanim": "Birlik denizi. Vücûd-ı mutlak."
+ },
+ {
+  "madde": "Bahrî",
+  "tanim": "Balıkçıl kuş. Mecazen, aşk ve irfân makamındaki âşık. İlâhî sırları anlamak için tevhîd deryâsına girip çıkan ve varlık ve oluşa ait hikmetlerden anlayan kişi."
+ },
+ {
+  "madde": "Baht",
+  "tanim": "Talih, kısmet, devlet."
+ },
+ {
+  "madde": "Bahtiyâr",
+  "tanim": "Bahtlı, talihli, kısmetli, talihli."
+ },
+ {
+  "madde": "Bâkî",
+  "tanim": "Kalıcı olan."
+ },
+ {
+  "madde": "Bal",
+  "tanim": "Ehlullahın verdiği telkin, tevhîd bilgisi ve sırrı."
+ },
+ {
+  "madde": "Banlamak",
+  "tanim": "Çağırmak, davet etmek, yüksek sesle seslenmek, ezan okumak."
+ },
+ {
+  "madde": "Bâr",
+  "tanim": "Meyve, yük."
+ },
+ {
+  "madde": "Bârân",
+  "tanim": "Yağmur."
+ },
+ {
+  "madde": "Bâri",
+  "tanim": "Yaratan, Allah. Düzenleyip tertip eden."
+ },
+ {
+  "madde": "Bâ-safâ",
+  "tanim": "Zevk ile."
+ },
+ {
+  "madde": "Basar",
+  "tanim": "Görme kabiliyeti, göz, kalp gözü."
+ },
+ {
+  "madde": "Basîr",
+  "tanim": "Herşeyi bilgisiyle gören Allah, Basîret sahibi kişi, kalp gözü ile gören."
+ },
+ {
+  "madde": "Basmak",
+  "tanim": "Alt etmek, yenmek, aniden üzerine çullanmak, etkisiz hâle getirmek."
+ },
+ {
+  "madde": "Başa kara çul giymek",
+  "tanim": "Mecazen hayvan olmak."
+ },
+ {
+  "madde": "Baş açmak",
+  "tanim": "Dua etmek, şikayet, beddua, yas tutmak."
+ },
+ {
+  "madde": "Baş gözü",
+  "tanim": "Zâhirî göz, gönül gözünün aksi."
+ },
+ {
+  "madde": "Baş kesmek",
+  "tanim": "Baş eğerek tazim ve hürmette bulunmak. Saygı göstermek."
+ },
+ {
+  "madde": "Başı ele almak",
+  "tanim": "Ölümü göze Almak."
+ },
+ {
+  "madde": "Başına keçe giymek",
+  "tanim": "Arake’den kinaye, derviş olmak."
+ },
+ {
+  "madde": "Başlı",
+  "tanim": "Yaralı."
+ },
+ {
+  "madde": "Bâtın",
+  "tanim": "İç, gizli yön, iç yüz, sır, gizli, görünmeyen. Cenâb-ı Hakk’ın bir ismi."
+ },
+ {
+  "madde": "Bâtın ilmi",
+  "tanim": "Ledün, basiretle elde edilen bilgiler, tevhîd ilmi."
+ },
+ {
+  "madde": "Batın topu",
+  "tanim": "İnsan gönlünde tecellî eden ve tevhîd alâmetleri."
+ },
+ {
+  "madde": "Battâl",
+  "tanim": "İşe yaramaz, boş, lüzumsuz."
+ },
+ {
+  "madde": "Bay",
+  "tanim": "Zengin."
+ },
+ {
+  "madde": "Bayık",
+  "tanim": "Açık, belli, kuşkusuz."
+ },
+ {
+  "madde": "Bâzâr etmek",
+  "tanim": "Alış veriş içinde olmak."
+ },
+ {
+  "madde": "Bâzâr",
+  "tanim": "Alış veriş yeri, pazar; mecazen dünya."
+ },
+ {
+  "madde": "Becid",
+  "tanim": "Ciddî, gerçek; acele."
+ },
+ {
+  "madde": "Bed-hû",
+  "tanim": "Kötü huylu."
+ },
+ {
+  "madde": "Bedir ayı",
+  "tanim": "Dolun ay. İnsân-ı kâmil’in yüzü, Tevhîd makamlarından sıfatlar tecellîsi. Fenâfî’r-resûl."
+ },
+ {
+  "madde": "Bedr-i tamâm",
+  "tanim": "Dolunay."
+ },
+ {
+  "madde": "Behâyim",
+  "tanim": "Dört ayaklı hayvan."
+ },
+ {
+  "madde": "Bekâ",
+  "tanim": "Bâkîlik, ebedîlik."
+ },
+ {
+  "madde": "Bekâ câmı",
+  "tanim": "Ölümsüzlük kadehi. İnsan-ı kamilin sözleri."
+ },
+ {
+  "madde": "Bekâbi’llâh",
+  "tanim": "Kulun Cenâb-ı Hakk’ın birliğini farkta idrâk etmesi."
+ },
+ {
+  "madde": "Bekâ-ender-bekâ",
+  "tanim": "Bekabillah makamlarından ikincisi. Bâkîlik içinde bâkîlik. Mutlak ebedîlik."
+ },
+ {
+  "madde": "Beklemek",
+  "tanim": "Korumak."
+ },
+ {
+  "madde": "Belhüm adall",
+  "tanim": "İşte bunlar, hayvanlar gibidir; doğrusu daha sapık ve şaşkındırlar. (A’râf/179.)"
+ },
+ {
+  "madde": "Bel",
+  "tanim": "Tepecik, dağ sırtı."
+ },
+ {
+  "madde": "Belâ/belî",
+  "tanim": "Evet; ruhların Elest Meclisinde Cenâb-ı Hakk’ın “elestü bir rabbiküm” sorusuna verdikleri cevap."
+ },
+ {
+  "madde": "Belâ",
+  "tanim": "Âfet, musibet."
+ },
+ {
+  "madde": "Belek",
+  "tanim": "Armağan."
+ },
+ {
+  "madde": "Bencileyin",
+  "tanim": "Benim gibi."
+ },
+ {
+  "madde": "Bend",
+  "tanim": "Bağlanan, bağlanmış, bağ, boğum, engel."
+ },
+ {
+  "madde": "Bende",
+  "tanim": "Kul, köle, esir."
+ },
+ {
+  "madde": "Benlik",
+  "tanim": "Ego, kişinin Hakk’ın vücûduna karşılık nefsine müstakil vücut izafe etmesi."
+ },
+ {
+  "madde": "Berât",
+  "tanim": "Rütbe, nişan ve imtiyaz verildiğini bildiren ferman."
+ },
+ {
+  "madde": "Berdâr-ı Hak",
+  "tanim": "Cânını Hakk’a veren aşk şehidi. Bununla daha çok Hallâc-ı Mansûr telmih edilir."
+ },
+ {
+  "madde": "Berk",
+  "tanim": "Sağlam, sıkı. Katı."
+ },
+ {
+  "madde": "Berk",
+  "tanim": "Şimşek."
+ },
+ {
+  "madde": "Ber-murâd",
+  "tanim": "Muradına, isteğine ermiş."
+ },
+ {
+  "madde": "Beri gelmek",
+  "tanim": "Yakına gelmek, beri, bu yana, beriye, bu tarafa gelmek."
+ },
+ {
+  "madde": "Bes",
+  "tanim": "Yeter; kâfî, yetişir."
+ },
+ {
+  "madde": "Beşer",
+  "tanim": "İnsan, insanlık âlemi."
+ },
+ {
+  "madde": "Beyân",
+  "tanim": "Anlatma, ifade etme, açıkça söyleme."
+ },
+ {
+  "madde": "Beyhûde",
+  "tanim": "Boşuna"
+ },
+ {
+  "madde": "Beyne",
+  "tanim": "Ara yer."
+ },
+ {
+  "madde": "Beyt-i Hak",
+  "tanim": "Hakk’ın evi, gönül; insan-ı kâmilin gönlü."
+ },
+ {
+  "madde": "Beytullah",
+  "tanim": "Allah’ın evi, gönül."
+ },
+ {
+  "madde": "Beyyin",
+  "tanim": "Açık, aşikâr."
+ },
+ {
+  "madde": "Beyyinât",
+  "tanim": "Deliller, şahitler, tanıklar."
+ },
+ {
+  "madde": "Bezl etmek",
+  "tanim": "Bol bol vermek, saçmak"
+ },
+ {
+  "madde": "Bezm",
+  "tanim": "Meclis."
+ },
+ {
+  "madde": "Bezm-i elest",
+  "tanim": "Elest meclisi, ruhların ruhlar âleminde Hakk’ın birliğini kabul ettikleri meclis (A’raf/172)."
+ },
+ {
+  "madde": "Bezm-i irfân",
+  "tanim": "Ârifler meclisi."
+ },
+ {
+  "madde": "Bezm-i şevk",
+  "tanim": "zikir ve sohbet meclisi."
+ },
+ {
+  "madde": "Bî-cân",
+  "tanim": "Cânsız."
+ },
+ {
+  "madde": "Bî-çâre",
+  "tanim": "Çaresiz, zayıf, âciz."
+ },
+ {
+  "madde": "Bid‘at",
+  "tanim": "Hz. Peygamberden sonra ona izafe edilerek uydurulan şeyler."
+ },
+ {
+  "madde": "Bîdâr",
+  "tanim": "Uyumayan, uyanık, uykusuz."
+ },
+ {
+  "madde": "Bî-dürr ü bî-hemtâ",
+  "tanim": "Cevhersiz ve benzeri olmayan."
+ },
+ {
+  "madde": "Bîgâne",
+  "tanim": "Kayıtsız, alâkasız."
+ },
+ {
+  "madde": "Bî-hemtâ",
+  "tanim": "Eşsiz, eşi benzeri olmayan."
+ },
+ {
+  "madde": "Bî-hûde",
+  "tanim": "Beyhude, boşuna."
+ },
+ {
+  "madde": "Bî-hûş",
+  "tanim": "Kendisinden geçmiş, şaşkın, serhoş."
+ },
+ {
+  "madde": "Bî-ihtiyâr",
+  "tanim": "İradesi elinde olmadan; iradesiz."
+ },
+ {
+  "madde": "Bikr",
+  "tanim": "Dokunulmamışlık, bâkirlik."
+ },
+ {
+  "madde": "Bile",
+  "tanim": "Beraber."
+ },
+ {
+  "madde": "Bili",
+  "tanim": "Bilgi kuvvesi. İrfân."
+ },
+ {
+  "madde": "Bilim",
+  "tanim": "İrfânım, idrâkim."
+ },
+ {
+  "madde": "Bi’l-külli",
+  "tanim": "Tamamiyle."
+ },
+ {
+  "madde": "Bî-mekân",
+  "tanim": "Mekânsız, mekâna kayıtlı olmayan."
+ },
+ {
+  "madde": "Bî-misâl",
+  "tanim": "Eşsiz. Benzeri olmayan."
+ },
+ {
+  "madde": "Bînâ",
+  "tanim": "Gören, görücü; göz."
+ },
+ {
+  "madde": "Bi-nazîr",
+  "tanim": "Benzersiz."
+ },
+ {
+  "madde": "Bî-nişân",
+  "tanim": "Nişansız, belirtisiz, izi olmayan."
+ },
+ {
+  "madde": "Birâder",
+  "tanim": "Erkek kardeş."
+ },
+ {
+  "madde": "Bî-renk",
+  "tanim": "Renksiz. Saf. Bütün renklerden kurtulup saflaşmış olan."
+ },
+ {
+  "madde": "Birle",
+  "tanim": "İle, birlikte."
+ },
+ {
+  "madde": "Birliğe Bitmek",
+  "tanim": "İlâhî birlikte kendini yeniden gerçekleştirmek. Ahadiyet ve vahidiyeti anlamak."
+ },
+ {
+  "madde": "Biryân",
+  "tanim": "Kebâb, kızarmış, yanmış."
+ },
+ {
+  "madde": "Bisyâr",
+  "tanim": "Çok."
+ },
+ {
+  "madde": "Bî-şumâr",
+  "tanim": "Hesapsız, sayısız, pek çok."
+ },
+ {
+  "madde": "Biti",
+  "tanim": "Mektup."
+ },
+ {
+  "madde": "Bî-vücûd",
+  "tanim": "Vücûdu olmayan, bedensiz."
+ },
+ {
+  "madde": "Bîzâr",
+  "tanim": "Bıkmış, usanmış, bezgin."
+ },
+ {
+  "madde": "Boynuz Boru Çalmak",
+  "tanim": "Özellikle Bektaşi ve Kalenderilerin kullandıkları boynuzdan yapılan üflemeli çalgı."
+ },
+ {
+  "madde": "Boyun urmak",
+  "tanim": "Boyun bükmek, kabullenmek, eyvallah demek."
+ },
+ {
+  "madde": "Buğz",
+  "tanim": "Kin, nefret, sevmeme."
+ },
+ {
+  "madde": "Burak",
+  "tanim": "Hz. Muhammed’in Mirâç’ta bindiği binek; mecazen aşk."
+ },
+ {
+  "madde": "Bühtân",
+  "tanim": "Yalan, iftirâ."
+ },
+ {
+  "madde": "Bülbül",
+  "tanim": "Âşık dervîş."
+ },
+ {
+  "madde": "Bünyâd",
+  "tanim": "1. Asıl, esas, temel. 2. Binâ, yapı."
+ },
+ {
+  "madde": "Bürhân",
+  "tanim": "Delil, ispat, tanık."
+ },
+ {
+  "madde": "Bürûdet",
+  "tanim": "Soğukluk."
+ },
+ {
+  "madde": "Câm",
+  "tanim": "Kadeh."
+ },
+ {
+  "madde": "Câm-ı aşk",
+  "tanim": "Aşk kadehi, İlahî aşk. Metinde bazen mürşid-i kâmilin sözleri."
+ },
+ {
+  "madde": "Câm-ı vahdet",
+  "tanim": "Tevhit sırrı."
+ },
+ {
+  "madde": "Cân mürgü",
+  "tanim": "Can kuşu."
+ },
+ {
+  "madde": "Cân u baş oynatmak",
+  "tanim": "Cân feda etmeye hazır olmak."
+ },
+ {
+  "madde": "Cân",
+  "tanim": "Cism-i latîf, rûh-ı hayvanî."
+ },
+ {
+  "madde": "Cânân",
+  "tanim": "Sevgili."
+ },
+ {
+  "madde": "Cebbâr",
+  "tanim": "Kuvvet ve kudret sahibi Allah."
+ },
+ {
+  "madde": "Cehd eylemek",
+  "tanim": "Gayret etmek, çalışmak."
+ },
+ {
+  "madde": "Cehd",
+  "tanim": "Çalışma, gayret etme."
+ },
+ {
+  "madde": "Cehlâ",
+  "tanim": "Câhillik."
+ },
+ {
+  "madde": "Cehrî",
+  "tanim": "Açık, sesli."
+ },
+ {
+  "madde": "Celâl",
+  "tanim": "Ululuk sahibi Allah. Allah’ın kahır sıfatı."
+ },
+ {
+  "madde": "Celvet",
+  "tanim": "İlâhî nitelikler kazanan, sâlikin cem‘ makamını yaşadıktan sonra farka gelip halka karışması. Dışından halk, içinden Hak ile olma hâli."
+ },
+ {
+  "madde": "Cem’",
+  "tanim": "Toplamak, bir araya getirmek, biriktirmek. Cenâb-ı Hakk’ın esmâsının sâlikte tecellî ettiği makam. Eşyayı Hak ile görme makamı. Bu makamda cemâl-i İlâhî müşâhede edilir."
+ },
+ {
+  "madde": "Cemâdât",
+  "tanim": "Toprak, taş ve diğer madenler gibi cansız varlıklar."
+ },
+ {
+  "madde": "Cemâl",
+  "tanim": "Güzellik, yüz güzelliği. Allah’ın lütuf sıfatı."
+ },
+ {
+  "madde": "Cemâl-i yâr",
+  "tanim": "Sevilenin yüzü. Cemâlullah tecellîsi. Kâmil insânın manevî yüzü."
+ },
+ {
+  "madde": "Cemî’",
+  "tanim": "Tamamı, hepsi."
+ },
+ {
+  "madde": "Cemmâl",
+  "tanim": "Deve sürücüsü."
+ },
+ {
+  "madde": "Cenân",
+  "tanim": "Kalp, yürek, gönül. Ehl-i cenân, gönül ehli."
+ },
+ {
+  "madde": "Ceng",
+  "tanim": "Savaş, mücadele."
+ },
+ {
+  "madde": "Cennetü’l-Firdevs",
+  "tanim": "Ölmeden önce Allah’ı isteyen, Sâlih amel işleyen kişilerin gidecekleri cennet. “Şüphesiz, iman edip güzel amel işleyenler için barınak olarak Firdevs Cennetleri. vardır “ (Kehf /107; Mü’minun /11)."
+ },
+ {
+  "madde": "Cennetü’l-Me’vâ",
+  "tanim": "“İman edip güzel amel işleyenlere gelince, onlar için Me’vâ Cennetleri vardır. “ (Secde/19; Necm/15)."
+ },
+ {
+  "madde": "Cerrâr",
+  "tanim": "Dünyada sadece para ve mal toplayan maddeci kişiler."
+ },
+ {
+  "madde": "Cesîm",
+  "tanim": "İri vücutlu, büyük. Cüsseli."
+ },
+ {
+  "madde": "Cevâhir",
+  "tanim": "Cevherler, cevher değerindeki ilim, hakikat."
+ },
+ {
+  "madde": "Cevher",
+  "tanim": "Öz, hakikat, asıl."
+ },
+ {
+  "madde": "Cevlân etmek",
+  "tanim": "Dönmek, dolaşmak."
+ },
+ {
+  "madde": "Cevr",
+  "tanim": "Eziyet."
+ },
+ {
+  "madde": "Ceyhûn",
+  "tanim": "Irmak. Mecazen gözyaşı."
+ },
+ {
+  "madde": "Cezbe",
+  "tanim": "Kendine doğru çekme; Hakk’ın muhabbet gösterip sâliki kendine çekmesi."
+ },
+ {
+  "madde": "Cezbedâr",
+  "tanim": "Cezbeli."
+ },
+ {
+  "madde": "Cibâl",
+  "tanim": "Dağlar."
+ },
+ {
+  "madde": "Cibillî",
+  "tanim": "Yaratılışta olan, tabiî."
+ },
+ {
+  "madde": "Cibrîl-i Emîn",
+  "tanim": "Dört büyük melektenbiri olup vahiy getirmekle görevlidir."
+ },
+ {
+  "madde": "Cidâl",
+  "tanim": "Savaş, kavga, mücadele."
+ },
+ {
+  "madde": "Cîfe",
+  "tanim": "Murdar, leş."
+ },
+ {
+  "madde": "Cihet",
+  "tanim": "Yön."
+ },
+ {
+  "madde": "Cinân",
+  "tanim": "Cennetler."
+ },
+ {
+  "madde": "Cinn",
+  "tanim": "Ateşten yaratılan bedensiz, latif gözle görünmeyen varlıklar. (Hicr/27.)"
+ },
+ {
+  "madde": "Cur’a",
+  "tanim": "Kadehin bir yudumu."
+ },
+ {
+  "madde": "Cûş eylemek",
+  "tanim": "Coşmak, kaynayıp taşmak."
+ },
+ {
+  "madde": "Cûşa gelmek",
+  "tanim": "Coşmak, kaynayıp taşmak."
+ },
+ {
+  "madde": "Cûşiş",
+  "tanim": "Coşma, kaynama."
+ },
+ {
+  "madde": "Cüdâ",
+  "tanim": "Ayrı, ayrı düşmüş, ayrılmış, uzaklaşmış."
+ },
+ {
+  "madde": "Cühelâ",
+  "tanim": "Câhiller. Metinde bir yerde vezin gereği cühlâ."
+ },
+ {
+  "madde": "Cünbüş",
+  "tanim": "Sazlı sözlü eğlence."
+ },
+ {
+  "madde": "Cür‘a",
+  "tanim": "İçki."
+ },
+ {
+  "madde": "Cürm",
+  "tanim": "Suç, günah."
+ },
+ {
+  "madde": "Cüz’",
+  "tanim": "Parça."
+ },
+ {
+  "madde": "Cüz’iyât",
+  "tanim": "Kıymetsiz, değersiz şeyler."
+ },
+ {
+  "madde": "Çağırmak",
+  "tanim": "Bağırmak, ünlemek, davet etmek."
+ },
+ {
+  "madde": "Çankâl",
+  "tanim": "Çakal."
+ },
+ {
+  "madde": "Çâr",
+  "tanim": "Dört."
+ },
+ {
+  "madde": "Çarh-ı felek",
+  "tanim": "Gökyüzü,dolaba benzeyen gök;talih, baht."
+ },
+ {
+  "madde": "Çâr-yâr",
+  "tanim": "Dört halife, Ebubekir, Ömer, Osman ve Ali."
+ },
+ {
+  "madde": "Çâr-unsur",
+  "tanim": "Dört unsur; toprak, ateş, hava, su."
+ },
+ {
+  "madde": "Çerâğ",
+  "tanim": "Gönülde meydana gelen tecellîler vasıtasıyla elde edilen irfân."
+ },
+ {
+  "madde": "Çerâğ",
+  "tanim": "Mum, kandil, meşale."
+ },
+ {
+  "madde": "Çerh-i Dûn",
+  "tanim": "Alçak âlem, dünyâ. Süflî âlem."
+ },
+ {
+  "madde": "Çeşm",
+  "tanim": "Göz."
+ },
+ {
+  "madde": "Çevgân",
+  "tanim": "Ciritte kullanılan değnek, ucu kavisli sopa. Mecâzen ilâhî takdir, celâl tecellîsi."
+ },
+ {
+  "madde": "Çığırından çıkmak",
+  "tanim": "Kontrolü kaybetmek."
+ },
+ {
+  "madde": "Çirk",
+  "tanim": "Kir, pas."
+ },
+ {
+  "madde": "Çultâr",
+  "tanim": "At, eşek ve deve gibi hayvanların üzerine örtülen çul örtü."
+ },
+ {
+  "madde": "Çün ü çerâ",
+  "tanim": "Neden ve niçin."
+ },
+ {
+  "madde": "Çün",
+  "tanim": "Çünkü, madem ki, ne zaman ki."
+ },
+ {
+  "madde": "Dâd",
+  "tanim": "Adalet."
+ },
+ {
+  "madde": "Dâd-ı Hak",
+  "tanim": "Allah vergisi, Hakk’ın ihsanı, Hakk’ın adaleti."
+ },
+ {
+  "madde": "Dahi",
+  "tanim": "Bundan başka, aynı zamanda, hem de."
+ },
+ {
+  "madde": "Dâhil",
+  "tanim": "İçinde, giren."
+ },
+ {
+  "madde": "Dahl",
+  "tanim": "Girme, karışma, eli olma. Etki. Takılma."
+ },
+ {
+  "madde": "Dâl Olmak",
+  "tanim": "Delil olmak."
+ },
+ {
+  "madde": "Dâll",
+  "tanim": "Delâlet eden, gösteren, işaret eden; delil, burhan."
+ },
+ {
+  "madde": "Dâm",
+  "tanim": "Tuzak, ağ, hile."
+ },
+ {
+  "madde": "Dâmen",
+  "tanim": "Etek."
+ },
+ {
+  "madde": "Dânâ",
+  "tanim": "Bilgin."
+ },
+ {
+  "madde": "Dâr",
+  "tanim": "Dâr ağacı. Fenâ makamı. Sâlikin cânını feda ettiğine dair söz verdiği meydan. Buna dâr-ı Mansûr da denir."
+ },
+ {
+  "madde": "Dâr",
+  "tanim": "Ev, yer, mekân, yurt."
+ },
+ {
+  "madde": "Dâr",
+  "tanim": "Yokluk, benlikten geçme makamı. Teslimiyet hâli. Aşkın zirvesi olan sevgilide benliği yitirme hâli."
+ },
+ {
+  "madde": "Dâra gelmek",
+  "tanim": "Dâr ağacına gelmek. İdam edilmek. Mecazen, İlahî sırrı “Hallâc-ı Mansûr gibi” ifşa etmek. Şer’î olarak bu sırrın ifşası haramdır."
+ },
+ {
+  "madde": "Darb-ı zikr",
+  "tanim": "Sesli ve hızlı uygulanan ikili zikir."
+ },
+ {
+  "madde": "Darbî tevhîd (darb-ı tevhîd)",
+  "tanim": "Kelime-i tevhîdi sağdan sola salınarak kalp üzerine hızlı ve tempolu bir şekilde vurmak. Sesli ve hızlı uygulanan ikili zikir."
+ },
+ {
+  "madde": "Dâr-ı fenâ",
+  "tanim": "Yokluk evi, gelip geçici yer olan dünya."
+ },
+ {
+  "madde": "Dâr-ı izzet",
+  "tanim": "İzzet evi; ahadiyet makamı."
+ },
+ {
+  "madde": "Dâr-ı mihnet",
+  "tanim": "Mihnet evi. Mecazen dünya."
+ },
+ {
+  "madde": "Dâr-ı naîm",
+  "tanim": "Cennet."
+ },
+ {
+  "madde": "Darr",
+  "tanim": "Sıkıntı, belâ."
+ },
+ {
+  "madde": "Dasdâr",
+  "tanim": "Destâr, sarık, imâme, dolama dülbent."
+ },
+ {
+  "madde": "Davâ",
+  "tanim": "Dava, iddia. Tasavvufi metinlerde “asılsız söz” anlamından çok, hakikati bilinmeden savunulan şer’î sözler."
+ },
+ {
+  "madde": "Deblek",
+  "tanim": "Küçük dümbelek. Değircek (Döğürcek?): İşlenmiş, kalın ve yumuşak yün (?)"
+ },
+ {
+  "madde": "Dehân",
+  "tanim": "Ağız"
+ },
+ {
+  "madde": "Dekâyık",
+  "tanim": "İncelikler."
+ },
+ {
+  "madde": "Delâlet",
+  "tanim": "Delil olmak, kılavuzluk. doğru yolu göstermek."
+ },
+ {
+  "madde": "Delîl",
+  "tanim": "Kılavuz, rehber; belge, tanık; mürşit."
+ },
+ {
+  "madde": "Dellâl",
+  "tanim": "Alış veriş yaparken aracı olan kişi. Tasavvufta irfânıyla tâliplere yol gösteren kişi."
+ },
+ {
+  "madde": "Dem",
+  "tanim": "Ân; şarap; nefes; hava; kıvâm."
+ },
+ {
+  "madde": "Dem-â-dem",
+  "tanim": "Sürekli."
+ },
+ {
+  "madde": "Dem-beste",
+  "tanim": "Susmuş, sesi kesilmiş."
+ },
+ {
+  "madde": "Den",
+  "tanim": "Söyleyin, deyin."
+ },
+ {
+  "madde": "Depreşmek",
+  "tanim": "Oynamak, kımıldamak."
+ },
+ {
+  "madde": "Der-be-der",
+  "tanim": "Kapı kapı gezip dolaşan, âvâre."
+ },
+ {
+  "madde": "Derc etmek",
+  "tanim": "Sokmak, toplamak, bir araya getirmek."
+ },
+ {
+  "madde": "Derd",
+  "tanim": "Mecazen aşk."
+ },
+ {
+  "madde": "Derd-i firâk",
+  "tanim": "Ayrılık derdi."
+ },
+ {
+  "madde": "Derd-mend",
+  "tanim": "Dert sahibi, tasalı, kaygılı; âşık."
+ },
+ {
+  "madde": "Derd-nâk",
+  "tanim": "Dertli."
+ },
+ {
+  "madde": "Dergâh",
+  "tanim": "Tekke. Zikir ve ibadet edilen yer. Kapı yeri, kapı eşiği. Tarikatlerin kurumlaştığı devirlerde irşad amacıyla kullanılan teferruatlı geniş mekân. Dergâhlar, semâhâne, halvet veya çile odası, aşhâne, dervîş hücreleri ve diğer bölümlerden teşekkül ederler. Hakikî sûfî âlemi dergâh kabul eder."
+ },
+ {
+  "madde": "Dergâh-ı İlâhî",
+  "tanim": "Hakk’ın zatı."
+ },
+ {
+  "madde": "Dergeh-i A‘lâ",
+  "tanim": "Yüce dergah, Hakkın zatî makamı."
+ },
+ {
+  "madde": "Derilmek",
+  "tanim": "Toplanmak."
+ },
+ {
+  "madde": "Dermân",
+  "tanim": "Çare, ilaç, güç; mecazen aşk, Allah derdi."
+ },
+ {
+  "madde": "Dermek",
+  "tanim": "Toplamak, dermek."
+ },
+ {
+  "madde": "Dervîş",
+  "tanim": "Kapı eşiği. Mecazen fakr talibi, seyr ü sülûk ederek Allah’a ulaşmak isteyen tarîkat ehli kişi."
+ },
+ {
+  "madde": "Deryâ-yı aşk",
+  "tanim": "Aşk denizi."
+ },
+ {
+  "madde": "Dest",
+  "tanim": "El."
+ },
+ {
+  "madde": "Destân olmak",
+  "tanim": "Adı yayılmak."
+ },
+ {
+  "madde": "Dest-i kudret",
+  "tanim": "Kudret eli, Allah’ın kudreti."
+ },
+ {
+  "madde": "Destûr",
+  "tanim": "İzin, ruhsat."
+ },
+ {
+  "madde": "Dev",
+  "tanim": "Nefs-i emmârenin çeşitli hayvanî özellikler göstermesi."
+ },
+ {
+  "madde": "Devâsız derd",
+  "tanim": "Aşk."
+ },
+ {
+  "madde": "Devir-Hân",
+  "tanim": "Camilerde ve belli mekânlarda sürekli Kur’ân okumakla görevli hafızlardan biri."
+ },
+ {
+  "madde": "Devlet",
+  "tanim": "Saadet, mutluluk."
+ },
+ {
+  "madde": "Devr etmek",
+  "tanim": "Dönmek."
+ },
+ {
+  "madde": "Devrân",
+  "tanim": "Dünya, felek, zaman, talih. Dönme, dolaşma. Dönerek zikretmek. Halvetîlere mahsus kuûdî ve dairevî olarak yapılan zikir."
+ },
+ {
+  "madde": "Devre-i arşiyye",
+  "tanim": "Rûhların madenlerden bitkilere, oradan da hayvanlara intikâl edip insana ulaşması ve neticede kâmil insan olup Hakk’a dönmesidir. Ferşlik (nüzûl) devrinin zıddı olan bu devir için kavs-i urûc da denilir. Esasen arşlık devri, insanın nefsini emmâreden safiyyeye yükseltmesini ifade eder."
+ },
+ {
+  "madde": "Deyyân",
+  "tanim": "Hakkıyla mükafatlandıran ve cezalandıran, hâkim, Allah. (Bir kudsî hadiste yaratıcı kendisini melik ve deyyân olarak anar. Burada deyyân, insanın başlangıçtan sonuna kadar mâcerâsını tamamlayıp hesâba çeken anlamındadır.) ."
+ },
+ {
+  "madde": "Deyyâr",
+  "tanim": "Bir kimse, yurt sahibi, manastır sahibi."
+ },
+ {
+  "madde": "Dîdâr/Dizâr",
+  "tanim": "Yüz, Hakk’ın cemâli; ilâhî güzellik."
+ },
+ {
+  "madde": "Dîde",
+  "tanim": "Göz"
+ },
+ {
+  "madde": "Dil",
+  "tanim": "Kalp, gönül."
+ },
+ {
+  "madde": "Dilâ",
+  "tanim": "Ey dil, ey gönül."
+ },
+ {
+  "madde": "Dilârâ",
+  "tanim": "Gönül süsleyen sevgili."
+ },
+ {
+  "madde": "Dilber",
+  "tanim": "Gönlü alıp götüren, sevgili. İnsân-ı kâmil."
+ },
+ {
+  "madde": "Dildâr-ı Hak",
+  "tanim": "Hakk’ın sevgilisi, Hak sevgisini kazanan kâmil."
+ },
+ {
+  "madde": "Dildâş",
+  "tanim": "Gönül arkadaşı, gönül ehli."
+ },
+ {
+  "madde": "Dil-firîb",
+  "tanim": "Gönül aldatan, cezbeli, alımlı."
+ },
+ {
+  "madde": "Dil-i merdân",
+  "tanim": "Mert, yiğit insanların gönlü; yiğit, mert gönül."
+ },
+ {
+  "madde": "Dilistân",
+  "tanim": "Gönül ülkesi, Cenâb-ı Hakk’ın tecellî mahalli."
+ },
+ {
+  "madde": "Dil-pesend",
+  "tanim": "Gönle hoş gelen, gönlün beğendiği."
+ },
+ {
+  "madde": "Dil-rişin",
+  "tanim": "Dertli, gönlü yaralı. Dinlendi görmek"
+ },
+ {
+  "madde": "Dirgürmek",
+  "tanim": "Diriltmek, diri etmek, diri kılmak."
+ },
+ {
+  "madde": "Dirîgâ",
+  "tanim": "Hayfa, ne kadar yazık."
+ },
+ {
+  "madde": "Dîv",
+  "tanim": "Şeytân, Nefsin şeytânî sıfatları."
+ },
+ {
+  "madde": "Dîvâne",
+  "tanim": "Deli."
+ },
+ {
+  "madde": "Dîzâr/Didâr",
+  "tanim": "Yüz, Hakk’ın cemâli; ilâhî güzellik."
+ },
+ {
+  "madde": "Dizgin",
+  "tanim": "Atın gemi ile sahibinin eli arasındaki atı yönlendirmeye yarayan ip (yular)."
+ },
+ {
+  "madde": "Doğrulup gelmek",
+  "tanim": "İnsanın üzerine gelmek."
+ },
+ {
+  "madde": "Dolu",
+  "tanim": "Bade, kadeh, şarâp. İlâhî aşk ve bilgi. İlâhî bilgilerle donanmış kalp."
+ },
+ {
+  "madde": "Dost",
+  "tanim": "Kâmil ve olgun insan."
+ },
+ {
+  "madde": "Döğmek",
+  "tanim": "Öğütmek, un hâline getirmek."
+ },
+ {
+  "madde": "Dört kapı",
+  "tanim": "Şeriat, tarikat, ma’rifet, hakikat."
+ },
+ {
+  "madde": "Dört kitâb",
+  "tanim": "Dört kitap, esmâ, ef’âl, sıfat zat tevhîdine işaret eden bir mecâz."
+ },
+ {
+  "madde": "Dûde-i âh",
+  "tanim": "Âhın dumanı. Duman gibi yükselen âh."
+ },
+ {
+  "madde": "Duhân",
+  "tanim": "1. Tütün. 2. Duman."
+ },
+ {
+  "madde": "Dûr",
+  "tanim": "Uzak."
+ },
+ {
+  "madde": "Durmak",
+  "tanim": "Kalkmak."
+ },
+ {
+  "madde": "Duş Olmak",
+  "tanim": "Tesadüf etmek, meyletmek, nail olmak, isabet etmek, bir şeye yönelmek."
+ },
+ {
+  "madde": "Duşlanmak",
+  "tanim": "Nâil olmak, karşılaşmak."
+ },
+ {
+  "madde": "Dûzah",
+  "tanim": "Cehennem."
+ },
+ {
+  "madde": "Duzak",
+  "tanim": "Tuzak. Ayrıca bu kelime cehennem anlamındaki dûzah kelimesinin Türkçe teleffuzuyla tevriye yapılarak cehennem karşılığında da kullanılır."
+ },
+ {
+  "madde": "Dü-âlem",
+  "tanim": "İki âlem. Madde ve manâ."
+ },
+ {
+  "madde": "Dü-cihân",
+  "tanim": "İki cihân; dünya ve âhiret."
+ },
+ {
+  "madde": "Düldül",
+  "tanim": "Hz. Ali’ye, Hz. Peygamber tarafından verilen atın ismi."
+ },
+ {
+  "madde": "Dünbek döğmek",
+  "tanim": "Dünbelek çalmak. Gürültü, şamata, gösterişten kinaye."
+ },
+ {
+  "madde": "Dür",
+  "tanim": "İnci, hakikat bilgisi."
+ },
+ {
+  "madde": "Dürdâne",
+  "tanim": "İnci tanesi."
+ },
+ {
+  "madde": "Dürlü",
+  "tanim": "Türlü, çeşit."
+ },
+ {
+  "madde": "Dürr-i maânî",
+  "tanim": "Mânâlar, hakikatler incisi; kıymetli bilgi için kullanılır."
+ },
+ {
+  "madde": "Dürr-i meknûn",
+  "tanim": "Gizli inci; Nûr-ı Muhammedî."
+ },
+ {
+  "madde": "Dürr-i vahdet",
+  "tanim": "Vahdet incisi, Nûr-ı Muhammed."
+ },
+ {
+  "madde": "Dürr-i yektâ",
+  "tanim": "Tek inci, benzeri olmayan inci."
+ },
+ {
+  "madde": "Dürr-i yetîm",
+  "tanim": "Tek, iri, baha biçilmez inci. Eşsiz inci. Hazret-i Nûr-ı Muhammed."
+ },
+ {
+  "madde": "Dü-serâ",
+  "tanim": "İki saray, dünya ve âhiret."
+ },
+ {
+  "madde": "Düstûr",
+  "tanim": "Ölçü, kâide."
+ },
+ {
+  "madde": "Düş",
+  "tanim": "Rüyâ, vakıa, seyr, seyrân."
+ },
+ {
+  "madde": "Düşmek",
+  "tanim": "Uğramak."
+ },
+ {
+  "madde": "Düşvâr",
+  "tanim": "Güç, zor."
+ },
+ {
+  "madde": "Ebed",
+  "tanim": "Sonsuzluk, dâimîlik. Allah’ın isimlerinden."
+ },
+ {
+  "madde": "Ebhâr",
+  "tanim": "Denizler."
+ },
+ {
+  "madde": "Ebrâr",
+  "tanim": "İyiler; zühd ve takva ile aşk yolunu birlikte götüren orta hâlli sûfiler."
+ },
+ {
+  "madde": "Ebter-Şinâs",
+  "tanim": "Soyu kesikleri tanıyan ve uyan kişi."
+ },
+ {
+  "madde": "Ebu’l-ervâh",
+  "tanim": "Rûhların babası. Nûr-ı Muhammed."
+ },
+ {
+  "madde": "Ebvâb",
+  "tanim": "Kapılar, konular, bölümler."
+ },
+ {
+  "madde": "Ecdâd",
+  "tanim": "Cedler, dedeler, büyük babalar, atalar."
+ },
+ {
+  "madde": "Ecel oku",
+  "tanim": "Ölüm."
+ },
+ {
+  "madde": "Ecel",
+  "tanim": "Ölüm, Ömrün sonu, âhirete göçüş."
+ },
+ {
+  "madde": "Edhem",
+  "tanim": "İbrâhîm Edhem: İlk sûfilerden ve sahabeye ulaşanlardandır. Belh şehzâdesi iken malını yağmaya vermiştir."
+ },
+ {
+  "madde": "Ednâ",
+  "tanim": "En aşağı, en alçak, en bayağı."
+ },
+ {
+  "madde": "Edüben",
+  "tanim": "Ederek."
+ },
+ {
+  "madde": "Ef‘âl",
+  "tanim": "Fiiller, hareketler, işler, ameller."
+ },
+ {
+  "madde": "Efgân",
+  "tanim": "Bağırıp çağırma, istimdâd, feryâd."
+ },
+ {
+  "madde": "Efkâr",
+  "tanim": "(kafla) daha veya pek fakir, fakirlerin en fakiri."
+ },
+ {
+  "madde": "Efkâr",
+  "tanim": "Fikirler, düşünceler."
+ },
+ {
+  "madde": "Eflâk",
+  "tanim": "Felekler."
+ },
+ {
+  "madde": "Eğerçi",
+  "tanim": "Gerçi, her ne kadar."
+ },
+ {
+  "madde": "Eğlemek",
+  "tanim": "Oyalamak, tesellî etmek, mâsivâya takılmak."
+ },
+ {
+  "madde": "Ehil(ehl)",
+  "tanim": "Yabancı olmayan, âşinâ, mâhir, usta, becerikli; metinde, kâmil insan."
+ },
+ {
+  "madde": "Ehl",
+  "tanim": "Sahip; bir işi iyi bilen ve yapan; karı kocadan her biri."
+ },
+ {
+  "madde": "Ehl-i Cenân",
+  "tanim": "Gönül ehli."
+ },
+ {
+  "madde": "Ehl-i derd",
+  "tanim": "Âşıklar."
+ },
+ {
+  "madde": "Ehl-i dizâr",
+  "tanim": "Cemâlullah’ı gören. Hakk’ın birliğini gören."
+ },
+ {
+  "madde": "Ehl-i hâl",
+  "tanim": "Hâl ehli, cezbeli ve âşık meşrep dervîş."
+ },
+ {
+  "madde": "Ehl-i ikrâr",
+  "tanim": "Dervîşler."
+ },
+ {
+  "madde": "Ehl-i işret",
+  "tanim": "Sûfîler, Allah âşıkı dervîşler."
+ },
+ {
+  "madde": "Ehl-i kâl",
+  "tanim": "Sözde kalanlar. Kabukta kalan müslümanlar. Zâhitler."
+ },
+ {
+  "madde": "Ehl-i şevk",
+  "tanim": "Âşıklar."
+ },
+ {
+  "madde": "Ehl-i tahkîk",
+  "tanim": "Eşyanın hakikatine vakıf kişiler."
+ },
+ {
+  "madde": "Ehl-i tevhîd",
+  "tanim": "Cenâb-ı Hakk’ı birleyen. İlâhî gerçekleri hakkıyla bilen."
+ },
+ {
+  "madde": "Ehl-i vahdet",
+  "tanim": "Tevhidin hakikatinden haberdar olan."
+ },
+ {
+  "madde": "Ehl-i vecd",
+  "tanim": "Âşıklar."
+ },
+ {
+  "madde": "Ehlullah",
+  "tanim": "Allah adamı, veli, evliyâ; tasavvuf ehli."
+ },
+ {
+  "madde": "Ekl",
+  "tanim": "Yemek yeme."
+ },
+ {
+  "madde": "Ekrem",
+  "tanim": "Çok cömert, çok şerefli."
+ },
+ {
+  "madde": "Eksik",
+  "tanim": "Noksan, günah."
+ },
+ {
+  "madde": "Ekvân",
+  "tanim": "Kevnler, yaratılmış olan eşya. Kainât."
+ },
+ {
+  "madde": "El alma",
+  "tanim": "İntisap etmek, bağlanmak."
+ },
+ {
+  "madde": "El Yumak",
+  "tanim": "Elini çekmek, vaz geçmek."
+ },
+ {
+  "madde": "Elden gitmek",
+  "tanim": "Yitirmek."
+ },
+ {
+  "madde": "Elest",
+  "tanim": "“Elestü” Arapça’da “değil miyim?” demektir. Kur’ân’da 7. surenin 172-173. âyetlerinde, Allah’ın “Ben sizin Rabbiniz değil miyim?” sorusunda geçer. Ruhlar bu soruya “Evet Rabbimizsin” diye cevab verdikleri için birbirlerinerine tanık tutmuşlar ve şehadet etmişlerdir. Kıyamet gününde her ruh burada verdiği sözü yerine getirmek, Rabbini tanımak zorundadır. Sûfîler Bezm-i elest’de verilen cevapların bazılarının olumlu “Kâlû belâ”; bazılarının olumsuz “lâ” şeklinde olduğuna inanırlar. Bu cevaba göre kıyamette üç sıra insan görülecektir. Rablerinin sorusunu tasdik edip gözleri ve dilleriyle kabul edenler; soruyu sadece kulaklarıyla duyup kararsızlık gösterenler. Sadece lâ deyip Rablerinin birliğini kabul etmeyenler. Buna ahd-i sâbık da derler. Onlara göre bu sır, bu dünyada iken bilinip yaşanacaktır."
+ },
+ {
+  "madde": "El-fakru fahri",
+  "tanim": "Fakirliğimle övünürüm. (Hadis)."
+ },
+ {
+  "madde": "El-gıyâs",
+  "tanim": "Meded, aman."
+ },
+ {
+  "madde": "Elhamdülillâh",
+  "tanim": "Allah’a hamd olsun."
+ },
+ {
+  "madde": "Elhân",
+  "tanim": "Nağme, ezgi, şarkı."
+ },
+ {
+  "madde": "El-hükmülillah",
+  "tanim": "Hüküm Allah’ındır."
+ },
+ {
+  "madde": "Elif sırrı",
+  "tanim": "Birlik sırrı."
+ },
+ {
+  "madde": "Ellezî Yuvesvisü",
+  "tanim": "İnsanların kalplerine vesvese sokan. (Nas/5.)"
+ },
+ {
+  "madde": "Elvân",
+  "tanim": "Renkler, görünüşler."
+ },
+ {
+  "madde": "Emân",
+  "tanim": "Emniyet, korkusuzluk. Yardım, imkân."
+ },
+ {
+  "madde": "Emânet",
+  "tanim": "İlahî sır. Âdem’e verilen yaratılış sırrı."
+ },
+ {
+  "madde": "Emmâre",
+  "tanim": "Nefs-i emmâre. Kötülüğü emr eden nefs."
+ },
+ {
+  "madde": "Emrâz",
+  "tanim": "Marazlar, hastalıklar; nefsanî düşkünlükler."
+ },
+ {
+  "madde": "Emsâl",
+  "tanim": "Örnekler; eş, benzer."
+ },
+ {
+  "madde": "Emtâr",
+  "tanim": "Yağmurlar."
+ },
+ {
+  "madde": "Emvâc",
+  "tanim": "Dalgalar."
+ },
+ {
+  "madde": "Enâniyyet",
+  "tanim": "Benlik"
+ },
+ {
+  "madde": "Endişe",
+  "tanim": "Düşünce, fikir."
+ },
+ {
+  "madde": "Ene’l-Hak",
+  "tanim": "“Hak benim” anlamında Hallâc-ı Mansûr’un söylemiş olduğu şathiye tarzında bir söz."
+ },
+ {
+  "madde": "Enfüs",
+  "tanim": "Yaşayanlar, hayat sahipleri, canlılar. İçe ait."
+ },
+ {
+  "madde": "Enhâr",
+  "tanim": "Nehirler."
+ },
+ {
+  "madde": "Ensâb",
+  "tanim": "Soylar, baba tarafından hısımlar"
+ },
+ {
+  "madde": "Ente",
+  "tanim": "Sen."
+ },
+ {
+  "madde": "Envâr",
+  "tanim": "Nurlar."
+ },
+ {
+  "madde": "Er",
+  "tanim": "Mürşid, sâlik, Hak âşığı."
+ },
+ {
+  "madde": "Erba‘in",
+  "tanim": "Kırk günlük halvet."
+ },
+ {
+  "madde": "Erbâb-ı dil",
+  "tanim": "Gönül ehli."
+ },
+ {
+  "madde": "Erenler",
+  "tanim": "Veliler, Tanrı dostları, mürşitler."
+ },
+ {
+  "madde": "Erhâm",
+  "tanim": "Çok merhametli, Allah."
+ },
+ {
+  "madde": "Ericek",
+  "tanim": "Erince, ulaşınca."
+ },
+ {
+  "madde": "Erkân",
+  "tanim": "Rükunlar, esaslar; bir tarikatin uyguladığı esaslar."
+ },
+ {
+  "madde": "Ervâh",
+  "tanim": "Ruhlar."
+ },
+ {
+  "madde": "Eser",
+  "tanim": "İz, yapı, nişan."
+ },
+ {
+  "madde": "Esfel",
+  "tanim": "En sefil, en aşağı, çok bayağı."
+ },
+ {
+  "madde": "Esîr-i aşk",
+  "tanim": "Âşık."
+ },
+ {
+  "madde": "Esmâ sürmek",
+  "tanim": "Sâliki esmâ ile yolculuk yaptıran erkânlarda sâlik hangi isimde ise, Hakkı o isimle zikretmek."
+ },
+ {
+  "madde": "Esmâ",
+  "tanim": "İsimler; Allah’ın isimleri."
+ },
+ {
+  "madde": "Esmâr",
+  "tanim": "Meyveler."
+ },
+ {
+  "madde": "Esmâ-yı seb’a",
+  "tanim": "Yedi esmâ. Sûfîlerin vird edindikleri, Allah’ın güzel isimlerinden yedi tanesi (İllallah, Allah, Hû, Hak, Hayy, Kayyûm, Kahhâr)."
+ },
+ {
+  "madde": "Esrâr",
+  "tanim": "Sırlar, gizli ma’nâlar, hikmetler."
+ },
+ {
+  "madde": "Esrâr-ı vahdet",
+  "tanim": "Birlik sırrı."
+ },
+ {
+  "madde": "Esrimek",
+  "tanim": "Mest olmak, sarhoş olmak. Hâle girmek."
+ },
+ {
+  "madde": "Eşkere/âşikare",
+  "tanim": "Belli, meydanda, açık."
+ },
+ {
+  "madde": "Eşyâ",
+  "tanim": "Şeyler, nesneler, cisim şeklinde görünen gölge varlık."
+ },
+ {
+  "madde": "Etvâr",
+  "tanim": "Tavırlar, tarzlar, hâl ve hareketler, işler."
+ },
+ {
+  "madde": "Evlâ",
+  "tanim": "Üstün, daha uygun."
+ },
+ {
+  "madde": "Evlâd-ı Resûl",
+  "tanim": "Ehl-i beyt."
+ },
+ {
+  "madde": "Evliyâ",
+  "tanim": "Tanrı dostları, erenler. Ledün sahibi kişiler."
+ },
+ {
+  "madde": "Evrâd",
+  "tanim": "Virdler, günlük tertipli olarak okunan duâlar."
+ },
+ {
+  "madde": "Evran",
+  "tanim": "Yılan."
+ },
+ {
+  "madde": "Evsâf",
+  "tanim": "Vasıflar, sıfatlar."
+ },
+ {
+  "madde": "Evtân",
+  "tanim": "Vatanlar, memleketler."
+ },
+ {
+  "madde": "Evvel",
+  "tanim": "Allah’ın sıfatı. Öncesi olmayan."
+ },
+ {
+  "madde": "Evzâr",
+  "tanim": "Ağırlıklar, yükler."
+ },
+ {
+  "madde": "Eyitmek, ayıtmak",
+  "tanim": "Söylemek."
+ },
+ {
+  "madde": "Eyyâm-ı rıhlet",
+  "tanim": "Ölüm vakti."
+ },
+ {
+  "madde": "Eyyüb (Peygamber)",
+  "tanim": "Kur’ân’da adı geçen peygamberlerdendir. Sabır sembolüdür. İsrailoğullarındandır."
+ },
+ {
+  "madde": "Ezân etmek",
+  "tanim": "Haber vermek."
+ },
+ {
+  "madde": "Ezel",
+  "tanim": "Öncesi olmayan sonsuzluk. Allah’ın isimlerindendir."
+ },
+ {
+  "madde": "Ezelî",
+  "tanim": "Öncesiz."
+ },
+ {
+  "madde": "Ezhâr",
+  "tanim": "Çiçekler."
+ },
+ {
+  "madde": "Fâh",
+  "tanim": "Ağız."
+ },
+ {
+  "madde": "Fahr",
+  "tanim": "Övme, Övünme."
+ },
+ {
+  "madde": "Fahr-i âlem",
+  "tanim": "Hz. Peygamber."
+ },
+ {
+  "madde": "Fâil",
+  "tanim": "Bir fiili, işi yapan; Allah."
+ },
+ {
+  "madde": "Fâil-i Mutlak",
+  "tanim": "Aslâ bir şarta bağlı olmadan, bütün işlerini iradesiyle yapan Allah."
+ },
+ {
+  "madde": "Fakî",
+  "tanim": "Fakîh, Şerîat (fıkıh) âlimi."
+ },
+ {
+  "madde": "Fakr",
+  "tanim": "Nefsin kendi nefsi olmayıp Hakk’a ait olduğu bilincine varmak."
+ },
+ {
+  "madde": "Fâl",
+  "tanim": "Uğur; talih; bir takım yollarla insan talihine dair bir şeyler söyleme."
+ },
+ {
+  "madde": "Fânî",
+  "tanim": "Ölümlü, geçici, yok olucu. Tasavvufta fenâfi’llaha eren, Hak ile bâki olan kişi için de kullanılır."
+ },
+ {
+  "madde": "Fâriğ",
+  "tanim": "Alâkasını kesmiş, vaz geçmiş."
+ },
+ {
+  "madde": "Fark",
+  "tanim": "Başkalık, ayırma. Tasavvufta ayrılık hâli veya çoklukta birliği, birlikte çokluğu farketmek."
+ },
+ {
+  "madde": "Fâsık",
+  "tanim": "Allah’ın emrinden çıkan. Kötülük yapan. Fıska düşen."
+ },
+ {
+  "madde": "Fâsid, fâside",
+  "tanim": "Fenâ, kötü, yanlış, bozuk, bozulmuş."
+ },
+ {
+  "madde": "Fasl",
+  "tanim": "Ara."
+ },
+ {
+  "madde": "Fâş eylemek",
+  "tanim": "Meydana çıkarmak, anlaşılır kılmak."
+ },
+ {
+  "madde": "Fâş olmak",
+  "tanim": "Meydana çıkmak, anlaşılır kılmak."
+ },
+ {
+  "madde": "Fazl",
+  "tanim": "Fazilet, erdem, iyilik, lütuf."
+ },
+ {
+  "madde": "Fe’zkurûnî ezkürküm",
+  "tanim": "Beni zikrediniz ki Ben de sizi zikredeyim. (Bakara/152.)"
+ },
+ {
+  "madde": "Fedâ",
+  "tanim": "Bağışlama, uğruna verme."
+ },
+ {
+  "madde": "Fehm eylemek",
+  "tanim": "Anlamak, kavramak."
+ },
+ {
+  "madde": "Felâh",
+  "tanim": "Kurtuluş, selamet."
+ },
+ {
+  "madde": "Fenâfillâh",
+  "tanim": "Kulun sıfatlarını Hakk’ın zatında yok etmesi."
+ },
+ {
+  "madde": "Fenâ",
+  "tanim": "Yokluk, tasavvufta bir makam, dünya, yokluk mülkü."
+ },
+ {
+  "madde": "Fenâ-ender-fenâ",
+  "tanim": "Yoklukta yokluk. Fenâ fi’l-fenâ."
+ },
+ {
+  "madde": "Ferd",
+  "tanim": "Tek, bir, yekta; Allah."
+ },
+ {
+  "madde": "Ferdâ",
+  "tanim": "Yarın, âhiret, mahşer."
+ },
+ {
+  "madde": "Ferhâd",
+  "tanim": "Doğu Edebiyatında bir aşk kahramanının adı. Sevgilisi “Şîrîn”e ulaşabilmek için dağlar delip yol açmış bir fedakârlık örneği. Mühendisliği ve nakkâşlığı da vardır."
+ },
+ {
+  "madde": "Fermân",
+  "tanim": "Buyruk. Padişah tarafından verilen yazılı emir."
+ },
+ {
+  "madde": "Ferş",
+  "tanim": "Yer, yeryüzü, döşeme, yaymak."
+ },
+ {
+  "madde": "Fesâd",
+  "tanim": "Bozuk, fenâlık, karışıklık."
+ },
+ {
+  "madde": "Feth",
+  "tanim": "Açma, açılma; zaptetme, kuşatma."
+ },
+ {
+  "madde": "Fettân",
+  "tanim": "Fitne ve fesada teşvik eden, fenalık yapan, ayartan; cazibeli, gönül alıcı."
+ },
+ {
+  "madde": "Fetvâ",
+  "tanim": "Müftü veya şeyhülislâm gibi dinî otorite tarafından verilen karar."
+ },
+ {
+  "madde": "Fevk-i ulâ",
+  "tanim": "En yüce, yüksek. Pek yüksek."
+ },
+ {
+  "madde": "Feyz",
+  "tanim": "Bolluk, verimlilik; ilim, irfân; ilâhî tecellî."
+ },
+ {
+  "madde": "Feyz-i Rahmân",
+  "tanim": "Allah’ın feyzi, Rahman’ın nefesi"
+ },
+ {
+  "madde": "Feyz-yâb",
+  "tanim": "Feyiz bulan, feyiz bulma."
+ },
+ {
+  "madde": "Fezâ",
+  "tanim": "Ucu bucağı olmayan boşluk; gökyüzü."
+ },
+ {
+  "madde": "Fî-ahsen-i takvîm",
+  "tanim": "Andolsun ki biz insanı en güzel biçimde (ahsen-i takvîm) yarattık. (Tîn/4.)"
+ },
+ {
+  "madde": "Figân",
+  "tanim": "Ağlayıp, sızlama."
+ },
+ {
+  "madde": "Fi’l",
+  "tanim": "İş, amel, eylem."
+ },
+ {
+  "madde": "Firâk",
+  "tanim": "Ayrılık, ayrılma."
+ },
+ {
+  "madde": "Firdevs",
+  "tanim": "Cennet, cennetin altıncı katı. Bostân."
+ },
+ {
+  "madde": "Firdevs-i A‘lâ",
+  "tanim": "Cennetin en yüce tabakası. İrfân cenneti."
+ },
+ {
+  "madde": "Firkat",
+  "tanim": "Ayrılık, dostlardan ayrı kalmak."
+ },
+ {
+  "madde": "Fuad",
+  "tanim": "Gönül, temâşâ mahalli, kalbin bir mertebesi."
+ },
+ {
+  "madde": "Furkân",
+  "tanim": "İyi ile kötü, hak ile bâtıl, helâl ile haramın farkını gösteren. Kur’ân’ın sıfatlarından biri."
+ },
+ {
+  "madde": "Gâfil",
+  "tanim": "Allah’ın varlık ve birliğinden habersiz olan kişi."
+ },
+ {
+  "madde": "Gâh, gâhî",
+  "tanim": "Bazan, ara sıra."
+ },
+ {
+  "madde": "Gâib",
+  "tanim": "Görünmeyen, göz önünde bulunmayan, gizli ve bilinmeyen âlem."
+ },
+ {
+  "madde": "Galtân",
+  "tanim": "Yuvarlak."
+ },
+ {
+  "madde": "Gam yemek",
+  "tanim": "Kederlenmek, Acı çekmek."
+ },
+ {
+  "madde": "Ganî",
+  "tanim": "Hiç bir şeye ihtiyacı olmayan, tam manasıyla zengin, müstagni. Allah."
+ },
+ {
+  "madde": "Garâib",
+  "tanim": "Görülmedik, alışılmadık; şaşılacak şey."
+ },
+ {
+  "madde": "Gark",
+  "tanim": "Batmak. Sâlikin vahdet deryâsında yokluğu."
+ },
+ {
+  "madde": "Gavgâ",
+  "tanim": "Kavga, döğüşme, gürültü; savaş."
+ },
+ {
+  "madde": "Gavvâs",
+  "tanim": "Suya dalan, dalgıç, inci arayan dalgıç."
+ },
+ {
+  "madde": "Gayr",
+  "tanim": "Başkası, rakip; Allah’ın dışında vehmedilen şey."
+ },
+ {
+  "madde": "Gayrullah",
+  "tanim": "Masivâ, Tanrı’nın zatının dışında görülen, var zannedilenler, vehimler."
+ },
+ {
+  "madde": "Gedâ",
+  "tanim": "Yoksul, dilenci, kul, âşık."
+ },
+ {
+  "madde": "Gen",
+  "tanim": "Geniş."
+ },
+ {
+  "madde": "Genc",
+  "tanim": "Define, hazine. Rûh. Tevhid sırrı. İnsânî hakîkat."
+ },
+ {
+  "madde": "Genc-hâne",
+  "tanim": "Hazinenin bulunduğu yer."
+ },
+ {
+  "madde": "Genc-i aşk",
+  "tanim": "Aşk hazinesi."
+ },
+ {
+  "madde": "Genc-i maânî",
+  "tanim": "Mânâlar hazinesi."
+ },
+ {
+  "madde": "Genc-i ma’rifet",
+  "tanim": "Marifet hazinesi, Allah bilgisi."
+ },
+ {
+  "madde": "Genc-i nihân",
+  "tanim": "Gizli hazine, kenz-i mahfî."
+ },
+ {
+  "madde": "Genc-i pinhân",
+  "tanim": "Gizli hazine, kenz-i mahfî."
+ },
+ {
+  "madde": "Gencîne-i esrâr",
+  "tanim": "Sırlar hazinesi."
+ },
+ {
+  "madde": "Genez",
+  "tanim": "Kolay, uygun,kolayca."
+ },
+ {
+  "madde": "Genli gensiz",
+  "tanim": "İster istemez. Mecburen."
+ },
+ {
+  "madde": "Ger",
+  "tanim": "Eger"
+ },
+ {
+  "madde": "Gerçek er",
+  "tanim": "Kâmil insan."
+ },
+ {
+  "madde": "Gerdân",
+  "tanim": "Boyun. Dönen, dönücü."
+ },
+ {
+  "madde": "Gerdîş",
+  "tanim": "Dönüş, dönme, dolaşma."
+ },
+ {
+  "madde": "Gevher",
+  "tanim": "Mücevher, inci, esâs, öz."
+ },
+ {
+  "madde": "Gezmek",
+  "tanim": "Oyalanmak."
+ },
+ {
+  "madde": "Gıll u gış",
+  "tanim": "Kin ve hile, dedi kodu vs. gibi gönlü daraltan ve karartan şeyler."
+ },
+ {
+  "madde": "Gılmân",
+  "tanim": "Cennettekilere hizmet eden güzel ve genç delikanlılar. Genç uşaklar."
+ },
+ {
+  "madde": "Gınâ",
+  "tanim": "Yeterlilik, zenginlik."
+ },
+ {
+  "madde": "Giryân",
+  "tanim": "Gözyaşı döken, ağlayan, âşık."
+ },
+ {
+  "madde": "Gonca-i ra’nâ-ter",
+  "tanim": "İki renkli yeni açılmakta olan gül."
+ },
+ {
+  "madde": "Gonce-i gül",
+  "tanim": "Gül goncası."
+ },
+ {
+  "madde": "Gökçek",
+  "tanim": "Sevimli, hoş, güzel. Büyük."
+ },
+ {
+  "madde": "Gönül Evi",
+  "tanim": "Vahdet sırlarının tecellî ettiği insan-ı kâmilin makamı."
+ },
+ {
+  "madde": "Gönül gözü",
+  "tanim": "Fuat, kalp gözü, basiret, firâset, iç göz."
+ },
+ {
+  "madde": "Gönül ırmak",
+  "tanim": "Allah’tan uzaklaşmak."
+ },
+ {
+  "madde": "Gönül",
+  "tanim": "Gönül, yürek, kalp, fuad."
+ },
+ {
+  "madde": "Görklüce",
+  "tanim": "Güzel, temiz, iyi, mübarek, mukaddes, cazibeli, gösterişli."
+ },
+ {
+  "madde": "Göymek",
+  "tanim": "Yanmak, için için yanmak.."
+ },
+ {
+  "madde": "Gubâr",
+  "tanim": "Toz."
+ },
+ {
+  "madde": "Gubûr",
+  "tanim": "Sürekli, devamlı"
+ },
+ {
+  "madde": "Gufrân",
+  "tanim": "Cenâb-ı Hakk’ın günahları afvı, rahmeti."
+ },
+ {
+  "madde": "Gussa",
+  "tanim": "Tasa, keder, üzüntü. Sıkıntı. Kaygu"
+ },
+ {
+  "madde": "Gussa-yı müzdâ",
+  "tanim": "Bitmeyen keder."
+ },
+ {
+  "madde": "Gûş",
+  "tanim": "Kulak."
+ },
+ {
+  "madde": "Gûş-ı cân",
+  "tanim": "Cân kulağı."
+ },
+ {
+  "madde": "Güç",
+  "tanim": "Zor, kuvvet; istek."
+ },
+ {
+  "madde": "Güç üzmek",
+  "tanim": "Tahammül sınırlarını zorlamak"
+ },
+ {
+  "madde": "Güç gelmek",
+  "tanim": "Zor gelmek."
+ },
+ {
+  "madde": "Güftâr",
+  "tanim": "Söz, konuşma."
+ },
+ {
+  "madde": "Güftâr-ı aşk",
+  "tanim": "Aşk ile ilgili sözler ve şiirler."
+ },
+ {
+  "madde": "Güher",
+  "tanim": "Mücevher, kıymetli taş, inci, gevher."
+ },
+ {
+  "madde": "Gül",
+  "tanim": "Tecellî. Gönülde sevgi, aşk ve ilâhî bilgilerin tulu‘ etmesi."
+ },
+ {
+  "madde": "Gülâb",
+  "tanim": "Gül suyu."
+ },
+ {
+  "madde": "Gülbeng çekmek",
+  "tanim": "Dua (vird) okumak."
+ },
+ {
+  "madde": "Gülbün",
+  "tanim": "Gül fidanı, gül biten yer."
+ },
+ {
+  "madde": "Gülistân",
+  "tanim": "Gül bahçesi. Cemâl tecellîleri."
+ },
+ {
+  "madde": "Gülşen",
+  "tanim": "Gül bahçesi."
+ },
+ {
+  "madde": "Gülzâr",
+  "tanim": "Gül bahçesi."
+ },
+ {
+  "madde": "Gümân",
+  "tanim": "Şüphe, zan."
+ },
+ {
+  "madde": "Gümrâh",
+  "tanim": "Yolunu şaşırmış, doğru yoldan ayrılmış. Bol, gür."
+ },
+ {
+  "madde": "Günc-i gam",
+  "tanim": "Gam köşesi,"
+ },
+ {
+  "madde": "Gürûh",
+  "tanim": "Topluluk."
+ },
+ {
+  "madde": "Gürûh-ı evliyâ",
+  "tanim": "Veliler bölüğü, veliler tabakası."
+ },
+ {
+  "madde": "Gütmek",
+  "tanim": "Takip etmek."
+ },
+ {
+  "madde": "Güzâf",
+  "tanim": "Boş, asılsız söz."
+ },
+ {
+  "madde": "Güzer etmek",
+  "tanim": "Geçmek."
+ },
+ {
+  "madde": "Güzîde",
+  "tanim": "Seçilmiş, beğenilmiş kişi, şey."
+ },
+ {
+  "madde": "Hâb",
+  "tanim": "Uyku."
+ },
+ {
+  "madde": "Haberdâr",
+  "tanim": "Haberli, uyanık, bilgisi olan."
+ },
+ {
+  "madde": "Haberli",
+  "tanim": "Manâdan, ledün ilminden haberli olan."
+ },
+ {
+  "madde": "Hâb-ı gaflet",
+  "tanim": "Gaflet uykusu."
+ },
+ {
+  "madde": "Habib",
+  "tanim": "Sevgili, seven ve sevilen kişi, dost, Allah’ın isimlerinden, Hz. Muhammed"
+ },
+ {
+  "madde": "Habîbullah",
+  "tanim": "Allah’ın sevgilisi Hz. Muhammed."
+ },
+ {
+  "madde": "Habs",
+  "tanim": "Zapd etme, tutma, hapis, alıkoyma."
+ },
+ {
+  "madde": "Hâcât",
+  "tanim": "İhtiyac, lüzûm, muhtaclık."
+ },
+ {
+  "madde": "Hacc-ı ekber",
+  "tanim": "En büyük hac. İnsan-ı kâmil gönlüne girmek. İnsanlığın kemâline ulaşmak."
+ },
+ {
+  "madde": "Hacet",
+  "tanim": "Dilek. ihtiyâç."
+ },
+ {
+  "madde": "Hadd",
+  "tanim": "Sınır, ceza."
+ },
+ {
+  "madde": "Hâdî",
+  "tanim": "Hidâyete eriştiren. Allah’ın isimlerinden."
+ },
+ {
+  "madde": "Hâdim",
+  "tanim": "Hizmetçi."
+ },
+ {
+  "madde": "Hâdimü’l-evtâd",
+  "tanim": "Büyüklerin hizmetçisi. İrşâd ile görevli kâmil insanların hizmetinde bulunanlar."
+ },
+ {
+  "madde": "Hadîs",
+  "tanim": "Hz. Peygamberin imaları, sözü ve hareketi, Hz. Peygamberin sünneti."
+ },
+ {
+  "madde": "Hafâ",
+  "tanim": "Yokluk, görünmezlik, gizlilik."
+ },
+ {
+  "madde": "Hâil",
+  "tanim": "Perde, engel."
+ },
+ {
+  "madde": "Hâk etmek",
+  "tanim": "Toprak olmak, yok olmak."
+ },
+ {
+  "madde": "Hâk ile yeksân olmak",
+  "tanim": "Yerle bir olmak. Yok."
+ },
+ {
+  "madde": "Hâk",
+  "tanim": "Toprak."
+ },
+ {
+  "madde": "Hakâyık",
+  "tanim": "Hakikatler."
+ },
+ {
+  "madde": "Hâke yeksân eylemek",
+  "tanim": "Öldürmek, toprağa karıştırmak, değersiz kılmak."
+ },
+ {
+  "madde": "Hâk-i pây",
+  "tanim": "Ayak toprağı. Huzur."
+ },
+ {
+  "madde": "Hakîr",
+  "tanim": "Hor, aciz."
+ },
+ {
+  "madde": "Hakk",
+  "tanim": "Doğruluk, doğru, gerçek."
+ },
+ {
+  "madde": "Hakka’l-yakîn",
+  "tanim": "Tasavvufta varılacak olan son mertebe, oluş yoluyla inanmak, bilerek, bularak, olarak idrâk etmek, Sâlikin ahadiyet makamında kendi hakikatini yaşayarak anlaması."
+ },
+ {
+  "madde": "Hâl",
+  "tanim": "Salikin velâyet mertebesine kadar sürekli değişim gösteren kalbî durumların tamamı."
+ },
+ {
+  "madde": "Halâs",
+  "tanim": "Kurtulma, kurtuluş."
+ },
+ {
+  "madde": "Hâlât",
+  "tanim": "Hâller."
+ },
+ {
+  "madde": "Halâyık",
+  "tanim": "Yaratıklar, yaratılmışlar. İnsanlar."
+ },
+ {
+  "madde": "Hâldaş",
+  "tanim": "Hâlden anlayan, arkadaş."
+ },
+ {
+  "madde": "Hâlen",
+  "tanim": "Hâl ile."
+ },
+ {
+  "madde": "Hâlet",
+  "tanim": "Hâl, suret, keyfiyet, nitelik, durum."
+ },
+ {
+  "madde": "Halîfetu’llâh",
+  "tanim": "Allah’ın halifesi."
+ },
+ {
+  "madde": "Hâlik",
+  "tanim": "Yaratan, Allah."
+ },
+ {
+  "madde": "Halîl",
+  "tanim": "Sâdık, samimi, dost. Hz. İbrahim’in sıfatı."
+ },
+ {
+  "madde": "Hâlis",
+  "tanim": "Saf, duru, katıksız, temiz, hilesiz."
+ },
+ {
+  "madde": "Halk",
+  "tanim": "Yaratılmışlar."
+ },
+ {
+  "madde": "Hall",
+  "tanim": "Erime, çözme, çözülme."
+ },
+ {
+  "madde": "Halvet küncü",
+  "tanim": "Tenha, yalnız kalınan yer, halvet köşesi."
+ },
+ {
+  "madde": "Halvet",
+  "tanim": "Tenhada Hakk’a yönelip, her şeyden el etek çekerek zikir ve tefekkürle uğraşmak. Her an Allah ile birlikte olma idrak ve hâline ulaşmak. Tasavvuf yolunda halvet, rehberin tavsiyesiyle 3, 5, 7 gün gibi kısa süreli uygulanır. Erbain ise sadece halifelerin yapabileceği halvet uygulamasıdır."
+ },
+ {
+  "madde": "Halvetî",
+  "tanim": "Halvet ehli; Halvetî erkanına mensup kişi."
+ },
+ {
+  "madde": "Hamdülil’lâh",
+  "tanim": "Allah’a şükür."
+ },
+ {
+  "madde": "Hamîd",
+  "tanim": "Övülen."
+ },
+ {
+  "madde": "Hâmil",
+  "tanim": "Taşıyan."
+ },
+ {
+  "madde": "Haml",
+  "tanim": "Taşıma, yük, yükleme."
+ },
+ {
+  "madde": "Hamr",
+  "tanim": "İçki."
+ },
+ {
+  "madde": "Han",
+  "tanim": "Hakan."
+ },
+ {
+  "madde": "Hân",
+  "tanim": "Yemek sofrası, yemek, ta’am, ahçı dükkânı."
+ },
+ {
+  "madde": "Handân",
+  "tanim": "Gülen, sevinçli."
+ },
+ {
+  "madde": "Hâne-i kalp",
+  "tanim": "Kalp evi, Tanrı’nın tecellî mahalli."
+ },
+ {
+  "madde": "Hannân",
+  "tanim": "Çok acıyıcı. Allah’ın isimlerinden."
+ },
+ {
+  "madde": "Hannâs",
+  "tanim": "Şeytan."
+ },
+ {
+  "madde": "Hâne",
+  "tanim": "Ev, bark, ocak."
+ },
+ {
+  "madde": "Hâr",
+  "tanim": "Diken."
+ },
+ {
+  "madde": "Hâr-ı hâşim",
+  "tanim": "İncitici diken. Mecazen câhil ve kırıcı insanlar."
+ },
+ {
+  "madde": "Hâr",
+  "tanim": "Hakir, aşağı, hor, zelil, bayağı."
+ },
+ {
+  "madde": "Harâb",
+  "tanim": "Yıkık, virân."
+ },
+ {
+  "madde": "Harâbât",
+  "tanim": "Meyhane; mecazen tekke; mürşidin gönlü; âşıkın vücudu."
+ },
+ {
+  "madde": "Harâmî",
+  "tanim": "Yol kesen, hırsız, haram yiyen."
+ },
+ {
+  "madde": "Harıldı",
+  "tanim": "Ses taklidi bir kelime. İnsanın her şeyden şikayet etmesi. Hırlaması."
+ },
+ {
+  "madde": "Hâs u âm",
+  "tanim": "Herkes, ileri gelenler ve halk."
+ },
+ {
+  "madde": "Hâs",
+  "tanim": "Seçkin."
+ },
+ {
+  "madde": "Hasbetenlillâh",
+  "tanim": "Allah rızası için. Allah yoluna. Karşılık istemeksizin."
+ },
+ {
+  "madde": "Hased",
+  "tanim": "Kıskançlık, çekememezlik."
+ },
+ {
+  "madde": "Hasenât",
+  "tanim": "İyilikler, iyi hâller, hayırlı işler."
+ },
+ {
+  "madde": "Hâsıl",
+  "tanim": "Husûle gelen. Olan, meydana gelen, mahsul."
+ },
+ {
+  "madde": "Hasm",
+  "tanim": "Muhalif, karşıt görüşlü, düşman."
+ },
+ {
+  "madde": "Hâss-ı havâs",
+  "tanim": "Hasların hası, gerçeğe ulaşanlar. Seçkinlerin seçkini."
+ },
+ {
+  "madde": "Haşr",
+  "tanim": "Toplanma, kalabalık hâle gelme. Ölülerin dirilip bir yerde toplanması. Mahşer."
+ },
+ {
+  "madde": "Haşyet",
+  "tanim": "Korku, korkma."
+ },
+ {
+  "madde": "Hatâ",
+  "tanim": "Kusur, günâh."
+ },
+ {
+  "madde": "Hatar",
+  "tanim": "Zulüm, eziyet. Gerçek inançtan cayma, tehlike, uçurum, emniyetsizlik, korku. Tanrı varlığına inanmama. Gönüle gelen melekî ve şeytanî düşünceler."
+ },
+ {
+  "madde": "Hatem",
+  "tanim": "Son."
+ },
+ {
+  "madde": "Hâtem",
+  "tanim": "Mühür. Üzerinde yazı olan ve mühür yerine kullanılan yüzük."
+ },
+ {
+  "madde": "Hâtır",
+  "tanim": "Gönül."
+ },
+ {
+  "madde": "Hatta’l-ebed",
+  "tanim": "Ebediyen, sonsuza kadar."
+ },
+ {
+  "madde": "Havass",
+  "tanim": "Seçkinler, nitelikli kişiler; tasavvuf ehli."
+ },
+ {
+  "madde": "Havâtır",
+  "tanim": "Hatıra gelenler, fikirler."
+ },
+ {
+  "madde": "Havf u Recâ",
+  "tanim": "Korku ve ümit, korkma ve dileme."
+ },
+ {
+  "madde": "Hayâ",
+  "tanim": "Hicâp, utanma."
+ },
+ {
+  "madde": "Hayât-ı câvidân",
+  "tanim": "Ebedî hayat, ölümsüzlük."
+ },
+ {
+  "madde": "Hay-hûy",
+  "tanim": "Kuru gürültü."
+ },
+ {
+  "madde": "Haylamak",
+  "tanim": "Önem vermek."
+ },
+ {
+  "madde": "Hayme",
+  "tanim": "Çadır."
+ },
+ {
+  "madde": "Hayrân",
+  "tanim": "Hayrete düşmüş, şaşırmış; dervîşin seyr ü sülûkunda tecellîlerden doğan şaşkınlık ve hüzün hâli."
+ },
+ {
+  "madde": "Hayret",
+  "tanim": "Mânâ yolcusunun kalbinde tecellî eden bir hâl yüzünden şaşırması, ne yapacağını bilemez duruma gelmesi."
+ },
+ {
+  "madde": "Hayvân",
+  "tanim": "Diri, canlı."
+ },
+ {
+  "madde": "Hayvân-ı nâtık",
+  "tanim": "Konuşan canlı. İnsân."
+ },
+ {
+  "madde": "Hayy",
+  "tanim": "Ebedî diri, ölmek ihtimâlinden uzak. Allah. Hayatı zerreden küreye tedricen yayılan ve herşeyde hareket şeklinde tezahür eden varlık. Allah’ın isimlerinden."
+ },
+ {
+  "madde": "Hazer",
+  "tanim": "Çekinme, zarar verebilecek şeyden kaçınma. Korunma."
+ },
+ {
+  "madde": "Hâzık",
+  "tanim": "İşinin ehli, usta, eli uz. Doktor."
+ },
+ {
+  "madde": "Helâk olmak",
+  "tanim": "Yok olmak."
+ },
+ {
+  "madde": "Hemân",
+  "tanim": "Şimdi, dâimâ."
+ },
+ {
+  "madde": "Hemişe",
+  "tanim": "Daimâ, boyuna, hep."
+ },
+ {
+  "madde": "Hem-râh",
+  "tanim": "Yoldaş, aynı yolda, yol arkadaşı."
+ },
+ {
+  "madde": "Hem-râz",
+  "tanim": "Aynı sırları paylaşan."
+ },
+ {
+  "madde": "Hergiz",
+  "tanim": "Aslâ, katiyen."
+ },
+ {
+  "madde": "Herze yemek",
+  "tanim": "Boş söz söylemek. Saçmasapan konuşmak."
+ },
+ {
+  "madde": "Hevâ",
+  "tanim": "Heves, istek, arzu, nefse ait şeylere istek."
+ },
+ {
+  "madde": "Heves",
+  "tanim": "Gelip-geçici istek; nefsin hoşuna gitmek."
+ },
+ {
+  "madde": "Heybet",
+  "tanim": "Hürmetle beraber korku hisssini veren hâl. Azamet, sakınıp korkulacak hâl."
+ },
+ {
+  "madde": "Hezâr",
+  "tanim": "Bülbül, bin (pek çok)."
+ },
+ {
+  "madde": "Hıfz eylemek",
+  "tanim": "Korumak."
+ },
+ {
+  "madde": "Hırka",
+  "tanim": "Dervîşlerin giydiği, önü açık, yakasız geniş kollu elbise."
+ },
+ {
+  "madde": "Hırka-pûş",
+  "tanim": "Hırka giyen, sâfî, zâhid, dervîş."
+ },
+ {
+  "madde": "Hırs",
+  "tanim": "Aç gözlülük, tamahkârlık, arzu."
+ },
+ {
+  "madde": "Hışm",
+  "tanim": "Öfke, hiddet, gazap, kızgınlık."
+ },
+ {
+  "madde": "Hızır",
+  "tanim": "Ebedî hayatın sembolü, Mûsâ şeriatine bağlı bir peygamber veya velî. Âb-ı Hayât içtiği için ölmezliğe erişmiştir. Hızır, İlyâs ile birlikte yardım isteyen kulların yardımına koşarlar. Hızır daha çok karada yardımcıdır."
+ },
+ {
+  "madde": "Hicâb",
+  "tanim": "Örtü, perde; utanma; sâlik ile mutlak hakikat arasına giren engel, âşıkı sevgilisinden ayıran perde."
+ },
+ {
+  "madde": "Hicrân",
+  "tanim": "Ayrılık."
+ },
+ {
+  "madde": "Hidâyet",
+  "tanim": "Hak yoluna yönelme."
+ },
+ {
+  "madde": "Hikmet bâğı",
+  "tanim": "İrfân sahiplerinin bulunduğu meclis veya makam. Tarikat."
+ },
+ {
+  "madde": "Hikmet",
+  "tanim": "Bir işteki sebep. Gizli yön."
+ },
+ {
+  "madde": "Hilâf",
+  "tanim": "Zıt düşünceli, karşı fikirli, aleyhtar."
+ },
+ {
+  "madde": "Hilkat",
+  "tanim": "Yaratılma, yaradılış. Tabiat."
+ },
+ {
+  "madde": "Hilm",
+  "tanim": "İnsanın tabiatında olan yavaşlık, yumuşaklık."
+ },
+ {
+  "madde": "Himmet",
+  "tanim": "Kalbin bütün kuvveti ile Cenâb-ı Hakk’a yönelmesi, lütuf, yardım. Gayret ve niyyet. Çalışma, gayret etme, bir işe girişmek, manevî yardım, manen birine yardım etmek."
+ },
+ {
+  "madde": "Himmet-i kudsî",
+  "tanim": "İlâhî yardım."
+ },
+ {
+  "madde": "Hissedâr",
+  "tanim": "Hisse, pay sahibi; ortak."
+ },
+ {
+  "madde": "Hitâb",
+  "tanim": "Karşı tarafa söz söyleme, bir şeyi bildirme."
+ },
+ {
+  "madde": "Hitâmü’l-mürselîn",
+  "tanim": "Son peygamber Hz. Muhammed."
+ },
+ {
+  "madde": "Hod",
+  "tanim": "Kendi."
+ },
+ {
+  "madde": "Hor",
+  "tanim": "Hakir, zavallı."
+ },
+ {
+  "madde": "Hû",
+  "tanim": "Huy, mizâç."
+ },
+ {
+  "madde": "Hû",
+  "tanim": "Hüve, O. Cenâb-ı Hakkın O anlamındaki zâtî ismi olup, gaybî hüviyetini delalet eder."
+ },
+ {
+  "madde": "Hûb",
+  "tanim": "Güzel."
+ },
+ {
+  "madde": "Hûbân",
+  "tanim": "Güzeller"
+ },
+ {
+  "madde": "Hubb",
+  "tanim": "Sevgi, meyil."
+ },
+ {
+  "madde": "Hudâ",
+  "tanim": "Allah."
+ },
+ {
+  "madde": "Hudâvend",
+  "tanim": "Efendi, Allah."
+ },
+ {
+  "madde": "Hulk",
+  "tanim": "Huy, tabiat, mizaç."
+ },
+ {
+  "madde": "Hulle donu",
+  "tanim": "Cennet elbisesi. Belden aşağı ve belden yukarı iki kısımdan meydana gelen elbise."
+ },
+ {
+  "madde": "Hüvel",
+  "tanim": "“Huvallâhullezî lâ ilâhe illâ hu…” O, öyle Allah’tır ki, O’ndan başka tanrı yoktur. (Haşr/22.) Metinde (h,v,l) harfleriyle zikredilen bu kelime bu ayetin kısaltılmış şeklidir."
+ },
+ {
+  "madde": "Hûr",
+  "tanim": "Ahver ve havra kelimelerinin cemidir. Ahu gözlüler, pek güzel cennet kızları."
+ },
+ {
+  "madde": "Hûrî",
+  "tanim": "Cennet kızı, sevgili."
+ },
+ {
+  "madde": "Hurşîd",
+  "tanim": "Güneş."
+ },
+ {
+  "madde": "Hurûşa gelmek",
+  "tanim": "Coşmak, taşmak."
+ },
+ {
+  "madde": "Hûş",
+  "tanim": "Akıl, fikir, zekâ."
+ },
+ {
+  "madde": "Hûşyâr",
+  "tanim": "Aklı başında, akıllı."
+ },
+ {
+  "madde": "Hümâ",
+  "tanim": "Devlet kuşu, yükseklerden uçan ve insanın başına konarak talihini değiştiren efsanevî kuş. Türkçe’de umay kuşu da denir."
+ },
+ {
+  "madde": "Hünsâ",
+  "tanim": "Kendisinde hem erkeklik, hem dişilik alâmeti bulunan kimse."
+ },
+ {
+  "madde": "Hüsn",
+  "tanim": "Güzellik."
+ },
+ {
+  "madde": "Hüsn-i bî-pâyân",
+  "tanim": "Sonsuz, sınırsız güzellik."
+ },
+ {
+  "madde": "Hüsn-i cemâl",
+  "tanim": "Yüz güzelliği."
+ },
+ {
+  "madde": "Hüve",
+  "tanim": "O, Allah’ın zât ismidir."
+ },
+ {
+  "madde": "Hüveydâ",
+  "tanim": "Âşikâr, apaçık, belli."
+ },
+ {
+  "madde": "Hüviyet",
+  "tanim": "Mahiyet, hakikat, asıl. Hüviyyet, çekirdeğin, ağacın bütün özelliklerini içinde bulundurması gibi, bütün isim ve sıfatları göz önüne alındığında, Hakk’ın zuhûru mümkün olmayan gaybından ibarettir. Tasavvufta Allah’a ulaşan vasilin kişinin gerçek mahiyeti."
+ },
+ {
+  "madde": "Hüzün",
+  "tanim": "Gam."
+ },
+ {
+  "madde": "Indehû Ümmü’l-Kitâb",
+  "tanim": "Ana kitap onun yanındadır. (Ra’d/39.)"
+ },
+ {
+  "madde": "Irak",
+  "tanim": "Uzak, ırak."
+ },
+ {
+  "madde": "Irılmak",
+  "tanim": "Ayrılmak, uzaklaşmak. Oynamak."
+ },
+ {
+  "madde": "Irlamak",
+  "tanim": "Ezgi (beste) ile söylemek."
+ },
+ {
+  "madde": "Irmak",
+  "tanim": "Ayırmak, uzaklaştırmak."
+ },
+ {
+  "madde": "Is",
+  "tanim": "Sahip."
+ },
+ {
+  "madde": "Isıcak",
+  "tanim": "Sıcak."
+ },
+ {
+  "madde": "Iskât-ı kuyûd",
+  "tanim": "Kayıttan düşme, silme."
+ },
+ {
+  "madde": "Istılâh",
+  "tanim": "Tabir, terim, kavram."
+ },
+ {
+  "madde": "Itlak",
+  "tanim": "Salıverme, boşaltma."
+ },
+ {
+  "madde": "Iyân",
+  "tanim": "Âşikâr, açık, belirgin."
+ },
+ {
+  "madde": "Iyd",
+  "tanim": "Bayram."
+ },
+ {
+  "madde": "Iztırârî",
+  "tanim": "Mecburî."
+ },
+ {
+  "madde": "İ‘râb",
+  "tanim": "Düzgün konuşma ve hakikati belirtme. Arapça kelimelerin sonlarındaki harf veya harekenin değişmesi. Bu değişikliği öğretme bilgisi."
+ },
+ {
+  "madde": "İblîs",
+  "tanim": "İnsanları Allah yolundan çıkartmakla görevli şeytân. Vesvese veren. Hannâs."
+ },
+ {
+  "madde": "İbrahim (Peygamber)",
+  "tanim": "Halilullah. İsmail Peygamberin babası. Nemrud âteşe attığı hâlde yanmamış, ateş gülzâra dönmüştür. İbrahim, aynı zamanda tevhîd dininin babası kabul edilir. Hz. Peygamberin büyük atasıdır."
+ },
+ {
+  "madde": "İbrâhîm Edhem",
+  "tanim": "İlk sûfilerden ve sahabeye ulaşanlardandır. Belhte şehzâde iken malını yağmaya vermiştir."
+ },
+ {
+  "madde": "İbrâm",
+  "tanim": "Zorlama, üstüne düşme, bunaltma."
+ },
+ {
+  "madde": "İbret",
+  "tanim": "Ders, insanı gafletten uyaran hadise, tuhaf, acayip."
+ },
+ {
+  "madde": "İbtâl",
+  "tanim": "Boş, hükümsüz, lağvetme."
+ },
+ {
+  "madde": "İbtidâ",
+  "tanim": "Başlama, evvel, başlangıç, ilk."
+ },
+ {
+  "madde": "İcâd",
+  "tanim": "Vücuda getirme, yeni bir şey bulup ortaya çıkarma."
+ },
+ {
+  "madde": "İctinâb",
+  "tanim": "Sakınma, çekinme."
+ },
+ {
+  "madde": "İçre",
+  "tanim": "İçinde."
+ },
+ {
+  "madde": "İdrîs",
+  "tanim": "Kur’ân-ı Kerim’de ismen zikredilen peygamberlerdendir. Hz. Şît’in oğlu. Terzilerin piridir."
+ },
+ {
+  "madde": "İfnâ",
+  "tanim": "Yok etme."
+ },
+ {
+  "madde": "İfnâ-yı vücûd eylemek",
+  "tanim": "Allah’ta yok olmak."
+ },
+ {
+  "madde": "İğrâk",
+  "tanim": "Gark olmak, suya batmak."
+ },
+ {
+  "madde": "İğvâ",
+  "tanim": "Azdırma, ayartma, baştan çıkarma."
+ },
+ {
+  "madde": "İhâtâ",
+  "tanim": "Bir şeyin etrafını çevirme, kuşatma."
+ },
+ {
+  "madde": "İhdâr eylemek",
+  "tanim": "Kaldırmak, hissizleştirmek, uyuşturmak."
+ },
+ {
+  "madde": "İhdinâ’s-Sırâta’l-Müstakîm",
+  "tanim": "“Bizi doğru yola hidayet et’’ (Fatiha/6)."
+ },
+ {
+  "madde": "İhlâs",
+  "tanim": "Karşılıksız sevgi. Kalp sâfiyeti. İçten, samimi sevgi, yalnız Allah rızası için yapılan ibâdetler. Temiz kalp ile yapılan ibadetler."
+ },
+ {
+  "madde": "İhrâk olmak",
+  "tanim": "yanmak, yok olmak."
+ },
+ {
+  "madde": "İhsân",
+  "tanim": "Allah’a, O’nu görüyormuş gibi ibadet etmek. İyilik, lütuf, bağış, güzellik. İyilikle muamele etme. Kulun mürakebe içinde olmasıyla ilahî inayetin erişmesi."
+ },
+ {
+  "madde": "İhtirâz",
+  "tanim": "Sakınma, çekinme, korkma."
+ },
+ {
+  "madde": "İhtisâr",
+  "tanim": "Kısaltma; sözü, yazıyı kısaltma. Sadeleştirme, basitleştirme."
+ },
+ {
+  "madde": "İhtiyâr",
+  "tanim": "İstek, arzu, razı olmak, katlanmak; sâlikin, davranışlarını Hakk’ın iradesine bırakması."
+ },
+ {
+  "madde": "İhtiyârî",
+  "tanim": "Kendi isteğine bağlı."
+ },
+ {
+  "madde": "İhvân",
+  "tanim": "Kardeşler."
+ },
+ {
+  "madde": "İhyâ",
+  "tanim": "Diriltme, canlandırma, hayat verme; nefsin tecellî ile aydınlanması."
+ },
+ {
+  "madde": "İkâb",
+  "tanim": "Eza, cefâ, eziyet, azap."
+ },
+ {
+  "madde": "İkilik",
+  "tanim": "Tevhidin zıddı. Kesret hâli. Hak tecellîsinin farkına varamama hâli."
+ },
+ {
+  "madde": "İklîm",
+  "tanim": "Bölge, ülke, memleket."
+ },
+ {
+  "madde": "İklîm-i ma’nî",
+  "tanim": "Mânâ ülkesi."
+ },
+ {
+  "madde": "İkrâ bi’smi Rabbik",
+  "tanim": "Yaratan Rabbinin İsmi ile oku. (Alak/1)."
+ },
+ {
+  "madde": "İkrâr",
+  "tanim": "Kabul etmek."
+ },
+ {
+  "madde": "İksâr",
+  "tanim": "Çoğalma, çoğaltılma, artma; imkânı olduğu hâlde bir işi geçiştirip yapmama."
+ },
+ {
+  "madde": "İktibâs",
+  "tanim": "Alıntı."
+ },
+ {
+  "madde": "İktizâ",
+  "tanim": "Lâzım gelme, gerekme. İşe yarama, yararlılık."
+ },
+ {
+  "madde": "İlâhî",
+  "tanim": "Ey Allah’ım, ya Rabbi anlamında nidâ."
+ },
+ {
+  "madde": "İle’l-ebed",
+  "tanim": "Sonsuza kadar."
+ },
+ {
+  "madde": "İlenc",
+  "tanim": "Beddua."
+ },
+ {
+  "madde": "İletmek",
+  "tanim": "Götürmek, ulaşmak."
+ },
+ {
+  "madde": "İlhâd",
+  "tanim": "Gerçek inançtan dönme. Allah’ın varlığına, birliğine inanmama."
+ },
+ {
+  "madde": "İlhâm",
+  "tanim": "İnsan gönlüne Cenâb-ı Hak tarafından verilmiş olan fikir ve duygular."
+ },
+ {
+  "madde": "İlhâm-ı Rabbânî",
+  "tanim": "Gönüle doğan ilâhî bilgiler."
+ },
+ {
+  "madde": "İlkâ",
+  "tanim": "Koymak, bırakmak. Terk etmek. Öne atmak."
+ },
+ {
+  "madde": "İllâ",
+  "tanim": "Mutlaka, eğer, aksi hâlde, ne olursa. Özellikle."
+ },
+ {
+  "madde": "İllet",
+  "tanim": "Hastalık; sakatlık, sebep."
+ },
+ {
+  "madde": "İlme’l-yakîn",
+  "tanim": "İlmen biliş. Hakk’ın birliğini bilgi olarak bilmek, habere veya akla dayalı bilgi."
+ },
+ {
+  "madde": "İlm-i bâtın",
+  "tanim": "Gönül ilmi, tasavvuf."
+ },
+ {
+  "madde": "İlm-i esrâr",
+  "tanim": "Sırlar ilmi."
+ },
+ {
+  "madde": "İlm-i hâl",
+  "tanim": "Dinî kuralları öğreten ilim, dinî kuralların yazılı olduğu kitap."
+ },
+ {
+  "madde": "İlm-i ledün",
+  "tanim": "Gönüle doğrudan Allah tarafından verilen ilim."
+ },
+ {
+  "madde": "İlm-i ta’bir",
+  "tanim": "Rüyaları yorumlama ilmi."
+ },
+ {
+  "madde": "İlm-i zâhir",
+  "tanim": "Âlet ilimleri, pozitif ilimler."
+ },
+ {
+  "madde": "İmdi",
+  "tanim": "Şimdi, o hâlde."
+ },
+ {
+  "madde": "İmlâ",
+  "tanim": "Yazım ve gramer bilgisi."
+ },
+ {
+  "madde": "İn‘âm",
+  "tanim": "Nimet verme, iyilik etme."
+ },
+ {
+  "madde": "İnayet",
+  "tanim": "Yardım, lütuf, meded."
+ },
+ {
+  "madde": "İndallah",
+  "tanim": "Allah katında."
+ },
+ {
+  "madde": "İnfisâl",
+  "tanim": "Ayrılma."
+ },
+ {
+  "madde": "İnildi",
+  "tanim": "İnilti, inleme, çektiği ıztıraptan ötürü derinden derinden sesler çıkarma."
+ },
+ {
+  "madde": "İnnâ fetahnâ leke fethan mubînâ",
+  "tanim": "Doğrusu Biz sana apaçık bir zafer sağlamışızdır. (Fetih/1)."
+ },
+ {
+  "madde": "İns",
+  "tanim": "İnsan."
+ },
+ {
+  "madde": "İntâk",
+  "tanim": "Konuşturma."
+ },
+ {
+  "madde": "intihâ",
+  "tanim": "Son, nihayet."
+ },
+ {
+  "madde": "İntikâl",
+  "tanim": "Varma, ulaşma."
+ },
+ {
+  "madde": "İntizâr",
+  "tanim": "Bekleme, nazar etme. Bakma."
+ },
+ {
+  "madde": "İrâdet",
+  "tanim": "Dileme, isteme."
+ },
+ {
+  "madde": "İrenk",
+  "tanim": "Renk"
+ },
+ {
+  "madde": "İrfân",
+  "tanim": "Allah bilgisi."
+ },
+ {
+  "madde": "irgürmek",
+  "tanim": "Eriştirmek, ulaşmak, ulaştırmak."
+ },
+ {
+  "madde": "İricek",
+  "tanim": "Erince, ulaşınca."
+ },
+ {
+  "madde": "İrsâl",
+  "tanim": "Gönderme, yollama, elçi gönderme."
+ },
+ {
+  "madde": "İrşâd",
+  "tanim": "Doğru yolu gösterme, uyarma."
+ },
+ {
+  "madde": "İrte",
+  "tanim": "Sabah, yarınki sabah, bir gün, bir gece sonra. İsâ (as.): Hz. Peygamberden önce gelen şeriat sahibi bir peygamberdir. Kur’ân’da babasız doğduğu yazılıdır. Rûhu’l-kudüs (Cibril)’ün Hz. Meryem’e üflemiş olduğu ruh ile hamile kalan Meryem’den doğan İsâ, bu yönüyle Âdem Peygambere benzer. (Kur’ân, 3/59). Hastaları eliyle dokunarak iyileştirdiğinden Mesih sıfatıyla anılır. İsâ’nın, nefesiyle ölüleri diriltme özelliğe de vardır. Kur’ân’da İsâ’nın ölmediği beyân olunur. İsâ, göğe yükselirken üzerinde bulunan “dünyalık” bir iğne yüzünden dördüncü kat semada kalmıştır. Tasavvufî bir kavram olarak İsâ, cem‘ makâmı sâlikleri için remizdir."
+ },
+ {
+  "madde": "İsâr",
+  "tanim": "Dökme, saçma, serpme, ikram etme."
+ },
+ {
+  "madde": "İsbât",
+  "tanim": "Şahit ve delil göstererek bir hükmün doğruluğunu kabul ettirme; delil."
+ },
+ {
+  "madde": "İsm-i a’zâm",
+  "tanim": "Allah’ın en büyük ismi. Bu ismin ne olduğu bilenlerce söylenmemiştir."
+ },
+ {
+  "madde": "İsm-i zât",
+  "tanim": "Zat ismi, Allah."
+ },
+ {
+  "madde": "İsnâd",
+  "tanim": "Bir söz veya haberi birine nispet etmek. Birine dayandırmak. İftira etmek."
+ },
+ {
+  "madde": "İsrâfîl",
+  "tanim": "Büyük meleklerden birisidir. Üfleyeceği bir sûr ile kıyâmetin kopacağı söylenir."
+ },
+ {
+  "madde": "İstiğfâr",
+  "tanim": "Tevbe etme, mağfiret dileme."
+ },
+ {
+  "madde": "İstiğnâ",
+  "tanim": "Aza kanaat etme, tok gözlülük; nazlanma, ağır davranma, çekinme."
+ },
+ {
+  "madde": "İstiğrâk",
+  "tanim": "Gark olmak, batmak. İlâhî sevginin istilâsı ile maddî âlem hakkında his, idrâk ve şuura sahip olmamak."
+ },
+ {
+  "madde": "İstikbâl",
+  "tanim": "Beklemek, karşılamak."
+ },
+ {
+  "madde": "İsyân",
+  "tanim": "İtaatsizlik; emre karşı gelme, ayaklanma."
+ },
+ {
+  "madde": "İşrâk",
+  "tanim": "Doğma, doğarak etrafı aydınlatma, ışıklandırma."
+ },
+ {
+  "madde": "İşret",
+  "tanim": "İçkili zevk, sefâ meclisi. Tasavvufta mecazen dervîşlerin sohbet veya zikir meclisi."
+ },
+ {
+  "madde": "İtikâd",
+  "tanim": "Bir şeye bağlanma, inanma."
+ },
+ {
+  "madde": "İttibâ’",
+  "tanim": "Tâbi olma."
+ },
+ {
+  "madde": "İttihâd",
+  "tanim": "Birleşme, bir olma. Aynı fikirde olma."
+ },
+ {
+  "madde": "Îzâ",
+  "tanim": "İyiliğe karşı iyilik etme. Kedere, sıkıntıya uğratma."
+ },
+ {
+  "madde": "İzhâr",
+  "tanim": "Açığa vurma, meydana çıkarma, gösterme, âşikâr etme."
+ },
+ {
+  "madde": "İzzet",
+  "tanim": "Değer, kıymet, yücelik, üstünlük, ululuk, şeref."
+ },
+ {
+  "madde": "İzzetli",
+  "tanim": "Şerefli, ulu hürmete layık."
+ },
+ {
+  "madde": "Kabâ",
+  "tanim": "Yünden yapılmış dervîş hırkası."
+ },
+ {
+  "madde": "Kâbe Kavseyn",
+  "tanim": ": İki yay miktarı, hattâ ondan daha az. (Necm/9)."
+ },
+ {
+  "madde": "Kâbil",
+  "tanim": "Kabul eden."
+ },
+ {
+  "madde": "Kâbil",
+  "tanim": "Kabul eden; olan, olabilen; istidatlı, kabiliyetli."
+ },
+ {
+  "madde": "Kaçan",
+  "tanim": "Ne vakit, ne zaman."
+ },
+ {
+  "madde": "Kadd",
+  "tanim": "Boy-pos."
+ },
+ {
+  "madde": "Kadeh sunmak",
+  "tanim": "İçki vermek; mecazen ilahî aşk ve hikmet bilgisi vermek."
+ },
+ {
+  "madde": "Kadem",
+  "tanim": "Ayak, adım, bir uzunluk ölçüsü, uğur. Hayır ve bereket."
+ },
+ {
+  "madde": "Kademi kutlu",
+  "tanim": "Hayırlı, bereketli."
+ },
+ {
+  "madde": "Kaderlenmek",
+  "tanim": "Yazılmak."
+ },
+ {
+  "madde": "Kadîm",
+  "tanim": "Zaman itibariyle eski olan, öncesi olmayan. Allah’ın bir sıfatı."
+ },
+ {
+  "madde": "Kadîr gecesi",
+  "tanim": "Ramazan’ın ve senenin en kudsî gecesi kabul edilen Kur’ân âyetlerinin ilk defa vahy edilmeye başlandığı gece."
+ },
+ {
+  "madde": "Kadîr",
+  "tanim": "Kudret sahibi, kudretli, çok güçlü Allah’ın bir sıfatı."
+ },
+ {
+  "madde": "Kâdir",
+  "tanim": "Kudret sahibi."
+ },
+ {
+  "madde": "Kadr",
+  "tanim": "Değer, kıymet."
+ },
+ {
+  "madde": "Kaf Dağı",
+  "tanim": "Dünyayı çepeçevre kuşattığı söylenen efsanevî bir dağ. Simurg adlı efsanevî kuş burada yaşar. Tasavvufî metinlerde insan bedeni veya gönlü için kullanılır. Uzak bir mekân için de sembol olabilmektedir. Kâf İçinde Ejdehâlar Yudan Ol Evrana Bak"
+ },
+ {
+  "madde": "Kâf ile Nûn",
+  "tanim": "Kün feyekün: Birşeyin olmasını irade ederse Allah, “ol” der, o şey oluverir (Bakara/117)."
+ },
+ {
+  "madde": "Kahhâr",
+  "tanim": "Yok eden Allah."
+ },
+ {
+  "madde": "Kahr",
+  "tanim": "Yok etme, mahvetme, üzüntü duyma."
+ },
+ {
+  "madde": "Kâim",
+  "tanim": "Ayakta duran, ayakta bulunan. Bir işte sebat eden. Namaz kılan."
+ },
+ {
+  "madde": "Kakımak",
+  "tanim": "Azarlamak, kakışmak, ters ters cevaplar vermek, aksi davranmak."
+ },
+ {
+  "madde": "Kâl ü kıyl/ Kıyl u kâl",
+  "tanim": "Dedikodu."
+ },
+ {
+  "madde": "Kâl",
+  "tanim": "Kalay."
+ },
+ {
+  "madde": "Kalb",
+  "tanim": "Yürek; iman cevherinin ocağı. Kalbin bir mertebesi."
+ },
+ {
+  "madde": "Kalb-i selîm",
+  "tanim": "Saf gönüllü."
+ },
+ {
+  "madde": "Kalb-i uşşâk",
+  "tanim": "Âşıkların kalbi."
+ },
+ {
+  "madde": "Kalem",
+  "tanim": "Halka ait zuhûr yerlerinde Hakk’ın taayyünlerine bir evveldir. Levh-i mahfûz, Muhammedî nûr. İlk zuhûr."
+ },
+ {
+  "madde": "Kallâb",
+  "tanim": "Kalıptan kalıba giren, düzenbaz, hîlekâr. Kalpazan, kalp para basan."
+ },
+ {
+  "madde": "Kâlû belâ",
+  "tanim": "Evet dediler. Ruhlar yaratıldığı zaman Âdem oğullarına “Ben rabbiniz değil miyim” İlahî nidası geldikten sonra mü’minlerin verdiği cevap. Bk. Kur’ân, (A’râf/172)."
+ },
+ {
+  "madde": "Kâm",
+  "tanim": "Zevk."
+ },
+ {
+  "madde": "Kamer",
+  "tanim": "Ay."
+ },
+ {
+  "madde": "Kâmet",
+  "tanim": "Boy, endâm."
+ },
+ {
+  "madde": "Kâmil",
+  "tanim": "Olgun insan."
+ },
+ {
+  "madde": "Kamu",
+  "tanim": "Hep, herkes, bütün."
+ },
+ {
+  "madde": "Kân",
+  "tanim": "Maden ocağı, bir şeyin çıktığı kaynak, cevher."
+ },
+ {
+  "madde": "Kanâat",
+  "tanim": "Aza rıza göstermek, hırs göstermemek. Allah’ın verdiği ile yetinmek."
+ },
+ {
+  "madde": "Kand",
+  "tanim": "Şeker."
+ },
+ {
+  "madde": "Kanda",
+  "tanim": "Nerede."
+ },
+ {
+  "madde": "Kandalu",
+  "tanim": "Nereli."
+ },
+ {
+  "madde": "Kandîl",
+  "tanim": "Tasavvufta, ilk yaratılan cevher, Nûr-ı Muhammedî."
+ },
+ {
+  "madde": "Kangı",
+  "tanim": "Hangi."
+ },
+ {
+  "madde": "Kanı",
+  "tanim": "Hani, nerede."
+ },
+ {
+  "madde": "Kanmak",
+  "tanim": "Aldanmak,"
+ },
+ {
+  "madde": "Kanmak",
+  "tanim": "Doymak."
+ },
+ {
+  "madde": "Kâr",
+  "tanim": "Kazanç, iş."
+ },
+ {
+  "madde": "Karanu",
+  "tanim": "Karanlık."
+ },
+ {
+  "madde": "Kârbân",
+  "tanim": "Kervan, tarikat."
+ },
+ {
+  "madde": "Karîb",
+  "tanim": "Yakın."
+ },
+ {
+  "madde": "Karîn",
+  "tanim": "Yakın."
+ },
+ {
+  "madde": "Kârvan",
+  "tanim": "Kervân."
+ },
+ {
+  "madde": "Kasâvet",
+  "tanim": "Gam, keder, tasa."
+ },
+ {
+  "madde": "Kasd",
+  "tanim": "Bir işi bilerek ve bir gaye ile yapmak. Niyet, tasavvur, istikamet."
+ },
+ {
+  "madde": "Kasem etmek",
+  "tanim": "Yemin etmek."
+ },
+ {
+  "madde": "Kasîr",
+  "tanim": "Kısa."
+ },
+ {
+  "madde": "Kâşif",
+  "tanim": "Açan, keşfen, anlayan ârif kişi."
+ },
+ {
+  "madde": "Kat’ olmak",
+  "tanim": "Kesmek, kesilmek."
+ },
+ {
+  "madde": "Katar",
+  "tanim": "Biribiri ardına sıralanmış, dizilmiş."
+ },
+ {
+  "madde": "Katı",
+  "tanim": "Yok, gayet, pek iyice, fazla, sert, ağır, kesin."
+ },
+ {
+  "madde": "Katre",
+  "tanim": "Damla, su damlası, bir damla."
+ },
+ {
+  "madde": "Katre-i bârân",
+  "tanim": "Yağmur damlası."
+ },
+ {
+  "madde": "Kavî",
+  "tanim": "Kuvvetli, sağlam, berk, pek."
+ },
+ {
+  "madde": "Kavl",
+  "tanim": "Söz."
+ },
+ {
+  "madde": "Kayd-ı uhrâ",
+  "tanim": "Ahret düşüncesi."
+ },
+ {
+  "madde": "Kaygu",
+  "tanim": "Korku, endişe, tasa, üzüntü, şüphe."
+ },
+ {
+  "madde": "Kayırmak",
+  "tanim": "1. Mukayyet olmak, ilgilenmek, önem vermek. 2. Kaygılanmak, tasalanmak, endişe etmek. 3. Sakınmak, çekinmek.4. Hazırlamak."
+ },
+ {
+  "madde": "Kâyim",
+  "tanim": "Ayakta, devamlı, sabit sağlam."
+ },
+ {
+  "madde": "Kayyûm",
+  "tanim": "Ezelden ebede kadar duran, dâimî olan. Bâkî ve kâim olan Allah."
+ },
+ {
+  "madde": "Kâzî",
+  "tanim": "Kadı."
+ },
+ {
+  "madde": "Keder",
+  "tanim": "Üzüntü, gam, tasa."
+ },
+ {
+  "madde": "Kedret",
+  "tanim": "Bulanık, kir, tozlu."
+ },
+ {
+  "madde": "Kefîl",
+  "tanim": "Birinin sorumluluğunu üzerine alan kimse."
+ },
+ {
+  "madde": "Kelâmullâh",
+  "tanim": "Allah’ın kelâmı, Kur’ân, zât-ı uluhiyyet sırrı."
+ },
+ {
+  "madde": "Kelb",
+  "tanim": "Köpek, rakip, metinde zâhid."
+ },
+ {
+  "madde": "Keleci",
+  "tanim": "Söz, manâlı söz."
+ },
+ {
+  "madde": "Kelîm",
+  "tanim": "Kendine söz söylenilen, kendine hitap olunan. Söz söyleyen. Konuşan. Hz. Mûsâ’nın sıfatı."
+ },
+ {
+  "madde": "Kelpeden",
+  "tanim": "Kerpeden. Diş çekilirken kullanılan alet."
+ },
+ {
+  "madde": "Kemâl",
+  "tanim": "Olgunluk, tamlık."
+ },
+ {
+  "madde": "Kemter",
+  "tanim": "Değersiz, değeri az, daha aşağı."
+ },
+ {
+  "madde": "Kendözü",
+  "tanim": "Kendisi, kendi özü, benliği."
+ },
+ {
+  "madde": "Kenz",
+  "tanim": "Hazine."
+ },
+ {
+  "madde": "Kenz-i mahfî",
+  "tanim": "Gizli hazîne."
+ },
+ {
+  "madde": "Kenzu’llah",
+  "tanim": "Allah’ın zat sırrı."
+ },
+ {
+  "madde": "Kerâmet",
+  "tanim": "Bağış, kerem, ikrâm, ağırlama. Velîlerde görülen ma’rifet halleri. Velâyet ehlince isteyerek keramet göstermek makbul değildir."
+ },
+ {
+  "madde": "Kerbân",
+  "tanim": "Kervan."
+ },
+ {
+  "madde": "Kerem",
+  "tanim": "Cömertlik."
+ },
+ {
+  "madde": "Kerîm",
+  "tanim": "Kerem sahibi, cömert, ulu büyük Allah."
+ },
+ {
+  "madde": "Kerremnâ (Ve lekad kerremnâ benî âdeme)",
+  "tanim": "Ve andolsun ki; Âdemoğlunu kerem sahibi (şerefli) kıldık. (İsrâ/70)."
+ },
+ {
+  "madde": "Kesb",
+  "tanim": "Kazanma, kazanç, çalışıp bir şey elde etme."
+ },
+ {
+  "madde": "Kesbî",
+  "tanim": "Sonradan kazanılmış olan."
+ },
+ {
+  "madde": "Kesret",
+  "tanim": "Çokluk, eşya âlemi."
+ },
+ {
+  "madde": "Keşf eylemek",
+  "tanim": "Açmak, anlamak."
+ },
+ {
+  "madde": "Keşf olmak",
+  "tanim": "Açılmak."
+ },
+ {
+  "madde": "Keşf",
+  "tanim": "Açma, açılma."
+ },
+ {
+  "madde": "Keşf-i esrâr/Keşf-i râz",
+  "tanim": "Sırları açmak."
+ },
+ {
+  "madde": "Ketm eylemek",
+  "tanim": "Saklamak. Gizlemek. Sır tutmak. Söylememek."
+ },
+ {
+  "madde": "Kevn ü mekân",
+  "tanim": "Görünen bu varlık âlemi."
+ },
+ {
+  "madde": "Kevn",
+  "tanim": "Var olma, varlık, kâinat."
+ },
+ {
+  "madde": "Kevser",
+  "tanim": "Cennette bir ırmak. Maddî ve manevî çokluk, bolluk, bereket. Metinde Eşya ve varlığa dair sırlar. İlâhî bilgiler, mürşid-i kâmilin sözleri."
+ },
+ {
+  "madde": "Keyvân",
+  "tanim": "Zuhal (Satürn) gezegeni"
+ },
+ {
+  "madde": "Kez",
+  "tanim": "Defa, kere."
+ },
+ {
+  "madde": "Kılavuz",
+  "tanim": "Yol gösteren."
+ },
+ {
+  "madde": "Kılınç",
+  "tanim": "Mecazen ilahî tasarruf yetkisi."
+ },
+ {
+  "madde": "Kınap",
+  "tanim": "Kınayıp."
+ },
+ {
+  "madde": "Kırk Dört Makam",
+  "tanim": "Şeriat, tarikat, marifet ve hakikat makamlarıyla bu dört makamın her birine ait onar makam."
+ },
+ {
+  "madde": "Kırklar",
+  "tanim": "Gayb erenlerden kırk kişi."
+ },
+ {
+  "madde": "Kıtâl",
+  "tanim": "Savaş, birbirini öldürme."
+ },
+ {
+  "madde": "Kıyl ü kâl",
+  "tanim": "Dedikodu, kuru laf."
+ },
+ {
+  "madde": "Kibr",
+  "tanim": "Gurur, gösteriş, benliğini aksettirme."
+ },
+ {
+  "madde": "Kibriyâ",
+  "tanim": "Azamet, Cenâb-ı Hakk’ın büyüklüğü."
+ },
+ {
+  "madde": "Kîl u kâl",
+  "tanim": "Dedi kodu."
+ },
+ {
+  "madde": "Kimyâ",
+  "tanim": "Maddenin terkibini değiştirme bilgisi."
+ },
+ {
+  "madde": "Kinâyet",
+  "tanim": "Maksadı kapalı bir şekilde ve dolaylı olarak anlatan söz, üstü örtülü."
+ },
+ {
+  "madde": "Kirâmen kâtibîn",
+  "tanim": "İnsanların iki tarafından bulunup yaptığı fiilleri yazan melekler. Kur’ân, 82/10-12’de zikredilir. “Şüphe yok ki size koruyucular memur edilmiştir. Elbette büyüktür onlar. Yazarlar, bilirler, ne yaparsanız."
+ },
+ {
+  "madde": "Kisvet",
+  "tanim": "Elbise, giyecek. Başlık."
+ },
+ {
+  "madde": "Kizb",
+  "tanim": "Yalan"
+ },
+ {
+  "madde": "Kocalık",
+  "tanim": "İhtiyarlık."
+ },
+ {
+  "madde": "Konmak",
+  "tanim": "Haşır olmak. Meydana çıkmak, kalkmak, ayakta durmak, bitmek."
+ },
+ {
+  "madde": "Konucu",
+  "tanim": "Misafir."
+ },
+ {
+  "madde": "Kopmak",
+  "tanim": "Ayağa kalkmak, görünmek, ayağa kalkmak."
+ },
+ {
+  "madde": "Korumak",
+  "tanim": "Korumak, esirgemek, muhafaza etmek."
+ },
+ {
+  "madde": "Kökünü kesmek",
+  "tanim": "Yok etmek."
+ },
+ {
+  "madde": "Kuddûs",
+  "tanim": "Temiz, pâk. Allah’ın isimlerinden."
+ },
+ {
+  "madde": "Kudsî",
+  "tanim": "Yüce, kutsal."
+ },
+ {
+  "madde": "Kudsiyyet",
+  "tanim": "Yücelik."
+ },
+ {
+  "madde": "Kudûm",
+  "tanim": "Gelme, geliş; uzak bir yerden gelme."
+ },
+ {
+  "madde": "Kûh",
+  "tanim": "Dağ."
+ },
+ {
+  "madde": "Kûh-ı Kâf",
+  "tanim": "Kaf dağı."
+ },
+ {
+  "madde": "Kul hu vallahu ahad",
+  "tanim": "De ki O Allah birdir. (İhlâs / 1)."
+ },
+ {
+  "madde": "Kul Indehû Ümmü’l-Kitâb",
+  "tanim": "De ki: Ana kitap onun yanındadır. (Ra’d/39)."
+ },
+ {
+  "madde": "Kulak tutmak",
+  "tanim": "Dinlemek."
+ },
+ {
+  "madde": "Kulak urmak",
+  "tanim": "Dinlemek."
+ },
+ {
+  "madde": "Kulp takmak",
+  "tanim": "Birisinin arkasından dedi-kodu yapmak, yalan yanlış şeyler söylemek."
+ },
+ {
+  "madde": "Kulûb",
+  "tanim": "Kalpler."
+ },
+ {
+  "madde": "Kurb",
+  "tanim": "Yakın, Yakınlık, yakın bulunma."
+ },
+ {
+  "madde": "Kurbet",
+  "tanim": "Yakınlık."
+ },
+ {
+  "madde": "Kuru davâ",
+  "tanim": "Aslı esası bilinmeyen bilgileri iddialı bir şekil savunma. Zâhidlerin bilgileri."
+ },
+ {
+  "madde": "Kuru sevdâ",
+  "tanim": "Cenâb-ı Hak dışındaki şeylere duyulan arzu ve hevesler."
+ },
+ {
+  "madde": "Kuru",
+  "tanim": "Boş, anlamsız."
+ },
+ {
+  "madde": "Kuş dili",
+  "tanim": "Âşık dili. Kur’ân’da “Mantıku’t-Tayr” terkibiyle Süleymân Peygamber bahsinde geçer. Neml/16’cı ayette “Ey insanlar size kuş dili öğretildi... “ denilir. Kuş dili mutasavvıflara göre ilm-i ledün, gaybî bilgi, ma’rifet anlamında kullanılır."
+ },
+ {
+  "madde": "Kuşanmak",
+  "tanim": "Kemer bağlamak, silahlanmak, yeltenmek."
+ },
+ {
+  "madde": "Kutb-ı velâyet",
+  "tanim": "Velîlerin kutbu."
+ },
+ {
+  "madde": "Kutb-ı irşâd",
+  "tanim": "İrşâd kutbu. Mürşid-i hakikî."
+ },
+ {
+  "madde": "Kutbü’l-aktâb",
+  "tanim": "kutupların kutbu, Üçlerin reisi."
+ },
+ {
+  "madde": "Kuvâ",
+  "tanim": "Kuvvetler, güçler, meleke, yeti."
+ },
+ {
+  "madde": "Kûy",
+  "tanim": "Huzur, nezd, köy."
+ },
+ {
+  "madde": "Kûy-ı dilârâ",
+  "tanim": "Sevgilinin huzuru."
+ },
+ {
+  "madde": "Küdûret",
+  "tanim": "Kesîf olmak, bulanıklık."
+ },
+ {
+  "madde": "Külhân",
+  "tanim": "Ocak, hamam ocağı."
+ },
+ {
+  "madde": "Küllen",
+  "tanim": "Tamamen, hep birlikte."
+ },
+ {
+  "madde": "Küllî",
+  "tanim": "Bütün, tam, umûmî, hepsi, tamâmı."
+ },
+ {
+  "madde": "Külliyât",
+  "tanim": "Eşyanın tamamı."
+ },
+ {
+  "madde": "Küllü la‘bin harâm",
+  "tanim": "Her oyun haramdır."
+ },
+ {
+  "madde": "Kümmel",
+  "tanim": "Kâmiller. Olgunlar. İlmen, dinen ve mânen kâmil olan büyük zatlar. Büyük mâneviyat ve fazilet sahibi insanlar."
+ },
+ {
+  "madde": "Kün demi",
+  "tanim": "Allah’ın “ol” emrini verip âlemleri yarattığı an. (Yasin/82)."
+ },
+ {
+  "madde": "Kün",
+  "tanim": "Allah’ın olmasını istediği şey ve iş için iradesini ifade eden Arapça’da “ol” emri. Tasavvufta bu kelimenin akl-ı küll ve nefs-i külle işaret ettiği söylenir. (Yasin/82)."
+ },
+ {
+  "madde": "Künh",
+  "tanim": "Asıl, kök, temel, öz."
+ },
+ {
+  "madde": "Künh-i zât",
+  "tanim": "Zât-ı uluhiyyet, Hakk’ın zâtı."
+ },
+ {
+  "madde": "Küntü Kenz",
+  "tanim": "Gizli bir hazine idim, bilinmeyi diledim, sevdim, âlemleri yarattım."
+ },
+ {
+  "madde": "Kuntu turâbâ",
+  "tanim": "Keşke toprak olsaydım. (Nebe/40)."
+ },
+ {
+  "madde": "Kürs",
+  "tanim": "Arş’ın altında ilâhî saltanat kudret ve mülkün merkezi."
+ },
+ {
+  "madde": "Kütüb",
+  "tanim": "Kitaplar."
+ },
+ {
+  "madde": "La‘l-i Bedahşân",
+  "tanim": "Kırmızı ve değerli bir maden."
+ },
+ {
+  "madde": "La‘net tâcı giymek",
+  "tanim": "Mecazen Mürid-i mürted, sapkın."
+ },
+ {
+  "madde": "Lâ-cerem",
+  "tanim": "Şüphesiz, elbette."
+ },
+ {
+  "madde": "Lahm",
+  "tanim": "Et."
+ },
+ {
+  "madde": "Lâhût",
+  "tanim": "Cenâb-ı Hakk’ın zâtî âlemi."
+ },
+ {
+  "madde": "Lakır lukur eylemek",
+  "tanim": "Dedi kodu yapmak maleyani konuşmak."
+ },
+ {
+  "madde": "Lâm elif lâ raybe fîh",
+  "tanim": "Onda şüphe yoktur. Bakara/2."
+ },
+ {
+  "madde": "Lâ-mekân",
+  "tanim": "Mekânsız, mekân ihtiyacı olmayan. Uluhiyetin taayyünden evvelki hâli. Zâtî gayb."
+ },
+ {
+  "madde": "Lâ-raybe",
+  "tanim": "Onda hiç şüphe yoktur. (Bakara/2)."
+ },
+ {
+  "madde": "Lâ-şerîk",
+  "tanim": "Ortağı olmayan. Allah."
+ },
+ {
+  "madde": "Lâ-ta’ayyün",
+  "tanim": "Gayb âlemi, zât-ı uluhiyyet. Zuhursuzluk âlemi. Henüz yaratmanın meydana gelmediği zaman. Oluşun merkezi veya kaynağı."
+ },
+ {
+  "madde": "Latîf",
+  "tanim": "Cisimsiz, mütenâsip, güzel, mülâyim, yumuşak. Allah’ın isimlerinden."
+ },
+ {
+  "madde": "Lâ-ya’kıl",
+  "tanim": "Aklı başında olmayan, dalgın, sarhoş."
+ },
+ {
+  "madde": "Lâ-Yezâl",
+  "tanim": "Zeval bulmaz. Yok olmaz."
+ },
+ {
+  "madde": "Leb",
+  "tanim": "Dudak."
+ },
+ {
+  "madde": "Ledün",
+  "tanim": "Ehlullah’ın ve velilerin elde ettikleri vehbî ilim, mânâ ilmi. İlm-i ledün Allah’ın sırlarına ait bilgi, gayb ilmi."
+ },
+ {
+  "madde": "Ledünnî",
+  "tanim": "Ledün ilmine mensup. Tasavvufî, gönül ve içle alakalı."
+ },
+ {
+  "madde": "Lehû küfüven Ahad",
+  "tanim": "Onun hiçbir dengi yoktur. (İhlâs/4)."
+ },
+ {
+  "madde": "Lem-yezel",
+  "tanim": "Dâimî, zâil olmaz, bâki, zevalsiz Allah."
+ },
+ {
+  "madde": "Len terânî",
+  "tanim": "Beni hiç göremezsin. (A’raf / 143)."
+ },
+ {
+  "madde": "Levh ü kalem",
+  "tanim": "Levh, üstü düz şey, levha demektir. Burûc suresinin 21-22. ayetlerinde “Ey Muhammed! doğrusu sana vahy edilen bu kitâp, levh-i mahfuz (korunmuş levha)’da sabit, şanlı bir Kur’ân’dır.” denilir. Kalem: Bu levhaya olacakları yazacak olan ilahî iradedir ki, Kalem suresinin ilk âyetinde geçer. Mutasavvıflara göre levh Allah’ın bilgisi, kalem de onu görünür hâle getiren Allah’ın iradesidir. Kalem çalmak, İlâhî irâdenin tahakkuku."
+ },
+ {
+  "madde": "Levlâk",
+  "tanim": "“Habibim! Sen olmasaydın, ben eflâki yaratmazdım” meâlindeki bir hadis-i kudsiye işaretdir."
+ },
+ {
+  "madde": "Levvâme",
+  "tanim": "Kendisini kınayan nefis."
+ },
+ {
+  "madde": "Leyke",
+  "tanim": "Lakin, amma, fakat, sadece."
+ },
+ {
+  "madde": "Leyl-i mi’râc",
+  "tanim": "Mirâc gecesi."
+ },
+ {
+  "madde": "Leylâ",
+  "tanim": "Leylâ ve Mecnun hikâyesinin kadın kahramanı."
+ },
+ {
+  "madde": "Libâs",
+  "tanim": "Elbise."
+ },
+ {
+  "madde": "Likâ",
+  "tanim": "Görme, yüz."
+ },
+ {
+  "madde": "Likâullah",
+  "tanim": "Allah’ın yüzü, Allah’ı görme."
+ },
+ {
+  "madde": "Livâü’l-hamd",
+  "tanim": "Mahşer günü Hz. Peygamberin ümmetinin toplanacağı bayrak."
+ },
+ {
+  "madde": "Lokmân",
+  "tanim": "Kur’ân-ı Kerim’de kendi adı ile geçen sûrede anılmaktadır. Ünlü bir hekîmdir. Bazıları onun bir ermiş, hattâ bir peygamber olduğunu söylerler. Hakkında Hazret-i Eyyub’un kız kardeşinin veya teyzesinin oğlu yahut Habeşî köle olduğu gibi rivayetler vardır."
+ },
+ {
+  "madde": "Lokmân Dili",
+  "tanim": "Manâ hastalığını tedavi eden aşk dili."
+ },
+ {
+  "madde": "Lu’be",
+  "tanim": "Oyun, alaya almak."
+ },
+ {
+  "madde": "Lüb",
+  "tanim": "Öz."
+ },
+ {
+  "madde": "Lüb-âşinâ",
+  "tanim": "Özden haberdar olan."
+ },
+ {
+  "madde": "Ma‘rifet gülleri",
+  "tanim": "Allah’ın zâtına ait bilgiler. İrfân."
+ },
+ {
+  "madde": "Ma’rifet",
+  "tanim": "Sûfilerin gönül tecrübeleriyle elde ettikleri Hakk’ın isim, fiil, sıfat ve zâtına ait bilgi."
+ },
+ {
+  "madde": "Maânî",
+  "tanim": "Manâlar."
+ },
+ {
+  "madde": "Ma’ârif",
+  "tanim": "Zikir ve tefekkürle geliştirilen ve kalbe doğuş şeklinde gelerek elde edilen bilgiler bütünü."
+ },
+ {
+  "madde": "Maârif-i ilâhiyye",
+  "tanim": "İlâhî bilgiler."
+ },
+ {
+  "madde": "Ma’bûd",
+  "tanim": "İbadet edilen, Allah."
+ },
+ {
+  "madde": "Ma’den",
+  "tanim": "Kaynak. Cevherin, özün, hakikatin bulunduğu kaynak. Hakîkatin bulunduğu mahal. İnsânî benlik."
+ },
+ {
+  "madde": "Ma’dûm",
+  "tanim": "Yok olan, yok olmuş, mevcut olmayan."
+ },
+ {
+  "madde": "Mağfûr",
+  "tanim": "Mağfirete ulaşmış, bağışlanmış. Allah tarafından günahlarının bağışlanması için kendisine duâ edilen."
+ },
+ {
+  "madde": "Mağrıb",
+  "tanim": "Batı."
+ },
+ {
+  "madde": "Mâh",
+  "tanim": "Ay."
+ },
+ {
+  "madde": "Mahabbet",
+  "tanim": "Sevgi."
+ },
+ {
+  "madde": "Mâhazar",
+  "tanim": "Hazır olan, hazır bulunan."
+ },
+ {
+  "madde": "Mahbûb",
+  "tanim": "Sevgili, sevilen kişi."
+ },
+ {
+  "madde": "Mahcûb",
+  "tanim": "Perdeli, utangaç."
+ },
+ {
+  "madde": "Mahfî",
+  "tanim": "Gizli"
+ },
+ {
+  "madde": "Mahfîl",
+  "tanim": "Toplantı yeri, oturulan görüşülen yer."
+ },
+ {
+  "madde": "Mahrem",
+  "tanim": "Gizli."
+ },
+ {
+  "madde": "Mahsûs",
+  "tanim": "His ile, duyularla idrâk edilen, anlaşılan şey."
+ },
+ {
+  "madde": "Mahşer",
+  "tanim": "Kıyamette ölülerin dirilip toplanacakları yer."
+ },
+ {
+  "madde": "1",
+  "tanim": "Kulun fiillerinin Hakk’ın fiillerinde fânî olması."
+ },
+ {
+  "madde": "Mahv-ı sırf",
+  "tanim": "Mutlak yokluk, fenâ-ender-fenâ."
+ },
+ {
+  "madde": "Mahvu’llah",
+  "tanim": "Allah’ta yok olmak, fenâ fi’llah."
+ },
+ {
+  "madde": "Maiyyet",
+  "tanim": "Beraberlik, arkadaşlık; birinin emri altındakiler."
+ },
+ {
+  "madde": "Makâl",
+  "tanim": "Söz, lâf; söz söyleme, söyleyiş."
+ },
+ {
+  "madde": "Makbere",
+  "tanim": "Mezar, mezarlık."
+ },
+ {
+  "madde": "Maksûd",
+  "tanim": "İstenen, dilenen şey. Kasd edilen."
+ },
+ {
+  "madde": "Maksûd",
+  "tanim": "Maksat, gaye."
+ },
+ {
+  "madde": "Mâlik",
+  "tanim": "Sahip."
+ },
+ {
+  "madde": "Mâlikü’l-mülk",
+  "tanim": "Mülk sahibi olan Allah."
+ },
+ {
+  "madde": "Ma’mûr",
+  "tanim": "İmâr olmuş, düzenlenmiş."
+ },
+ {
+  "madde": "Ma’nâ güllerini kokmak",
+  "tanim": "Kalbî tecellîler yoluyla hakikatten haberler almak."
+ },
+ {
+  "madde": "Ma’nâ/ma’nî",
+  "tanim": "Mânâ, anlam. İç yüz, gerçek yön, içe ait, suretle ilgili olmayan."
+ },
+ {
+  "madde": "Mânend",
+  "tanim": "Benzer."
+ },
+ {
+  "madde": "Mâni‘",
+  "tanim": "Engel."
+ },
+ {
+  "madde": "Mansıb",
+  "tanim": "Makam, mevki."
+ },
+ {
+  "madde": "Mansûr zikri",
+  "tanim": "Ene’l-Hak."
+ },
+ {
+  "madde": "Mansûr-ı Bağdâdî (Hallâc)",
+  "tanim": "Adı Hüseyin, lakabı el Hallâc, el Beyzavî, 9-10. Yüzyıllarda yetişmiş büyük ve coşkun sûfi. Aşka mağlup olup Makam-ı fena-fillah’ta sırrı ifşa etmiş, “Enel-Hak” diyerek Vahdet-i vücud’un halka yayılmasına sebep olmuştur. Zamanın şeriat âlîmlerince “Şer’e” muhalif bulunan bu sözlerden sonra Hallâc’ın asılmasına karar verilmiştir. Sufîlerce gerçek bir aşk şehidi kabul edilen Hallâc’ın dîvânı ve Kitabü’t-Tavasîn isminde eserleri vardır."
+ },
+ {
+  "madde": "Maraz",
+  "tanim": "Hastalık."
+ },
+ {
+  "madde": "Marzıyye",
+  "tanim": "Razı olunmuş."
+ },
+ {
+  "madde": "Masa",
+  "tanim": "Emir ve yasakların, fark ve cem’in tecellî ettiği alan."
+ },
+ {
+  "madde": "Mâsivâ",
+  "tanim": "Hak’dan gayrı şeyler. Eşya. Bir şeyden başka olan şeylerin hepsi; Allah’tan başka bütün varlıklar; dünya ile ilgili olan şeyler."
+ },
+ {
+  "madde": "Ma’siyet",
+  "tanim": "İsyan, itaatsizlik."
+ },
+ {
+  "madde": "Maslahat",
+  "tanim": "İş, emir."
+ },
+ {
+  "madde": "Masnûât",
+  "tanim": "San’atkârâne yapılan şeyler, yapılanlar."
+ },
+ {
+  "madde": "Maşrık",
+  "tanim": "Doğu."
+ },
+ {
+  "madde": "Mât olmak",
+  "tanim": "Ölmek. Saf dışı olmak, yenilmek."
+ },
+ {
+  "madde": "Matlûb",
+  "tanim": "Talep edilen, arzulanan şey, varlık."
+ },
+ {
+  "madde": "Mâya",
+  "tanim": "İlahî nefes, Muhammedî nûr. Âdem-i manâ."
+ },
+ {
+  "madde": "Mayalı tevhîd",
+  "tanim": "Mürşid-i kâmile bey’at ile telkin neticesinde çekilen tevhîd."
+ },
+ {
+  "madde": "Mâye",
+  "tanim": "Rabbin ta’lim ettiği maye, kelime-i tevhid."
+ },
+ {
+  "madde": "Mâzâga’l-basar",
+  "tanim": "“(Muhammed’in) gözü şaşmadı” (Necm/17)."
+ },
+ {
+  "madde": "Mazhar",
+  "tanim": "Bir şeyin görüldüğü varlık veya yer."
+ },
+ {
+  "madde": "Me’vâ",
+  "tanim": "Sığınılacak yer. Cennet."
+ },
+ {
+  "madde": "Me’âb",
+  "tanim": "Dönülecek, sığınılacak yer."
+ },
+ {
+  "madde": "Me’âd",
+  "tanim": "Dönülen, dönüp gidilecek yer; âhiret."
+ },
+ {
+  "madde": "Mebde’",
+  "tanim": "Evvel, başlangıç, ilk unsur."
+ },
+ {
+  "madde": "Mecmau’l-bahreyn",
+  "tanim": "İki denizin birleştiği yer. İkiliklerin bittiği, tevhidin tahakkuk ettiği makam. İnsân-ı kâmil. Cem makâmı."
+ },
+ {
+  "madde": "Mecnûn",
+  "tanim": "Leylâ ve Mecnûn hikâyesinin erkek kahramanı. Âmir oğullarından Kays adlı bir Arap delikanlısının Leylâ adlı bir kıza âşık olduktan sonra aldığı sıfat. Tasavvuf edebiyatında cezbeye düşen dervîş için kullanılır. Fenafillahtaki kişiyi temsil eder."
+ },
+ {
+  "madde": "Mecnûn-sıfat",
+  "tanim": "Mecnûn gibi, Mecnûnluk makamındaki âşık."
+ },
+ {
+  "madde": "Mecrûh",
+  "tanim": "Yaralı."
+ },
+ {
+  "madde": "Meczûb-ı Hudâ",
+  "tanim": "Allah delisi, ilâhî cezbeye uğrayan âşık."
+ },
+ {
+  "madde": "Medfûn olmak",
+  "tanim": "Defn edilmek, gömülmek."
+ },
+ {
+  "madde": "Medh",
+  "tanim": "Övgü."
+ },
+ {
+  "madde": "Medhûş olmak",
+  "tanim": "Dehşete uğramak, şaşırmak, ürkmek, korkmak."
+ },
+ {
+  "madde": "Mefhar",
+  "tanim": "Övünme; övünmeye sebep olan."
+ },
+ {
+  "madde": "Meh-cebîn",
+  "tanim": "Ay alınlı, alnı ay gibi parlak."
+ },
+ {
+  "madde": "Mehr",
+  "tanim": "Erkeğin kadına vermesi gereken nikâh bedeli. Mecâzen Cemâlullah’a karşı âşıkın maşûka vermesi gereken cân bedeli."
+ },
+ {
+  "madde": "Mehrû hûbân",
+  "tanim": "Ay yüzlü güzeller, güzel gönüllü insanlar."
+ },
+ {
+  "madde": "Meh-rû",
+  "tanim": "Ay yüzlü güzel."
+ },
+ {
+  "madde": "Mekkâr",
+  "tanim": "Çok mekreden, hîleci, düzenbaz"
+ },
+ {
+  "madde": "Mekr",
+  "tanim": "Hile, düzen."
+ },
+ {
+  "madde": "Mekteb-i ilm-i ledün",
+  "tanim": "Tarikat-i aliyye."
+ },
+ {
+  "madde": "Mel‘un",
+  "tanim": "Lanetlenmiş, uzaklaştırılmış."
+ },
+ {
+  "madde": "Melâhide",
+  "tanim": "Allah’ı inkâr edenler."
+ },
+ {
+  "madde": "Melâl",
+  "tanim": "Üzüntü, hüzün, sıkıntı, gam."
+ },
+ {
+  "madde": "Melâmet",
+  "tanim": "Kınama, ayıplama, azarlama. Benlik terbiyesi için kendisini hor ve aşağı gören insanların meşrebidir. Bu kişiler, halk tarafından kınanır, hakîr davranılır. Melâmet içindekilere Melamî denir. Fakat bu tâbir bir tarikat ismi değil, bir meşrep ismidir. Melâmet hırkası giymek: Kınama hırkası giymek. Kendilerini halktan gizleyen gayb erenlerin dünyevî örtülerle, kalenderî tavırlarla velâyetlerini göstermeden yaşamaları."
+ },
+ {
+  "madde": "Melekût",
+  "tanim": "Ruhların ve meleklerin âlemi."
+ },
+ {
+  "madde": "Melûl",
+  "tanim": "Usanmış, bıkmış, bezmiş, mahzun ve acıklı, mahzun."
+ },
+ {
+  "madde": "Memât",
+  "tanim": "Ölüm."
+ },
+ {
+  "madde": "Memlû’",
+  "tanim": "Dolu, doldurulmuş."
+ },
+ {
+  "madde": "Men arafe nefsehû",
+  "tanim": "“Nefsini bilen Rabbini bilir.”"
+ },
+ {
+  "madde": "Menâhî",
+  "tanim": "Yapılması dinde yasaklanmış şeyler, haram."
+ },
+ {
+  "madde": "Menâl",
+  "tanim": "Nâil olunan, sahip olunan, elegeçirilen nesne."
+ },
+ {
+  "madde": "Menâzil",
+  "tanim": "Duraklar, menziller."
+ },
+ {
+  "madde": "Menba‘",
+  "tanim": "Kaynak."
+ },
+ {
+  "madde": "Mennân",
+  "tanim": "Esmaü’l-Hüsna’dan. İhsan sahibi, dilemeden veren."
+ },
+ {
+  "madde": "Menzil",
+  "tanim": "Varılan yer, durak."
+ },
+ {
+  "madde": "Merâtib",
+  "tanim": "Mertebeler."
+ },
+ {
+  "madde": "Mercân",
+  "tanim": "Denizde mercan balığının ürettiği kıymetli -genellikle kırmızı renkte- değerli madde."
+ },
+ {
+  "madde": "Merci’",
+  "tanim": "Rücû edilecek, dönülecek yer; Hakk."
+ },
+ {
+  "madde": "Merci’-i asl",
+  "tanim": "Hakk."
+ },
+ {
+  "madde": "Merd",
+  "tanim": "İnsan."
+ },
+ {
+  "madde": "Merdâne",
+  "tanim": "Yiğit, yiğitçesine, mertçe."
+ },
+ {
+  "madde": "Merd-i Hakk",
+  "tanim": "Hak adamı, nefsini Allah için fedâ eden kişi. Hak ehli, kâmil insân."
+ },
+ {
+  "madde": "Merdûd",
+  "tanim": "Reddolunmuş, kovulmuş, geri döndürülmüş."
+ },
+ {
+  "madde": "Mervân",
+  "tanim": "Mervan (623-685) Emevilerin dördüncü halifesi."
+ },
+ {
+  "madde": "Mesâlih",
+  "tanim": "İşler."
+ },
+ {
+  "madde": "Mesel",
+  "tanim": "Dokunaklı ve manâlı söz. Terbiye ve ahlâka faydalı, yararlı olan hikâye."
+ },
+ {
+  "madde": "Mest",
+  "tanim": "Sarhoş. Metinde mânâ sarhoşu, âşık."
+ },
+ {
+  "madde": "Mestân",
+  "tanim": "Serhoş, sekran. kendinden geçmiş; âşık."
+ },
+ {
+  "madde": "Mestâne",
+  "tanim": "Serhoşça."
+ },
+ {
+  "madde": "Mest-i câm",
+  "tanim": "Sarhoş. Metinde Allah âşıkı."
+ },
+ {
+  "madde": "Mestûr",
+  "tanim": "Örtülmüş."
+ },
+ {
+  "madde": "Meşâyıh",
+  "tanim": "Şeyhler, mürşidler."
+ },
+ {
+  "madde": "Meşhûd",
+  "tanim": "Şâhid olunan, görünen."
+ },
+ {
+  "madde": "Meşreb-i sâfî",
+  "tanim": "Akl-ı evvel (nûr-ı Muhammedî)’e ulaşıp nefsini bilen Allah dostu."
+ },
+ {
+  "madde": "Metâ’",
+  "tanim": "Fayda, menfaat, kıymetli şey."
+ },
+ {
+  "madde": "Mevâlîd",
+  "tanim": "Doğanlar. Kavram olarak, madenler bitkiler ve hayvanlardan mürekkep üç grup varlık."
+ },
+ {
+  "madde": "Mevc",
+  "tanim": "Dalga. Mevc urmak: Dalgalanmak. Mevce gelmek: Dalgalanmak, coşmak."
+ },
+ {
+  "madde": "Mevcûdât",
+  "tanim": "Oluşlar, vücud bulanlar, görülenler."
+ },
+ {
+  "madde": "Mevt",
+  "tanim": "Ölüm."
+ },
+ {
+  "madde": "Mey",
+  "tanim": "Şarap, içki. Tasavvufta mecazen, kâmil insanın, dervîşin gönlüne ilâhî aşk veren söz ve sırları."
+ },
+ {
+  "madde": "Mey-hâne",
+  "tanim": "İçki satılan ve içilen yer. Metinlerde Mürşid’in bulunduğu tekke veya mürşid-i kâmilin gönlü anlamında ele alınır."
+ },
+ {
+  "madde": "Meyl",
+  "tanim": "Gönül aşkı, gönül eğilmesi, istek."
+ },
+ {
+  "madde": "Meyl-i mülk",
+  "tanim": "Mülk arzusu."
+ },
+ {
+  "madde": "Meyyit",
+  "tanim": "Ölü."
+ },
+ {
+  "madde": "Mezheb",
+  "tanim": "Yol."
+ },
+ {
+  "madde": "Mezkûr",
+  "tanim": "Zikredilen, Allah."
+ },
+ {
+  "madde": "Miftâh",
+  "tanim": "Anahtar."
+ },
+ {
+  "madde": "Mihmân",
+  "tanim": "Konuk, misafir."
+ },
+ {
+  "madde": "Mihnet",
+  "tanim": "Sıkıntı, eziyet."
+ },
+ {
+  "madde": "Mihr",
+  "tanim": "Muhabbet, sevgi, aşk."
+ },
+ {
+  "madde": "Milk",
+  "tanim": "Elde bulunan, tasarruf edilen şey, mal, mülk."
+ },
+ {
+  "madde": "Mîm-i Ahmed",
+  "tanim": "Ahmed’in mimi, Resûlullahın vücûdu."
+ },
+ {
+  "madde": "Mir’ât-ı Mücellâ",
+  "tanim": "Parlak ayna."
+ },
+ {
+  "madde": "Mir’ât",
+  "tanim": "Ayna. Gönül veya âşıkın maşûka ulaşmasına vesile olan mürşid-i kâmil. Âşıkın aynada kendini seyretmesi, ayân-ı sâbitesinin ortaya çıkması demektir."
+ },
+ {
+  "madde": "Mir’ât-ı Hak",
+  "tanim": "Hakk’ın aynası konumunda olan mürşid-i kâmil."
+ },
+ {
+  "madde": "Mirsât",
+  "tanim": "Gemi demiri."
+ },
+ {
+  "madde": "Misâfir-hâne",
+  "tanim": "Dünya, beden."
+ },
+ {
+  "madde": "Misk",
+  "tanim": "Güzel kokulu bir madde."
+ },
+ {
+  "madde": "Miskâl",
+  "tanim": "4.68 grama karşılık gelen bir ağırlık ölçüsü. En küçük mikdar.Yaklaşık 5gr değerinde eski bir ağırlık ölçü birimi."
+ },
+ {
+  "madde": "Miskîn",
+  "tanim": "Metinde “Fenafillah” olmuş, benlik terk etmiş kişi."
+ },
+ {
+  "madde": "Mîzân",
+  "tanim": "Mahşerde herkesin amellerini tartacak olan mikyas. Ölçü, terazi."
+ },
+ {
+  "madde": "Monlâ",
+  "tanim": "Molla."
+ },
+ {
+  "madde": "Mu‘tâd",
+  "tanim": "İtiyad edilmiş, âdet olunmuş, alışılmış"
+ },
+ {
+  "madde": "Muammâ",
+  "tanim": "Bilmece."
+ },
+ {
+  "madde": "Mu’ammer",
+  "tanim": "Ömür süren, yaşayan, yaşamış."
+ },
+ {
+  "madde": "Muattar",
+  "tanim": "Itırlı, kokulu."
+ },
+ {
+  "madde": "Mubâhat",
+  "tanim": "Caiz olmak. Her şeyi hak bilme."
+ },
+ {
+  "madde": "Mucize",
+  "tanim": "Olağanüstü hâl."
+ },
+ {
+  "madde": "Mudhik",
+  "tanim": "Güldüren, güldürücü."
+ },
+ {
+  "madde": "Mugayyebât",
+  "tanim": "Gizli olan, bilinmeyen ve görünmeyen şeyler."
+ },
+ {
+  "madde": "Muhâl",
+  "tanim": "Olmayacak şey, hayâl."
+ },
+ {
+  "madde": "Muhayyarlık",
+  "tanim": "İyi olmak."
+ },
+ {
+  "madde": "Muhib",
+  "tanim": "Seven."
+ },
+ {
+  "madde": "Muhit",
+  "tanim": "İhata eden, etrafını kuşatan, çevreleyen; çevre."
+ },
+ {
+  "madde": "Muhkem",
+  "tanim": "Sağlam, kuvvetli, berk, sağlamlaştırılmış."
+ },
+ {
+  "madde": "Muhlâ",
+  "tanim": "Boşaltılan, boş olan."
+ },
+ {
+  "madde": "Muhrik",
+  "tanim": "Yakan, yakıcı; tahrik edici."
+ },
+ {
+  "madde": "Muhtâl",
+  "tanim": "Kurnaz, hilekâr."
+ },
+ {
+  "madde": "Muîn",
+  "tanim": "Yardımcı."
+ },
+ {
+  "madde": "Mukâbele",
+  "tanim": "Karşı karşıya olma, yüz yüze gelme. Zikir âyîni, tarikat ehlince toplu olarak icrâ edilen zikir merâsimi."
+ },
+ {
+  "madde": "Mukaddem",
+  "tanim": "Önce."
+ },
+ {
+  "madde": "Mukallid",
+  "tanim": "Taklit eden, taklitçi."
+ },
+ {
+  "madde": "Mukarrebler",
+  "tanim": "Allah’a yakın olanlar, melekler."
+ },
+ {
+  "madde": "Mukarrer",
+  "tanim": "Kararlaşmış; şüphesiz, sağlam."
+ },
+ {
+  "madde": "Muktezâ",
+  "tanim": "İktizâ eden, lâzım gelen, gerektiren."
+ },
+ {
+  "madde": "Munfasıl",
+  "tanim": "Ayrılmış, parçalanmış."
+ },
+ {
+  "madde": "Muntazır",
+  "tanim": "Gözleyen, bekleyen, yoluna bakan, hazır."
+ },
+ {
+  "madde": "Murâkabe",
+  "tanim": "Bakma, gözetme, dalıp kendinden geçme, denetleme. Hakk’a devamlı teveccüh etme."
+ },
+ {
+  "madde": "Murtaza",
+  "tanim": "Hazret-i Ali’nin lakabı. Razı olunmuş, beğenilmiş, seçilmiş."
+ },
+ {
+  "madde": "Mûsâ (Mûsî)",
+  "tanim": "Kur’ân’da adı geçen peygamberlerden birisi. Mûsevîliğin kurucusu olup İsrail oğullarını Mısır’dan çıkarmış, esaretten kurtarmıştır. Kendisine Tevrat gönderilmiştir. Tûr dağında Tanrı’nın tecellîsine mazhar olmuş ve onunla konuşmuştur. Bundan dolayı Kelimullah denmiştir. Kitap sahibi peygamberlerden olan Mûsâ, kavmine “evâmir-i aşere”(on emir)’yi bildirmiştir."
+ },
+ {
+  "madde": "Musaffâ",
+  "tanim": "Tasfiye edilmiş, süzülmüş, arındırılmış."
+ },
+ {
+  "madde": "Musâhib",
+  "tanim": "Biriyle konuşan, arkadaş. Bir büyük adamın yanında bulunup kendisini konuşma ve latifeleriyle eğlendiren."
+ },
+ {
+  "madde": "Musavver",
+  "tanim": "Tasvirli, resimli; tasarlanmış, düşünülmüş, planlanmış."
+ },
+ {
+  "madde": "Mushaf",
+  "tanim": "Kur’ân-ı Kerim, sahifeler. Kitap."
+ },
+ {
+  "madde": "Mustafâ",
+  "tanim": "Istıfa edilmiş. seçilmiş, seçkin. Hz. Peygamberin mübarek sıfatlarından birisidir."
+ },
+ {
+  "madde": "Mu’teber",
+  "tanim": "İtibar edilen, itibarlı, saygın; inanılır, güvenilir, sağlam; geçerli."
+ },
+ {
+  "madde": "Mûtî",
+  "tanim": "İtâat eden."
+ },
+ {
+  "madde": "Mutmainne",
+  "tanim": "Tatmine ulaşan, itminan olan nefs."
+ },
+ {
+  "madde": "Muvâfık",
+  "tanim": "Uygun. Yerinde, denk."
+ },
+ {
+  "madde": "Muvahhid",
+  "tanim": "Cenâb-ı Hakk’ın birliğini anlayan kişi, vahdet ehli."
+ },
+ {
+  "madde": "Muzırr",
+  "tanim": "Ziyân veren, zararlı."
+ },
+ {
+  "madde": "Muzill",
+  "tanim": "Zelil kılan, zillete düşüren, aşağılaştıran, bayağılaştıran anlamında Allah’ın isimlerinden."
+ },
+ {
+  "madde": "Muzmer",
+  "tanim": "Gizlenmiş, saklanmış; gizli, saklı, örtülü."
+ },
+ {
+  "madde": "Mü‘essir",
+  "tanim": "Tesir eden, etkileyen."
+ },
+ {
+  "madde": "Mübâhi",
+  "tanim": "Övünen"
+ },
+ {
+  "madde": "Mübdî",
+  "tanim": "İbdâ eden, icad eden, yeniden yaratan."
+ },
+ {
+  "madde": "Müberrâ",
+  "tanim": "Berî kılınmış, temize çıkmış, aklanmış, temiz."
+ },
+ {
+  "madde": "Mübtedî",
+  "tanim": "Yeni başlayan, acemi."
+ },
+ {
+  "madde": "Mübtelâ",
+  "tanim": "Belâya uğrayan, düşkün, tutkun, hasta."
+ },
+ {
+  "madde": "Mücâhede çekmek",
+  "tanim": "Nefsi yenmek için ibadet ve riyazat içinde bulunmak."
+ },
+ {
+  "madde": "Mücâhede",
+  "tanim": "Uğraşma, savaşma, çalışıp çabalama. Tasavvufta nefsi yenmeye çalışma."
+ },
+ {
+  "madde": "Mücâhid",
+  "tanim": "Metinde, nefsiyle savaşan dervîş."
+ },
+ {
+  "madde": "Mücellâ",
+  "tanim": "Cilalanmış, parlak."
+ },
+ {
+  "madde": "Mücerred",
+  "tanim": "Yalnız, tek, herşeyden ayrılmış. Hak’dan gayrı her-şeyden arınmış."
+ },
+ {
+  "madde": "Mücrim",
+  "tanim": "Günâhkâr, suçlu."
+ },
+ {
+  "madde": "Müctehid",
+  "tanim": "Gücü yettiğince çalışan, gayret eden, bilgilerinden hareket ederek bazı konularda şer’i hükümler çıkaran."
+ },
+ {
+  "madde": "Müdâm",
+  "tanim": "Devamlı, sürekli, içki."
+ },
+ {
+  "madde": "Müddeî",
+  "tanim": "İddiacı, davacı; metinde şer’i hakikatleri anlamayan softa mânâsına."
+ },
+ {
+  "madde": "Müdrik",
+  "tanim": "Hakk’ı idrâk eden, anlayan, anlamış."
+ },
+ {
+  "madde": "Müfred",
+  "tanim": "Tek, teklik, basit."
+ },
+ {
+  "madde": "Müheyyâ",
+  "tanim": "Hazırlanmış."
+ },
+ {
+  "madde": "Mühmel",
+  "tanim": "İhmâl edilmiş, hoşlanmış, bakılmamış, bırakılmış."
+ },
+ {
+  "madde": "Mühmelât",
+  "tanim": "Mânâsız, boş sözler."
+ },
+ {
+  "madde": "Mükâleme",
+  "tanim": "Karşılıklı konuşma."
+ },
+ {
+  "madde": "Mükerrem",
+  "tanim": "Muhterem, saygı değer, hürmet edilen."
+ },
+ {
+  "madde": "Mülâzemet",
+  "tanim": "Bir işle devamlı meşgul olma."
+ },
+ {
+  "madde": "Mülhak",
+  "tanim": "Katılmış, eklenmiş."
+ },
+ {
+  "madde": "Mülhime",
+  "tanim": "İlham alan nefis."
+ },
+ {
+  "madde": "Mülk",
+  "tanim": "Elde bulunan, tasarruf olunan şeyler. Ülke, memleket, dünya."
+ },
+ {
+  "madde": "Mülk-i amâ",
+  "tanim": "Cenâb-ı Hakk’ın Uluhiyyet (lâ-taayyün) mertebesindeki makamı."
+ },
+ {
+  "madde": "Münâcât",
+  "tanim": "Allah’a yalvarma, dua etme."
+ },
+ {
+  "madde": "Münâfık",
+  "tanim": "Nifak sokan, ikiyüzlülük eden, iki yüzlü."
+ },
+ {
+  "madde": "Münci",
+  "tanim": "Kurtaran."
+ },
+ {
+  "madde": "Münevver",
+  "tanim": "Nurlandırılmış, parlatılmış, ışıklandırılmış, aydınlatılmış."
+ },
+ {
+  "madde": "Münezzeh",
+  "tanim": "Tenzîh edilmiş, temiz, arı; uzak."
+ },
+ {
+  "madde": "Münkir",
+  "tanim": "İnkârcı. Kabirde soru soran iki melekten birisi."
+ },
+ {
+  "madde": "Müntehî",
+  "tanim": "Sona ulaşan. Biten. En son. Bir şeyi tamamlayan."
+ },
+ {
+  "madde": "Münzel",
+  "tanim": "İnzal olunmuş, aşağı indirilmiş, gökten indirilmiş."
+ },
+ {
+  "madde": "Mürâî",
+  "tanim": "İki yüzlü kimse."
+ },
+ {
+  "madde": "Mürde",
+  "tanim": "Ölü."
+ },
+ {
+  "madde": "Mürde-dil",
+  "tanim": "Gönlü ölmüş, katı yürekli, duygusuz; kâlden hâle geçememiş ham kişi."
+ },
+ {
+  "madde": "Mürebbi",
+  "tanim": "Terbiyeci, mürşid."
+ },
+ {
+  "madde": "Mürekkeb",
+  "tanim": "Terkip edilmiş, birleştirilmiş; yazı yazmaya yarayan madde."
+ },
+ {
+  "madde": "Mürg, kuş",
+  "tanim": "Tanrı adamı, ehlullah."
+ },
+ {
+  "madde": "Mürg-i lisân",
+  "tanim": "Dil kuşu."
+ },
+ {
+  "madde": "Mürid",
+  "tanim": "İradesini Hakk’a teslim eden kişi. Bir mürşide bağlanan, sülûka giren."
+ },
+ {
+  "madde": "Mürsel",
+  "tanim": "İrsal olunmuş, gönderilmiş, yollanılmış. Peygamber."
+ },
+ {
+  "madde": "Mürşid",
+  "tanim": "Doğru yolu gösteren, irşad eden kılavuz, şeyh, tarikat piri."
+ },
+ {
+  "madde": "Mürüvvet",
+  "tanim": "Mertlik, erlik, yiğitlik, iyilikseverlik, cömertlik. Adamlık."
+ },
+ {
+  "madde": "Mürüvvetlü",
+  "tanim": "Mert ve cömert kişi, iyiliksever."
+ },
+ {
+  "madde": "Müselsel",
+  "tanim": "Ardı ardına giden, zincirleme."
+ },
+ {
+  "madde": "Müsecced",
+  "tanim": "Secde ettirilmiş."
+ },
+ {
+  "madde": "Müsemmâ olmak",
+  "tanim": "İsimlenen varlık olmak. Tanrı’ya karışmak. Hak olmak."
+ },
+ {
+  "madde": "Müsemmâ",
+  "tanim": "İsimlendirilmiş. Zat-ı uluhiyet. Cenab-ı Hak. Esma çok, müsemma tektir."
+ },
+ {
+  "madde": "Müstağrak",
+  "tanim": "Dalmış, daldırılmış, batmış. Yok olmuş, hakikatte kaybolmuş kâmil insan."
+ },
+ {
+  "madde": "Müstecâb",
+  "tanim": "Kabul olunmuş."
+ },
+ {
+  "madde": "Müşâhede",
+  "tanim": "Görme, görüşme, şahid olma. Tasavvufta ilahî âlemi görme."
+ },
+ {
+  "madde": "Müştak",
+  "tanim": "Arzu duyan, özleyen."
+ },
+ {
+  "madde": "Müteveccih",
+  "tanim": "Bir yere doğru gitmeye kalkan, yola çıkan. Birbirine karşı iyi düşüncesi ve sevgisi olan."
+ },
+ {
+  "madde": "Müttakî",
+  "tanim": "Sakınan, çekinen, korunan. Allah’tan korkan takva sahibi zâhid."
+ },
+ {
+  "madde": "Müyesser",
+  "tanim": "Kolaylıkla olan, nasip olacak olan, elde edilen."
+ },
+ {
+  "madde": "Müzekkâ",
+  "tanim": "Paklanmış, arınmış, temizlenmiş."
+ },
+ {
+  "madde": "Nâdân",
+  "tanim": "Bilmeyen, cahil. Hakkı bilmeyen."
+ },
+ {
+  "madde": "Nâ-hak",
+  "tanim": "Haksız."
+ },
+ {
+  "madde": "Nahv",
+  "tanim": "Yan, yön, taraf; yol; söz dizimi, cümle bilgisi."
+ },
+ {
+  "madde": "Nâkıs",
+  "tanim": "Noksan, eksik."
+ },
+ {
+  "madde": "Nakkâl",
+  "tanim": "Nakledici, hikayeci, masalcı."
+ },
+ {
+  "madde": "Nakkâş",
+  "tanim": "Nakş eden, süsleyen."
+ },
+ {
+  "madde": "Nakl etmek",
+  "tanim": "Aktarmak."
+ },
+ {
+  "madde": "Nakş",
+  "tanim": "Süs, birşeyi çeşitli renklerde boyamak. Resim, tezyin, motif. Eşya, varlık."
+ },
+ {
+  "madde": "Nakş-ı hayâl",
+  "tanim": "Hayâl süsü, eşya âlemi."
+ },
+ {
+  "madde": "Nâlân",
+  "tanim": "İnleyen, inleyici, feryâd eden. Nâlân olmak: İnlemek."
+ },
+ {
+  "madde": "Nâle",
+  "tanim": "İnleme, inilti, feryâd."
+ },
+ {
+  "madde": "Nâliş",
+  "tanim": "İnleme."
+ },
+ {
+  "madde": "Nâm",
+  "tanim": "İsim, ad; ün, şan; lakap."
+ },
+ {
+  "madde": "Nân",
+  "tanim": "Ekmek."
+ },
+ {
+  "madde": "Nâr",
+  "tanim": "Âteş, od."
+ },
+ {
+  "madde": "Na’ra",
+  "tanim": "Yüksek sesle bağırma, haykırma."
+ },
+ {
+  "madde": "Nâr-ı cahîm",
+  "tanim": "Cehennem âteşi."
+ },
+ {
+  "madde": "Nâr-ı Halîl",
+  "tanim": "İbrahim Peygamberin Nemrûd tarafından içine atıldığı ateş. Mecazen âşıkların dünyevî ıstıraplarla denenmesi."
+ },
+ {
+  "madde": "Nâs",
+  "tanim": "İnsanlar, halk, herkes."
+ },
+ {
+  "madde": "Nasîb",
+  "tanim": "Kişinin elde edebildiği şey, pay, hisse, Allah’ın kısmet ettiği şey."
+ },
+ {
+  "madde": "Nasîh",
+  "tanim": "Nasîhat, öğüt veren."
+ },
+ {
+  "madde": "Nass",
+  "tanim": "Kat’i, açık, belli, delil. Kur’ân’daki manâca açık olan hükümlerin tamamı."
+ },
+ {
+  "madde": "Nâsût",
+  "tanim": "İnsanlık âlemi. Dünya, bedenler âlemi."
+ },
+ {
+  "madde": "Nâz",
+  "tanim": "Bir şeyi değiştirmek, başka türlü yapmak için kendisini ağır satmak. Metinde Hz. Peygamberin bir sıfatı olup Hakk’a nâzını geçiren anlamında."
+ },
+ {
+  "madde": "Nazar",
+  "tanim": "Bakmak, göz atmak, yan bakmak, tetkik; Tasavvufta mürşidin müridine iltifat etmesi, tenezzülü."
+ },
+ {
+  "madde": "Nazar urmak",
+  "tanim": "Bakmak, himmet etmek."
+ },
+ {
+  "madde": "Nazargâh",
+  "tanim": "Bakılan yer, seyredilecek yer. Gönül."
+ },
+ {
+  "madde": "Nazîr",
+  "tanim": "Eş, benzer."
+ },
+ {
+  "madde": "Nebâtât",
+  "tanim": "Bitkiler."
+ },
+ {
+  "madde": "Necm",
+  "tanim": "Yıldız."
+ },
+ {
+  "madde": "Nef’",
+  "tanim": "Menfaat, fayda, kâr."
+ },
+ {
+  "madde": "Nefes",
+  "tanim": "Rûh."
+ },
+ {
+  "madde": "Nefh",
+  "tanim": "Üfürme."
+ },
+ {
+  "madde": "Nefha",
+  "tanim": "Üfürme, nefes."
+ },
+ {
+  "madde": "Nefha-i Rahmân",
+  "tanim": "Rahman’ın nefesi, ilahî vasfı haiz olan ve ölü gönülleri dirilten mürşid-i kâmil olan insanın sözleri."
+ },
+ {
+  "madde": "Nefsi basmak",
+  "tanim": "Nefsi yenmek."
+ },
+ {
+  "madde": "Nefy",
+  "tanim": "Sürme, yok etme, çıkarma."
+ },
+ {
+  "madde": "Nehâr",
+  "tanim": "Gündüz."
+ },
+ {
+  "madde": "Nehy",
+  "tanim": "Yasak etme, yasak."
+ },
+ {
+  "madde": "Nekâ",
+  "tanim": "Saf, katışıksız."
+ },
+ {
+  "madde": "Nekbet",
+  "tanim": "Bahtsızlık, düşkünlük, musibete uğramak."
+ },
+ {
+  "madde": "Nekir",
+  "tanim": "Mezarda insanları sorguya çekecek iki melekten birinin adı."
+ },
+ {
+  "madde": "Nekr",
+  "tanim": "Akıllı, zeki."
+ },
+ {
+  "madde": "Nem",
+  "tanim": "Yaş."
+ },
+ {
+  "madde": "Nemed",
+  "tanim": "Keçeden yapılmış, abâ."
+ },
+ {
+  "madde": "Nemrûd",
+  "tanim": "Halil İbrahim (as.) zamanında Keldavi hükümdarı olan Nemrud, putlara tapmadığı için İbrahim peygamberi âteşe attırmıştır. Allah’ın inayetiyle âteş etkisiz hâle gelmiştir. Nemrud, Babil’in kurucusudur."
+ },
+ {
+  "madde": "Nevâl",
+  "tanim": "Nasip, kısmet; tâli’."
+ },
+ {
+  "madde": "Nidâ",
+  "tanim": "Ses, bağırma, ünleme."
+ },
+ {
+  "madde": "Nihâl",
+  "tanim": "Fidan."
+ },
+ {
+  "madde": "Nihân",
+  "tanim": "Gizli."
+ },
+ {
+  "madde": "Nikâb",
+  "tanim": "Perde, yüz örtüsü. Peçe."
+ },
+ {
+  "madde": "Nîrân",
+  "tanim": "Âteşler, nârlar, ışıklar."
+ },
+ {
+  "madde": "Nisâ",
+  "tanim": "Kadın."
+ },
+ {
+  "madde": "Nisâr",
+  "tanim": "Döküp saçma, düğünlerde saçılan para vs. Nisâr etmek: Saçmak, yaymak."
+ },
+ {
+  "madde": "Nisbet",
+  "tanim": "Münasebet, yakınlık, bağ."
+ },
+ {
+  "madde": "Nist",
+  "tanim": "Değildir, yoktur."
+ },
+ {
+  "madde": "Nişân",
+  "tanim": "Alâmet, iz, belirti, eser."
+ },
+ {
+  "madde": "Nokta",
+  "tanim": "Ali sırrı. Ahadiyyete ait bilgi. Gaybî hakîkat."
+ },
+ {
+  "madde": "Noktavî",
+  "tanim": "Noktacı, Noktaya mensup. Sır ehli; rü’yet sahibi. Hz. Ali ilmine vakıf. Hakikat ehli."
+ },
+ {
+  "madde": "Nûh",
+  "tanim": "Nuh Peygamber. Tufandan korunmak için bir gemi yapmış ve bütün canlılardan birer çift almıştır. Kur’ân’da ismi zikredilen bir peygamberdir."
+ },
+ {
+  "madde": "Nukûş-ı mâsivâ",
+  "tanim": "Eşya, göreceli varlık."
+ },
+ {
+  "madde": "Nûr ili",
+  "tanim": "Âlem-i ervâh. Vahdet hâli. Cenâb-ı Hakk’ın zâtının âlemi."
+ },
+ {
+  "madde": "Nûr-ı a‘lâ",
+  "tanim": "Yüce nûr. Allah’ın zâtî nuru."
+ },
+ {
+  "madde": "Nûr-ı a‘zam",
+  "tanim": "Büyük nur."
+ },
+ {
+  "madde": "Nûr-ı ezel",
+  "tanim": "Nûr-ı Muhammedî."
+ },
+ {
+  "madde": "Nûr-ı izâfî",
+  "tanim": "İlk nûr, Muhammedî hakikat."
+ },
+ {
+  "madde": "Nûr-ı kadîm",
+  "tanim": "İlk nûr, Muhammedî hakikat."
+ },
+ {
+  "madde": "Nûr-ı mahz",
+  "tanim": "Halis nûr, tam, sade nûr."
+ },
+ {
+  "madde": "Nûr-ı Siyâh",
+  "tanim": "Sûfiler siyah nurdan söz etmişlerdir. İlahî nûr mutasavvıfın idrâkinde tam olarak belirdiğinde, her şey görünür hâle geleceği yerde görünmez olur. Fenâ’yı yaşayan sûfî, “Mutlak nûr”u idrak edinceye kadar her şeyin karardığını fark eder. Çünkü varlık saf hâliyle görünmez, hiçlik olarak görünür. Bu siyah ışığın berraklığını keşfetmek, karanlığın derinliklerinde saklı olan âb-ı hayatı bulmak demektir. Zira bekâ, yani Allah’ta baki olmak, fenânın ortasında gizlenmiştir. Siyâh nûr, kısacası gaybın, zatın ve yokluk makamının nûrudur."
+ },
+ {
+  "madde": "Nûr-ı ummân",
+  "tanim": "Hakk’ın zât nûru."
+ },
+ {
+  "madde": "Nûru’llah",
+  "tanim": "Allah’ın nûru."
+ },
+ {
+  "madde": "Nush",
+  "tanim": "Öğüt."
+ },
+ {
+  "madde": "Nusret",
+  "tanim": "Zafer."
+ },
+ {
+  "madde": "Nûş etmek",
+  "tanim": "İçmek."
+ },
+ {
+  "madde": "Nutk",
+  "tanim": "Âriflerin sözleri."
+ },
+ {
+  "madde": "Nübüvvet",
+  "tanim": "Peygamberlik, insanları doğru yola çağırma yetkisi."
+ },
+ {
+  "madde": "Nümûn",
+  "tanim": "Gösteren, benzer olan."
+ },
+ {
+  "madde": "Nüsha-i Kübrâ",
+  "tanim": "Büyük nüsha; Kâmil insân. Âdem."
+ },
+ {
+  "madde": "Nüzûl",
+  "tanim": "Aşağı inme."
+ },
+ {
+  "madde": "Od",
+  "tanim": "Âteş."
+ },
+ {
+  "madde": "Ok",
+  "tanim": "Yön tayinine yarayan işaret."
+ },
+ {
+  "madde": "Ol",
+  "tanim": "O."
+ },
+ {
+  "madde": "Olıcak",
+  "tanim": "Olunca."
+ },
+ {
+  "madde": "On sekiz bin âlem",
+  "tanim": "Âlemlerin tamamı. Mutasavvıflar âlemlerin on sekiz olduğunu, her bir âlemde bin âlemin bulunduğunu belirtirler. Bu âlemler sembolik olup, gerçekte insanın manen yaratılış sürecini anlatır."
+ },
+ {
+  "madde": "Onat",
+  "tanim": "Doğru, uygun, iyi, mükemmel, layıkıyla, tamam, muvafık."
+ },
+ {
+  "madde": "Onulmak",
+  "tanim": "Şifa bulmak. İyileşmek, yara kapanmak."
+ },
+ {
+  "madde": "Oran",
+  "tanim": "Ölçü, hesap, derece. Kıyas."
+ },
+ {
+  "madde": "Osmân",
+  "tanim": "Çâr-yâr’dan üçüncüsüdür. Hz. Peygamberin damadı olup hilmi (yumuşak huyluluğu) ve ilmiyle şöhret bulmuştur."
+ },
+ {
+  "madde": "Otmak",
+  "tanim": "Otlamak, gıdalanmak, beslenmek."
+ },
+ {
+  "madde": "Öd",
+  "tanim": "Yürek."
+ },
+ {
+  "madde": "Ödü sımak",
+  "tanim": "Korkmak."
+ },
+ {
+  "madde": "Ömer",
+  "tanim": "Çâr-yâr’dan İkinci halife. Lakabı Fârûk ve İbn Hattâb’tır. Adaletiyle meşhurdur."
+ },
+ {
+  "madde": "Ötmek",
+  "tanim": "Geçmek."
+ },
+ {
+  "madde": "Özge",
+  "tanim": "Başka."
+ },
+ {
+  "madde": "Pâdişâh",
+  "tanim": "Mecâzen Cenâb-ı Hak, mürşid-i hakîkî."
+ },
+ {
+  "madde": "Pâdişâh-ı lâ-yezâl",
+  "tanim": "Ebedî olan Allah."
+ },
+ {
+  "madde": "Pâlâs",
+  "tanim": "Kilim, keçe, aba, çul."
+ },
+ {
+  "madde": "Pâre",
+  "tanim": "Parça, dilim."
+ },
+ {
+  "madde": "Pâs olmak",
+  "tanim": "Paslanmak, kederli, üzüntülü olmak."
+ },
+ {
+  "madde": "Pâs",
+  "tanim": "Gam, keder, iç, sıkıntısı, üzüntüsü."
+ },
+ {
+  "madde": "Pây",
+  "tanim": "Ayak."
+ },
+ {
+  "madde": "Pâyân",
+  "tanim": "Son, nihayet, uç, kenar."
+ },
+ {
+  "madde": "Pâyîdâr",
+  "tanim": "Devamlı, sağlam, itibarlı."
+ },
+ {
+  "madde": "Pehlevân-ı vahdet",
+  "tanim": "Vahdet ehli sâlik."
+ },
+ {
+  "madde": "Penâh",
+  "tanim": "Sığınak, dayanak."
+ },
+ {
+  "madde": "Pend",
+  "tanim": "Öğüt."
+ },
+ {
+  "madde": "Per",
+  "tanim": "Kanat."
+ },
+ {
+  "madde": "Pergâr",
+  "tanim": "Pergel."
+ },
+ {
+  "madde": "Perîşân",
+  "tanim": "Dağınık."
+ },
+ {
+  "madde": "Perrân",
+  "tanim": "Uçan, uçucu."
+ },
+ {
+  "madde": "Pertev",
+  "tanim": "Nur, ışık, parlaklık."
+ },
+ {
+  "madde": "Pervâne",
+  "tanim": "Geceleri ışık etrafında dönen küçük kelebek. Bu kelebekler, gözyaşı ile beslenirlermiş, mecâzen Cenâb-ı Hakk’ın varlığında yok olan sâlik, fenâfi’llah ehli."
+ },
+ {
+  "madde": "Pervâz",
+  "tanim": "Uçmak, uçuş, kanat açmak."
+ },
+ {
+  "madde": "Perverdigâr",
+  "tanim": "“Besleyici, terbiye edici, rızıklandırıcı”Allah."
+ },
+ {
+  "madde": "Pes",
+  "tanim": "Yeter."
+ },
+ {
+  "madde": "Peymân",
+  "tanim": "And, yemin, söz."
+ },
+ {
+  "madde": "Peymâne",
+  "tanim": "Kadeh."
+ },
+ {
+  "madde": "Peyrev",
+  "tanim": "Birinin arkasından, izinden giden; birini takip eden."
+ },
+ {
+  "madde": "Pinhân",
+  "tanim": "Gizli."
+ },
+ {
+  "madde": "Pîr",
+  "tanim": "Mürşid, tarikat kurucusu."
+ },
+ {
+  "madde": "Pîr-i mugan",
+  "tanim": "İçki dağıtan, metinde sözleriyle sâlikleri vecde getiren mürşid-i kâmil."
+ },
+ {
+  "madde": "Pişe",
+  "tanim": "İş, meslek, huy."
+ },
+ {
+  "madde": "Piyâle",
+  "tanim": "Kadeh, şarap."
+ },
+ {
+  "madde": "Post",
+  "tanim": "Şeyh ve mürşid-i kâmilin alâmetlerinden olup, tasarruf makamıdır. Sembolik olarak hayvanî sıfatlardan geçip olgun insan makamına oturmayı ifade eder."
+ },
+ {
+  "madde": "Puhte",
+  "tanim": "Pişkin, pişmiş."
+ },
+ {
+  "madde": "Pür",
+  "tanim": "Dolu, çok."
+ },
+ {
+  "madde": "Pür-nûr",
+  "tanim": "Nûr dolu."
+ },
+ {
+  "madde": "Pür-safâ",
+  "tanim": "Safalı, safa ile dolu."
+ },
+ {
+  "madde": "Rab",
+  "tanim": "Eğitici, öğretici, terbiye edici olan."
+ },
+ {
+  "madde": "Rabbenâ",
+  "tanim": "Rabbimiz."
+ },
+ {
+  "madde": "Râcî",
+  "tanim": "Geri dönen; rica eden, yalvaran; ümitli."
+ },
+ {
+  "madde": "Râgıb",
+  "tanim": "Rağbet eden, isteyen, istekli."
+ },
+ {
+  "madde": "Râh, reh",
+  "tanim": "Yol."
+ },
+ {
+  "madde": "Râh-ı erenler",
+  "tanim": "Erenler yolu, hakikî aşk yolu. Bu yol, mecaz kabul etmeyip gerçek bir teslimiyet ve sevgiye dayanır."
+ },
+ {
+  "madde": "Râh-ı Hudâ",
+  "tanim": "Tanrı’ya giden yol. Sırat-ı müstakim."
+ },
+ {
+  "madde": "Rahîm",
+  "tanim": "Acıyan merhamet eden, esirgeyen, koruyan, âhirette mümin kullarına rahmet eden. Allah."
+ },
+ {
+  "madde": "Rahm",
+  "tanim": "Acıma, merhamet etme, esirgeme."
+ },
+ {
+  "madde": "Rahmân",
+  "tanim": "Çok acıyan, esirgeyen, merhamet eden. Allah."
+ },
+ {
+  "madde": "Rahmet",
+  "tanim": "Acıma, esirgeme, koruma, yargılama."
+ },
+ {
+  "madde": "Rahmete’n-li’l-‘âlemîn",
+  "tanim": "Âlemlere rahmet olan Hz. Muhammet."
+ },
+ {
+  "madde": "Rakîb",
+  "tanim": "Aynı şeyi elde etmek için bir biriyle yarışan kişiler. Hasım, dünya, şeytan."
+ },
+ {
+  "madde": "Râsih",
+  "tanim": "Sağlam, temeli kuvvetli; bilgisi çok derin."
+ },
+ {
+  "madde": "Ravza",
+  "tanim": "Bahçe."
+ },
+ {
+  "madde": "Râz",
+  "tanim": "Sır, gizli şey. Gizlenen şey."
+ },
+ {
+  "madde": "Râzdaş",
+  "tanim": "Sırların paylaşıldığı kişi. Sırdaş."
+ },
+ {
+  "madde": "Râzık",
+  "tanim": "Rızık veren Allah."
+ },
+ {
+  "madde": "Râzî",
+  "tanim": "Sırdaş, sır saklayan. Sırla ilgili."
+ },
+ {
+  "madde": "Râziyye",
+  "tanim": "Kendisinden razı olunan nefs."
+ },
+ {
+  "madde": "Recâ",
+  "tanim": "Rica, ümit, dilek, umma, yalvarma."
+ },
+ {
+  "madde": "Ref’",
+  "tanim": "Kaldırma, yüceltme; yukarı çekme. Lağvetme, hükümsüz bırakma."
+ },
+ {
+  "madde": "Ref’-i enâniyet",
+  "tanim": "Benliğin giderilmesi."
+ },
+ {
+  "madde": "Refîk",
+  "tanim": "Arkadaş, yoldaş."
+ },
+ {
+  "madde": "Rehber",
+  "tanim": "Kılavuz, mürşid. Yol gösterici."
+ },
+ {
+  "madde": "Rehzân",
+  "tanim": "Yol kesen, haydut, eşkiya."
+ },
+ {
+  "madde": "Remmâl",
+  "tanim": "Remil döken, fal açan, Gaipten haber vermek iddiasında bulunarak dolandırıcılık eden."
+ },
+ {
+  "madde": "Remz",
+  "tanim": "İşaret, sembol, sırrı anlatmak için baş vurulan söz veya kelime. Meramı gizliden işaretle anlatma."
+ },
+ {
+  "madde": "Resm",
+  "tanim": "Adet, usûl, tavır, davranış."
+ },
+ {
+  "madde": "Resûl",
+  "tanim": "Peygamber, yeni kitap ve şeriatle gönderilen Peygamber."
+ },
+ {
+  "madde": "Reşâd",
+  "tanim": "Manevî bir yol bulup ona koyulma, Hak yolda yürüme."
+ },
+ {
+  "madde": "Revân",
+  "tanim": "Yürüyen, giden; ruh, can."
+ },
+ {
+  "madde": "Rayb",
+  "tanim": "Şübhe. Kuşku."
+ },
+ {
+  "madde": "Reyhân",
+  "tanim": "Hoş ve güzel koku. Büyük yapraklı fesleğen çiçeği."
+ },
+ {
+  "madde": "Rıdvân",
+  "tanim": "Cennet bekçisi, Cennet kapıcısı."
+ },
+ {
+  "madde": "Rıhlet",
+  "tanim": "Göç."
+ },
+ {
+  "madde": "Rızâ",
+  "tanim": "Hoşnutluk, memnunluk; razı oluş."
+ },
+ {
+  "madde": "Rızk",
+  "tanim": "Allah’ın kullarına lutf ettiği yiyecek, içecek. Rızk, tasavvufta manevî lütuf anlamında kullanılır."
+ },
+ {
+  "madde": "Ricâl",
+  "tanim": "Erkekler; mevkî sahibi kimseler."
+ },
+ {
+  "madde": "Rif’ât",
+  "tanim": "Yükseklik, yücelik, büyük rütbe."
+ },
+ {
+  "madde": "Rind",
+  "tanim": "Kalender, aldırış etmeyen, dünyayı umursamayan."
+ },
+ {
+  "madde": "Rindâne",
+  "tanim": "Kalenderler gibi hareket eden, rindçe davranan."
+ },
+ {
+  "madde": "Risâlet",
+  "tanim": "Elçilik, peygamberlik."
+ },
+ {
+  "madde": "Riyâ",
+  "tanim": "İki yüzlülük, özü sözü bir olmama."
+ },
+ {
+  "madde": "Riyâzat",
+  "tanim": "Tasavvufta sülûk esnasında nefsin isteklerini gidermek için aç kalma, açlıkla terbiye, az ile kanaat etme."
+ },
+ {
+  "madde": "Rûhânî",
+  "tanim": "Ruha ait, ruhla ilgili; gözle görülmeyen, cismi olmayan; âhiretle ilgili; ruhtan meydana gelen melek."
+ },
+ {
+  "madde": "Ruhbân",
+  "tanim": "Hristiyan mistiği."
+ },
+ {
+  "madde": "Rûh-ı izâfî",
+  "tanim": "Nûr-ı Muhammedî."
+ },
+ {
+  "madde": "Rûh-ı kuds",
+  "tanim": "Rahmanî nefes, insan-ı kâmilin ölü gönülleri dirilten nefesi."
+ },
+ {
+  "madde": "Ruhsâr",
+  "tanim": "Yanak."
+ },
+ {
+  "madde": "Rû-mâl",
+  "tanim": "Yüz sürmek."
+ },
+ {
+  "madde": "Rumûz",
+  "tanim": "Remizler, işaretler, semboller, mânâsı gizli sözler."
+ },
+ {
+  "madde": "Rûşen",
+  "tanim": "Aydınlık, açıklık, belli olma."
+ },
+ {
+  "madde": "Rûy-ı bâtın",
+  "tanim": "Bâtın yüzü. İç yüzü."
+ },
+ {
+  "madde": "Rûz u şeb",
+  "tanim": "Gündüz ve gece."
+ },
+ {
+  "madde": "Rûz",
+  "tanim": "Gün."
+ },
+ {
+  "madde": "Rûz-ı mahşer",
+  "tanim": "Mahşer günü."
+ },
+ {
+  "madde": "Rüchân",
+  "tanim": "Üstün olma, üstün gelme, üstünlük."
+ },
+ {
+  "madde": "Rücû’",
+  "tanim": "Dönme, vazgeçme."
+ },
+ {
+  "madde": "Rüsûm",
+  "tanim": "Resimler, şekiller."
+ },
+ {
+  "madde": "Rüsvâ",
+  "tanim": "Rezil, itibarsız, haysiyetsiz"
+ },
+ {
+  "madde": "Rü’yet",
+  "tanim": "Görme, Cenâb-ı Hakk’ı kalp gözüyle görmek."
+ },
+ {
+  "madde": "Sabah/ Sabak",
+  "tanim": "Ders."
+ },
+ {
+  "madde": "Sâbit",
+  "tanim": "Yerinde duran, kımıldamayan, hareketsiz; ispat edilmiş, anlaşılmış."
+ },
+ {
+  "madde": "Sâbit-kadem",
+  "tanim": "Ayağını oynatmayan. Mizacı oynak olmayıp işinde ve sözünde kararlı olan, direnen, sözünde duran."
+ },
+ {
+  "madde": "Sadef",
+  "tanim": "İnci kabuğu. Denizde inci yapan bir cins böceğin sert kabuğu."
+ },
+ {
+  "madde": "Sâdık",
+  "tanim": "Sadakat gösteren, samimi bağlılığı olan; doğru, gerçek."
+ },
+ {
+  "madde": "Sadr",
+  "tanim": "Göğüs. Hakikat cevherinin ocağı. Kalbin bir mertebesi."
+ },
+ {
+  "madde": "Safâ",
+  "tanim": "Saflık, arılık, temizlik, gönül şenliği. Zevk."
+ },
+ {
+  "madde": "Safâ-nazar",
+  "tanim": "Temiz bakış, feyiz veren bakış. İnsân-ı kâmilin bakışı. Himmet."
+ },
+ {
+  "madde": "Safâ-yı zikr",
+  "tanim": "Zikrin verdiği huzur, rahatlık."
+ },
+ {
+  "madde": "Safha-i sadr",
+  "tanim": "Göğüs, göğüs yüzeyi."
+ },
+ {
+  "madde": "Sâfî",
+  "tanim": "Temiz, pak, arı."
+ },
+ {
+  "madde": "Sâfiyye nefis",
+  "tanim": "Temizlenen, arınan nefis."
+ },
+ {
+  "madde": "Sâhil-nişîn",
+  "tanim": "Sahilde oturan."
+ },
+ {
+  "madde": "Sahrâ",
+  "tanim": "Kır, ova, çöl."
+ },
+ {
+  "madde": "Sahv",
+  "tanim": "Ayıklık, uyanıklık."
+ },
+ {
+  "madde": "Sâil",
+  "tanim": "Dilenci, soru sorucu."
+ },
+ {
+  "madde": "Sâim",
+  "tanim": "Oruçlu."
+ },
+ {
+  "madde": "Sakahüm",
+  "tanim": "“Rableri onlara tertemiz bir içki içirmiştir.” (İnsan /21)."
+ },
+ {
+  "madde": "Sâkî",
+  "tanim": "Kadeh sunan, su dağıtan. Tasavvufta mecazen âşıka sohbetiyle aşk ve irfân veren mürşid-i kâmil."
+ },
+ {
+  "madde": "Sâki-i ebrâr",
+  "tanim": "Kâmil mürşit."
+ },
+ {
+  "madde": "Sâkil",
+  "tanim": "Gönlünü tevhid ile parlatan derviş."
+ },
+ {
+  "madde": "Sakkâ",
+  "tanim": "Su dağıtan; saka."
+ },
+ {
+  "madde": "Sal",
+  "tanim": "Tabut."
+ },
+ {
+  "madde": "Salâ",
+  "tanim": "Çağırmak, ünlemek, davet etmek, dua etmek."
+ },
+ {
+  "madde": "Salâh",
+  "tanim": "Bir şeyin en iyi hâli, iyilik, sulh."
+ },
+ {
+  "madde": "Salât",
+  "tanim": "Namaz."
+ },
+ {
+  "madde": "Salât-ı dâimûn",
+  "tanim": "Daimî namaz kılanlar, her an Hak ile olanlar."
+ },
+ {
+  "madde": "Salâvât",
+  "tanim": "Namazlar, dualar, Hz. Peygambere bağlılık ve selâm için okunan dua."
+ },
+ {
+  "madde": "Sâlih",
+  "tanim": "Yarar, elverişli, iyi, uygun, yakışır; dinî emirlere uygun harekette bulunan."
+ },
+ {
+  "madde": "Sâlihîn",
+  "tanim": "Sâlihler, takva sahibi kişiler, günâhkâr olmayanlar."
+ },
+ {
+  "madde": "Sâlik",
+  "tanim": "Tasavvufta yol almaya başlayan kişi."
+ },
+ {
+  "madde": "Sâlikân",
+  "tanim": "Sâlikin çoğulu, sâlikler, Tanrı yolcuları."
+ },
+ {
+  "madde": "Sâlûs",
+  "tanim": "İki yüzlü, riyacı."
+ },
+ {
+  "madde": "Samed",
+  "tanim": "Esma-i Hüsna’dan. Son derece yüce ve dâimî olan Allah."
+ },
+ {
+  "madde": "Samediyyet",
+  "tanim": "Allah’ın (c.c.) hiç bir şeye muhtaç olmadığı gibi hazinesinden hiçbir şey eksilmemesi ve kudretine de hiç bir şey ağır gelmemesi."
+ },
+ {
+  "madde": "San",
+  "tanim": "Sanki, düşün, farzet."
+ },
+ {
+  "madde": "Sanem",
+  "tanim": "Put, sevgili, güzel."
+ },
+ {
+  "madde": "Sarf ü nahv",
+  "tanim": "Dilbilgisi, gramer."
+ },
+ {
+  "madde": "Sarp",
+  "tanim": "Katı, zor, aşılması güç, yüksek."
+ },
+ {
+  "madde": "Sarrâf",
+  "tanim": "Altın ve gümüş gibi değerli madenlerden anlayan. Metinde, kâmil kişi mânâsına."
+ },
+ {
+  "madde": "Savm",
+  "tanim": "Oruç."
+ },
+ {
+  "madde": "Savt",
+  "tanim": "Ses, sadâ; bağırma."
+ },
+ {
+  "madde": "Sa’y",
+  "tanim": "Çalışma, emek."
+ },
+ {
+  "madde": "Sayd",
+  "tanim": "Av."
+ },
+ {
+  "madde": "Sâyebân",
+  "tanim": "Gölgelik, büyük çadır, şemsiye."
+ },
+ {
+  "madde": "Saymak",
+  "tanim": "Kabul etmek."
+ },
+ {
+  "madde": "Seb’a",
+  "tanim": "Yedi."
+ },
+ {
+  "madde": "Seb’a-i semâvât",
+  "tanim": "Yedi kat gök yüzü."
+ },
+ {
+  "madde": "Sebak",
+  "tanim": "Ders."
+ },
+ {
+  "madde": "Seb’a’l-mesânî",
+  "tanim": "Fâtiha suresi. İki defa nâzil olan ve yedi âyetten ibaret bulunan Fâtiha sûresi. Tekrarlanan yedi anlamına gelen bu söz Fâtiha suresi için zikredilmiş bir mecazdır. Esasen kasdedilen İnsân-ı kâmildir."
+ },
+ {
+  "madde": "Sebîl",
+  "tanim": "Su dağıtılan yer. Hayrat olarak, parasız dağıtılan su."
+ },
+ {
+  "madde": "Sehâb",
+  "tanim": "Bulut, yağmur bulutu."
+ },
+ {
+  "madde": "Sehâvet",
+  "tanim": "Cömertlik."
+ },
+ {
+  "madde": "Sehergâh",
+  "tanim": "Seher vakti."
+ },
+ {
+  "madde": "Sehhâr",
+  "tanim": "Büyücü, büyü gibi bir kuvvetle çeken, büyüleyici."
+ },
+ {
+  "madde": "Sekâr",
+  "tanim": "Sarhoşluk."
+ },
+ {
+  "madde": "Sekenât",
+  "tanim": "Durmalar, duruşlar."
+ },
+ {
+  "madde": "Sekrân",
+  "tanim": "Serhoş."
+ },
+ {
+  "madde": "Sem‘",
+  "tanim": "İşitmek, dinlemek."
+ },
+ {
+  "madde": "Sem‘i sak",
+  "tanim": "Kulağı delik."
+ },
+ {
+  "madde": "Semâ’",
+  "tanim": "Âyin, devrân."
+ },
+ {
+  "madde": "Semâvât",
+  "tanim": "Gökler."
+ },
+ {
+  "madde": "Sem’-i cân",
+  "tanim": "Cân kulağı."
+ },
+ {
+  "madde": "Semme vechullah",
+  "tanim": "“Nereye dönerseniz Allah’ın yüzü oradadır.” (Bakara/115)."
+ },
+ {
+  "madde": "Seng",
+  "tanim": "Taş."
+ },
+ {
+  "madde": "Ser",
+  "tanim": "Baş:"
+ },
+ {
+  "madde": "Serâ",
+  "tanim": "Yer, toprak, malı çok olmak. Zenginlik."
+ },
+ {
+  "madde": "Serâb",
+  "tanim": "Çölde ışık tesiriyle suya benzer şekilde oluşan görüntü."
+ },
+ {
+  "madde": "Ser-â-ser",
+  "tanim": "Baştan başa, bütün."
+ },
+ {
+  "madde": "Serbâz",
+  "tanim": "Cesur, yiğit."
+ },
+ {
+  "madde": "Ser-çeşme",
+  "tanim": "Suyun başı. Kaynak."
+ },
+ {
+  "madde": "Serdâr",
+  "tanim": "Önder, baş."
+ },
+ {
+  "madde": "Ser-firâz",
+  "tanim": "Başını yukarı kaldıran."
+ },
+ {
+  "madde": "Ser-füru",
+  "tanim": "Baş eğen."
+ },
+ {
+  "madde": "Ser-gerdân",
+  "tanim": "Başı dönen, şaşkın, perişan."
+ },
+ {
+  "madde": "Sermâye",
+  "tanim": "Metinde âhiret için gerekli ibadet ve taat, ömür."
+ },
+ {
+  "madde": "Ser-mest",
+  "tanim": "Serhoş, kendinden geçmiş."
+ },
+ {
+  "madde": "Ser-serî",
+  "tanim": "Serseri, şurada burada başı boş gezen, işsiz güçsüz; boş söz."
+ },
+ {
+  "madde": "Ser-te-ser",
+  "tanim": "Baştan başa."
+ },
+ {
+  "madde": "Server",
+  "tanim": "Başkan, önder, reis, ulu, mürşit."
+ },
+ {
+  "madde": "Setr",
+  "tanim": "Örtme."
+ },
+ {
+  "madde": "Settâr",
+  "tanim": "Ayıpları örten Allah."
+ },
+ {
+  "madde": "Settârü’l-Uyûb",
+  "tanim": "Esmaü’l-Hüsna’dan. Ayıpları, günahları örtüp gizleyen."
+ },
+ {
+  "madde": "Sevâb",
+  "tanim": "Hayır, hayırlı iş, güzel şeyler, ilâhî mükafatı gerektiren hareketler."
+ },
+ {
+  "madde": "Sevdâ-zede",
+  "tanim": "Sevdalı, âşık."
+ },
+ {
+  "madde": "Sevi ehli",
+  "tanim": "Muhabbet sahibi âşıklar."
+ },
+ {
+  "madde": "Seyl",
+  "tanim": "Sel, coşkun akan su."
+ },
+ {
+  "madde": "Seyr ü sülûk",
+  "tanim": "Bir tarikate girip, manen yükselip, makamlar elde etme. Manevî terakki."
+ },
+ {
+  "madde": "Seyr",
+  "tanim": "Yürüyüş, geziş, eğleniş; manevî makamlarda yaşanılan müşâhede."
+ },
+ {
+  "madde": "Seyrân",
+  "tanim": "Gezme, gezinti."
+ },
+ {
+  "madde": "Seyrângâh",
+  "tanim": "Gezilen yer, seyir yeri."
+ },
+ {
+  "madde": "Seyrek",
+  "tanim": "Aralıklı, az, nadir."
+ },
+ {
+  "madde": "Seyru’llah",
+  "tanim": "Sâlikin Allah’ta olan seyri."
+ },
+ {
+  "madde": "Seyyâh",
+  "tanim": "Çok gezen."
+ },
+ {
+  "madde": "Seyyâre",
+  "tanim": "Gezegen."
+ },
+ {
+  "madde": "Seyyid-i Kevneyn",
+  "tanim": "İki âlemin efendisi, Hz. Peygamber."
+ },
+ {
+  "madde": "Seyyid-i Muhtâr",
+  "tanim": "Hz. Peygamber. Kendisini insanlığın hizmetine adayan kişilerin önderi."
+ },
+ {
+  "madde": "Sıddîk",
+  "tanim": "Hz. Ebu Bekr."
+ },
+ {
+  "madde": "Sıdk",
+  "tanim": "Doğruluk. Gerçeklik."
+ },
+ {
+  "madde": "Sıfat-ı ilâhiye",
+  "tanim": "İnsandaki ilâhî özellikler."
+ },
+ {
+  "madde": "Sıfât-ı tis’a",
+  "tanim": "Dokuz sıfat. Dokuz göğün insan tabiatındaki karşılıkları."
+ },
+ {
+  "madde": "Sıfatullah",
+  "tanim": "Allah’ın sıfatı, esmâullahın tecellî mahalli, eşya âlemi."
+ },
+ {
+  "madde": "Sılâ",
+  "tanim": "Asıl vatan, memleket, memleketine ulaşma."
+ },
+ {
+  "madde": "Sınmak",
+  "tanim": "Kırılmak."
+ },
+ {
+  "madde": "Sırât",
+  "tanim": "Doğru yol; cennete gireceklerin üstünden geçeceği cehennem üstündeki köprü."
+ },
+ {
+  "madde": "Sırât-ı müstakîm",
+  "tanim": "Doğru yol. Cenâb-ı Hakk’ın emrettiği ve Resûlullahın tarif ettiği üzere yaşayanların gittikleri yol."
+ },
+ {
+  "madde": "Sırça",
+  "tanim": "Câm, billur."
+ },
+ {
+  "madde": "Sırdaş",
+  "tanim": "Sırrı saklayan, sırrı bilen iki kişiden birisi."
+ },
+ {
+  "madde": "Sırr-ı esmâ",
+  "tanim": "Tanrı’nın isimlerinin sırrı."
+ },
+ {
+  "madde": "Sırr-ı mübhem",
+  "tanim": "Kapalı, açık olmayan sır."
+ },
+ {
+  "madde": "Sırr-ı vuzû’",
+  "tanim": "Abdest sırrı. Terk makamı."
+ },
+ {
+  "madde": "Sidretü’l-müntehâ",
+  "tanim": "Arşın sağ tarafında altıncı veya yedinci gökte bulunan ağaç. Yanında Cennet vardır ve Cennetin nehirleri onun altından akar. Bu ağaca Tubâ diyenler de olmuştur. Muttakilerin ve şehidlerin mekânıdır. Bu ağacın ötesine mahluk geçemez. Ötesi Allah’ın zât âlemidir. Beşer bilgisi, Sidre’de biter."
+ },
+ {
+  "madde": "Sihr",
+  "tanim": "Sihir, büyü."
+ },
+ {
+  "madde": "Silkmek",
+  "tanim": "Temizlemek, sarsmak."
+ },
+ {
+  "madde": "Simurg",
+  "tanim": "Yuvası Kaf dağında olduğu söylenen efsanevi kuş. Boynu uzun ve yüksekte uçtuğundan Araplar “Anka” derler. Bu kuş “Zümrüdüanka” şeklinde de edebiyatımıza girmiştir. Attâr’ın Mantıku’t-Tayr’ında, otuz kuşun görüntüsü onda birleştiği için, “otuz kuş” anlamına gelen “Simurg” adı verildiği anlatılır. Devlet kuşu denilen de budur. Yüce makamları ve şekilllere tasarrufları cihetiyle Simurg, mürşid-i kâmile benzetilmiştir."
+ },
+ {
+  "madde": "Sin",
+  "tanim": "Mezar."
+ },
+ {
+  "madde": "Sîne",
+  "tanim": "Göğüs, kalp , sadr."
+ },
+ {
+  "madde": "Sîne-çâk",
+  "tanim": "Göğsü, yüreği yaralı."
+ },
+ {
+  "madde": "Sirâc",
+  "tanim": "Işık, kandil, mum."
+ },
+ {
+  "madde": "Sîretu’llâh",
+  "tanim": "Allah’ın hakikati."
+ },
+ {
+  "madde": "Sivâ",
+  "tanim": "Gayrı, başka, Allah’tan başka her şey."
+ },
+ {
+  "madde": "Sorucu",
+  "tanim": "Kabirde sual soracak melekler."
+ },
+ {
+  "madde": "Söğmek",
+  "tanim": "Küfretmek, Hakaret etmek."
+ },
+ {
+  "madde": "Subh",
+  "tanim": "Sabah."
+ },
+ {
+  "madde": "Sûfî",
+  "tanim": "Zahit."
+ },
+ {
+  "madde": "Su’i",
+  "tanim": "Kötü."
+ },
+ {
+  "madde": "Sultân-ı vakt",
+  "tanim": "Vaktin sultanı. Kutup. Kutbü’l-aktab."
+ },
+ {
+  "madde": "Sun‘",
+  "tanim": "Yapma, yapış, amel, iş, kudret, yaratılış."
+ },
+ {
+  "madde": "Sûr",
+  "tanim": "Kıyâmet günü İsrafil adlı meleğin üfleyeceği boru."
+ },
+ {
+  "madde": "Sûret",
+  "tanim": "Şekil, yüz, resim, tarz, biçim."
+ },
+ {
+  "madde": "Sûret-i imkân",
+  "tanim": "Eşyanın dış görüntüleri."
+ },
+ {
+  "madde": "Suver",
+  "tanim": "Sûretler, görüntüler."
+ },
+ {
+  "madde": "Sûzân",
+  "tanim": "Yakıcı."
+ },
+ {
+  "madde": "Sübhân",
+  "tanim": "Her türlü kusur, ayıp ve eksikten münezzeh. Allah."
+ },
+ {
+  "madde": "Sücûd",
+  "tanim": "Secdeler."
+ },
+ {
+  "madde": "Süflî",
+  "tanim": "Aşağıda bulunan, alçak, adî."
+ },
+ {
+  "madde": "Sükker(şeker)",
+  "tanim": "Mecazen tevhîd."
+ },
+ {
+  "madde": "Sülehâ",
+  "tanim": "Salihler."
+ },
+ {
+  "madde": "Süleymân",
+  "tanim": "İsrailoğullarından Hz. Dâvûd’un oğlu. Peygamber ve hükümdârdır. Saltanatının kudretiyle ve tahtıyla meşhurdur. Mahlûkatın dilini bilir, Kuş dilinden anlardı. Emrinde cinleri vardı."
+ },
+ {
+  "madde": "Sülûk",
+  "tanim": "Bir tarîkate intisab edip manevî ve ruhî yolculuğa çıkmak, sâlikin şahsî arzularından geçip ilâhî iradenin hakimiyetine girmesi. Mana yolculuğu. Eşyanın hakikatine doğru gönül yoluyla bilgilenme."
+ },
+ {
+  "madde": "Sünnet",
+  "tanim": "Hz. Peygamberin sözleri, yaptığı ve yapılmasını tavsiye ettiği hususlar."
+ },
+ {
+  "madde": "Sürmek",
+  "tanim": "Devam etmek, çekmek."
+ },
+ {
+  "madde": "Sürûr",
+  "tanim": "Sevinç."
+ },
+ {
+  "madde": "Süvâr",
+  "tanim": "Ata binmiş, binici."
+ },
+ {
+  "madde": "Şâd",
+  "tanim": "Sevinçli, neşeli."
+ },
+ {
+  "madde": "Şâdân",
+  "tanim": "Sevinçliler."
+ },
+ {
+  "madde": "Şâdî",
+  "tanim": "Şarkı mırıldanan, taklid eden kişi."
+ },
+ {
+  "madde": "Şâdî",
+  "tanim": "Gönlü ferah olan, sevinçli."
+ },
+ {
+  "madde": "Şâh bitisi",
+  "tanim": "Pâdişâha yazılan mektup."
+ },
+ {
+  "madde": "Şâh",
+  "tanim": "Pâdişâh, sultân. Metinde Allah veya mürşid anlamında"
+ },
+ {
+  "madde": "Şâh-ı evliyâ",
+  "tanim": "Velîlerin şâhı, Hz. Ali. Mürşid-i kâmil."
+ },
+ {
+  "madde": "Şâh-ı hûbân",
+  "tanim": "Güzellerin şahı."
+ },
+ {
+  "madde": "Şâh-ı Merdân",
+  "tanim": "Hz. Ali."
+ },
+ {
+  "madde": "Şâhid",
+  "tanim": "Gören."
+ },
+ {
+  "madde": "Şakımak",
+  "tanim": "Ötmek."
+ },
+ {
+  "madde": "Şakî",
+  "tanim": "Günahkâr.Yol kesen, Haydut."
+ },
+ {
+  "madde": "Şâkî",
+  "tanim": "Şikâyet eden, şikâyetçi."
+ },
+ {
+  "madde": "Şâkir",
+  "tanim": "Şükr edici."
+ },
+ {
+  "madde": "Şâkird",
+  "tanim": "Talebe. Metinde dervîş."
+ },
+ {
+  "madde": "Şakka’l-kamer",
+  "tanim": "Ay ikiye ayrıldı. (Kamer/1)."
+ },
+ {
+  "madde": "Şâmil",
+  "tanim": "İçine alan, kaplayan, ihata eden."
+ },
+ {
+  "madde": "Şân",
+  "tanim": "Hâl, durum, değişme, huy, âdet."
+ },
+ {
+  "madde": "Şân",
+  "tanim": "Şöhret, ün."
+ },
+ {
+  "madde": "Şarâben tahûr",
+  "tanim": "“Tertemiz içecekler.” (İnsan /21)."
+ },
+ {
+  "madde": "Şaşmak",
+  "tanim": "Şaşırmak, bozulmak, yanlış yola gitmek."
+ },
+ {
+  "madde": "Şeb ü rûz",
+  "tanim": "Gece ve gündüz."
+ },
+ {
+  "madde": "Şecerât",
+  "tanim": "Ağaçlar."
+ },
+ {
+  "madde": "Şefâ’at",
+  "tanim": "Affa vesile olmak. Şefaat etmek. Manevî yardım. Niyâz. İstirham."
+ },
+ {
+  "madde": "Şehd",
+  "tanim": "Bal."
+ },
+ {
+  "madde": "Şehîd",
+  "tanim": "Allah yolunda canını veren. Şehid olan. Tasavvufta, Hakk’ı müşâhede eden kişi."
+ },
+ {
+  "madde": "Şehir",
+  "tanim": "Mecazen, vücûd veya gönül."
+ },
+ {
+  "madde": "Şehsüvâr",
+  "tanim": "Ata iyi binen."
+ },
+ {
+  "madde": "Şek",
+  "tanim": "Sanı, zan, şüphe."
+ },
+ {
+  "madde": "Şekâvet",
+  "tanim": "Haydutluk."
+ },
+ {
+  "madde": "Şekk",
+  "tanim": "Şüphe, zan, tereddüt."
+ },
+ {
+  "madde": "Şem’",
+  "tanim": "Mum."
+ },
+ {
+  "madde": "Şems",
+  "tanim": "Güneş."
+ },
+ {
+  "madde": "Şems-i hakîkat",
+  "tanim": "Hakikat güneşi."
+ },
+ {
+  "madde": "Şems-i tâbân",
+  "tanim": "Parlak güneş."
+ },
+ {
+  "madde": "Şems-i vahdet",
+  "tanim": "Vahdet güneşi. Birlik âlâmeti olan deliller."
+ },
+ {
+  "madde": "Şer",
+  "tanim": "Kötülük."
+ },
+ {
+  "madde": "Şerh",
+  "tanim": "Açma, genişletme, açıklama."
+ },
+ {
+  "madde": "Şerik",
+  "tanim": "Ortak."
+ },
+ {
+  "madde": "Şerr ile şûrdan",
+  "tanim": "Gürültü, şamata."
+ },
+ {
+  "madde": "Şeş",
+  "tanim": "Altı."
+ },
+ {
+  "madde": "Şevk",
+  "tanim": "Hararet, istek, arzu, coşku."
+ },
+ {
+  "madde": "Şeyâtîn",
+  "tanim": "Şeytânlar."
+ },
+ {
+  "madde": "Şeydâ",
+  "tanim": "Çılgın, dîvâne."
+ },
+ {
+  "madde": "Şeyh",
+  "tanim": "İhtiyar, pir, tasavvufta mürşid."
+ },
+ {
+  "madde": "Şeyhü’ş-şüyûh",
+  "tanim": "Şeyhler şeyhi."
+ },
+ {
+  "madde": "Şey’lillah eylemek",
+  "tanim": "Allah rızası için istemek."
+ },
+ {
+  "madde": "Şifâ",
+  "tanim": "Kâmil insan ve âşıka verdiği aşk ve irfân."
+ },
+ {
+  "madde": "Şifâya irgürmek",
+  "tanim": "Şifaya kavuşmak."
+ },
+ {
+  "madde": "Şikâr",
+  "tanim": "Av."
+ },
+ {
+  "madde": "Şîr-i Hudâ",
+  "tanim": "Allah’ın arslanı. Mecazen Hz. Ali. Kâmil insan."
+ },
+ {
+  "madde": "Şîr-i Yezdân",
+  "tanim": "Allah’ın arslanı Hz. Ali."
+ },
+ {
+  "madde": "Şîrîn-dehân",
+  "tanim": "Tatlı sözlü, kâmil insan."
+ },
+ {
+  "madde": "Şirk",
+  "tanim": "Allah’a ortak koşmak."
+ },
+ {
+  "madde": "Şîve",
+  "tanim": "Nâz, edâ, cilve, işve."
+ },
+ {
+  "madde": "Şugl",
+  "tanim": "Meşgul olma."
+ },
+ {
+  "madde": "Şugl-ı esmâ",
+  "tanim": "Zikir olarak okunan isimlerle meşgul olma."
+ },
+ {
+  "madde": "Şu’le",
+  "tanim": "Işık, alev."
+ },
+ {
+  "madde": "Şûm",
+  "tanim": "Şom, uğursuz."
+ },
+ {
+  "madde": "Şur etmek",
+  "tanim": "Gürültü etmek. Karıştırmak, karışıklık çıkarmak."
+ },
+ {
+  "madde": "Şûrîde kılmak",
+  "tanim": "Perişan etmek; karıştırmak; âşık etmek."
+ },
+ {
+  "madde": "Şu’ûn",
+  "tanim": "İşler, yeni çıkan işler, hadiseler, olaylar, vak’alar, tecellîler."
+ },
+ {
+  "madde": "Şücâ",
+  "tanim": "Yiğit, bahadır."
+ },
+ {
+  "madde": "Şühûd",
+  "tanim": "Görme."
+ },
+ {
+  "madde": "Şürb",
+  "tanim": "İçme, içilme."
+ },
+ {
+  "madde": "Şürû’",
+  "tanim": "Başlama."
+ },
+ {
+  "madde": "Ta’n etmek",
+  "tanim": "Kınamak, yermek."
+ },
+ {
+  "madde": "Ta’alluk",
+  "tanim": "İlgisi olma, sevme, dünya meyli."
+ },
+ {
+  "madde": "Taâm",
+  "tanim": "Yemek."
+ },
+ {
+  "madde": "Tâ’at",
+  "tanim": "Allah’ın emirlerini yerine getirme, itaat etme, ibadet etme."
+ },
+ {
+  "madde": "Tab‘",
+  "tanim": "Tabiat, neş’e."
+ },
+ {
+  "madde": "Tabîb",
+  "tanim": "Mürşid-i kâmil."
+ },
+ {
+  "madde": "Ta’bîr",
+  "tanim": "Açıklama, izah etme, rüyâ yorumlama, aktarma."
+ },
+ {
+  "madde": "Tâc ile tahtı komak",
+  "tanim": "Her türlü maddî değeri gönülden çıkarmak."
+ },
+ {
+  "madde": "Tâc",
+  "tanim": "Hükümdarların giydiği, mücevherle süslü altın başlık; tarikatte şeyhlerin giydiği ve marifet makamlarını sembolize eden başlık."
+ },
+ {
+  "madde": "Tâhir",
+  "tanim": "Temiz."
+ },
+ {
+  "madde": "Tahiyyât",
+  "tanim": "Selâmlar, dualar, Manevî hayat armağanları."
+ },
+ {
+  "madde": "Tahkik",
+  "tanim": "İnceleme, gerçek olup olmadığını araştırma."
+ },
+ {
+  "madde": "Tahrîr",
+  "tanim": "Yazma, yazı olarak meydana getirme, kaydetme."
+ },
+ {
+  "madde": "Tahte’l-ulâ",
+  "tanim": "Şerefli olan."
+ },
+ {
+  "madde": "Tahûr",
+  "tanim": "Temiz, temiz olan, temizleyen."
+ },
+ {
+  "madde": "Takarrüb",
+  "tanim": "Yaklaşmak, yakınlaşmak."
+ },
+ {
+  "madde": "Tâkatı tâk olmak",
+  "tanim": "Gücü kesilmek."
+ },
+ {
+  "madde": "Taklid",
+  "tanim": "Benzetmeye çalışmak."
+ },
+ {
+  "madde": "Takvâ",
+  "tanim": "Sakınmak, Dinin yasakladığı şeylerde aşırı özen göstermek. Kendini şüpheli şeylerden görünmek."
+ },
+ {
+  "madde": "Tal’at",
+  "tanim": "Yüz, surat, çehre; güzellik."
+ },
+ {
+  "madde": "Tali’",
+  "tanim": "Baht, talih; doğan."
+ },
+ {
+  "madde": "Tâlib",
+  "tanim": "Talep eden, bir tarikate girmek isteyen dervîş adayı."
+ },
+ {
+  "madde": "Tamu",
+  "tanim": "Cehennem."
+ },
+ {
+  "madde": "Ta’n etmek",
+  "tanim": "Kınamak, yermek."
+ },
+ {
+  "madde": "Tanrı arslanı",
+  "tanim": "Hz. Ali’nin sıfatlarından birisi. Esedullah."
+ },
+ {
+  "madde": "Tanrı hası",
+  "tanim": "Mürşid. İnsan-ı kâmil."
+ },
+ {
+  "madde": "Tapı, tapu",
+  "tanim": "Huzur, makam."
+ },
+ {
+  "madde": "Tapıp",
+  "tanim": "Bulup."
+ },
+ {
+  "madde": "Tapşırmak",
+  "tanim": "Emanet etmek, vermek, tevdi etmek, yöneltmek."
+ },
+ {
+  "madde": "Tarfetü’l-Ayn",
+  "tanim": "Göz açıp kapayana kadar."
+ },
+ {
+  "madde": "Tarîk",
+  "tanim": "Yol"
+ },
+ {
+  "madde": "Tarîk-i aşk",
+  "tanim": "Aşk yolu."
+ },
+ {
+  "madde": "Tarîk-i mustakîm",
+  "tanim": "Doğru yol."
+ },
+ {
+  "madde": "Tartmak",
+  "tanim": "Çekmek."
+ },
+ {
+  "madde": "Tasfiye",
+  "tanim": "Arındırma, temizleme."
+ },
+ {
+  "madde": "Taş",
+  "tanim": "Dış."
+ },
+ {
+  "madde": "Taşra",
+  "tanim": "Dışarı."
+ },
+ {
+  "madde": "Tavîl",
+  "tanim": "Uzun."
+ },
+ {
+  "madde": "Tayy",
+  "tanim": "Bükmek, dermek, sarmak, kaldırmak, açmak, geçmek."
+ },
+ {
+  "madde": "Tayy-i mekân",
+  "tanim": "1. Mekânı, mesafeyi, zamanı atlarcasına geçme. 2. çıkarma, kaldırma, yok etme, lâğvetme."
+ },
+ {
+  "madde": "Tâze bahar",
+  "tanim": "İlkbahar."
+ },
+ {
+  "madde": "Tâzı",
+  "tanim": "Koşmak."
+ },
+ {
+  "madde": "Tebdîl olmak",
+  "tanim": "Değişmek."
+ },
+ {
+  "madde": "Tecellî",
+  "tanim": "Görünme, belirme. Allah’ın sır ve kudretinin sâlike eşya âleminden görünmesi."
+ },
+ {
+  "madde": "Tecellî-i ef’âl",
+  "tanim": "Fiiller tecellîsi; Allah’ın fiillerinden bir fiilin kulun kalbinde belirmesi. Salikin, bir fiil tecellîsinin Hak’tan olduğunun bilincine varması."
+ },
+ {
+  "madde": "Tecellî-i ilâhî",
+  "tanim": "Sâlikin kalbinde meydana gelen Hakk’a ait belirtiler."
+ },
+ {
+  "madde": "Tecellî-i nihânî",
+  "tanim": "İlahî sırların kalbte âşikâr olması."
+ },
+ {
+  "madde": "Tecellî-i zât",
+  "tanim": "İlâhî zâtın,seyr ü sülûk esnasında tecellî etmesi."
+ },
+ {
+  "madde": "Tecrîd",
+  "tanim": "Tek olmak, soyunmak, Allah’tan başka herşeyden ayrılma, ayırmak."
+ },
+ {
+  "madde": "Tefekkür",
+  "tanim": "Düşünme."
+ },
+ {
+  "madde": "Teferrüc",
+  "tanim": "Ferahlama, gezme, gezintiye çıkıp gam dağıtma."
+ },
+ {
+  "madde": "Tefhîm",
+  "tanim": "Anlatma, bilinçlendirme."
+ },
+ {
+  "madde": "Tefrîk",
+  "tanim": "Ayırma, seçme."
+ },
+ {
+  "madde": "Tefrika",
+  "tanim": "Ayrılma, ayrılık, bozuşma."
+ },
+ {
+  "madde": "Teharrî",
+  "tanim": "Arama, araştırma, araştırılma."
+ },
+ {
+  "madde": "Tehî",
+  "tanim": "Boş."
+ },
+ {
+  "madde": "Tekebbür",
+  "tanim": "Kibir gösterme, büyüklük taslama, enaniyet."
+ },
+ {
+  "madde": "Tekye",
+  "tanim": "Dervîşlerin zikir veya ibadet için toplandıkları mekân. Mecazen, mürşid-i kamilin gönlü."
+ },
+ {
+  "madde": "Tekye-i dil",
+  "tanim": "Gönül tekkesi."
+ },
+ {
+  "madde": "Telbîs",
+  "tanim": "Metinde, benliğini örterek kendisini iyi göstermek. Kulun Hak suretinde görünmesi."
+ },
+ {
+  "madde": "Telkîn almak",
+  "tanim": "Bey’at etmek. Bir mürşidden izin almak."
+ },
+ {
+  "madde": "Telvîn",
+  "tanim": "Renk verme, boyama."
+ },
+ {
+  "madde": "Temannâ",
+  "tanim": "Dilek, istek. Eli alna götürüp selâmlamak."
+ },
+ {
+  "madde": "Temâşâ etmek",
+  "tanim": "Seyretmek."
+ },
+ {
+  "madde": "Temessük",
+  "tanim": "Bağlanma, tutunma, sarılma."
+ },
+ {
+  "madde": "Temessül etmek",
+  "tanim": "Bir şekle girmek, şekil yoluyla anlatmak."
+ },
+ {
+  "madde": "Teneşir",
+  "tanim": "Ölülerin yıkandığı tahtadan yapılan dört ayaklı masa."
+ },
+ {
+  "madde": "Tenezzül",
+  "tanim": "İnme, alçalma, nüzûl etme."
+ },
+ {
+  "madde": "Tenhâ",
+  "tanim": "Kalabalık olmayan yer."
+ },
+ {
+  "madde": "Tenzîh",
+  "tanim": "Allah’ın, her türlü eksik ve noksandan uzak bulunduğuna ve insan vasfında olmadığına inanma."
+ },
+ {
+  "madde": "Terk",
+  "tanim": "Bırakma, vazgeçme."
+ },
+ {
+  "madde": "Terk-i kesret",
+  "tanim": "Kesreti terk etme."
+ },
+ {
+  "madde": "Terk-i mâsivâ",
+  "tanim": "Dünyadan vazgeçme, Allah’tan başka her şeyden ilgisini kesme."
+ },
+ {
+  "madde": "Tersâ",
+  "tanim": "Hıristiyan"
+ },
+ {
+  "madde": "Tes’îd",
+  "tanim": "Kutlama."
+ },
+ {
+  "madde": "Tesbîh okumak",
+  "tanim": "Sübhanallah demek, Allah’ı şanına layık olarak zikretmek, anmak."
+ },
+ {
+  "madde": "Tesellâ",
+  "tanim": "Avutma, avunma."
+ },
+ {
+  "madde": "Teslîmlik",
+  "tanim": "Bağlılık."
+ },
+ {
+  "madde": "Tesnîm",
+  "tanim": "Cennette akan çeşmelerden birisinin adı."
+ },
+ {
+  "madde": "Teşne",
+  "tanim": "Susamış, arzulamış."
+ },
+ {
+  "madde": "Teşne-dil",
+  "tanim": "Gönlü susamış."
+ },
+ {
+  "madde": "Tevellâ",
+  "tanim": "Birine dost olup yönelme. Sevme."
+ },
+ {
+  "madde": "Tevhîd",
+  "tanim": "Kulun Hakk’ı birlemesi. İsim, sıfat, fiil ve zâtta Hakk’ın birliğini idrâk etmesi."
+ },
+ {
+  "madde": "Te’vîl",
+  "tanim": "Sözü çevirme, söze ayrı mânâ verme."
+ },
+ {
+  "madde": "Tezkiye",
+  "tanim": "Temizleme."
+ },
+ {
+  "madde": "Tıb",
+  "tanim": "Mürşidin âşıka telkin ettiği tevhîd mayâsı."
+ },
+ {
+  "madde": "Tıb",
+  "tanim": "Sıhhat , sağlık, tedavi bilgisi."
+ },
+ {
+  "madde": "Tıfl-ı ma’nâ",
+  "tanim": "Mana çocuğu. Mürşidin müridine maye-i Muhammedî ve tevhid-i hakiki ile döllemesi neticesinde gönlünde zuhur eden manâlar. Gönüldeki aşk ve ledün mayâsı."
+ },
+ {
+  "madde": "Tılsım",
+  "tanim": "Gizli şey, fevkalede tesiri olan şey. define bulmaya engel olan mevhum şey."
+ },
+ {
+  "madde": "Tınmak",
+  "tanim": "Aldırış etmek."
+ },
+ {
+  "madde": "Tîb",
+  "tanim": "Güzel koku."
+ },
+ {
+  "madde": "Tibyân Eylemek",
+  "tanim": "Açık anlatmak, bildirmek."
+ },
+ {
+  "madde": "Tîg",
+  "tanim": "Kılıç."
+ },
+ {
+  "madde": "Tîg-bend",
+  "tanim": "Kılıç kuşanma."
+ },
+ {
+  "madde": "Timâr",
+  "tanim": "Tamir etmek, onarmak, tedavi etmek."
+ },
+ {
+  "madde": "Tiryâk",
+  "tanim": "Panzehir."
+ },
+ {
+  "madde": "Tis’a",
+  "tanim": "Dokuz."
+ },
+ {
+  "madde": "Tîz",
+  "tanim": "Çabuk, acele."
+ },
+ {
+  "madde": "Tizcek",
+  "tanim": "Çabucak."
+ },
+ {
+  "madde": "Tohm",
+  "tanim": "Tohum."
+ },
+ {
+  "madde": "Toka",
+  "tanim": "Tâc-ı şerifin düğmesi."
+ },
+ {
+  "madde": "Toylamak",
+  "tanim": "Düğün, şenlik ve ziyafet vermek."
+ },
+ {
+  "madde": "Tûbâ",
+  "tanim": "Cennette bulunan kökü gökte, dalları yerde bir ağaç."
+ },
+ {
+  "madde": "Tûfân",
+  "tanim": "Çok şiddetli ve her tarafı kaplayan su. Nuh Peygamber zamanındaki Nuh Peygamberin kavmine uygulanan manevî ceza, büyük su baskını. Bu tufanda Nuh’un gemisi dışındaki bütün canlılar yok olmuştur."
+ },
+ {
+  "madde": "Tugyân",
+  "tanim": "Taşma, taşkınlık, azgınlık. coşkunluk."
+ },
+ {
+  "madde": "Tûl-i emel",
+  "tanim": "Hırs, tamah, tükenmez arzu. olmayacak dilek."
+ },
+ {
+  "madde": "Tûl",
+  "tanim": "Uzun."
+ },
+ {
+  "madde": "Tulû’",
+  "tanim": "Doğma, doğuş."
+ },
+ {
+  "madde": "Tumturak",
+  "tanim": "Gösteri, debdebe; söylenişi parlak görünen."
+ },
+ {
+  "madde": "Tûr",
+  "tanim": "Tûr-ı Sîna. Hz. Mûsâ’nın İlâhî tecellîye mazhar olduğu dağ. Edebiyatımızda Tûr, duruma göre bazan gönül, çoğu zaman ise beden için kullanılmıştır. Mutasavvıflar ledünnî mânâda kullanırlar."
+ },
+ {
+  "madde": "Turfanda",
+  "tanim": "Taze, yeni çıkmış."
+ },
+ {
+  "madde": "Turrâ",
+  "tanim": "Kıvrım."
+ },
+ {
+  "madde": "Tuş olmak",
+  "tanim": "Bir şeye meyletmek."
+ },
+ {
+  "madde": "Tuş",
+  "tanim": "Taraf, yön, rast gelme, karşısına durmak."
+ },
+ {
+  "madde": "Tutalım",
+  "tanim": "Farz edelim."
+ },
+ {
+  "madde": "Tuyûr",
+  "tanim": "Kuşlar."
+ },
+ {
+  "madde": "Tübtü ileyk",
+  "tanim": "“Sana tevbe ettim.” (A’raf/143)."
+ },
+ {
+  "madde": "Türâb",
+  "tanim": "Toprak."
+ },
+ {
+  "madde": "Türâbî",
+  "tanim": "Toprak ile ilgili, toprağa ait."
+ },
+ {
+  "madde": "Uban / üben",
+  "tanim": "Zarf fiil. -Up’tan genişletilmiş bir ek. “Ağlayuban: Ağlayıp, gibi."
+ },
+ {
+  "madde": "Ubûdiyyet",
+  "tanim": "Kulluk."
+ },
+ {
+  "madde": "Ubûr",
+  "tanim": "Geçmek, atlamak."
+ },
+ {
+  "madde": "Ucb",
+  "tanim": "Gösteriş,"
+ },
+ {
+  "madde": "Uç",
+  "tanim": "Son, nihayet. Kenar, sınır."
+ },
+ {
+  "madde": "Uçmak",
+  "tanim": "Cennet."
+ },
+ {
+  "madde": "Ud /ut",
+  "tanim": "Utanma, hayâ, şeref."
+ },
+ {
+  "madde": "Uhrâ",
+  "tanim": "Başka, diğer."
+ },
+ {
+  "madde": "Ukbâ",
+  "tanim": "Âhiret."
+ },
+ {
+  "madde": "Ulayı",
+  "tanim": "Haber. Muştu."
+ },
+ {
+  "madde": "Ulemâ",
+  "tanim": "Âlimler, bilginler."
+ },
+ {
+  "madde": "Ulûhiyyet",
+  "tanim": "Cenâb-ı Hakk’ın Zatı. Allahlık sıfatı, Tanrılık vasfı."
+ },
+ {
+  "madde": "Ulu’l-ebsâr",
+  "tanim": "Gönül gözü açıklar."
+ },
+ {
+  "madde": "Ulyâ",
+  "tanim": "Pek büyük."
+ },
+ {
+  "madde": "Ummak",
+  "tanim": "Beklemek, ümid etmek. Temennî."
+ },
+ {
+  "madde": "Ummân",
+  "tanim": "Büyük deniz, okyanus. Birlik âlemi. Zât-ı ulûhiyyet."
+ },
+ {
+  "madde": "Umûr",
+  "tanim": "Emirler."
+ },
+ {
+  "madde": "Unûk",
+  "tanim": "Boyun, gerdân."
+ },
+ {
+  "madde": "Urgan",
+  "tanim": "Örülmüş sağlam ip."
+ },
+ {
+  "madde": "Urûc",
+  "tanim": "Yükselme."
+ },
+ {
+  "madde": "Urvetü’l-Vüskâ",
+  "tanim": "(Tutunacak) sağlam ip. (Lokman/22; Bakara/256)."
+ },
+ {
+  "madde": "Uryân",
+  "tanim": "Çıplak."
+ },
+ {
+  "madde": "Usûl",
+  "tanim": "Tarîkat erkân ve adâbı."
+ },
+ {
+  "madde": "Uş",
+  "tanim": "İşte."
+ },
+ {
+  "madde": "Uşda",
+  "tanim": "İşte."
+ },
+ {
+  "madde": "Uşşâk",
+  "tanim": "Âşıklar."
+ },
+ {
+  "madde": "Ut",
+  "tanim": "Edeb, hayâ."
+ },
+ {
+  "madde": "Uyanık",
+  "tanim": "Farka gelen dervîş."
+ },
+ {
+  "madde": "Uyanmak",
+  "tanim": "Parlamak, yanmak, gafletten uyanmak."
+ },
+ {
+  "madde": "Uyku",
+  "tanim": "Gaflet."
+ },
+ {
+  "madde": "Uymak",
+  "tanim": "İzlemek."
+ },
+ {
+  "madde": "Uymandı",
+  "tanim": "Sakın uyma, benzeme."
+ },
+ {
+  "madde": "Uyuz",
+  "tanim": "Uyuz hastalığına yakalanmış. Yavaş hareket eden, hantal davranan kişi."
+ },
+ {
+  "madde": "Uzlet",
+  "tanim": "Bir yana çekilip yalnız yaşama. Allah’tan başka herşeyden tecrid olunarak yaşama."
+ },
+ {
+  "madde": "Ülfet",
+  "tanim": "Alışma, kaynaşma, görüşme, konuşma, dostluk."
+ },
+ {
+  "madde": "Ümmet",
+  "tanim": "Toplum, Bir Peygambere inanıp yolundan giden topluluk."
+ },
+ {
+  "madde": "Ümmî",
+  "tanim": "Anasından doğduğu gibi kalıp, okuma öğrenmeyen. Cahil, okuma yazma bilmeyen. Ana, tasavvufta “Dört unsur”dur. Ümmî, bu duruma göre “anaya, dört unsura ait”, dört unsurun aslını bilen ve aslından haberdar olan demek, demektir."
+ },
+ {
+  "madde": "Ümmü’l-kitâb",
+  "tanim": "Fatiha. Mecazen insan-ı kâmil."
+ },
+ {
+  "madde": "Ün",
+  "tanim": "Nida, ses."
+ },
+ {
+  "madde": "Üns",
+  "tanim": "Alışkanlık; Hakk’ın kalbdeki müşâhedesinin eserleri."
+ },
+ {
+  "madde": "Ünsiyyet",
+  "tanim": "Alışkanlık, ahbablık, arkadaşlık."
+ },
+ {
+  "madde": "Üryân",
+  "tanim": "Çıplak"
+ },
+ {
+  "madde": "Üstâd",
+  "tanim": "Ehil, usta. Mürşid."
+ },
+ {
+  "madde": "Üstâd-ı ezel",
+  "tanim": "Mutlak varlık, Allah."
+ },
+ {
+  "madde": "Üstühân",
+  "tanim": "Kemik."
+ },
+ {
+  "madde": "Üşde",
+  "tanim": "İşte."
+ },
+ {
+  "madde": "Üşmek",
+  "tanim": "Toplanmak, yığılmak, üşüşmek."
+ },
+ {
+  "madde": "Üveys",
+  "tanim": "Veyse’l-karanî."
+ },
+ {
+  "madde": "Vâcib",
+  "tanim": "Lüzûmlu, Mecbûrî olan, Yerine getirilmesi zarurî Allah’ın emirleri."
+ },
+ {
+  "madde": "Vahdet",
+  "tanim": "Birlik, bir ve tek olma hâli. Yalnızlık, kendi kendine kalış. Allah’a yakınlık, Allah’a ulaşma."
+ },
+ {
+  "madde": "Vahdet-i ef’âl",
+  "tanim": "Fiiller birliği."
+ },
+ {
+  "madde": "Vâhidiyyet",
+  "tanim": "Birlik, teklik, bir olma, tek olma."
+ },
+ {
+  "madde": "Vâiz",
+  "tanim": "Dinî öğütler veren kişi."
+ },
+ {
+  "madde": "Vâkı’a",
+  "tanim": "Misâl (rüyâ) ya da hitap yoluyla melekût âleminden kalbe gelen mânâ."
+ },
+ {
+  "madde": "Vâkıf-ı esrâr",
+  "tanim": "Sırlardan haberdâr olan ârif."
+ },
+ {
+  "madde": "Varak",
+  "tanim": "Tek yaprak halindeki kâğıt. Nebat yaprağı. Kitap yaprağı."
+ },
+ {
+  "madde": "Varıgörmek",
+  "tanim": "Hemen varmak, bir an evvel ulaşmaya çalışmak."
+ },
+ {
+  "madde": "Vâridât",
+  "tanim": "İçe doğan hikmetler."
+ },
+ {
+  "madde": "Vasf etmek",
+  "tanim": "Anlatmak, tarif etmek, övmek."
+ },
+ {
+  "madde": "Vasf-ı hâl",
+  "tanim": "Hâlin dile getirilmesi, çeşitli hâller, insânın manevî durumunun değişmesi."
+ },
+ {
+  "madde": "Vâsıl olmak",
+  "tanim": "Ulaşmak, erişmek, kavuşmak."
+ },
+ {
+  "madde": "Vâsıl",
+  "tanim": "Ulaşan, erişen, kavuşan."
+ },
+ {
+  "madde": "Vasl",
+  "tanim": "Kavuşma, ulaşma."
+ },
+ {
+  "madde": "Vasl-ı lâ-mekân",
+  "tanim": "Mekânsızlığa ulaşma."
+ },
+ {
+  "madde": "Vatan",
+  "tanim": "Âlem-i ervah."
+ },
+ {
+  "madde": "Ve le-kad kerremnâ benî âdeme",
+  "tanim": "Ve andolsun ki; Âdemoğlunu kerem sahibi (şerefli) kıldık. (İsrâ/70)."
+ },
+ {
+  "madde": "Vech",
+  "tanim": "Yüz, çehre."
+ },
+ {
+  "madde": "Vedâ",
+  "tanim": "Ayrılma, ayrılış."
+ },
+ {
+  "madde": "Vedûd",
+  "tanim": "Kendisine sevgi beslenilen Allah."
+ },
+ {
+  "madde": "Vefadâr",
+  "tanim": "Vefalı, sözünde duran."
+ },
+ {
+  "madde": "Vekîl",
+  "tanim": "Birinin yerine görev yapan."
+ },
+ {
+  "madde": "Velâyet",
+  "tanim": "Velilik, ermişlik, dostluk, sadâkat, Allah dostluğu."
+ },
+ {
+  "madde": "Velî",
+  "tanim": "Ermiş, seven. dost, sahib."
+ },
+ {
+  "madde": "Verd",
+  "tanim": "Gül."
+ },
+ {
+  "madde": "Verd-i Handân",
+  "tanim": "Açılmış gül."
+ },
+ {
+  "madde": "Verd-i Reyhân",
+  "tanim": "Reyhan yaprağı."
+ },
+ {
+  "madde": "Verd-i Zîbâ",
+  "tanim": "En güzel gül."
+ },
+ {
+  "madde": "verip durun",
+  "tanim": "Verip duruyorum."
+ },
+ {
+  "madde": "Vesîle",
+  "tanim": "Bahane, fırsat."
+ },
+ {
+  "madde": "Vesvâs",
+  "tanim": "Şeytan"
+ },
+ {
+  "madde": "Vîrân",
+  "tanim": "Yıkık, harap."
+ },
+ {
+  "madde": "Vîrâne-i dil",
+  "tanim": "Gönül viranesi."
+ },
+ {
+  "madde": "Vird",
+  "tanim": "Sık okunan dua, zikir."
+ },
+ {
+  "madde": "Visâl",
+  "tanim": "Kavuşma."
+ },
+ {
+  "madde": "Vuslat",
+  "tanim": "Sevenin sevdiğine kavuşması."
+ },
+ {
+  "madde": "Vuzû’",
+  "tanim": "Abdest alma, abdest."
+ },
+ {
+  "madde": "Vücûb",
+  "tanim": "Vacip, lüzumlu olma; bırakılması mümkün olmayan; gerekli."
+ },
+ {
+  "madde": "Vücûd",
+  "tanim": "Bulunma var olma, varlık; gövde; ten, beden."
+ },
+ {
+  "madde": "Vüs’at",
+  "tanim": "Genişleme."
+ },
+ {
+  "madde": "Vüsûl",
+  "tanim": "Ulaşma."
+ },
+ {
+  "madde": "Yaban",
+  "tanim": "Dışarı, kır, şehir dışı."
+ },
+ {
+  "madde": "Yad",
+  "tanim": "Yabancı, tanıdık olmayan, garib."
+ },
+ {
+  "madde": "Yağlamak",
+  "tanim": "Uyuz olan hayvanın yarasını katranla tedavi etmek."
+ },
+ {
+  "madde": "Yağma",
+  "tanim": "Çapul, zorla mal kapma."
+ },
+ {
+  "madde": "Yahşı",
+  "tanim": "Güzel. yakışıklı."
+ },
+ {
+  "madde": "Yaka çâk etmek",
+  "tanim": "Yaka Yırtmak."
+ },
+ {
+  "madde": "Yakaza",
+  "tanim": "Uyku ile uyanıklık arasında yaşanan manevî bir hâl. Rüyâ ile hâl arasında yaşanan vâkıa."
+ },
+ {
+  "madde": "Yakîn",
+  "tanim": "Kesin ve apaçık bilgi. Şüphe ve tereddüde yer bırakmayan doğru ve gerçek bilgi."
+ },
+ {
+  "madde": "Yakmandı",
+  "tanim": "Yakma artık."
+ },
+ {
+  "madde": "Yakûb",
+  "tanim": "İsrailoğullarından Yûsuf Peygamberin babası olan peygamber."
+ },
+ {
+  "madde": "Yâkût",
+  "tanim": "Çeşitli renkleri olan kıymetli bir süs taşı."
+ },
+ {
+  "madde": "Yalıncak",
+  "tanim": "Yalın bir şekilde, çıplak."
+ },
+ {
+  "madde": "Yaman",
+  "tanim": "Kötü."
+ },
+ {
+  "madde": "Yanşak",
+  "tanim": "Geveze, çok konuşan."
+ },
+ {
+  "madde": "Yâr",
+  "tanim": "Dost, sevgili."
+ },
+ {
+  "madde": "Yar",
+  "tanim": "Tükrük."
+ },
+ {
+  "madde": "Yar",
+  "tanim": "Yardımcı"
+ },
+ {
+  "madde": "Yarağ",
+  "tanim": "Yol azığı, yol gereçleri, hazırlık, mecazen sâlikin abdest ve niyyet gibi ibadetleri."
+ },
+ {
+  "madde": "Yâren",
+  "tanim": "Arkadaş, dost."
+ },
+ {
+  "madde": "Yâ-sin",
+  "tanim": "Kur’ân-ı Kerim’de 36. sûrenin ismi. Sûrenin birinci âyeti müteşabih âyetlerdendir. Mutasavvıflar, “insan-ı kâmil”e veya “Hz. Muhammed’e” hitap eden “Ey Muhammed” yahut “ey insan” anlamında bir söz olduğunu söylerler."
+ },
+ {
+  "madde": "Yatmandı",
+  "tanim": "Yatma ha. Sakın yatma."
+ },
+ {
+  "madde": "Yaya",
+  "tanim": "Aşksız ve kılavuzsuz insan."
+ },
+ {
+  "madde": "Yayılmak",
+  "tanim": "Gezinmek."
+ },
+ {
+  "madde": "Yaylamak",
+  "tanim": "Yaylaya çıkmak. yazı yaylada geçirmek."
+ },
+ {
+  "madde": "Yazı",
+  "tanim": "Yaban, kır, ova."
+ },
+ {
+  "madde": "Yazlamak",
+  "tanim": "Yaylamak."
+ },
+ {
+  "madde": "Yed",
+  "tanim": "El."
+ },
+ {
+  "madde": "Yedi başlı bir ejder",
+  "tanim": "Nefs-i emmâre."
+ },
+ {
+  "madde": "Yedi deryâ",
+  "tanim": "Yedi tavır, sâlikin geçtiği yedi nefis merhalesinde yaşadığı hâl ve makamlar."
+ },
+ {
+  "madde": "Yedi esmâ",
+  "tanim": "Halvetîlerin seyr ü sülûk esnasında geçtikleri Tanrı’nın yedi ismi. Kelime-i tevhîd, Allah, Hû, Hak, Hay, Kayyûm, Kahhâr."
+ },
+ {
+  "madde": "Yedi iklîm dört köşe",
+  "tanim": "Yedi nefs makamı, şeriat, tarikat, marifet, hakikat; evvel, âhir, zâhir ve bâtın âlemleri."
+ },
+ {
+  "madde": "Yedi iklîm",
+  "tanim": "Yedi tavır, sâlikin geçtiği yedi nefis merhalesinde yaşadığı hâl ve makamlar."
+ },
+ {
+  "madde": "Yedi tamu",
+  "tanim": "Yedi büyük günah."
+ },
+ {
+  "madde": "Yedi Tavr",
+  "tanim": "Ruhun yedi ayrı makamdaki tavsifleri: Tab’, nefs, kalp, ruh, sır, hafi, ahfâ."
+ },
+ {
+  "madde": "Yedmek",
+  "tanim": "Çekmek, yedekte götürmek, asılmak."
+ },
+ {
+  "madde": "Yeksân eylemek",
+  "tanim": "Düz olmak, aynîleşmek. bir olmak."
+ },
+ {
+  "madde": "Yeksân",
+  "tanim": "Bir olmak."
+ },
+ {
+  "madde": "Yel",
+  "tanim": "Aşk, cezbe."
+ },
+ {
+  "madde": "Yelmek",
+  "tanim": "Koşmak."
+ },
+ {
+  "madde": "Yerak",
+  "tanim": "Azık, yol hazırlığı , levazımat, metinde “tevhîd ve ibadet” anlamında."
+ },
+ {
+  "madde": "Yezdân",
+  "tanim": "Cenâb-ı Hak."
+ },
+ {
+  "madde": "Yığlanmak",
+  "tanim": "Nefsini men etmek, engel olmak, sakınmak."
+ },
+ {
+  "madde": "Yıylamak",
+  "tanim": "Koklamak."
+ },
+ {
+  "madde": "Yirincek",
+  "tanim": "Üzüntülü, tasalanan, kederlenen, yerinen."
+ },
+ {
+  "madde": "Yol eri",
+  "tanim": "Kâmil insan."
+ },
+ {
+  "madde": "Yol gözetmek",
+  "tanim": "Âdâb ve erkâna riayet etmek."
+ },
+ {
+  "madde": "Yol kulağuzu",
+  "tanim": "Mürşid, rehber."
+ },
+ {
+  "madde": "Yol vermek",
+  "tanim": "İzin vermek,"
+ },
+ {
+  "madde": "Yuğunmak",
+  "tanim": "Yunmak, yıkanmak."
+ },
+ {
+  "madde": "Yular tutmak",
+  "tanim": "Zaptedilmek, Eğitilmeye müsait olmak."
+ },
+ {
+  "madde": "Yumak",
+  "tanim": "Yumak, yıkamak, arındırmak."
+ },
+ {
+  "madde": "Yûsuf",
+  "tanim": "Yâkûb Peygamberin oğlu olup güzelliği ile tanınmıştır. Yûsuf ve Zeliha’nın başından geçen aşk hikâyesi Kur’ân’da en güzel kıssa olarak nitelenmiştir."
+ },
+ {
+  "madde": "Yuva",
+  "tanim": "Beden. Zulmet âlemi, nefis."
+ },
+ {
+  "madde": "Yuvalanmak",
+  "tanim": "Yuvarlanmak."
+ },
+ {
+  "madde": "Yüğürmek",
+  "tanim": "Koşmak."
+ },
+ {
+  "madde": "Yüründü",
+  "tanim": "Yürüyüver, artık bekleme yürü!"
+ },
+ {
+  "madde": "Za‘îf",
+  "tanim": "Zayıf, âciz."
+ },
+ {
+  "madde": "Zâhid",
+  "tanim": "Sofu. Kendini sadece ibadete verip, yaptığı bu ibadetin zahirinde kalan kişi."
+ },
+ {
+  "madde": "Zâhir",
+  "tanim": "Görünen, açık, belli, meydanda. Esmaü’l-Hüsna’dan Zâhir olan Allah."
+ },
+ {
+  "madde": "Zahm",
+  "tanim": "Yara, ceriha."
+ },
+ {
+  "madde": "Zahmân",
+  "tanim": "Yara. Mecazen gönül yarası."
+ },
+ {
+  "madde": "Zâil olmak",
+  "tanim": "Sona ermek, kaybolmak, yok olmak."
+ },
+ {
+  "madde": "Zâkir",
+  "tanim": "Zikreden."
+ },
+ {
+  "madde": "Zâkirân",
+  "tanim": "Zikredenler."
+ },
+ {
+  "madde": "Zakkûm",
+  "tanim": "Zehirli bir ağaç, zakkûm ağacı, Cehennem ağacı."
+ },
+ {
+  "madde": "Zâlim",
+  "tanim": "Zulmeden, güç kullanan."
+ },
+ {
+  "madde": "Zamîr",
+  "tanim": "İç, içyüz; kalp, vicdan; gönülde gizli olan sır."
+ },
+ {
+  "madde": "Zann",
+  "tanim": "Şüphe."
+ },
+ {
+  "madde": "Zâr",
+  "tanim": "İnlemek, ağlamak."
+ },
+ {
+  "madde": "Zâri kılmak",
+  "tanim": "Ağlamak, sızlamak, inlemek."
+ },
+ {
+  "madde": "Zât",
+  "tanim": "Kendi, herşeyden münezzeh olan Allah, asıl, esas, öz, hakikat. Nefs."
+ },
+ {
+  "madde": "Zâtu’llah",
+  "tanim": "Allah’ın herşeyden münezzeh olan, hiç bir şeyle kayıtlanmayan mutlak vücudu."
+ },
+ {
+  "madde": "Zebân",
+  "tanim": "Dil."
+ },
+ {
+  "madde": "Zecr",
+  "tanim": "Men’ etmek."
+ },
+ {
+  "madde": "Zeheb",
+  "tanim": "Altın."
+ },
+ {
+  "madde": "Zelîl",
+  "tanim": "Hor, alçak, hakîr."
+ },
+ {
+  "madde": "Zemâim",
+  "tanim": "Kötü ahlak. Beğenilmeyen hâller."
+ },
+ {
+  "madde": "Zemîn",
+  "tanim": "Yeryüzü."
+ },
+ {
+  "madde": "Zencir",
+  "tanim": "Aşk ve aşıklığın ifrat noktası."
+ },
+ {
+  "madde": "Zencîr-i aşk",
+  "tanim": "Aşk zinciri."
+ },
+ {
+  "madde": "Zer",
+  "tanim": "Altın."
+ },
+ {
+  "madde": "Zerk",
+  "tanim": "Hile yapmak."
+ },
+ {
+  "madde": "Zerre",
+  "tanim": "Çok küçük parça, atom."
+ },
+ {
+  "madde": "Zevâl",
+  "tanim": "Yerinden ayrılıp gitme, sona erme, batma."
+ },
+ {
+  "madde": "Zeyn etmek",
+  "tanim": "Süslemek."
+ },
+ {
+  "madde": "Zeyn olmak",
+  "tanim": "Süslemek, süslenmek."
+ },
+ {
+  "madde": "Zılâl",
+  "tanim": "Gölge."
+ },
+ {
+  "madde": "Zıll",
+  "tanim": "Gölge."
+ },
+ {
+  "madde": "Zıll-ı hümâ",
+  "tanim": "Hüma kuşunun gölgesi."
+ },
+ {
+  "madde": "Zıllullah",
+  "tanim": "Allah’ın gölgesi, sultanlar, veliler."
+ },
+ {
+  "madde": "Zihî",
+  "tanim": "Ne hoş, ne kadar güzel, ne iyi."
+ },
+ {
+  "madde": "Zikr eylemek",
+  "tanim": "Anmak."
+ },
+ {
+  "madde": "Zikr-i hafî",
+  "tanim": "Gizli ve sessiz yapılan zikir."
+ },
+ {
+  "madde": "Zikr-i kalbî",
+  "tanim": "Sessiz zikir ve dâimi zikir."
+ },
+ {
+  "madde": "Zikru’llah",
+  "tanim": "Allah’ı anma."
+ },
+ {
+  "madde": "Zill",
+  "tanim": "Zelil olma, zelillik."
+ },
+ {
+  "madde": "Zindân",
+  "tanim": "Mahpushane. Tasavvufi metinlerde kesret âlemi, dünya."
+ },
+ {
+  "madde": "Zinde",
+  "tanim": "Canlı, kuvvetli. Hayatta."
+ },
+ {
+  "madde": "Zînet",
+  "tanim": "Süs."
+ },
+ {
+  "madde": "Zinhâr",
+  "tanim": "Sakın, katiyyen, aman, asla."
+ },
+ {
+  "madde": "Ziyâ",
+  "tanim": "Işık."
+ },
+ {
+  "madde": "Ziynet",
+  "tanim": "Süs."
+ },
+ {
+  "madde": "Zuhûr",
+  "tanim": "Ortaya çıkma."
+ },
+ {
+  "madde": "Zulmât",
+  "tanim": "Karanlık. Madde."
+ },
+ {
+  "madde": "Zulmet",
+  "tanim": "Karanlık."
+ },
+ {
+  "madde": "Zübde",
+  "tanim": "Öz, hakikat, cevher, asıl."
+ },
+ {
+  "madde": "Zühd",
+  "tanim": "Kendisini ibadete vermek, dünyevî şeylerden uzaklaşmak."
+ },
+ {
+  "madde": "Zülâl",
+  "tanim": "Temiz su, parlak su."
+ },
+ {
+  "madde": "Zü’l-Celâl",
+  "tanim": "Celâl sahibi Allah."
+ },
+ {
+  "madde": "Zü’l-Cemâl",
+  "tanim": "Cemâl sahibi Allah."
+ },
+ {
+  "madde": "Zülf",
+  "tanim": "Yüzün iki yanından sarkan uzun saç."
+ },
+ {
+  "madde": "Zülfikâr",
+  "tanim": "Hz. Ali’nin iki ucu olan meşhur kılıcı."
+ },
+ {
+  "madde": "Zünnâr",
+  "tanim": "Papazların bellerine bağlayıp uçlarını aşağıya sarkıttıkları kıldan yapılmış sert kuşak."
+ }
+]

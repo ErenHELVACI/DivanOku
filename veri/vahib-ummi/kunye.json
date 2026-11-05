@@ -1,0 +1,18 @@
+{
+  "slug": "vahib-ummi",
+  "baslik": "Vâhib Ümmî Halvetî: Dîvân-ı İlâhiyât'tan Seçmeler",
+  "sair": "Vâhib Ümmî",
+  "editor": "Mustafa Tatcı",
+  "yayinci": "T.C. Diyanet İşleri Başkanlığı, Dini Yayınlar Genel Müdürlüğü",
+  "seri": "Diyanet İşleri Başkanlığı Yayınları 961, Edebî Eserler 28",
+  "baski": "1. Baskı, İstanbul, 2013",
+  "baskiYili": 2013,
+  "isbn": "978-975-19-5853-2",
+  "telifNotu": "© T.C. Diyanet İşleri Başkanlığı (künyede yazılı)",
+  "izin": { "durum": "yok", "kaynak": "", "tarih": "" },
+  "siirSayisi": 390,
+  "siirSayisiKaynagi": "Kitabın şiir dizinindeki kayıt sayısı (ön sözde sayı yazmıyor).",
+  "siirKaynakOnekleri": { "d": "Dîvân-ı İlâhiyât'tan Seçmeler" },
+  "kaynakDosya": "kaynak/vahib-ummi/kaynak.epub",
+  "kunyeNotu": "Künye bilgisi ePUB'daki 'VahibUmmiHalveti-1/2.xhtml' sayfalarından alınmıştır: hazırlayan ve editör Mustafa Tatcı; 'dc:rights' alanı boştur."
+}

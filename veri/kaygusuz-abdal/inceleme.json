@@ -1,0 +1,8 @@
+{
+  "aciklama": "İnsan incelemesi bekleyen, kitapta olduğu gibi duran farklar. Sayılar değişirse test kırılır; düzeltme yapılmaz, karar insanındır.",
+  "beklenenSorunSayisi": {
+    "Şiir dizini": 7,
+    "Bent numaraları": 5,
+    "Ayrıştırıcı uyarıları": 3
+  }
+}

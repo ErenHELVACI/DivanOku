@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="urn:uuid:955A77C4-0649-4E8C-8241-FB00B6608460" />
+		<meta name="dtb:depth" content="2" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+	</head>
+	<docTitle>
+		<text>ÜMMİ SİNAN HALVETİ</text>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1"><navLabel><text>KISALTMALAR</text></navLabel><content src="UmmiSinanHalveti-3.xhtml#_idParaDest-1" /></navPoint>
+		<navPoint id="navpoint2" playOrder="2"><navLabel><text>TAKDİM</text></navLabel><content src="UmmiSinanHalveti-4.xhtml#_idParaDest-2" /></navPoint>
+		<navPoint id="navpoint3" playOrder="3"><navLabel><text>SÖZ BAŞI</text></navLabel><content src="UmmiSinanHalveti-5.xhtml#_idParaDest-3" /></navPoint>
+		<navPoint id="navpoint4" playOrder="4"><navLabel><text>ÜMMÎ SİNÂNHALVETÎ</text></navLabel><content src="UmmiSinanHalveti-7.xhtml#_idParaDest-4" /></navPoint>
+		<navPoint id="navpoint5" playOrder="5"><navLabel><text>ÜMMÎ SİNÂN HALVETÎ</text></navLabel><content src="UmmiSinanHalveti-8.xhtml#_idParaDest-5" />
+			<navPoint id="navpoint6" playOrder="6"><navLabel><text>Hayatı</text></navLabel><content src="UmmiSinanHalveti-8.xhtml#_idParaDest-6" /></navPoint>
+			<navPoint id="navpoint7" playOrder="7"><navLabel><text>Erkânı ve Silsilesi</text></navLabel><content src="UmmiSinanHalveti-8.xhtml#_idParaDest-7" /></navPoint>
+			<navPoint id="navpoint8" playOrder="8"><navLabel><text>Eserleri</text></navLabel><content src="UmmiSinanHalveti-8.xhtml#_idParaDest-8" /></navPoint>
+			<navPoint id="navpoint9" playOrder="9"><navLabel><text>Halifeleri</text></navLabel><content src="UmmiSinanHalveti-8.xhtml#_idParaDest-9" /></navPoint>
+		</navPoint>
+		<navPoint id="navpoint10" playOrder="10"><navLabel><text>DÎVÂN-I İLÂHİYÂT</text></navLabel><content src="UmmiSinanHalveti-10.xhtml#_idParaDest-10" /></navPoint>
+		<navPoint id="navpoint11" playOrder="11"><navLabel><text>ŞİİR DİZİNİ</text></navLabel><content src="UmmiSinanHalveti-11.xhtml#_idParaDest-11" /></navPoint>
+		<navPoint id="navpoint12" playOrder="12"><navLabel><text>SÖZLÜK</text></navLabel><content src="UmmiSinanHalveti-12.xhtml#_idParaDest-12" /></navPoint>
+		<navPoint id="navpoint13" playOrder="13"><navLabel><text>KAYNAKLAR</text></navLabel><content src="UmmiSinanHalveti-13.xhtml#_idParaDest-13" /></navPoint>
+	</navMap>
+</ncx>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 13.0" />
+		<dc:title>VAHİB ÜMMİ HALVETİ</dc:title>
+		<dc:publisher>DİYANET İŞLERİ BAŞKANLIĞI</dc:publisher>
+		<dc:date>2017-10-30T19:44:27Z</dc:date>
+		<dc:rights> </dc:rights>
+		<dc:language>tr-TR</dc:language>
+		<meta property="dcterms:modified">2017-10-30T19:44:27Z</meta>
+		<dc:identifier id="bookid">urn:uuid:AFE03588-167C-4BD1-947B-AB4449E38A74</dc:identifier>
+	</metadata>
+	<manifest>
+		<item id="VahibUmmiHalveti" href="VahibUmmiHalveti.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-1" href="VahibUmmiHalveti-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-2" href="VahibUmmiHalveti-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-3" href="VahibUmmiHalveti-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-4" href="VahibUmmiHalveti-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-5" href="VahibUmmiHalveti-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-6" href="VahibUmmiHalveti-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-7" href="VahibUmmiHalveti-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-8" href="VahibUmmiHalveti-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-9" href="VahibUmmiHalveti-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-10" href="VahibUmmiHalveti-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-11" href="VahibUmmiHalveti-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-12" href="VahibUmmiHalveti-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-13" href="VahibUmmiHalveti-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-14" href="VahibUmmiHalveti-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-15" href="VahibUmmiHalveti-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="VahibUmmiHalveti-16" href="VahibUmmiHalveti-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="DiBSiirilkSatir5MM.css" href="css/DiBSiirilkSatir5MM.css" media-type="text/css" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" />
+		<item id="x11.png" href="image/11.png" media-type="image/png" />
+		<item id="x12.png" href="image/12.png" media-type="image/png" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x21.png" href="image/21.png" media-type="image/png" />
+		<item id="x211.png" href="image/211.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x31.png" href="image/31.png" media-type="image/png" />
+		<item id="x34.png" href="image/34.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x41.png" href="image/41.png" media-type="image/png" />
+		<item id="x5.png" href="image/5.png" media-type="image/png" />
+		<item id="x5a.png" href="image/5a.png" media-type="image/png" />
+		<item id="x6.png" href="image/6.png" media-type="image/png" />
+		<item id="x61.png" href="image/61.png" media-type="image/png" />
+		<item id="x7.png" href="image/7.png" media-type="image/png" />
+		<item id="x71.png" href="image/71.png" media-type="image/png" />
+		<item id="x8.png" href="image/8.png" media-type="image/png" />
+		<item id="x9.png" href="image/9.png" media-type="image/png" />
+		<item id="alt.png" href="image/alt.png" media-type="image/png" />
+		<item id="ust.png" href="image/ust.png" media-type="image/png" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="VahibUmmiHalveti" />
+		<itemref idref="VahibUmmiHalveti-1" />
+		<itemref idref="VahibUmmiHalveti-2" />
+		<itemref idref="VahibUmmiHalveti-3" />
+		<itemref idref="VahibUmmiHalveti-4" />
+		<itemref idref="VahibUmmiHalveti-5" />
+		<itemref idref="VahibUmmiHalveti-6" />
+		<itemref idref="VahibUmmiHalveti-7" />
+		<itemref idref="VahibUmmiHalveti-8" />
+		<itemref idref="VahibUmmiHalveti-9" />
+		<itemref idref="VahibUmmiHalveti-10" />
+		<itemref idref="VahibUmmiHalveti-11" />
+		<itemref idref="VahibUmmiHalveti-12" />
+		<itemref idref="VahibUmmiHalveti-13" />
+		<itemref idref="VahibUmmiHalveti-14" />
+		<itemref idref="VahibUmmiHalveti-15" />
+		<itemref idref="VahibUmmiHalveti-16" />
+	</spine>
+</package>

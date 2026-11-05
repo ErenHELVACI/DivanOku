@@ -1,6 +1,7 @@
 // 4. adım: kabul kontrolleri. Hiçbir şeyi düzeltmez; yalnızca ölçer ve listeler.
 import { readFileSync, existsSync } from 'node:fs';
 import Ajv2020 from 'ajv/dist/2020.js';
+import { normallestir } from '../src/lib/normallestir.ts';
 
 export type Sonuc = { kontrol: string; beklenen: string; bulunan: string; tamam: boolean; ayrinti?: string[] };
 
@@ -58,18 +59,29 @@ export function dogrula(kitap: string): Sonuc[] {
     tamam: kopuk.length === 0 });
 
   // Şiir dizini: dizindeki kayıtlar "d" bölümünün şiirleriyle sırayla eşleşir.
+  // Kayıtlar sırayla eşlenir (kitabın basılı dizin numarası kayabilir; o ayrıca bildirilir).
+  // Fark yalnız â/î/û, ı/i, ü/u gibi işaret farkıysa "yazım farkı" sayılır ve ayrı bilgi satırında listelenir.
   const dizinSorun: string[] = [];
+  const dizinYazim: string[] = [];
   const dSiirler = siirler.filter((p) => p.kaynak === 'd');
   if (dizin.length !== dSiirler.length) dizinSorun.push(`dizin ${dizin.length} kayıt, şiir ${dSiirler.length}`);
-  for (const k of dizin) {
-    const p = dSiirler.find((x) => x.no === k.no);
+  const numaraKayik: string[] = [];
+  dizin.forEach((k, i) => {
+    const p = dizin.length === dSiirler.length ? dSiirler[i] : dSiirler.find((x) => x.no === k.no);
     const ilk = p?.bentler?.[0]?.dizeler?.[0];
-    if (!p) dizinSorun.push(`dizinde ${k.no} var, şiir yok`);
-    else if (!dizinEslesir(ilk, k.ilkDize))
-      dizinSorun.push(`${k.no}: dizin «${k.ilkDize}» ≠ şiir «${ilk}»`);
-  }
+    if (!p) { dizinSorun.push(`dizinde ${k.no} var, şiir yok`); return; }
+    if (k.no !== p.no) numaraKayik.push(`${i + 1}. kayıt: dizinde ${k.no}, şiir ${p.no}`);
+    if (!dizinEslesir(ilk, k.ilkDize)) {
+      const kisa = `${p.no}: dizin «${k.ilkDize}» ≠ şiir «${ilk}»`;
+      if (dizinEslesir(normallestir(ilk ?? ''), normallestir(k.ilkDize))) dizinYazim.push(kisa);
+      else dizinSorun.push(kisa);
+    }
+  });
+  if (numaraKayik.length) dizinSorun.push(`dizin numaraları kitapta şiir numaralarından kayık (${numaraKayik.length} kayıt; ilk: ${numaraKayik[0]}; son: ${numaraKayik.at(-1)})`);
   s.push({ kontrol: 'Şiir dizini', beklenen: 'ilk dizeler eşleşir', bulunan: dizinSorun.length ? `${dizinSorun.length} fark` : `${dizin.length} = ${dSiirler.length}, tümü eşleşti`,
     tamam: dizinSorun.length === 0, ayrinti: dizinSorun });
+  s.push({ kontrol: 'Şiir dizini (yazım farkı)', beklenen: 'bilgi: yalnız işaret farkları', bulunan: `${dizinYazim.length} kayıtta dizin ile şiir arasında yalnız â/î/û, ı/i gibi işaret farkı var`,
+    tamam: true, ayrinti: dizinYazim });
 
   // Dipnot: metindeki ⟦n⟧ işaretleri ile dipnot metinleri aynı küme, her biri bir kez.
   const isaretler: number[] = [];
@@ -109,8 +121,10 @@ export function dogrula(kitap: string): Sonuc[] {
   // Bent numaraları 1'den ardışık mı (kayma, ikinci kez 1'den başlama tuzağı)
   const bentSorun: string[] = [];
   for (const p of siirler) {
-    p.bentler.forEach((b: any, i: number) => { if (b.no !== i + 1) bentSorun.push(`şiir ${p.no}: ${i + 1}. bent numarası ${b.no}`); });
-    if (!p.bentler.length) bentSorun.push(`şiir ${p.no}: bent yok`);
+    // Şiir başına tek satır: ilk kayma ve kaç bentin etkilendiği (ardışık kaymalar yığılmasın).
+    const kayan = p.bentler.map((b: any, i: number) => (b.no !== i + 1 ? i : -1)).filter((i: number) => i >= 0);
+    if (kayan.length) bentSorun.push(`${p.id}: ${kayan[0] + 1}. bentte numara ${p.bentler[kayan[0]].no}; ${kayan.length} bent kaymış (bent sayısı ${p.bentler.length})`);
+    if (!p.bentler.length) bentSorun.push(`${p.id}: bent yok`);
   }
   s.push({ kontrol: 'Bent numaraları', beklenen: 'her şiirde 1…n ardışık', bulunan: bentSorun.length ? `${bentSorun.length} sorun` : 'tümü ardışık', tamam: bentSorun.length === 0, ayrinti: bentSorun });
 

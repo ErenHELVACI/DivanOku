@@ -1,0 +1,18 @@
+{
+  "slug": "kaygusuz-abdal",
+  "baslik": "Kaygusuz Abdâl: Seçmeler",
+  "sair": "Kaygusuz Abdâl",
+  "editor": "Sadık Yalsızuçanlar",
+  "yayinci": "T.C. Diyanet İşleri Başkanlığı, Dini Yayınlar Genel Müdürlüğü",
+  "seri": "Diyanet İşleri Başkanlığı Yayınları 950, Edebî Eserler 25",
+  "baski": "2. Baskı, Ankara, 2014",
+  "baskiYili": 2014,
+  "isbn": "978-975-19-5750-4",
+  "telifNotu": "© T.C. Diyanet İşleri Başkanlığı (künyede yazılı)",
+  "izin": { "durum": "yok", "kaynak": "", "tarih": "" },
+  "siirSayisi": 182,
+  "siirSayisiKaynagi": "Kitabın şiir dizinindeki kayıt sayısı (ön sözde sayı yazmıyor). Şiirler iki dosyada (dîvân şiirleri 1–176, Dolâbnâme 177–182) ama numara kesintisiz sürüyor.",
+  "siirKaynakOnekleri": { "d": "Kaygusuz Abdâl Seçmeler" },
+  "kaynakDosya": "kaynak/kaygusuz-abdal/kaynak.epub",
+  "kunyeNotu": "Künye bilgisi ePUB'daki 'KaygusuzAbdal-1/2.xhtml' sayfalarından alınmıştır: hazırlayan Sadık Yalsızuçanlar, editör Mustafa Tatcı; 'dc:rights' alanı boştur."
+}

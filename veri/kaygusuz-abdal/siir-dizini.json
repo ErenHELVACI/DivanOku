@@ -1,0 +1,730 @@
+[
+ {
+  "no": 1,
+  "ilkDize": "Var var ey gönül yüreğimi sen yâre kıldın"
+ },
+ {
+  "no": 2,
+  "ilkDize": "Gel gel ey gönül hûblar elinden hazer eyle"
+ },
+ {
+  "no": 3,
+  "ilkDize": "Var var ey gönül ‘aşk ile söylegil Ene’l-Hak"
+ },
+ {
+  "no": 4,
+  "ilkDize": "Gel gel ey gönül bağrımı kebâb eder ‘aşkın"
+ },
+ {
+  "no": 5,
+  "ilkDize": "Var var ey gönül bağrım içinde koma dâğlar"
+ },
+ {
+  "no": 6,
+  "ilkDize": "Var var ey gönül teni ko gel cân bâzârında"
+ },
+ {
+  "no": 7,
+  "ilkDize": "Gel gel ey gönül tabl-ı melâmet yeter çal"
+ },
+ {
+  "no": 8,
+  "ilkDize": "Var var ey gönül senin elinden yanaram ben"
+ },
+ {
+  "no": 9,
+  "ilkDize": "Gel gel ey gönül başımı çûn edesin sen"
+ },
+ {
+  "no": 10,
+  "ilkDize": "Var var ey gönül derdimi dahi beter etdin"
+ },
+ {
+  "no": 11,
+  "ilkDize": "Var var ey gönül elini çek gel bu cihândan"
+ },
+ {
+  "no": 12,
+  "ilkDize": "Var var ey gönül hasret ile bağrımı yarma"
+ },
+ {
+  "no": 13,
+  "ilkDize": "Var var ey gönül ‘aşk ile bu haberi söyle"
+ },
+ {
+  "no": 14,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile bu dîdâre bakgıl"
+ },
+ {
+  "no": 15,
+  "ilkDize": "Var var ey gönül kend’özünü bilmeğe bilgil"
+ },
+ {
+  "no": 16,
+  "ilkDize": "Gel gel ey gönül ‘aşka niçin inkâr edersin"
+ },
+ {
+  "no": 17,
+  "ilkDize": "Var var ey gönül ‘aşk ile sen birliğe yitgil"
+ },
+ {
+  "no": 18,
+  "ilkDize": "Gel gel ey gönül neye gerek ‘ucb u tekebbür"
+ },
+ {
+  "no": 19,
+  "ilkDize": "Var var ey gönül sen sana bir doğru yol iste"
+ },
+ {
+  "no": 20,
+  "ilkDize": "Var var ey gönül hâlimi sor ‘aşk ile yandım"
+ },
+ {
+  "no": 21,
+  "ilkDize": "Var var ey gönül dîn yoluna sen gâfil olma"
+ },
+ {
+  "no": 22,
+  "ilkDize": "Gel gel ey gönül hasret ile hasta-dil oldum"
+ },
+ {
+  "no": 23,
+  "ilkDize": "Var var ey gönül çünki benim terkimi urdun"
+ },
+ {
+  "no": 24,
+  "ilkDize": "Gel gel ey gönül yaraşalım ko ahî cengi"
+ },
+ {
+  "no": 25,
+  "ilkDize": "Var var ey gönül hem-nişînin iste cihânda"
+ },
+ {
+  "no": 26,
+  "ilkDize": "Gel gel ey gönül kalma bu gaflet duzağında"
+ },
+ {
+  "no": 27,
+  "ilkDize": "Var var ey gönül delîl-i bürhân nedir anla"
+ },
+ {
+  "no": 28,
+  "ilkDize": "Gel gel ey gönül cânımıza cân yine geldi"
+ },
+ {
+  "no": 29,
+  "ilkDize": "Var var ey gönül özüne gel geçdi devrân"
+ },
+ {
+  "no": 30,
+  "ilkDize": "Gel gel ey gönül gör ahî ben niye sataşdım"
+ },
+ {
+  "no": 31,
+  "ilkDize": "Var var ey gönül sen beni bir oda bırakdın"
+ },
+ {
+  "no": 32,
+  "ilkDize": "Gel gel ey gönül gümrâh olup niçin azarsın"
+ },
+ {
+  "no": 33,
+  "ilkDize": "Gel gel ey gönül sen ‘acâib bahr-i muhîtsin"
+ },
+ {
+  "no": 34,
+  "ilkDize": "Var var ey gönül cihâna kalma sana kalmaz"
+ },
+ {
+  "no": 35,
+  "ilkDize": "Gel gel ey gönül söyle ki ‘âkil neye derler"
+ },
+ {
+  "no": 36,
+  "ilkDize": "Var var ey gönül iste bulasın sana bir yâr"
+ },
+ {
+  "no": 37,
+  "ilkDize": "Gel gel ey gönül hoş görelim dem bu demdir"
+ },
+ {
+  "no": 38,
+  "ilkDize": "Var var ey gönül benimle meyl ü vefân yok"
+ },
+ {
+  "no": 39,
+  "ilkDize": "Gel gel ey gönül kend’özüne çıkma yolundan"
+ },
+ {
+  "no": 40,
+  "ilkDize": "Var var ey gönül bir arada çün mekânın yok"
+ },
+ {
+  "no": 41,
+  "ilkDize": "Gel gel ey gönül deryâ-yı hikmet seni derler"
+ },
+ {
+  "no": 42,
+  "ilkDize": "Var var ey gönül her dikene düşme gül olmaz"
+ },
+ {
+  "no": 43,
+  "ilkDize": "Gel gel ey gönül yâreme niçin tuz ekersin"
+ },
+ {
+  "no": 44,
+  "ilkDize": "Gel gel ey gönül ‘aşka nice mey tutarsın"
+ },
+ {
+  "no": 45,
+  "ilkDize": "Gel gel ey gönül deryâ-yı vahdet cûşa geldi"
+ },
+ {
+  "no": 46,
+  "ilkDize": "Gel gel ey gönül derd ile ‘aşka boyanırsın"
+ },
+ {
+  "no": 47,
+  "ilkDize": "Gel gel ey gönül gör ahî bu ‘aşk bana n’etdi"
+ },
+ {
+  "no": 48,
+  "ilkDize": "Gel gel ey gönül cân ilini yağmaya verme"
+ },
+ {
+  "no": 49,
+  "ilkDize": "Gel gel gönül yârini terk niçin edersin"
+ },
+ {
+  "no": 50,
+  "ilkDize": "Var var ey gönül gör ki ne kutlu sâ‘at oldu"
+ },
+ {
+  "no": 51,
+  "ilkDize": "Gel gel ey gönül sevda-yı hâm neye gerekdir"
+ },
+ {
+  "no": 52,
+  "ilkDize": "Var var gönül başını ko meydân içinde"
+ },
+ {
+  "no": 53,
+  "ilkDize": "Var var ey gönül ‘aşkı koma işini terk et"
+ },
+ {
+  "no": 54,
+  "ilkDize": "Var var ey gönül sana benim ne ziyânım var"
+ },
+ {
+  "no": 55,
+  "ilkDize": "Var var ey gönül nâşî gibi yerme bu ‘aşkı"
+ },
+ {
+  "no": 56,
+  "ilkDize": "Gel gel ey gönül ‘aşk belâsı rahat-ı cândır"
+ },
+ {
+  "no": 57,
+  "ilkDize": "Var var ey gönül zâhidem sen dîvanesin"
+ },
+ {
+  "no": 58,
+  "ilkDize": "Gel gel ey gönül ‘aşka tövbe olduğu yokdur"
+ },
+ {
+  "no": 59,
+  "ilkDize": "Var var ey gönül ‘aşk odu cânım eser eyler"
+ },
+ {
+  "no": 60,
+  "ilkDize": "Var var ey gönül ‘aşk odu cânımda cûş eyler"
+ },
+ {
+  "no": 61,
+  "ilkDize": "Var var ey gönül ‘aşk belâsı beni üzütdü"
+ },
+ {
+  "no": 62,
+  "ilkDize": "Gel gel ey gönül çünki câna ‘aşk mürîd oldu"
+ },
+ {
+  "no": 63,
+  "ilkDize": "Var var ey gönül ‘aşka hiç asâyişim yok"
+ },
+ {
+  "no": 64,
+  "ilkDize": "Var var ey gönül ‘aşk ile ehl-i hüner oldun"
+ },
+ {
+  "no": 65,
+  "ilkDize": "Var var ey gönül bizim ile kargaşa kılma"
+ },
+ {
+  "no": 66,
+  "ilkDize": "Var var ey gönül her nâşîye râzını verme"
+ },
+ {
+  "no": 67,
+  "ilkDize": "Gel gel ey gönül sen beni bu ‘aşkdan ayırma"
+ },
+ {
+  "no": 68,
+  "ilkDize": "Var var ey gönül seni dîvâne deli derler"
+ },
+ {
+  "no": 69,
+  "ilkDize": "Gel gel ey gönül bir kâmil insân ele girmez"
+ },
+ {
+  "no": 70,
+  "ilkDize": "Var var ey gönül cümle ‘âşıklar seni gözler"
+ },
+ {
+  "no": 71,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile işim ‘aceb oldu"
+ },
+ {
+  "no": 72,
+  "ilkDize": "Var var ey gönül ömr-i câvidân ele girdi"
+ },
+ {
+  "no": 73,
+  "ilkDize": "Gel gel ey gönül hayâl ü efsâneye kalma"
+ },
+ {
+  "no": 74,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile hoş vaht ki nasîbdir"
+ },
+ {
+  "no": 75,
+  "ilkDize": "Var var ey gönül yâre sen ağyar gibi bakma"
+ },
+ {
+  "no": 76,
+  "ilkDize": "Gel gel ey gönül ‘aşk eli kulağımı burdu"
+ },
+ {
+  "no": 77,
+  "ilkDize": "Var var ey gönül ‘aşka yüzün sen türâb eyle"
+ },
+ {
+  "no": 78,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile maksûd hâsıl oldu"
+ },
+ {
+  "no": 79,
+  "ilkDize": "Var var ey gönül ‘aşk işi riyâ değildir"
+ },
+ {
+  "no": 80,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile gönlün safâ eyle"
+ },
+ {
+  "no": 81,
+  "ilkDize": "Var var ey gönül ‘aşkdan sana maksûd"
+ },
+ {
+  "no": 82,
+  "ilkDize": "Gel gel ey gönül neye gerek zerk ü sâlûsluk"
+ },
+ {
+  "no": 83,
+  "ilkDize": "Var var ey gönül ‘aşk gözüne perde hicâb yok"
+ },
+ {
+  "no": 84,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile serkeş mi olursun"
+ },
+ {
+  "no": 85,
+  "ilkDize": "Var var ey gönül kanı senin tesbih ü zikrin"
+ },
+ {
+  "no": 86,
+  "ilkDize": "Gel gel ey gönül ‘aşk oduyla küllî kül oldum"
+ },
+ {
+  "no": 87,
+  "ilkDize": "Var var ey gönül derdini sen dermâna verme"
+ },
+ {
+  "no": 88,
+  "ilkDize": "Gel gel ey gönül dîn ü imândan bîzâr oldun"
+ },
+ {
+  "no": 89,
+  "ilkDize": "Var var ey gönül ‘aşka yakın bakma ırakdan"
+ },
+ {
+  "no": 90,
+  "ilkDize": "Gel gel ey gönül nûr-ı imân sende bulundu"
+ },
+ {
+  "no": 91,
+  "ilkDize": "Var var ey gönül hazer et ağyâr belâsından"
+ },
+ {
+  "no": 92,
+  "ilkDize": "Gel gel ey gönül başıma bu ‘aşk yine geldi"
+ },
+ {
+  "no": 93,
+  "ilkDize": "Var var ey gönül ‘aşk ile sen ‘arbede kılma"
+ },
+ {
+  "no": 94,
+  "ilkDize": "Gel gel ey gönül elini çek cümle cihândan"
+ },
+ {
+  "no": 95,
+  "ilkDize": "Var var ey gönül ‘aşk ile bağrım delinipdir"
+ },
+ {
+  "no": 96,
+  "ilkDize": "Gel gel ey gönül ‘aşk sana ulu beşâretdir"
+ },
+ {
+  "no": 97,
+  "ilkDize": "Var var ey gönül ‘aşk güneşinde hicâb olmaz"
+ },
+ {
+  "no": 98,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile vuslat taleb eyle"
+ },
+ {
+  "no": 99,
+  "ilkDize": "Var var ey gönül cevr ü cefâ cânıma yetdi"
+ },
+ {
+  "no": 100,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile bed-nâm niçin oldun"
+ },
+ {
+  "no": 101,
+  "ilkDize": "Var var ey gönül ‘aşk olana gussa vü gam yok"
+ },
+ {
+  "no": 102,
+  "ilkDize": "Gel gel ey gönül ‘aşkı bulan küllî cân oldu"
+ },
+ {
+  "no": 103,
+  "ilkDize": "Var var ey gönül gizli râzımı açar oldum"
+ },
+ {
+  "no": 104,
+  "ilkDize": "Gel gel ey gönül ‘aşk denizinde yüzer oldum"
+ },
+ {
+  "no": 105,
+  "ilkDize": "Var var ey gönül dünyâ âhiret ne demekdir"
+ },
+ {
+  "no": 106,
+  "ilkDize": "Gel gel ey gönül ‘aşk yoluna nâmûs ü ‘âr yok"
+ },
+ {
+  "no": 107,
+  "ilkDize": "Var var ey gönül ‘aşk oduyla cânımı yakma"
+ },
+ {
+  "no": 108,
+  "ilkDize": "Gel gel ey gönül tesbîh ü seccâde gerekmez"
+ },
+ {
+  "no": 109,
+  "ilkDize": "Var var ey gönül ‘aşkla gönlüm latîf oldu"
+ },
+ {
+  "no": 110,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile cânım âzâd oldu"
+ },
+ {
+  "no": 111,
+  "ilkDize": "Gel gel ey gönül ‘ârif isen bî-usûl olma"
+ },
+ {
+  "no": 112,
+  "ilkDize": "Var var ey gönül ‘aşk ile işim temîz oldu"
+ },
+ {
+  "no": 113,
+  "ilkDize": "Gel gel ey gönül ‘aşk dediğin derd ü belâdır"
+ },
+ {
+  "no": 114,
+  "ilkDize": "Var var ey gönül ‘aşk ile gözde hakîr oldum"
+ },
+ {
+  "no": 115,
+  "ilkDize": "Gel gel ey gönül derdim içimde beter oldu"
+ },
+ {
+  "no": 116,
+  "ilkDize": "Var var ey gönül sırrını her bed-nâma verme"
+ },
+ {
+  "no": 117,
+  "ilkDize": "Gel gel ey gönül derd ile yandım tımâr eyle"
+ },
+ {
+  "no": 118,
+  "ilkDize": "Var var ey gönül ‘aşk erine leyl u nehâr yok"
+ },
+ {
+  "no": 119,
+  "ilkDize": "Gel gel ey gönül ‘aşk dahi sana nigerândır"
+ },
+ {
+  "no": 120,
+  "ilkDize": "Var var ey gönül derd ile dermân yaraşır mı"
+ },
+ {
+  "no": 121,
+  "ilkDize": "Gel gel ey gönül beni ko sultân nazarında"
+ },
+ {
+  "no": 122,
+  "ilkDize": "Var var ey gönül ‘aşk denizi taşdı gönülde"
+ },
+ {
+  "no": 123,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile bu dem niyâz eyle"
+ },
+ {
+  "no": 124,
+  "ilkDize": "Var var ey gönül çağır et ki şâhı buldum"
+ },
+ {
+  "no": 125,
+  "ilkDize": "Gel gel ey gönül ‘aşk okunu yüreğe atma"
+ },
+ {
+  "no": 126,
+  "ilkDize": "Var var ey gönül ‘aşk belâsına sabır eyle"
+ },
+ {
+  "no": 127,
+  "ilkDize": "Gel gel ey gönül ol cân-ı bîgâneyi buldum"
+ },
+ {
+  "no": 128,
+  "ilkDize": "Var var ey gönül ‘aşk sadefinde güher oldum"
+ },
+ {
+  "no": 129,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile sabr u ârâmın yok"
+ },
+ {
+  "no": 130,
+  "ilkDize": "Var var ey gönül iki cihân ‘aşk ile hoşdur"
+ },
+ {
+  "no": 131,
+  "ilkDize": "Gel gel ey gönül söyle bu ‘aşkın belâsından"
+ },
+ {
+  "no": 132,
+  "ilkDize": "Var var ey gönül ‘aşk ile tenim câna döndü"
+ },
+ {
+  "no": 133,
+  "ilkDize": "Gel gel ey gönül nice nice âvâresin sen"
+ },
+ {
+  "no": 134,
+  "ilkDize": "Var var ey gönül ‘aşk ile hiç müdâra yokdur"
+ },
+ {
+  "no": 135,
+  "ilkDize": "Gel gel ey gönül ‘aşkı gör vahdet çemeninde"
+ },
+ {
+  "no": 136,
+  "ilkDize": "Var var ey gönül ‘aşka tüccâr gibi bakma"
+ },
+ {
+  "no": 137,
+  "ilkDize": "Gel gel ey gönül ‘aşk ile varlık ‘ayân oldu"
+ },
+ {
+  "no": 138,
+  "ilkDize": "Var var ey gönül bana dahi derd-i ser etme"
+ },
+ {
+  "no": 139,
+  "ilkDize": "Gel gel ey gönül sun bana bu ‘aşk şarâbından"
+ },
+ {
+  "no": 140,
+  "ilkDize": "Var var ey gönül ‘aşk etegin tut ki hemândır"
+ },
+ {
+  "no": 141,
+  "ilkDize": "Var var ey gönül ‘aşk belâsı beni eritdi"
+ },
+ {
+  "no": 142,
+  "ilkDize": "Var var ey gönül bu nâm u nişâneyi terk et"
+ },
+ {
+  "no": 143,
+  "ilkDize": "Gel gel ey gönül yüz yere ko cân nazarında"
+ },
+ {
+  "no": 144,
+  "ilkDize": "Var var ey gönül sıdk ile sen ‘aşk eteğin tut"
+ },
+ {
+  "no": 145,
+  "ilkDize": "Gel gel ey gönül her dü cihândan güzâr eyle"
+ },
+ {
+  "no": 146,
+  "ilkDize": "Vücûdun ne biter cân olmayınca"
+ },
+ {
+  "no": 147,
+  "ilkDize": "‘Aceb bu künbed-i devvâr nedir"
+ },
+ {
+  "no": 148,
+  "ilkDize": "Bu ne pinhân ki bu resme ‘ayândır"
+ },
+ {
+  "no": 149,
+  "ilkDize": "Bülbülün karşısında gül olduğum"
+ },
+ {
+  "no": 150,
+  "ilkDize": "Ciğerim kan olur bu ‘aşk elinden"
+ },
+ {
+  "no": 151,
+  "ilkDize": "Erişdi bâd-ı nevrûz gülistâna"
+ },
+ {
+  "no": 152,
+  "ilkDize": "Bahâr oldu yine sâki getir mül"
+ },
+ {
+  "no": 153,
+  "ilkDize": "Yine fasl-ı hazân erdi sâkî dur"
+ },
+ {
+  "no": 154,
+  "ilkDize": "Eğer cân istersen terk et cihânı"
+ },
+ {
+  "no": 155,
+  "ilkDize": "Cihân sevdâları muhtasar oldu"
+ },
+ {
+  "no": 156,
+  "ilkDize": "Bu kimdir kim bizde mihmân olupdur"
+ },
+ {
+  "no": 157,
+  "ilkDize": "Bana bir rind ü harâbât dediler"
+ },
+ {
+  "no": 158,
+  "ilkDize": "Ey beni da’im derdile giryân eden gönül"
+ },
+ {
+  "no": 159,
+  "ilkDize": "Özü şâd u handân sözü cân abdâl"
+ },
+ {
+  "no": 160,
+  "ilkDize": "Her gönül içinde Hakk’a yol var"
+ },
+ {
+  "no": 161,
+  "ilkDize": "Anı cânın ki diler"
+ },
+ {
+  "no": 162,
+  "ilkDize": "Allah Allah yaradan"
+ },
+ {
+  "no": 163,
+  "ilkDize": "Bu Âdem dedikleri"
+ },
+ {
+  "no": 164,
+  "ilkDize": "‘Âşk ile meydâne gel abdâlımız"
+ },
+ {
+  "no": 165,
+  "ilkDize": "Hakk’a lâyık fi‘ilim var cihânda"
+ },
+ {
+  "no": 166,
+  "ilkDize": "Kime vefâ kıla bu çarhı lâğı"
+ },
+ {
+  "no": 167,
+  "ilkDize": "Beni bir rind-i harâbat demişler"
+ },
+ {
+  "no": 168,
+  "ilkDize": "Beni bir bengî dengi-ser demişler"
+ },
+ {
+  "no": 169,
+  "ilkDize": "Bize ağyâr olana Hak yâr olsun"
+ },
+ {
+  "no": 170,
+  "ilkDize": "Kendi özün bilmeyen ma‘nâda insân olmaya"
+ },
+ {
+  "no": 171,
+  "ilkDize": "Sırrını sakla ey cân cânân ebsem ol"
+ },
+ {
+  "no": 172,
+  "ilkDize": "Evliyâya eğri bakma kevn ü mekân elindedir"
+ },
+ {
+  "no": 173,
+  "ilkDize": "Vücûda tâlib olmak câna düşmez"
+ },
+ {
+  "no": 174,
+  "ilkDize": "Ey emîr efendi bana"
+ },
+ {
+  "no": 175,
+  "ilkDize": "Kâmil insân olandan"
+ },
+ {
+  "no": 176,
+  "ilkDize": "Ey tâlib olan berâ-yı Ma’bûd"
+ },
+ {
+  "no": 177,
+  "ilkDize": "Su‘âl etdim bugün ben bir dolâba"
+ },
+ {
+  "no": 178,
+  "ilkDize": "Esselâm ey dürr-i deryâ-yı Celâl"
+ },
+ {
+  "no": 179,
+  "ilkDize": "Eyâ ‘akl ile irfânım diyenler"
+ },
+ {
+  "no": 180,
+  "ilkDize": "Gel ey kendi hâline yol bulanlar"
+ },
+ {
+  "no": 181,
+  "ilkDize": "‘Aşk gözün aç maksûdun Sultân ise"
+ },
+ {
+  "no": 182,
+  "ilkDize": "Ey tâlib bu dem kulak ol bu söze"
+ }
+]

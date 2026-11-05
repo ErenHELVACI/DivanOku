@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="urn:uuid:AFE03588-167C-4BD1-947B-AB4449E38A74" />
+		<meta name="dtb:depth" content="2" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+	</head>
+	<docTitle>
+		<text>VAHİB ÜMMİ HALVETİ</text>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1"><navLabel><text>KISALTMALAR</text></navLabel><content src="VahibUmmiHalveti-3.xhtml#_idParaDest-1" /></navPoint>
+		<navPoint id="navpoint2" playOrder="2"><navLabel><text>TAKDİM</text></navLabel><content src="VahibUmmiHalveti-4.xhtml#_idParaDest-2" /></navPoint>
+		<navPoint id="navpoint3" playOrder="3"><navLabel><text>ÖN SÖZ</text></navLabel><content src="VahibUmmiHalveti-5.xhtml#_idParaDest-3" /></navPoint>
+		<navPoint id="navpoint4" playOrder="4"><navLabel><text>ELMALI</text></navLabel><content src="VahibUmmiHalveti-7.xhtml#_idParaDest-4" /></navPoint>
+		<navPoint id="navpoint5" playOrder="5"><navLabel><text>ABDÜLVEHHÂB ÜMMÎ</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-5" />
+			<navPoint id="navpoint6" playOrder="6"><navLabel><text>Hayatı</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-6" /></navPoint>
+			<navPoint id="navpoint7" playOrder="7"><navLabel><text>Erkânı ve Silsilesi</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-7" /></navPoint>
+			<navPoint id="navpoint8" playOrder="8"><navLabel><text>Eroğlu Nûri</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-8" /></navPoint>
+			<navPoint id="navpoint9" playOrder="9"><navLabel><text>Eroğlu Nûri’nin Şiirlerinden Seçmeler</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-9" /></navPoint>
+			<navPoint id="navpoint10" playOrder="10"><navLabel><text>Ramazan Armağan</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-10" /></navPoint>
+			<navPoint id="navpoint11" playOrder="11"><navLabel><text>Ramazan Armağan’ın Şiirlerinden Seçmeler</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-11" /></navPoint>
+			<navPoint id="navpoint12" playOrder="12"><navLabel><text>Şeyh Ömer Mazharî</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-12" /></navPoint>
+			<navPoint id="navpoint13" playOrder="13"><navLabel><text>Mazharî’nin Şiirlerinden Seçmeler</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-13" /></navPoint>
+			<navPoint id="navpoint14" playOrder="14"><navLabel><text>Şeyh Zuhûrî</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-14" /></navPoint>
+			<navPoint id="navpoint15" playOrder="15"><navLabel><text>Zuhûrî’nin Şiirlerinden Seçmeler</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-15" /></navPoint>
+			<navPoint id="navpoint16" playOrder="16"><navLabel><text>Abdülvehhâblılara Göre Halvetiyye Erkânı</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-16" /></navPoint>
+			<navPoint id="navpoint17" playOrder="17"><navLabel><text>Abdülvehhâb Ümmî’nin Eserleri</text></navLabel><content src="VahibUmmiHalveti-9.xhtml#_idParaDest-17" /></navPoint>
+		</navPoint>
+		<navPoint id="navpoint18" playOrder="18"><navLabel><text>VÂHİB ÜMMÎ’NİN TESİRİ</text></navLabel><content src="VahibUmmiHalveti-10.xhtml#_idParaDest-18" /></navPoint>
+		<navPoint id="navpoint19" playOrder="19"><navLabel><text>DÎVÂN-I İLÂHİYÂT’TAN SEÇMELER</text></navLabel><content src="VahibUmmiHalveti-11.xhtml#_idParaDest-19" /></navPoint>
+		<navPoint id="navpoint20" playOrder="20"><navLabel><text>DÎVÂN-I İLÂHİYÂT’TAN SEÇMELER</text></navLabel><content src="VahibUmmiHalveti-13.xhtml#_idParaDest-20" /></navPoint>
+		<navPoint id="navpoint21" playOrder="21"><navLabel><text>ŞİİR DİZİNİ</text></navLabel><content src="VahibUmmiHalveti-14.xhtml#_idParaDest-21" /></navPoint>
+		<navPoint id="navpoint22" playOrder="22"><navLabel><text>SÖZLÜK</text></navLabel><content src="VahibUmmiHalveti-15.xhtml#_idParaDest-22" /></navPoint>
+		<navPoint id="navpoint23" playOrder="23"><navLabel><text>KAYNAKLAR</text></navLabel><content src="VahibUmmiHalveti-16.xhtml#_idParaDest-23" /></navPoint>
+	</navMap>
+</ncx>

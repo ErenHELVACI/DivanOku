@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 13.0" />
+		<meta name="cover" content="KaygusuzAbdal.jpg" />
+		<dc:title>KAYGUSUZ ABDAL</dc:title>
+		<dc:publisher>DİYANET İŞLERİ BAŞKANLIĞI</dc:publisher>
+		<dc:date>2017-11-09T07:13:00Z</dc:date>
+		<dc:rights> </dc:rights>
+		<dc:language>tr-TR</dc:language>
+		<meta property="dcterms:modified">2017-11-09T07:13:00Z</meta>
+		<dc:identifier id="bookid">urn:uuid:ACE6C38C-8AF3-43BC-8DF6-C0D2692A2108</dc:identifier>
+	</metadata>
+	<manifest>
+		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal" href="KaygusuzAbdal.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-1" href="KaygusuzAbdal-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-2" href="KaygusuzAbdal-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-3" href="KaygusuzAbdal-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-4" href="KaygusuzAbdal-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-5" href="KaygusuzAbdal-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-6" href="KaygusuzAbdal-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-7" href="KaygusuzAbdal-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-8" href="KaygusuzAbdal-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-9" href="KaygusuzAbdal-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-10" href="KaygusuzAbdal-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-11" href="KaygusuzAbdal-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-12" href="KaygusuzAbdal-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-13" href="KaygusuzAbdal-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-14" href="KaygusuzAbdal-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-15" href="KaygusuzAbdal-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="KaygusuzAbdal-16" href="KaygusuzAbdal-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="DiBSiirilkSatir5MM.css" href="css/DiBSiirilkSatir5MM.css" media-type="text/css" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x5.png" href="image/5.png" media-type="image/png" />
+		<item id="alt.png" href="image/alt.png" media-type="image/png" />
+		<item id="KaygusuzAbdal.jpg" href="image/KaygusuzAbdal.jpg" media-type="image/jpeg" properties="cover-image" />
+		<item id="ust.png" href="image/ust.png" media-type="image/png" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover" linear="no" />
+		<itemref idref="KaygusuzAbdal" />
+		<itemref idref="KaygusuzAbdal-1" />
+		<itemref idref="KaygusuzAbdal-2" />
+		<itemref idref="KaygusuzAbdal-3" />
+		<itemref idref="KaygusuzAbdal-4" />
+		<itemref idref="KaygusuzAbdal-5" />
+		<itemref idref="KaygusuzAbdal-6" />
+		<itemref idref="KaygusuzAbdal-7" />
+		<itemref idref="KaygusuzAbdal-8" />
+		<itemref idref="KaygusuzAbdal-9" />
+		<itemref idref="KaygusuzAbdal-10" />
+		<itemref idref="KaygusuzAbdal-11" />
+		<itemref idref="KaygusuzAbdal-12" />
+		<itemref idref="KaygusuzAbdal-13" />
+		<itemref idref="KaygusuzAbdal-14" />
+		<itemref idref="KaygusuzAbdal-15" />
+		<itemref idref="KaygusuzAbdal-16" />
+	</spine>
+	<guide>
+		<reference type="cover" href="cover.xhtml" title="Cover" />
+	</guide>
+</package>
