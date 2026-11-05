@@ -174,7 +174,7 @@ dl.sozluk dd { margin: .1rem 0 0; }
 .bent .bno { justify-self: end; margin-top: .5em; width: 1.55em; height: 1.55em; border-radius: 50%; display: grid; place-items: center; color: var(--vurgu); font: 600 .6em var(--sans); border: 1px solid color-mix(in srgb, var(--vurgu) 70%, transparent); font-variant-numeric: tabular-nums; }
 .bent .dizeler { margin: 0; padding: 0; list-style: none; }
 .dize { white-space: nowrap; line-height: 1.62; }
-.dize:first-child::first-letter { color: var(--vurgu); }
+
 .anlam { grid-column: 2; margin-top: .3em; font-size: .78em; }
 .anlam summary { cursor: pointer; font: 500 .82em var(--sans); color: var(--soluk); min-height: 1.8rem; list-style: none; display: inline-flex; align-items: center; gap: .4em; }
 .anlam summary::-webkit-details-marker { display: none; }

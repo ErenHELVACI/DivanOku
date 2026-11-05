@@ -27,7 +27,8 @@ function parcala(dize: string): Parca[] {
     const d = p.match(/^⟦(\d+)⟧$/);
     if (d) { bosalt(); out.push({ t: 'd', no: Number(d[1]) }); continue; }
     const a = /^[\p{L}\p{M}]+$/u.test(p) ? normallestir(p) : '';
-    if (a && indeks.has(a)) {
+    // Tek harfli sözcükler (ı, u, İ…) eşleştirilmez: "ı" ile "İ" gibi yanlış eşleşmeler çıkıyor ("Âb-ı Hayât").
+    if (a.length >= 2 && indeks.has(a)) {
       bosalt(); out.push({ t: 'k', s: p, a });
       kullanilan[a] = indeks.get(a)!.map((m) => ({ madde: m.madde, tanim: m.tanim }));
     } else metin += p;
