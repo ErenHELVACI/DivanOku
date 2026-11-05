@@ -1,5 +1,11 @@
 ---
+import '@fontsource-variable/fraunces/index.css';
+import '@fontsource-variable/figtree/index.css';
+import '@fontsource/eb-garamond/400.css';
+import '@fontsource/eb-garamond/400-italic.css';
+import '@fontsource/eb-garamond/600.css';
 import '../styles/global.css';
+import Yildiz from '../components/Yildiz.astro';
 interface Props { baslik: string; aciklama?: string }
 const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda rahat okutan platform.' } = Astro.props;
 ---
@@ -11,6 +17,8 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
     <meta name="description" content={aciklama} />
     <!-- Özel sürüm: yazılı izin gelene kadar arama motorları görmesin (KURALLAR.md, Telif ve izin). -->
     <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#f3e9d2" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0d1224" media="(prefers-color-scheme: dark)" />
     <title>{baslik}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <script is:inline>
@@ -21,10 +29,10 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
     <a class="atla" href="#icerik">İçeriğe geç</a>
     <header class="ust">
       <div class="kap">
-        <a class="marka" href="/">Dîvân</a>
+        <a class="marka" href="/"><Yildiz boy={22} />Dîvân</a>
         <nav class="menu" aria-label="Ana menü">
           <a href="/">Kitaplar</a>
-          <button type="button" id="tema-dugme" aria-label="Açık ya da koyu temayı değiştir">Tema</button>
+          <button type="button" id="tema-dugme" aria-label="Açık ya da koyu temayı değiştir">☾ Tema</button>
         </nav>
       </div>
     </header>
@@ -33,7 +41,8 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
     </main>
     <footer class="alt">
       <div class="kap">
-        Özel sürüm: yayın izni alınmamıştır, herkese açık değildir. Kitapların hakları ilgili yayıncıya aittir.
+        <Yildiz boy={18} />
+        Özel sürüm: yayın izni alınmamıştır, herkese açık değildir.<br />Kitapların hakları ilgili yayıncıya aittir.
       </div>
     </footer>
     <script>

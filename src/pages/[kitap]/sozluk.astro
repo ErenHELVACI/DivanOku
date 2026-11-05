@@ -14,7 +14,7 @@ const maddeler = k.sozluk.filter((m) => m.tanim);
   <h1>Sözlük</h1>
   <p class="soluk kucuk">{k.kunye.baslik} kitabının sözlüğü; anlamlar kitaptan olduğu gibi alınmıştır.</p>
   <div class="araclar" role="search">
-    <label for="ara" style="position:absolute;left:-999px">Sözlükte ara</label>
+    <label class="sr-only" for="ara">Sözlükte ara</label>
     <input type="search" id="ara" placeholder="Madde ara…" autocomplete="off" />
   </div>
   <p class="kucuk soluk" id="sayac" aria-live="polite">{maddeler.length} madde</p>

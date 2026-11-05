@@ -45,11 +45,13 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
   <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › <a href={`/${k.kunye.slug}/`}>{k.kunye.sair}</a> › {baslik}</nav>
 
   <article>
+    <div class="sayfa-cerceve">
+    <div class="sems" aria-hidden="true"><span class="no-b">{s.no}</span><small>{s.kaynak === 'a' ? 'Âşık' : 'Şiir'}</small></div>
     <header class="siir-ust">
       <h1>{baslik}</h1>
       {s.baslikNotlari.map((n) => <p class="not">{n}</p>)}
       {s.vezinler.map((v) => <p class="vezin">{v}</p>)}
-      <p class="not">{turAdi[s.tur]}</p>
+      <span class="tur">{turAdi[s.tur]}</span>
     </header>
 
     <div class="siir" id="siir" lang="tr" tabindex="0" role="region" aria-label={`${baslik}, şiir metni`}>
@@ -75,6 +77,7 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
           )}
         </section>
       ))}
+    </div>
     </div>
 
     {s.kaynakNotu && <p class="siir-alt"><strong>Kaynak notu:</strong> {s.kaynakNotu.replace(/⟦\d+⟧/g, '')}</p>}

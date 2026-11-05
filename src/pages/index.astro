@@ -1,18 +1,34 @@
 ---
 import Temel from '../layouts/Temel.astro';
+import Yildiz from '../components/Yildiz.astro';
 import { kitaplar } from '../lib/veri.ts';
 
 const liste = kitaplar();
 const sayi = (s: number | Record<string, number>) => (typeof s === 'number' ? s : Object.values(s).reduce((a, b) => a + b, 0));
+// Her cildin sırtına kendi rengi: lâcivert, şengerf, zümrüt, mor...
+const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
 ---
-<Temel baslik="Dîvân: kitaplar">
-  <h1>Kitaplar</h1>
-  <p class="soluk">Telefonda ve bilgisayarda rahat okunan, kitabın metnine dokunulmamış dîvânlar.</p>
-  {liste.map((k) => (
-    <a class="kitap-kart" href={`/${k.kunye.slug}/`}>
-      <h2>{k.kunye.baslik}</h2>
-      <p>{k.kunye.sair} · {sayi(k.kunye.siirSayisi)} şiir · {k.siirler.reduce((n, s) => n + s.bentler.length, 0)} bent</p>
-      <p class="kucuk soluk">Hazırlayan: {k.kunye.editor} · {k.kunye.baski} · {k.kunye.yayinci}</p>
+<Temel baslik="Dîvân">
+  <section class="karsila">
+    <div class="tag">Türkçe dîvânlar</div>
+    <h1>Dîvân</h1>
+    <p class="ozet">Gönül şiirinin, telefonda da bilgisayarda da rahat okunan hâli.</p>
+    <div class="ayrac"><Yildiz boy={22} /></div>
+  </section>
+
+  {liste.map((k, i) => (
+    <a class="kitap-kart" href={`/${k.kunye.slug}/`} style={`--cilt:${ciltRenkleri[i % ciltRenkleri.length]}`}>
+      <span class="sirt" aria-hidden="true"></span>
+      <span class="govde">
+        <span class="sair">{k.kunye.sair}</span>
+        <h2>{k.kunye.baslik}</h2>
+        <p class="kucuk soluk">Hazırlayan: {k.kunye.editor} · {k.kunye.baski}<br />{k.kunye.yayinci}</p>
+        <span class="sayilar">
+          <span><b>{sayi(k.kunye.siirSayisi)}</b>şiir</span>
+          <span><b>{k.siirler.reduce((n, s) => n + s.bentler.length, 0)}</b>bent</span>
+          <span><b>{k.sozluk.filter((m) => m.tanim).length}</b>sözlük maddesi</span>
+        </span>
+      </span>
     </a>
   ))}
 </Temel>

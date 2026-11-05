@@ -11,12 +11,15 @@ const turler = [...new Set(k.siirler.map((s) => s.tur))];
 ---
 <Temel baslik={`${k.kunye.baslik} · Dîvân`}>
   <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › {k.kunye.sair}</nav>
-  <h1>{k.kunye.baslik}</h1>
-  <p class="soluk">{k.kunye.sair} · Hazırlayan: {k.kunye.editor} · {k.kunye.baski}</p>
-  <p><a class="dugme" href={`/${k.kunye.slug}/sozluk/`}>Sözlük ({k.sozluk.filter((m) => m.tanim).length} madde)</a></p>
+  <header class="kitap-ust">
+    <div class="sair">{k.kunye.sair}</div>
+    <h1>{k.kunye.baslik}</h1>
+    <p class="soluk kucuk">Hazırlayan: {k.kunye.editor} · {k.kunye.baski}</p>
+    <p><a class="dugme" href={`/${k.kunye.slug}/sozluk/`}>Sözlük · {k.sozluk.filter((m) => m.tanim).length} madde →</a></p>
+  </header>
 
   <div class="araclar" role="search">
-    <label class="sr-only" for="ara" style="position:absolute;left:-999px">Şiirlerde ara</label>
+    <label class="sr-only" for="ara">Şiirlerde ara</label>
     <input type="search" id="ara" placeholder="İlk dizede ara…" autocomplete="off" />
     {bolumler.length > 1 && (
       <select id="bolum" aria-label="Bölüm">
@@ -39,7 +42,7 @@ const turler = [...new Set(k.siirler.map((s) => s.tur))];
         <a href={`/${k.kunye.slug}/${s.id}/`}>
           <span class="no" aria-hidden="true">{s.no}</span>
           <span>
-            <span class="sr-only" style="position:absolute;left:-999px">{siirBasligi(k, s)}: </span>{ilkDize(s)}
+            <span class="sr-only">{siirBasligi(k, s)}: </span>{ilkDize(s)}
             {bolumler.length > 1 && <span class="etiket">{bolumAdi(k, s.kaynak)}</span>}
           </span>
         </a>
