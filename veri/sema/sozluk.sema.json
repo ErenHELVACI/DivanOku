@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sozluk.sema.json",
+  "title": "Sözlük (veri/<kitap>/sozluk.json) — anlamlar yalnızca kitabın kendisinden",
+  "type": "array",
+  "items": {
+    "type": "object", "required": ["madde", "tanim"], "additionalProperties": false,
+    "properties": {
+      "madde": { "type": "string", "minLength": 1 },
+      "tanim": { "type": "string", "description": "Boş tanım şemadan geçer ama doğrulamada aykırı sayılır (kitapta boş duran maddeler görünsün diye)" }
+    }
+  }
+}

@@ -10,3 +10,8 @@
 - Dipnot işareti dizede `⟦n⟧`; arama dizinine girmeden önce temizlenir.
 - Sözlük ve anlamlar yalnızca kitabın kendisinden alınır.
 - Bir seferde bir aşama; her aşamadan sonra git kaydı.
+
+## Veri şeması (Aşama 1)
+- Şemalar `veri/sema/*.sema.json` altındadır; her veri dosyası kendi şemasından geçmek zorundadır (`npm run dogrula <kitap>`).
+- Şiir kimliği `<kaynak>-<no>` (ör. `d-10`); kaynak öneki `kunye.json > siirKaynakOnekleri` içinde tanımlıdır. Numaralar her kaynak bölümünde 1'den başlar, bu yüzden kimlik yalnızca numara değildir.
+- Doğrulama hata bulursa düzeltme yapılmaz, listelenir. Kitapta olduğu gibi duran farklar `veri/<kitap>/inceleme.json` içinde sayıyla kayıtlıdır ve karar insanındır.

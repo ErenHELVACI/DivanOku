@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dipnot.sema.json",
+  "title": "Dipnot listesi (veri/<kitap>/dipnotlar.json)",
+  "type": "array",
+  "items": {
+    "type": "object", "required": ["no", "siir", "metin"], "additionalProperties": false,
+    "properties": {
+      "no": { "type": "integer", "minimum": 1, "description": "Kitapta basılı dipnot numarası; şiirde ⟦no⟧ olarak geçer" },
+      "siir": { "type": "string", "pattern": "^[a-z]-[1-9][0-9]*$", "description": "Dipnotun geçtiği şiirin kimliği" },
+      "metin": { "type": "string", "minLength": 1 }
+    }
+  }
+}

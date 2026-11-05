@@ -1,5 +1,6 @@
 // 4. adım: kabul kontrolleri. Hiçbir şeyi düzeltmez; yalnızca ölçer ve listeler.
 import { readFileSync, existsSync } from 'node:fs';
+import Ajv2020 from 'ajv/dist/2020.js';
 
 export type Sonuc = { kontrol: string; beklenen: string; bulunan: string; tamam: boolean; ayrinti?: string[] };
 
@@ -11,6 +12,24 @@ function dizinEslesir(ilk: string | undefined, kayit: string): boolean {
   return kayit === t || kayit.startsWith(t);
 }
 
+// Şemalar veri/sema/ altında; her veri dosyası kendi şemasından geçmek zorundadır.
+const SEMALAR: [dosya: string, sema: string][] = [
+  ['kunye.json', 'kunye'], ['siirler.json', 'siir'], ['dipnotlar.json', 'dipnot'],
+  ['siir-dizini.json', 'siir-dizini'], ['sozluk.json', 'sozluk'],
+];
+
+function semaKontrol(d: string): Sonuc {
+  const Ajv = (Ajv2020 as any).default ?? Ajv2020;
+  const ajv = new Ajv({ allErrors: true, strict: true });
+  const hatalar: string[] = [];
+  for (const [dosya, sema] of SEMALAR) {
+    const dogrulayici = ajv.compile(JSON.parse(readFileSync(`veri/sema/${sema}.sema.json`, 'utf8')));
+    if (!dogrulayici(JSON.parse(readFileSync(`${d}/${dosya}`, 'utf8'))))
+      for (const e of dogrulayici.errors ?? []) hatalar.push(`${dosya}${e.instancePath}: ${e.message}`);
+  }
+  return { kontrol: 'Şema', beklenen: `${SEMALAR.length} dosya şemadan geçer`, bulunan: hatalar.length ? `${hatalar.length} hata` : `${SEMALAR.length}/${SEMALAR.length} dosya geçti`, tamam: hatalar.length === 0, ayrinti: hatalar };
+}
+
 const oku = (yol: string) => JSON.parse(readFileSync(yol, 'utf8'));
 
 export function dogrula(kitap: string): Sonuc[] {
@@ -20,7 +39,7 @@ export function dogrula(kitap: string): Sonuc[] {
   const dipnotlar: any[] = oku(`${d}/dipnotlar.json`);
   const dizin: any[] = oku(`${d}/siir-dizini.json`);
   const sozluk: any[] = oku(`${d}/sozluk.json`);
-  const s: Sonuc[] = [];
+  const s: Sonuc[] = [semaKontrol(d)];
 
   // Şiir sayısı: künyede sayı ya da kaynak-öneki başına sayılar olabilir.
   const beklenenler: Record<string, number> = typeof kunye.siirSayisi === 'number' ? { d: kunye.siirSayisi } : kunye.siirSayisi;

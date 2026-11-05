@@ -4,10 +4,14 @@
   "sair": "",
   "editor": "",
   "yayinci": "",
-  "baskiYili": null,
+  "seri": "",
+  "baski": "",
+  "baskiYili": 0,
   "isbn": "",
   "telifNotu": "",
   "izin": { "durum": "yok", "kaynak": "", "tarih": "" },
-  "siirSayisi": null,
-  "siirKaynakOnekleri": {}
+  "siirSayisi": 0,
+  "siirKaynakOnekleri": { "d": "" },
+  "kaynakDosya": "kaynak/<kitap>/kaynak.epub",
+  "kunyeNotu": ""
 }

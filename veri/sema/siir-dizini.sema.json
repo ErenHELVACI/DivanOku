@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "siir-dizini.sema.json",
+  "title": "Kitabın basılı şiir dizini (veri/<kitap>/siir-dizini.json)",
+  "type": "array",
+  "items": {
+    "type": "object", "required": ["no", "ilkDize"], "additionalProperties": false,
+    "properties": { "no": { "type": "integer", "minimum": 1 }, "ilkDize": { "type": "string", "minLength": 1 } }
+  }
+}

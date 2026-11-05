@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "siir.sema.json",
+  "title": "Şiir listesi (veri/<kitap>/siirler.json)",
+  "type": "array",
+  "items": { "$ref": "#/$defs/siir" },
+  "$defs": {
+    "dize": { "type": "string", "minLength": 1, "description": "Dizenin metni; dipnot işareti ⟦n⟧ olabilir" },
+    "siir": {
+      "type": "object",
+      "required": ["id", "kitap", "kaynak", "no", "tur", "vezinler", "baslikNotlari", "bentler", "anlamlar", "kaynakNotu"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z]-[1-9][0-9]*$", "description": "<kaynak>-<no>; adres /<kitap>/<id>; bir kez verilen kimlik değişmez" },
+        "kitap": { "type": "string", "pattern": "^[a-z]+(-[a-z]+)*$" },
+        "kaynak": { "type": "string", "pattern": "^[a-z]$" },
+        "no": { "type": "integer", "minimum": 1 },
+        "tur": { "enum": ["aruz", "hece", "arapca", "belirsiz"] },
+        "vezinler": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "baslikNotlari": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "bentler": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "required": ["no", "dizeler"], "additionalProperties": false,
+            "properties": {
+              "no": { "type": "integer", "minimum": 1 },
+              "dizeler": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/dize" } }
+            }
+          }
+        },
+        "anlamlar": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["no", "metin"], "additionalProperties": false,
+            "properties": { "no": { "type": "integer", "minimum": 1 }, "metin": { "type": "string", "minLength": 1 } }
+          }
+        },
+        "kaynakNotu": { "type": ["string", "null"] }
+      },
+      "allOf": [
+        { "if": { "properties": { "tur": { "const": "arapca" } } }, "then": { "properties": { "anlamlar": { "type": "array", "minItems": 1 } } } },
+        { "if": { "properties": { "tur": { "enum": ["aruz", "hece"] } } }, "then": { "properties": { "vezinler": { "type": "array", "minItems": 1 } } } }
+      ]
+    }
+  }
+}
