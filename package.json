@@ -10,9 +10,15 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "node --test dogrulama/"
+    "test": "node --test dogrulama/",
+    "ayristir:misri": "node ayristirici/dokum.ts niyazi-misri && node ayristirici/niyazi-misri.ts",
+    "dogrula": "node dogrulama/dogrula.ts"
   },
   "dependencies": {
     "astro": "^7.4.5"
+  },
+  "devDependencies": {
+    "cheerio": "^1.2.0",
+    "fflate": "^0.8.3"
   }
 }

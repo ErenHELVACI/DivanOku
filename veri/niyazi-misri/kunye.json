@@ -1,0 +1,17 @@
+{
+  "slug": "niyazi-misri",
+  "baslik": "Niyâzî-i Mısrî Halvetî Dîvânı (Dîvân-ı İlâhiyât, Seçmeler)",
+  "sair": "Niyâzî-i Mısrî",
+  "editor": "Mustafa Tatcı",
+  "yayinci": "T.C. Diyanet İşleri Başkanlığı, Dini Yayınlar Genel Müdürlüğü",
+  "seri": "Diyanet İşleri Başkanlığı Yayınları 956, Edebî Eserler 27",
+  "baski": "2. Baskı, Ankara, 2014",
+  "baskiYili": 2014,
+  "isbn": "978-975-19-5852-5",
+  "telifNotu": "© T.C. Diyanet İşleri Başkanlığı (künyede yazılı)",
+  "izin": { "durum": "yok", "kaynak": "", "tarih": "" },
+  "siirSayisi": 213,
+  "siirKaynakOnekleri": { "d": "Dîvân-ı İlâhiyât" },
+  "kaynakDosya": "kaynak/niyazi-misri/kaynak.epub",
+  "kunyeNotu": "Künye bilgisi ePUB'daki 'NiyaziMisriHalveti-1.xhtml' sayfasından alınmıştır; 'dc:rights' alanı boştur."
+}

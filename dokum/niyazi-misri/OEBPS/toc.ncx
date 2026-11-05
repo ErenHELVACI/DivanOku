@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="urn:uuid:73914756-200B-467D-994C-8052D6D80147" />
+		<meta name="dtb:depth" content="2" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+	</head>
+	<docTitle>
+		<text>NİYAZİ MISRİ HALVETİ DİVANI</text>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1"><navLabel><text>NİYÂZÎ-İ MISRÎ HALVETÎ DÎVÂN-I İLÂHİYÂT – SEÇMELER –</text></navLabel><content src="NiyaziMisriHalveti-2.xhtml#_idParaDest-1" /></navPoint>
+		<navPoint id="navpoint2" playOrder="2"><navLabel><text>KISALTMALAR</text></navLabel><content src="NiyaziMisriHalveti-3.xhtml#_idParaDest-2" /></navPoint>
+		<navPoint id="navpoint3" playOrder="3"><navLabel><text>TAKDİM</text></navLabel><content src="NiyaziMisriHalveti-4.xhtml#_idParaDest-3" /></navPoint>
+		<navPoint id="navpoint4" playOrder="4"><navLabel><text>ÖN SÖZ</text></navLabel><content src="NiyaziMisriHalveti-6.xhtml#_idParaDest-4" /></navPoint>
+		<navPoint id="navpoint5" playOrder="5"><navLabel><text>NİYÂZÎ-İ MISRÎ HALVETÎ</text></navLabel><content src="NiyaziMisriHalveti-7.xhtml#_idParaDest-5" /></navPoint>
+		<navPoint id="navpoint6" playOrder="6"><navLabel><text>NİYÂZÎ-İ MISRÎ DÎVÂNI HAKKINDA</text></navLabel><content src="NiyaziMisriHalveti-9.xhtml#_idParaDest-6" /></navPoint>
+		<navPoint id="navpoint7" playOrder="7"><navLabel><text>DÎVÂN-I İLÂHİYÂT</text></navLabel><content src="NiyaziMisriHalveti-11.xhtml#_idParaDest-7" /></navPoint>
+		<navPoint id="navpoint8" playOrder="8"><navLabel><text>ŞİİR DİZİNİ</text></navLabel><content src="NiyaziMisriHalveti-13.xhtml#_idParaDest-8" /></navPoint>
+		<navPoint id="navpoint9" playOrder="9"><navLabel><text>SÖZLÜK</text></navLabel><content src="NiyaziMisriHalveti-15.xhtml#_idParaDest-9" /></navPoint>
+		<navPoint id="navpoint10" playOrder="10"><navLabel><text>KAYNAKLAR</text></navLabel><content src="NiyaziMisriHalveti-17.xhtml#_idParaDest-10" /></navPoint>
+		<navPoint id="navpoint11" playOrder="11"><navLabel><text>BELGE VE FOTOĞRAFLAR</text></navLabel><content src="NiyaziMisriHalveti-19.xhtml#_idParaDest-11" /></navPoint>
+	</navMap>
+</ncx>

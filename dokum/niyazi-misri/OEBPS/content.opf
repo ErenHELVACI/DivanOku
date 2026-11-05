@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 13.0.1" />
+		<dc:title>NİYAZİ MISRİ HALVETİ DİVANI</dc:title>
+		<dc:publisher>DİYANET İŞLERİ BAŞKANLIĞI</dc:publisher>
+		<dc:date>2017-11-23T18:59:26Z</dc:date>
+		<dc:rights> </dc:rights>
+		<dc:language>tr-TR</dc:language>
+		<meta property="dcterms:modified">2017-11-23T18:59:26Z</meta>
+		<dc:identifier id="bookid">urn:uuid:73914756-200B-467D-994C-8052D6D80147</dc:identifier>
+	</metadata>
+	<manifest>
+		<item id="NiyaziMisriHalveti" href="NiyaziMisriHalveti.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-1" href="NiyaziMisriHalveti-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-2" href="NiyaziMisriHalveti-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-3" href="NiyaziMisriHalveti-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-4" href="NiyaziMisriHalveti-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-5" href="NiyaziMisriHalveti-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-6" href="NiyaziMisriHalveti-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-7" href="NiyaziMisriHalveti-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-8" href="NiyaziMisriHalveti-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-9" href="NiyaziMisriHalveti-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-10" href="NiyaziMisriHalveti-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-11" href="NiyaziMisriHalveti-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-12" href="NiyaziMisriHalveti-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-13" href="NiyaziMisriHalveti-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-14" href="NiyaziMisriHalveti-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-15" href="NiyaziMisriHalveti-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-16" href="NiyaziMisriHalveti-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-17" href="NiyaziMisriHalveti-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-18" href="NiyaziMisriHalveti-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-19" href="NiyaziMisriHalveti-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="NiyaziMisriHalveti-20" href="NiyaziMisriHalveti-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="DiBSiirilkSatir5MM.css" href="css/DiBSiirilkSatir5MM.css" media-type="text/css" />
+		<item id="x1-1.png" href="image/1-1.png" media-type="image/png" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" />
+		<item id="x10.png" href="image/10.png" media-type="image/png" />
+		<item id="x101.png" href="image/101.png" media-type="image/png" />
+		<item id="x11.png" href="image/11.png" media-type="image/png" />
+		<item id="x12.png" href="image/12.png" media-type="image/png" />
+		<item id="x124.png" href="image/124.png" media-type="image/png" />
+		<item id="x127.png" href="image/127.png" media-type="image/png" />
+		<item id="x13.png" href="image/13.png" media-type="image/png" />
+		<item id="x14.png" href="image/14.png" media-type="image/png" />
+		<item id="x15.png" href="image/15.png" media-type="image/png" />
+		<item id="x16.png" href="image/16.png" media-type="image/png" />
+		<item id="x17.png" href="image/17.png" media-type="image/png" />
+		<item id="x18.png" href="image/18.png" media-type="image/png" />
+		<item id="x19.png" href="image/19.png" media-type="image/png" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x21.png" href="image/21.png" media-type="image/png" />
+		<item id="x211.png" href="image/211.png" media-type="image/png" />
+		<item id="x22.png" href="image/22.png" media-type="image/png" />
+		<item id="x23.png" href="image/23.png" media-type="image/png" />
+		<item id="x24.png" href="image/24.png" media-type="image/png" />
+		<item id="x25.png" href="image/25.png" media-type="image/png" />
+		<item id="x26.png" href="image/26.png" media-type="image/png" />
+		<item id="x27.png" href="image/27.png" media-type="image/png" />
+		<item id="x28.png" href="image/28.png" media-type="image/png" />
+		<item id="x29.png" href="image/29.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x30.png" href="image/30.png" media-type="image/png" />
+		<item id="x31.png" href="image/31.png" media-type="image/png" />
+		<item id="x311.png" href="image/311.png" media-type="image/png" />
+		<item id="x32.png" href="image/32.png" media-type="image/png" />
+		<item id="x33.png" href="image/33.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x41.png" href="image/41.png" media-type="image/png" />
+		<item id="x46.png" href="image/46.png" media-type="image/png" />
+		<item id="x5.png" href="image/5.png" media-type="image/png" />
+		<item id="x6.png" href="image/6.png" media-type="image/png" />
+		<item id="x7.png" href="image/7.png" media-type="image/png" />
+		<item id="x8.png" href="image/8.png" media-type="image/png" />
+		<item id="x9.png" href="image/9.png" media-type="image/png" />
+		<item id="alt.png" href="image/alt.png" media-type="image/png" />
+		<item id="F1.png" href="image/F1.png" media-type="image/png" />
+		<item id="F2.png" href="image/F2.png" media-type="image/png" />
+		<item id="F3.png" href="image/F3.png" media-type="image/png" />
+		<item id="F4.png" href="image/F4.png" media-type="image/png" />
+		<item id="F5.png" href="image/F5.png" media-type="image/png" />
+		<item id="F6.png" href="image/F6.png" media-type="image/png" />
+		<item id="F7.png" href="image/F7.png" media-type="image/png" />
+		<item id="F8.png" href="image/F8.png" media-type="image/png" />
+		<item id="ust.png" href="image/ust.png" media-type="image/png" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="NiyaziMisriHalveti" />
+		<itemref idref="NiyaziMisriHalveti-1" />
+		<itemref idref="NiyaziMisriHalveti-2" />
+		<itemref idref="NiyaziMisriHalveti-3" />
+		<itemref idref="NiyaziMisriHalveti-4" />
+		<itemref idref="NiyaziMisriHalveti-5" />
+		<itemref idref="NiyaziMisriHalveti-6" />
+		<itemref idref="NiyaziMisriHalveti-7" />
+		<itemref idref="NiyaziMisriHalveti-8" />
+		<itemref idref="NiyaziMisriHalveti-9" />
+		<itemref idref="NiyaziMisriHalveti-10" />
+		<itemref idref="NiyaziMisriHalveti-11" />
+		<itemref idref="NiyaziMisriHalveti-12" />
+		<itemref idref="NiyaziMisriHalveti-13" />
+		<itemref idref="NiyaziMisriHalveti-14" />
+		<itemref idref="NiyaziMisriHalveti-15" />
+		<itemref idref="NiyaziMisriHalveti-16" />
+		<itemref idref="NiyaziMisriHalveti-17" />
+		<itemref idref="NiyaziMisriHalveti-18" />
+		<itemref idref="NiyaziMisriHalveti-19" />
+		<itemref idref="NiyaziMisriHalveti-20" />
+	</spine>
+</package>
