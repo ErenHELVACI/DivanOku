@@ -166,9 +166,11 @@ dl.sozluk dd { margin: .1rem 0 0; }
   --yazi-boyu: 1.4rem;
   font-size: var(--yazi-boyu); position: relative;
   /* Dizeler tek satır kalır: sığmazsa önce yazı küçülür (en çok 13 piksele kadar), en sonunda yalnız bu kutu kayar. */
-  overflow-x: auto; padding: .25rem .3rem; display: flex; flex-direction: column; align-items: safe center;
+  overflow-x: auto; padding: .25rem .3rem;
 }
-.bent { display: grid; grid-template-columns: 2.3em max-content; column-gap: .5em; margin-block: 1em; width: max-content; position: relative; }
+/* Tüm bentler aynı sol kenardan başlar; bütün blok (en geniş dizeye göre) ortalanır. Taşarsa otomatik kenar boşluğu 0 olur, kutu kayar. */
+.siir-ic { width: max-content; margin-inline: auto; }
+.bent { display: grid; grid-template-columns: 2.3em max-content; column-gap: .5em; margin-block: 1em; position: relative; }
 .bent .bno { justify-self: end; margin-top: .5em; width: 1.55em; height: 1.55em; border-radius: 50%; display: grid; place-items: center; color: var(--vurgu); font: 600 .6em var(--sans); border: 1px solid color-mix(in srgb, var(--vurgu) 70%, transparent); font-variant-numeric: tabular-nums; }
 .bent .dizeler { margin: 0; padding: 0; list-style: none; }
 .dize { white-space: nowrap; line-height: 1.62; }
