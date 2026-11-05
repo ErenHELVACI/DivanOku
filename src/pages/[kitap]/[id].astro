@@ -43,7 +43,23 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
   {onceki && <link rel="prev" href={`/${k.kunye.slug}/${onceki.id}/`} />}
   {sonraki && <link rel="next" href={`/${k.kunye.slug}/${sonraki.id}/`} />}
 
-  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › <a href={`/${k.kunye.slug}/`}>{k.kunye.sair}</a> › {baslik}</nav>
+  <div class="ust-arac">
+    <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › <a href={`/${k.kunye.slug}/`}>{k.kunye.sair}</a> › {baslik}</nav>
+    <button type="button" id="cekmece-dugme" class="cekmece-dugme" aria-expanded="false" aria-controls="cekmece">
+      <span aria-hidden="true">☰</span><span class="yazi">Tüm şiirler</span>
+    </button>
+  </div>
+
+  <div id="cekmece-perde" class="cekmece-perde" hidden></div>
+  <aside id="cekmece" class="cekmece" aria-label="Tüm şiirler" aria-hidden="true" inert data-kitap={k.kunye.slug} data-aktif={s.id}>
+    <div class="cekmece-ust">
+      <h2>Tüm şiirler</h2>
+      <button type="button" id="cekmece-kapat" aria-label="Şiir listesini kapat">✕</button>
+    </div>
+    <label class="sr-only" for="cekmece-ara">Şiirlerde ara</label>
+    <input type="search" id="cekmece-ara" placeholder="İlk dizede ara…" autocomplete="off" />
+    <ul class="cekmece-liste" id="cekmece-liste"><li class="kucuk soluk">Yükleniyor…</li></ul>
+  </aside>
 
   <article>
     <div class="sayfa-cerceve">
@@ -167,10 +183,13 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
     if (e.key === 'Escape' && !kart.hidden) { kapat(); return; }
     if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
     const t = e.target as HTMLElement;
-    if (t.closest('input, select, textarea, [contenteditable]')) return;
+    if (t instanceof Element && t.closest('input, select, textarea, [contenteditable]')) return;
     if (t === siir && siir.scrollWidth > siir.clientWidth) return; // yatay kayan şiir kutusunda oklar kaydırmaya aittir
     const g = (window as any).__gezin as { onceki: string; sonraki: string };
     if (e.key === 'ArrowLeft' && g.onceki) location.href = g.onceki;
     if (e.key === 'ArrowRight' && g.sonraki) location.href = g.sonraki;
   });
+</script>
+<script>
+  import '../../scripts/cekmece.ts';
 </script>

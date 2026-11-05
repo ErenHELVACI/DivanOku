@@ -1,0 +1,28 @@
+/* ---- Yan sekme: tüm şiirler ---- */
+.ust-arac { display: flex; align-items: flex-start; justify-content: space-between; gap: .8rem; flex-wrap: wrap; }
+.ust-arac .ekmek { margin-bottom: 1.2rem; }
+.cekmece-dugme { gap: .45rem; padding-inline: .9rem; }
+.cekmece-dugme[aria-expanded="true"] { border-color: var(--yaldiz); background: color-mix(in srgb, var(--yaldiz) 14%, transparent); }
+.cekmece {
+  position: fixed; top: 0; bottom: 0; left: 0; z-index: 60; width: min(23rem, 88vw); display: flex; flex-direction: column;
+  background: var(--sayfa); border-right: 1px solid var(--yaldiz); box-shadow: 8px 0 40px -12px rgb(0 0 0 / .5);
+  padding: 1rem 1rem .6rem; transform: translateX(-102%); transition: transform .3s cubic-bezier(.2, .8, .2, 1), visibility 0s .3s; visibility: hidden;
+}
+.cekmece.acik { transform: none; visibility: visible; transition: transform .3s cubic-bezier(.2, .8, .2, 1); }
+@media (prefers-reduced-motion: reduce) { .cekmece, .cekmece.acik { transition: none; } }
+.cekmece-ust { display: flex; align-items: center; justify-content: space-between; margin-bottom: .6rem; }
+.cekmece-ust h2 { margin: 0; font-size: 1.25rem; }
+.cekmece input[type="search"] { width: 100%; flex: none; margin-bottom: .5rem; }
+.cekmece-liste { list-style: none; margin: 0; padding: 0 0 1rem; overflow-y: auto; flex: 1; overscroll-behavior: contain; font-size: 1.05rem; line-height: 1.35; }
+.cekmece-liste .grup { font: 600 .72rem var(--sans); letter-spacing: .2em; text-transform: uppercase; color: var(--vurgu); padding: .9rem .3rem .3rem; border-bottom: 1px solid var(--cizgi); }
+.cekmece-liste a { display: grid; grid-template-columns: 2.1rem 1fr; gap: .5rem; padding: .5rem .3rem; text-decoration: none; color: var(--yazi); border-radius: .4rem; }
+.cekmece-liste a:hover { background: color-mix(in srgb, var(--yaldiz) 14%, transparent); }
+.cekmece-liste .n { font: 600 .78rem var(--sans); color: var(--vurgu); text-align: right; padding-top: .2rem; font-variant-numeric: tabular-nums; }
+.cekmece-liste .aktif a { background: color-mix(in srgb, var(--vurgu) 12%, transparent); box-shadow: inset 3px 0 0 var(--vurgu); }
+.cekmece-perde { position: fixed; inset: 0; z-index: 55; background: rgb(10 8 20 / .5); }
+/* Geniş ekranda sekme kenara yaslı dikey bir tutamak olur */
+@media (min-width: 900px) {
+  .cekmece-dugme { position: fixed; left: 0; top: 38%; z-index: 30; writing-mode: vertical-rl; transform: rotate(180deg); border-radius: 0 .8rem .8rem 0; border-left: 0; padding: 1rem .55rem; min-height: 0; background: var(--sayfa); box-shadow: var(--golge); }
+  .cekmece-dugme .yazi { letter-spacing: .08em; }
+  body.cekmece-acik .cekmece-dugme { left: min(23rem, 88vw); }
+}
