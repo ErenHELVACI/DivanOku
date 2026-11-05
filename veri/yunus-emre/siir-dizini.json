@@ -1,0 +1,990 @@
+[
+ {
+  "no": 1,
+  "ilkDize": "Sensiz yola girer isem çârem yok adım atmağa"
+ },
+ {
+  "no": 2,
+  "ilkDize": "Aşk davâsın kılan kişi hîç anmaya hırs u hevâ"
+ },
+ {
+  "no": 3,
+  "ilkDize": "Bir kez yüzün gören senin ömrünce hîç unutmaya"
+ },
+ {
+  "no": 4,
+  "ilkDize": "İki cihân zindân ise gerek bana bostân ola"
+ },
+ {
+  "no": 5,
+  "ilkDize": "Aşk eteğin tutmak gerek âkıbet zevâl olmaya"
+ },
+ {
+  "no": 6,
+  "ilkDize": "Anmaz mısın sen şol günü gözün nesne görmez ola"
+ },
+ {
+  "no": 7,
+  "ilkDize": "Ey pâdişâh ey pâdişâh uş ben beni verdim sana"
+ },
+ {
+  "no": 8,
+  "ilkDize": "Anma mısın sen şol günü cümle âlem hayrân ola"
+ },
+ {
+  "no": 9,
+  "ilkDize": "Aceb aceb ne nesnedir bu derd ile firâk bana"
+ },
+ {
+  "no": 10,
+  "ilkDize": "Benem ol aşk bahrîsi denizler hayrân bana"
+ },
+ {
+  "no": 11,
+  "ilkDize": "Her kim bana ağyâr ise Hak Tanrı yâr olsun ona"
+ },
+ {
+  "no": 12,
+  "ilkDize": "Aceb bu benim cânım âzâd ola mı yâ Rab"
+ },
+ {
+  "no": 13,
+  "ilkDize": "Ulu ulu günâhlarım yüz komadı bana Çalap"
+ },
+ {
+  "no": 14,
+  "ilkDize": "Aşk îmâmdır bize gönül cemâat"
+ },
+ {
+  "no": 15,
+  "ilkDize": "Aşk makâmı âlîdir aşk kadîm ezelidir"
+ },
+ {
+  "no": 16,
+  "ilkDize": "Ey beni ayıblayan gel beni aşkdan kurtar"
+ },
+ {
+  "no": 17,
+  "ilkDize": "Bir kişiden sorgıl haber kim mânâdan haberi var"
+ },
+ {
+  "no": 18,
+  "ilkDize": "Ey aşk eri aç gözünü yer yüzüne kılgıl nazar"
+ },
+ {
+  "no": 19,
+  "ilkDize": "Söylememek harcısı söylemeğin hâsıdır"
+ },
+ {
+  "no": 20,
+  "ilkDize": "Ko ölmek endîşesin âşık ölmez bâkîdir"
+ },
+ {
+  "no": 21,
+  "ilkDize": "Cânını aşk yoluna vermeyen âşık mıdır"
+ },
+ {
+  "no": 22,
+  "ilkDize": "Ger vuslata erdin ise bu derd ile firâk nedir"
+ },
+ {
+  "no": 23,
+  "ilkDize": "Merdân-ı Hak bu dünyâda maksûdlara kalmadılar"
+ },
+ {
+  "no": 24,
+  "ilkDize": "Ey sözlerin aslın bilen gel de bu söz kandan gelir"
+ },
+ {
+  "no": 25,
+  "ilkDize": "Bu vücûdum şehrine bir dem giresim gelir"
+ },
+ {
+  "no": 26,
+  "ilkDize": "Hak bir gönül verdi bana hâ demeden hayrân olur"
+ },
+ {
+  "no": 27,
+  "ilkDize": "Benim gönlüm gözüm aşkdan doludur"
+ },
+ {
+  "no": 28,
+  "ilkDize": "Ey dost seni severem cân içre yerin vardır"
+ },
+ {
+  "no": 29,
+  "ilkDize": "Sensin benim cânım cânı sensiz karârım yok durur"
+ },
+ {
+  "no": 30,
+  "ilkDize": "Ey dün ü gün Hak isteyen bilmez misin Hak kandadır"
+ },
+ {
+  "no": 31,
+  "ilkDize": "Aşk erinin gönlü dolu pâdişâhın haznesidir"
+ },
+ {
+  "no": 32,
+  "ilkDize": "Bu dünyâya gönül veren sonucu pişmân olısar"
+ },
+ {
+  "no": 33,
+  "ilkDize": "Bilir misiz ey yârenler gerçek erenler kandadır"
+ },
+ {
+  "no": 34,
+  "ilkDize": "İşidin ey yârenler aşk bir güneşe benzer"
+ },
+ {
+  "no": 35,
+  "ilkDize": "Türlü türlü cefânın adını aşk vermişler"
+ },
+ {
+  "no": 36,
+  "ilkDize": "Bu dünyânın meseli bir ulu şâra benzer"
+ },
+ {
+  "no": 37,
+  "ilkDize": "Dost senin aşkın oku key katı taşdan geçer"
+ },
+ {
+  "no": 38,
+  "ilkDize": "Allah diyelim dâimAllah görelim neyler"
+ },
+ {
+  "no": 39,
+  "ilkDize": "Niteki bu gönlüm evi aşk elinden taşa gelir"
+ },
+ {
+  "no": 40,
+  "ilkDize": "Sabâhın sinlere vardım gördüm cümle ölmüş yatur"
+ },
+ {
+  "no": 41,
+  "ilkDize": "Aşkın odu yüreğimde neler eyler neler eyler"
+ },
+ {
+  "no": 42,
+  "ilkDize": "Miskîn âdem oğlanı nefse zebûn olmuşdur"
+ },
+ {
+  "no": 43,
+  "ilkDize": "Bu dem yüzüm süre duram her dem ayım yeni doğar"
+ },
+ {
+  "no": 44,
+  "ilkDize": "Yâr yüreğim yâr gör ki neler var"
+ },
+ {
+  "no": 45,
+  "ilkDize": "Aşk ile gelen erenler içer ağuyu nûş eder"
+ },
+ {
+  "no": 46,
+  "ilkDize": "Ol âlem fahri Muhammed nebîler serveridir"
+ },
+ {
+  "no": 47,
+  "ilkDize": "Yer yüzünde gezer idim uğradım milketler yatur"
+ },
+ {
+  "no": 48,
+  "ilkDize": "Hakîkat her vücûdun cânı aşkdır"
+ },
+ {
+  "no": 49,
+  "ilkDize": "İlim ilim bilmekdir ilim kendin bilmekdir"
+ },
+ {
+  "no": 50,
+  "ilkDize": "Ey dost senin aşkın odu ciğerim pâre baş kılur"
+ },
+ {
+  "no": 51,
+  "ilkDize": "Hocam âşık olanların işi âh ile zâr olur"
+ },
+ {
+  "no": 52,
+  "ilkDize": "Anca zâr eyler kim şol bülbül eyler"
+ },
+ {
+  "no": 53,
+  "ilkDize": "Dervîş olan kişiler deli olagan olur"
+ },
+ {
+  "no": 54,
+  "ilkDize": "Yerin göğün safâsı Mustafâ’dır"
+ },
+ {
+  "no": 55,
+  "ilkDize": "Bize dîdâr gerek dünyâ gerekmez"
+ },
+ {
+  "no": 56,
+  "ilkDize": "Keleci bilen kişinin yüzünü ağ ede bir söz"
+ },
+ {
+  "no": 57,
+  "ilkDize": "Hak cihâna doludur kimsene Hakk’ı bilmez"
+ },
+ {
+  "no": 58,
+  "ilkDize": "N’idem ben bu gönül ile benim ile bile durmaz"
+ },
+ {
+  "no": 59,
+  "ilkDize": "Niçeler bu dünyada günâhını yuyamaz"
+ },
+ {
+  "no": 60,
+  "ilkDize": "Sana her işde ey Kâdir bildik tercümân gerekmez"
+ },
+ {
+  "no": 61,
+  "ilkDize": "Binde biri bu halkın Rahmân yoluna girmez"
+ },
+ {
+  "no": 62,
+  "ilkDize": "Eğer dilim bende ise kimse bana nesne demez"
+ },
+ {
+  "no": 63,
+  "ilkDize": "Bu ne dertdir aceb dermân belirmez"
+ },
+ {
+  "no": 64,
+  "ilkDize": "Hîç bir kişi bilmez bizi biz ne işin içindeyiz"
+ },
+ {
+  "no": 65,
+  "ilkDize": "Gayrıdır bu milletden bu bizim milletimiz"
+ },
+ {
+  "no": 66,
+  "ilkDize": "Sûfîyem halk içinde tesbîh elimden gitmez"
+ },
+ {
+  "no": 67,
+  "ilkDize": "Yine geldi aşk elçisi yine doldu meydânımız"
+ },
+ {
+  "no": 68,
+  "ilkDize": "Bilenlere sormak gerek bu tendeki cân ne imiş"
+ },
+ {
+  "no": 69,
+  "ilkDize": "Âşık cânına aşk koyan ol bir yüce Sübhân imiş"
+ },
+ {
+  "no": 70,
+  "ilkDize": "Erenlerin yolları inceden ince imiş"
+ },
+ {
+  "no": 71,
+  "ilkDize": "Gel ey gözüm ağla gülmezem ayruk"
+ },
+ {
+  "no": 72,
+  "ilkDize": "Mânâ bahrine daldık vücûd sırrını bulduk"
+ },
+ {
+  "no": 73,
+  "ilkDize": "Muhammed’e bir gice Çalap’dan indi Burâk"
+ },
+ {
+  "no": 74,
+  "ilkDize": "Dost yüzüne bakmağa key safâ nazar gerek"
+ },
+ {
+  "no": 75,
+  "ilkDize": "Müslümânım diyen kişi şartı nedir bilse gerek"
+ },
+ {
+  "no": 76,
+  "ilkDize": "Bu dünyaya gelen kişi âhir yine gitse gerek"
+ },
+ {
+  "no": 77,
+  "ilkDize": "N’idelim bu dünyâyı n’eyleyip n’etmek gerek"
+ },
+ {
+  "no": 78,
+  "ilkDize": "Dervîş olan kişinin dirliği arı gerek"
+ },
+ {
+  "no": 79,
+  "ilkDize": "Ne söz keleci der isem dilim seni söyleyicek"
+ },
+ {
+  "no": 80,
+  "ilkDize": "Çalap nûrdan yaratmış cânını Muhammed’in"
+ },
+ {
+  "no": 81,
+  "ilkDize": "Nişânı bu benzi sarı gözleri yaşdır âşıkın"
+ },
+ {
+  "no": 82,
+  "ilkDize": "Ata belinden bir zamân anasına düşdü gönül"
+ },
+ {
+  "no": 83,
+  "ilkDize": "Yavlak aceb geldi bana dünyâ içinde işbu hâl"
+ },
+ {
+  "no": 84,
+  "ilkDize": "Gerekmez dünyayı bize çünki bâkî bünyâd değil"
+ },
+ {
+  "no": 85,
+  "ilkDize": "Kogıl bu dünyâ bezeğin bu dünyâ yel durur hayâl"
+ },
+ {
+  "no": 86,
+  "ilkDize": "Aşksızlara verme öğüt öğüdünden alır değil"
+ },
+ {
+  "no": 87,
+  "ilkDize": "Mânâ eri bu yolda melûl olası değil"
+ },
+ {
+  "no": 88,
+  "ilkDize": "Eyâ gâfil aç gözünü gönlün yavlak uzatmagıl"
+ },
+ {
+  "no": 89,
+  "ilkDize": "Yoldaş olalım ikimiz/Gel dosta gidelim gönül"
+ },
+ {
+  "no": 90,
+  "ilkDize": "N’ola gelsen şimden geri fesâdı terk etsen gönül"
+ },
+ {
+  "no": 91,
+  "ilkDize": "Dervîşlik dedikleri hırka ile tâc değil"
+ },
+ {
+  "no": 92,
+  "ilkDize": "Müşkili hâlleylemek değmenin işi değil"
+ },
+ {
+  "no": 93,
+  "ilkDize": "Cânlar fedâ yoluna bu cân kayısı değil"
+ },
+ {
+  "no": 94,
+  "ilkDize": "Bir kez gönül yıkdın ise bu kıldığın namâz değil"
+ },
+ {
+  "no": 95,
+  "ilkDize": "Tehî görmen kimseyi hîç kimesne boş değil"
+ },
+ {
+  "no": 96,
+  "ilkDize": "Ey yârânlar ey kardaşlar sorun bana kanda idim"
+ },
+ {
+  "no": 97,
+  "ilkDize": "Ben bunda garîb geldim ben bu ilden bîzâram"
+ },
+ {
+  "no": 98,
+  "ilkDize": "Cümle âlem terkin vurup ben dost terkin vuramazam"
+ },
+ {
+  "no": 99,
+  "ilkDize": "Ben bir aceb ile geldim kimse hâlim bilmez benim"
+ },
+ {
+  "no": 100,
+  "ilkDize": "Haber eylen âşıklara aşka gönül veren benim"
+ },
+ {
+  "no": 101,
+  "ilkDize": "Ezelî bu aşkı ben bu mülke sürüp geldim"
+ },
+ {
+  "no": 102,
+  "ilkDize": "Benim bunda karârım yok ben bunda gitmeğe geldim"
+ },
+ {
+  "no": 103,
+  "ilkDize": "Cânım ben ondan bunda ezelî âşık geldim"
+ },
+ {
+  "no": 104,
+  "ilkDize": "Bin yıl eğer vasfın diyem bir zerresin tüketmeyem"
+ },
+ {
+  "no": 105,
+  "ilkDize": "Sensin Kerîm sensin Rahîm/Allah sana sundum elim"
+ },
+ {
+  "no": 106,
+  "ilkDize": "Muhammed ile bile Mi’râc’a çıkan benim"
+ },
+ {
+  "no": 107,
+  "ilkDize": "Hak Çalab’ım Hak Çalab’ım sencileyin yok Çalab’ım"
+ },
+ {
+  "no": 108,
+  "ilkDize": "Aceb değil senin için ger cân fedâ kılur isem"
+ },
+ {
+  "no": 109,
+  "ilkDize": "Tehî görmen siz beni dost yüzün görüp geldim"
+ },
+ {
+  "no": 110,
+  "ilkDize": "Ey yârânlar tınman bana ben yine n’oldum bilmezem"
+ },
+ {
+  "no": 111,
+  "ilkDize": "Ondan beri gönüldüm dost ile bile geldim"
+ },
+ {
+  "no": 112,
+  "ilkDize": "Erenlerin himmetini ben bana yoldaş eyleyem"
+ },
+ {
+  "no": 113,
+  "ilkDize": "Her kancaru döner isem aşk iledir işim benim"
+ },
+ {
+  "no": 114,
+  "ilkDize": "Ben ol yârı sevdiğimi niçe bir gizleyebilem"
+ },
+ {
+  "no": 115,
+  "ilkDize": "Teferrüc eyleyü vardım sabâhın sinleri gördüm"
+ },
+ {
+  "no": 116,
+  "ilkDize": "Hak’dan nazar oldu bana Hak kapısın açar oldum"
+ },
+ {
+  "no": 117,
+  "ilkDize": "Dostdan bana haber geldi durayım ondan varayım"
+ },
+ {
+  "no": 118,
+  "ilkDize": "Ey dost aşkın denizine girem gark olam yürüyem"
+ },
+ {
+  "no": 119,
+  "ilkDize": "Ger râzımı söyler isem kimse dilim bilmez benim"
+ },
+ {
+  "no": 120,
+  "ilkDize": "Dost bakalı yüzüme ben şehi görüp geldim"
+ },
+ {
+  "no": 121,
+  "ilkDize": "Zamân geçdi devir döndü/Saladur kudse gidelim"
+ },
+ {
+  "no": 122,
+  "ilkDize": "Yüz bin cefâ kılsan bana/Senden yüzüm döndürmezem"
+ },
+ {
+  "no": 123,
+  "ilkDize": "Girdim aşkın denizine bahrîleyin yüzer oldum"
+ },
+ {
+  "no": 124,
+  "ilkDize": "Bu cihâna gelmedin mâşûk ile bir idim"
+ },
+ {
+  "no": 125,
+  "ilkDize": "Ey dervîş diyen bana nem durur dervîş benim"
+ },
+ {
+  "no": 126,
+  "ilkDize": "Denizler olsa bir kadeh susalığım kanmaz benim"
+ },
+ {
+  "no": 127,
+  "ilkDize": "Eyle sanman siz beni kendözümden gelmişem"
+ },
+ {
+  "no": 128,
+  "ilkDize": "Şöyle hayrân eyle beni aşkın oduna yanayım"
+ },
+ {
+  "no": 129,
+  "ilkDize": "İlâhî bir aşk ver bana ben benliğim bilmeyeyim"
+ },
+ {
+  "no": 130,
+  "ilkDize": "Kullukdan ırak olma sultân göresin birgün"
+ },
+ {
+  "no": 131,
+  "ilkDize": "Bugün sohbet bizim oldu bize bizim diyen gelsin"
+ },
+ {
+  "no": 132,
+  "ilkDize": "Biz dünyâdan gider olduk kalanlara selâm olsun"
+ },
+ {
+  "no": 133,
+  "ilkDize": "Ol göz ki seni gördü ol niye nazar etsin"
+ },
+ {
+  "no": 134,
+  "ilkDize": "Gözüm seni görmek için elim sana ermek için"
+ },
+ {
+  "no": 135,
+  "ilkDize": "Bu dervîşlik yoluna aşk ile gelen gelsin"
+ },
+ {
+  "no": 136,
+  "ilkDize": "Neylerler fânî dünyâyı/Allah sevgisi var iken"
+ },
+ {
+  "no": 137,
+  "ilkDize": "Dervîşlerin yoluna sıdk ile gelen gelsin"
+ },
+ {
+  "no": 138,
+  "ilkDize": "Şükür şükür ol Çalab’a maksûduma erdim bugün"
+ },
+ {
+  "no": 139,
+  "ilkDize": "Ey yârânlar ey kardaşlar ecel ere ölem birgün"
+ },
+ {
+  "no": 140,
+  "ilkDize": "Sûretden gel sıfata yolda safâ bulasın"
+ },
+ {
+  "no": 141,
+  "ilkDize": "Çarh-ı felek yok iki cânlarımız var iken"
+ },
+ {
+  "no": 142,
+  "ilkDize": "Gönül hayrân olupdur aşk elinden"
+ },
+ {
+  "no": 143,
+  "ilkDize": "Lâ-şerîkden okursun sonra şerîk katarsın"
+ },
+ {
+  "no": 144,
+  "ilkDize": "Hak bir gevher yaratdı kendinin kudretinden"
+ },
+ {
+  "no": 145,
+  "ilkDize": "Gelin bugün yanalım yarın yanmamak için"
+ },
+ {
+  "no": 146,
+  "ilkDize": "Aşk ilinin haberin desem işide misin"
+ },
+ {
+  "no": 147,
+  "ilkDize": "Dalayım aşkın bahrine gavvâs olayım bir zamân"
+ },
+ {
+  "no": 148,
+  "ilkDize": "Âşıklara ne diyem aşk haberinden şîrîn"
+ },
+ {
+  "no": 149,
+  "ilkDize": "Sen cânından geçmeden cânân arzû kılarsın"
+ },
+ {
+  "no": 150,
+  "ilkDize": "İlminde gark oluban ben beni bilemezin"
+ },
+ {
+  "no": 151,
+  "ilkDize": "Bunca gönüller alan cihâna sultân mısın"
+ },
+ {
+  "no": 152,
+  "ilkDize": "Bu ömrüm yok yere harc etmişim ben"
+ },
+ {
+  "no": 153,
+  "ilkDize": "Dost yüzünü göriceğez niçe karâr kılsın bu cân"
+ },
+ {
+  "no": 154,
+  "ilkDize": "Ol cân kaçan öliser sen ana cân olasın"
+ },
+ {
+  "no": 155,
+  "ilkDize": "Aceb oldu hâlim bu aşk elinden"
+ },
+ {
+  "no": 156,
+  "ilkDize": "Gönül usanmadın sen bu seferden"
+ },
+ {
+  "no": 157,
+  "ilkDize": "Erenlere muhib iken yâ münkir olduğun neden"
+ },
+ {
+  "no": 158,
+  "ilkDize": "Ey gönül bir dem bir vakit dünyâdan usanmaz mısın"
+ },
+ {
+  "no": 159,
+  "ilkDize": "Taşdın yine deli gönül sular gibi çağlar mısın"
+ },
+ {
+  "no": 160,
+  "ilkDize": "Cânlar cânını buldum bu cânım yağmâ olsun"
+ },
+ {
+  "no": 161,
+  "ilkDize": "Anıp kıyâmet gününü/Ağlaşalım ol gün için"
+ },
+ {
+  "no": 162,
+  "ilkDize": "Hey yârânlar hey kardaşlar nic’edeyim n’ideyim ben"
+ },
+ {
+  "no": 163,
+  "ilkDize": "Aceb şu yerde var m’ola/Şöyle garîb bencileyin"
+ },
+ {
+  "no": 164,
+  "ilkDize": "Kanda bulam isteyüben ey gönül seni kandasın"
+ },
+ {
+  "no": 165,
+  "ilkDize": "Eğer aşkı seversen cân olasın"
+ },
+ {
+  "no": 166,
+  "ilkDize": "Ey dost seni sevelden aklım gitdi kaldım ben"
+ },
+ {
+  "no": 167,
+  "ilkDize": "Ol vaktin bir olasın ayrılıkdan kalasın"
+ },
+ {
+  "no": 168,
+  "ilkDize": "Ayırma beni senden yaradan"
+ },
+ {
+  "no": 169,
+  "ilkDize": "Andan beri kim aşkın benimle yoldaş oldu"
+ },
+ {
+  "no": 170,
+  "ilkDize": "Hak’dan gelen şerbeti içdik elhamdülillâh"
+ },
+ {
+  "no": 171,
+  "ilkDize": "Zinhâr gönül evinde tutma yavuz endîşe"
+ },
+ {
+  "no": 172,
+  "ilkDize": "Ey yârânlar ey kardaşlar korkaram ben ölem diye"
+ },
+ {
+  "no": 173,
+  "ilkDize": "Hoşdur eğer yürür isem aşk oduna yana yana"
+ },
+ {
+  "no": 174,
+  "ilkDize": "Âşık oldum erene ermek ile"
+ },
+ {
+  "no": 175,
+  "ilkDize": "Vasf-ı hâlin eydiserem vuslat hâlin bilenlere"
+ },
+ {
+  "no": 176,
+  "ilkDize": "Vücûd bir binâ durur sırr-ı hikmet içinde"
+ },
+ {
+  "no": 177,
+  "ilkDize": "Miskînlikden buldular kimde erlik var ise"
+ },
+ {
+  "no": 178,
+  "ilkDize": "Bir söz diyeyim sana dinle cânın var ise"
+ },
+ {
+  "no": 179,
+  "ilkDize": "Var derd ile yan yürü dermâna erişince"
+ },
+ {
+  "no": 180,
+  "ilkDize": "Uş yine nazar oldu bu bizim cânımıza"
+ },
+ {
+  "no": 181,
+  "ilkDize": "Yine bu bâd-ı nev-bahâr hoş nev’ ile esdi yine"
+ },
+ {
+  "no": 182,
+  "ilkDize": "Tutgıl bir Tanrı hâsını/Gel ikrâr et erenlere"
+ },
+ {
+  "no": 183,
+  "ilkDize": "Sana derim ey velî/Dur erte namâzına"
+ },
+ {
+  "no": 184,
+  "ilkDize": "Muhammed’in medhini edelim baş üstüne"
+ },
+ {
+  "no": 185,
+  "ilkDize": "Bir imâret göster bana kim sonu vîrân olmaya"
+ },
+ {
+  "no": 186,
+  "ilkDize": "Ben dost için ağlar isem gözüm yaşını kim sile"
+ },
+ {
+  "no": 187,
+  "ilkDize": "Zihî şîrîn hûylu dilber ki bu dem durağı cânda"
+ },
+ {
+  "no": 188,
+  "ilkDize": "Mânâ berâtın aldık uş yine elimize"
+ },
+ {
+  "no": 189,
+  "ilkDize": "Görenin hâli döner nişânsız bî-nişâna"
+ },
+ {
+  "no": 190,
+  "ilkDize": "Hak yolunu gözler isen/Gel yanalım dostlar ile"
+ },
+ {
+  "no": 191,
+  "ilkDize": "Her kime kim dervîşlik bağışlana"
+ },
+ {
+  "no": 192,
+  "ilkDize": "Âşıkları Tamu’ya yandırmaya"
+ },
+ {
+  "no": 193,
+  "ilkDize": "Bir şâha kul olmak gerek hergiz ma’zûl olmaz ola"
+ },
+ {
+  "no": 194,
+  "ilkDize": "Ey aşk delisi olan ne kaldın perâkende"
+ },
+ {
+  "no": 195,
+  "ilkDize": "İçimde bir dert oldu diyeyim dervîşlere"
+ },
+ {
+  "no": 196,
+  "ilkDize": "Âşık oldum bugün meydân içinde"
+ },
+ {
+  "no": 197,
+  "ilkDize": "Kimseye düşmân tutmazuz ağyâr dahi yârdır bize"
+ },
+ {
+  "no": 198,
+  "ilkDize": "Bir acâib aşk geldi bende bu hâl üstüne"
+ },
+ {
+  "no": 199,
+  "ilkDize": "Gitdi bu kış zulmeti geldi bahâr yaz ile"
+ },
+ {
+  "no": 200,
+  "ilkDize": "Sen bu cihân mülküne geldim gelmedim deme"
+ },
+ {
+  "no": 201,
+  "ilkDize": "Âlem düşmân olur ise beni dostdan ıramaya"
+ },
+ {
+  "no": 202,
+  "ilkDize": "Dirliğim ne idiğin eydeyim kıldan kıla"
+ },
+ {
+  "no": 203,
+  "ilkDize": "San’atın yeğreği çün namâz imiş hoş pîşe"
+ },
+ {
+  "no": 204,
+  "ilkDize": "Bir ay gördüm bu gece kamu burçlardan yüce"
+ },
+ {
+  "no": 205,
+  "ilkDize": "Yine yaz günleri geldi/Söyle bülbülcüğüm söyle"
+ },
+ {
+  "no": 206,
+  "ilkDize": "Aşkın ile âşıklar yansın yâ Resûlallah"
+ },
+ {
+  "no": 207,
+  "ilkDize": "Dostdan haber kim getirdi sorun seher yellerine"
+ },
+ {
+  "no": 208,
+  "ilkDize": "İçin dışın murdâr iken aşk neylesin senin ile"
+ },
+ {
+  "no": 209,
+  "ilkDize": "Ey yârânlar ey kardaşlar korkaram ben ölem diye"
+ },
+ {
+  "no": 210,
+  "ilkDize": "Ey bizimle yâr olup dosta giden gelsin beri"
+ },
+ {
+  "no": 211,
+  "ilkDize": "Benem zârî kılan şol yâre karşı"
+ },
+ {
+  "no": 212,
+  "ilkDize": "Kime ki dost gerek ise eydeyim ne kılasını"
+ },
+ {
+  "no": 213,
+  "ilkDize": "Hak nûru âşıklara her dem nüzûl değil mi"
+ },
+ {
+  "no": 214,
+  "ilkDize": "Aşk bâzirgânı sermâye cânı"
+ },
+ {
+  "no": 215,
+  "ilkDize": "Yer gök yaradılmadın Hak bir gevher eyledi"
+ },
+ {
+  "no": 216,
+  "ilkDize": "Bencileyin gören kişi ben sevdiğimin yüzünü"
+ },
+ {
+  "no": 217,
+  "ilkDize": "Geri durur yoklukdan kamuların baylığı"
+ },
+ {
+  "no": 218,
+  "ilkDize": "Ol Çalab’ımın aşkı bağrımı baş eyledi"
+ },
+ {
+  "no": 219,
+  "ilkDize": "Ol dost benden yana hîç bilmezin niçe bakdı"
+ },
+ {
+  "no": 220,
+  "ilkDize": "Tecellîyâtın nûruna döymez vücûdum dağları"
+ },
+ {
+  "no": 221,
+  "ilkDize": "Doldur kadeh sungıl bize aşk şarâbından ey sâkî"
+ },
+ {
+  "no": 222,
+  "ilkDize": "Sana ibret gerek ise gel göresin bu sinleri"
+ },
+ {
+  "no": 223,
+  "ilkDize": "Ben bende seyr eder iken aceb sırra erdim ahî"
+ },
+ {
+  "no": 224,
+  "ilkDize": "Evvel dahi var idi cânımda bu aşk odu"
+ },
+ {
+  "no": 225,
+  "ilkDize": "İki cihânı unudur sana gönül veren kişi"
+ },
+ {
+  "no": 226,
+  "ilkDize": "İşidin ey yârânlar/Eve dervîşler geldi"
+ },
+ {
+  "no": 227,
+  "ilkDize": "Dînin îmânın var ise hor görmegil dervîşleri"
+ },
+ {
+  "no": 228,
+  "ilkDize": "Gerçek âşık olanların hemen dostu sever cânı"
+ },
+ {
+  "no": 229,
+  "ilkDize": "Erenler bir denizdir âşık gerek dalası"
+ },
+ {
+  "no": 230,
+  "ilkDize": "Aşkın aldı benden beni/Bana seni gerek seni"
+ },
+ {
+  "no": 231,
+  "ilkDize": "Dilsizler haberini kulaksız dinleyesi"
+ },
+ {
+  "no": 232,
+  "ilkDize": "Ömrüm beni sen aldadın/Âh n’ideyim ömrüm seni"
+ },
+ {
+  "no": 233,
+  "ilkDize": "Kime gönül verdim ise benim ile yâr olmadı"
+ },
+ {
+  "no": 234,
+  "ilkDize": "Geldi geçdi ömrüm benim şol yel esip geçmiş gibi"
+ },
+ {
+  "no": 235,
+  "ilkDize": "Eşkere kıldım bugün pinhânımı"
+ },
+ {
+  "no": 236,
+  "ilkDize": "Ey yârenler eydimezem cânım neye daldığını"
+ },
+ {
+  "no": 237,
+  "ilkDize": "Erenlerin gönlünde ol sultân dükkân açdı"
+ },
+ {
+  "no": 238,
+  "ilkDize": "Dost gönlümü yağmâladı n’olsa gerek şimden geri"
+ },
+ {
+  "no": 239,
+  "ilkDize": "Severim ben seni cândan içeri"
+ },
+ {
+  "no": 240,
+  "ilkDize": "İster idim Allah’ı buldum ise ne oldu"
+ },
+ {
+  "no": 241,
+  "ilkDize": "Yine yüzünü gördüm yine yüreğim yandı"
+ },
+ {
+  "no": 242,
+  "ilkDize": "Gönlüm düşdü bir sevdâya/Gel gör beni aşk n’eyledi"
+ },
+ {
+  "no": 243,
+  "ilkDize": "Yok yere geçirdim günü/Âh n’ideyim ömrüm seni"
+ },
+ {
+  "no": 244,
+  "ilkDize": "Bir sâkîden içdik şarâb Arş’dan yüce meyhânesi"
+ },
+ {
+  "no": 245,
+  "ilkDize": "Gerçek âşık oldun ise gel aşk kitâbından oku"
+ },
+ {
+  "no": 246,
+  "ilkDize": "Niçe bir besleyesin bu kadd ile kâmeti"
+ },
+ {
+  "no": 247,
+  "ilkDize": "Çıkdım erik dalına anda yedim üzümü"
+ }
+]

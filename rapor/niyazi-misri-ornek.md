@@ -1,6 +1,6 @@
 # niyazi-misri: örnek şiirler (kitapla yan yana karşılaştırılacak)
 
-## Şiir 1: ilk · tür: aruz
+## Şiir d-1: ilk · tür: aruz
 Vezin: Fâ’ilâtün Fâ’ilâtün Fâ’ilâtün Fâ’ilün
 
 1. bent
@@ -25,7 +25,7 @@ Vezin: Fâ’ilâtün Fâ’ilâtün Fâ’ilâtün Fâ’ilün
     Ey Niyâzî mürşid istersen bu yolda aşka uy
     Enbiyâ vü evliyâya aşk olupdur reh-nümâ
 
-## Şiir 3: Arapça (ilk) · tür: arapca
+## Şiir d-3: Arapça (ilk) · tür: arapca
 Vezin: Fâilâtün Fâilâtün Fâilün
 
 1. bent
@@ -59,7 +59,7 @@ Anlam:
     6 Dünyada afetlerin kaynağı kâdılardır, bozulmanın sebebi ise rüşvettir.
     7 Gökte kuşluk güneşi döndükçe, adalet terazisi sultanın elinden düşmesin.
 
-## Şiir 12: başlık notlu/çok dizeli bent · tür: aruz
+## Şiir d-12: başlık notlu/çok dizeli bent · tür: aruz
 Başlık notu: Tahmîs-i Gazel-i Fuzûlî
 Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilâtün
 
@@ -109,7 +109,7 @@ Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilâtün
 Dipnotlar:
     ⟦173⟧ İlk bend mealen şöyledir: “Yaratılmışların nefesleri adedince Rahmân’a giden yollar vardır. Her Hak yolunun yolcusunun kendi isteğiyle yöneldiği bir yolu vardır. Akl-ı selîm sahibi kişi ise Hazret-i Mustafa’ya uyar. Aşk, Hak yolunda âşıkların önünü aydınlatmıştır. Hakîkat yolunun yolcusu, aşka uyar.”
 
-## Şiir 14: rastgele · tür: aruz
+## Şiir d-14: rastgele · tür: aruz
 Başlık notu: Sülûktan önce yazılmıştır
 Vezin: Mefâîlün Mefâîlün Mefâîlün Mefâîlün
 
@@ -135,7 +135,7 @@ Vezin: Mefâîlün Mefâîlün Mefâîlün Mefâîlün
     Kemâl-i devlet istersen oku âyât-ı Kur’ân’ı
     Ki her harfin içinde var Niyâzî bin dürr-i yektâ
 
-## Şiir 15: hece (ilk) · tür: hece
+## Şiir d-15: hece (ilk) · tür: hece
 Vezin: 14 Heceli
 
 1. bent
@@ -157,7 +157,7 @@ Vezin: 14 Heceli
 Dipnotlar:
     ⟦174⟧ “Katreyem” ve “zerreyem” kelimeleri ayrıca “katre yem” ve “zerre yem” şeklinde okunmalıdır. “Yemm” bahr (deniz) anlamındadır. Katre ve zerre yemden ayrı yahut gayrı değildir.
 
-## Şiir 20: kaynak notlu · tür: arapca
+## Şiir d-20: kaynak notlu · tür: arapca
 
 1. bent
     Muz ğıbtumû dumû‘u aynî teskub
@@ -212,7 +212,7 @@ Anlam:
 
 Kaynak notu: Dîvân-ı Niyâzî, İstanbul Atatürk Kitaplığı OE, Yz. 502/6a.
 
-## Şiir 24: rastgele · tür: aruz
+## Şiir d-24: rastgele · tür: aruz
 Başlık notu: Der-beyân-ı şerîat-ı mutahhara ve hakîkat-ı münevvere
 Vezin: Mefâîlün Mefâîlün Feûlün
 
@@ -304,7 +304,7 @@ Vezin: Mefâîlün Mefâîlün Feûlün
 Dipnotlar:
     ⟦193⟧ “hakîkatle” bazı nüshalarda “hakîkatin” şeklindedir.
 
-## Şiir 34: rastgele · tür: aruz
+## Şiir d-34: rastgele · tür: aruz
 Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
 
 1. bent
@@ -329,7 +329,7 @@ Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
     Bu Niyâzî düşdü varlık câhına Yûsuf gibi
     Al elim kurtar ki nâçâr olmuşam yâ Rab meded
 
-## Şiir 45: rastgele · tür: aruz
+## Şiir d-45: rastgele · tür: aruz
 Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
 
 1. bent
@@ -357,7 +357,7 @@ Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
 Dipnotlar:
     ⟦218⟧ “biryân” kelimesinin “püryân” şekli de var.
 
-## Şiir 51: rastgele · tür: aruz
+## Şiir d-51: rastgele · tür: aruz
 Vezin: Mefâîlün Mefâîlün Mefâîlün Mefâîlün
 
 1. bent
@@ -376,7 +376,7 @@ Vezin: Mefâîlün Mefâîlün Mefâîlün Mefâîlün
     Dağıldı mîm ü sâd u râ bozuldu nisbet-i suğrâ
     Benim bu nisbetim şimdi ne mâhındır ne sâlindir
 
-## Şiir 53: rastgele · tür: aruz
+## Şiir d-53: rastgele · tür: aruz
 Başlık notu: Sülûktan önce yazılmıştır
 Vezin: Müstefilün Fâilün Müstefilün Fâilün
 
@@ -413,7 +413,7 @@ Dipnotlar:
     ⟦231⟧ “dükkân” kelimesi vezin gereği “dükkan” okunmalıdır.
     ⟦232⟧ “dâr” darağacı manâsının yanında “dar olmak” manasıyla tevriyeli kullanılmaktadır.
 
-## Şiir 61: rastgele · tür: aruz
+## Şiir d-61: rastgele · tür: aruz
 Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
 
 1. bent
@@ -444,7 +444,7 @@ Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
     Nicesi tâkat getirsin ana karşı Mısrî kim
     Adın işitmekle düşdü halka bu savaşlar
 
-## Şiir 64: rastgele · tür: aruz
+## Şiir d-64: rastgele · tür: aruz
 Vezin: Mefâîlün Mefâîlün Mefâîlün Mefâîlün
 
 1. bent
@@ -466,7 +466,7 @@ Vezin: Mefâîlün Mefâîlün Mefâîlün Mefâîlün
 Dipnotlar:
     ⟦245⟧ Ulû’l-ebsâr: Basiret sahipleri, gönül gözü açıklar. Haşr/2; Âl-i İmrân/13.
 
-## Şiir 65: rastgele · tür: aruz
+## Şiir d-65: rastgele · tür: aruz
 Vezin: Müfteilün Müfteilün Fâilün
 
 1. bent
@@ -504,7 +504,7 @@ Dipnotlar:
     ⟦252⟧ “Dağıttı, dağıtıyor, dağıtmakta.”
     ⟦253⟧ “Gözledi (bekledi), gözlüyor (bekliyor), gözlemekte (beklemekte).”
 
-## Şiir 67: rastgele · tür: aruz
+## Şiir d-67: rastgele · tür: aruz
 Vezin: Mefâîlün Mefâîlün
 
 1. bent
@@ -533,7 +533,7 @@ Vezin: Mefâîlün Mefâîlün
     Varıp bir ile bir olmak
     Ne güzeldir ne güzeldir
 
-## Şiir 71: rastgele · tür: aruz
+## Şiir d-71: rastgele · tür: aruz
 Vezin: Mefâîlün Mefâîlün Mefâîlün Mefâîlün
 
 1. bent
@@ -562,7 +562,7 @@ Dipnotlar:
     ⟦256⟧ Bu mısra bazı nüshalarda “İçin hırs u hevâ almış taşın şeytâna dolanır” şeklindedir. Bu da esas alınabilir.
     ⟦257⟧ “mahv et” ibaresi bazı nüshalarda “hor et” şeklindedir. Bu şekil de esas alınabilir.
 
-## Şiir 72: rastgele · tür: aruz
+## Şiir d-72: rastgele · tür: aruz
 Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
 
 1. bent
@@ -599,7 +599,7 @@ Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
 Dipnotlar:
     ⟦258⟧ Bu mısranın mana ve vezninde sıkıntı var. “ibretle” kelimesi “gayrla” olabilir.
 
-## Şiir 84: rastgele · tür: aruz
+## Şiir d-84: rastgele · tür: aruz
 Başlık notu: Sülûktan önce yazılmıştır
 Vezin: Fâilâtün Fâilâtün Fâilün
 
@@ -643,7 +643,7 @@ Vezin: Fâilâtün Fâilâtün Fâilün
     Anlayınca zât-ı Hakk’ı zevk ile
     Bu Niyâzî nice seyrân eylemiş
 
-## Şiir 89: rastgele · tür: aruz
+## Şiir d-89: rastgele · tür: aruz
 Vezin: Mefâîlün Mefâîlün Mefâîlün Mefâîlün
 
 1. bent
@@ -662,7 +662,7 @@ Vezin: Mefâîlün Mefâîlün Mefâîlün Mefâîlün
     Yaraşır va‘z ana hakkâ ki yanar yakılır her dem
     Niyâzî’nin hemân ancak cihânda adıdır vâiz
 
-## Şiir 100: rastgele · tür: aruz
+## Şiir d-100: rastgele · tür: aruz
 Vezin: Fâilâtün Fâilâtün Fâilün
 
 1. bent
@@ -703,7 +703,7 @@ Dipnotlar:
     ⟦280⟧ “Şaşırandan” kelimesi bazı nüshalarda “Şaşar andan” şeklinde kaydedilmektedir. “Şaşuran”, burada şaşırtan, yanıltan anlamındadır. Muhtemelen vezni bozacağı için “şaşırtan” şeklinde yazılmamıştır.
     ⟦281⟧ Urvetü’l-vüskâ. Sağlam ip (kulp). Bakara/256; Lokman/22. Mecazen Kur’an, Hazret-i Peygamberin sünneti veya Peygamberimizin varisi olan kâmil ve mükemmillerin yolları ve erkanları. “Habl-i metîn” de Arapça, sağlam ip. Kur’an, ilahî hükümler ve yaşayan kâmille anlamında zikredilen terkiplerdendir.
 
-## Şiir 171: rastgele · tür: aruz
+## Şiir d-171: rastgele · tür: aruz
 Vezin: Mefûlü Mefâîlün Mefûlü Mefâîlün
 
 1. bent
@@ -742,7 +742,7 @@ Vezin: Mefûlü Mefâîlün Mefûlü Mefâîlün
     Hakdır bu sözüm hakla inkârına dayanma
     Gerçeklere teslîm ol her sözü yalan sanma
 
-## Şiir 186: rastgele · tür: aruz
+## Şiir d-186: rastgele · tür: aruz
 Vezin: Müstefilün Müstefilün
 
 1. bent
@@ -775,7 +775,7 @@ Dipnotlar:
     ⟦378⟧ Redif bazı yazmalarda “Ya ben seni ya sen beni” şeklindedir. Bütün bu ikili imlalar, değişik zaman ve mekanlarda Hazret-i Mısrî’nin bizatihî kendisini tarafından kullanılmıştır.
     ⟦379⟧ Hazret-i Pîr kendisine ait Mecmûa’da bu şiiri kaydederken “bâtıl” kelimesinin üzerine “korkak” kelimesini yazmıştır. Müstensihler bilahire yazma dîvânlarda her iki kelimeden birini tercih etmiştir. Bk. Mecmû‘a-i Kelimât-ı Kudsiyye Hazret-i Mısrî, Bursa Eski Basma ve Yazma Eserler Ktp., Orhan Gazi Bl., Yz. Nu. 690, vr. 87b.
 
-## Şiir 187: rastgele · tür: aruz
+## Şiir d-187: rastgele · tür: aruz
 Vezin: Mefûlü Mefâîlü Mefâîlü Feûlün
 
 1. bent
@@ -797,7 +797,7 @@ Vezin: Mefûlü Mefâîlü Mefâîlü Feûlün
 Dipnotlar:
     ⟦380⟧ Hazret-i Pîr kendisine ait Mecmûa’da bu şiirin başına “Elmalı’da azîzim Ümmî Sinân Hazretleri’ni ziyârete giderken Elmalı göründükte tulû‘ etmiş idi bu ilâhî.” (bk. vr. 89a) şeklinde bir kayıt koymuştur.
 
-## Şiir 194: rastgele · tür: aruz
+## Şiir d-194: rastgele · tür: aruz
 Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
 
 1. bent
@@ -822,7 +822,7 @@ Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
 Dipnotlar:
     ⟦389⟧ Mâ-zâgal basaru ve mâ tegâ: Gözü kaymadı ve sınırı aşmadı. Necm/17.
 
-## Şiir 199: rastgele · tür: hece
+## Şiir d-199: rastgele · tür: hece
 Vezin: 10 Heceli
 
 1. bent
@@ -853,7 +853,7 @@ Vezin: 10 Heceli
 Dipnotlar:
     ⟦392⟧ “yaka” kelimesi bazı azmalarda “bekâ” şeklinde istinsah edilmektedir.
 
-## Şiir 208: rastgele · tür: aruz
+## Şiir d-208: rastgele · tür: aruz
 Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
 
 1. bent
@@ -869,7 +869,7 @@ Vezin: Fâilâtün Fâilâtün Fâilâtün Fâilün
     Ey Niyâzî nârı nûrdan fark eden bilmez bizi
     Anlamaz illâ kelâmım şeş cihetdir ânesi
 
-## Şiir 213: en uzun · tür: belirsiz
+## Şiir d-213: en uzun · tür: belirsiz
 Başlık notu: NASÎHAT-NÂME
 
 1. bent

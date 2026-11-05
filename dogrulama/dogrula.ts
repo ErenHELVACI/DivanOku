@@ -3,6 +3,14 @@ import { readFileSync, existsSync } from 'node:fs';
 
 export type Sonuc = { kontrol: string; beklenen: string; bulunan: string; tamam: boolean; ayrinti?: string[] };
 
+// Dizin kaydı ilk dizeyle birebir aynı olmalı. Dörtlük bentli şiirlerde dizin, ilk dizenin ardından
+// ikinci dizeyi de verebilir ("a/b" ya da bitişik "ab"): ilk dizeyle başlıyorsa eşleşmiş sayılır.
+function dizinEslesir(ilk: string | undefined, kayit: string): boolean {
+  if (!ilk) return false;
+  const t = ilk.replace(/⟦\d+⟧/g, '');
+  return kayit === t || kayit.startsWith(t);
+}
+
 const oku = (yol: string) => JSON.parse(readFileSync(yol, 'utf8'));
 
 export function dogrula(kitap: string): Sonuc[] {
@@ -14,23 +22,34 @@ export function dogrula(kitap: string): Sonuc[] {
   const sozluk: any[] = oku(`${d}/sozluk.json`);
   const s: Sonuc[] = [];
 
-  s.push({ kontrol: 'Şiir sayısı', beklenen: `${kunye.siirSayisi} (künye)`, bulunan: String(siirler.length),
-    tamam: siirler.length === kunye.siirSayisi });
+  // Şiir sayısı: künyede sayı ya da kaynak-öneki başına sayılar olabilir.
+  const beklenenler: Record<string, number> = typeof kunye.siirSayisi === 'number' ? { d: kunye.siirSayisi } : kunye.siirSayisi;
+  const bulunanlar: Record<string, number> = {};
+  for (const p of siirler) bulunanlar[p.kaynak] = (bulunanlar[p.kaynak] ?? 0) + 1;
+  const sayiFark = Object.keys({ ...beklenenler, ...bulunanlar }).filter((k) => beklenenler[k] !== bulunanlar[k]);
+  const ozet = (o: Record<string, number>) => Object.entries(o).map(([k, v]) => `${k}:${v}`).join(' ');
+  s.push({ kontrol: 'Şiir sayısı', beklenen: `${ozet(beklenenler)} (künye)`, bulunan: ozet(bulunanlar), tamam: sayiFark.length === 0 });
 
-  const kopuk = siirler.filter((p, i) => p.no !== i + 1).map((p) => p.no);
-  s.push({ kontrol: 'Şiir numaraları', beklenen: '1…N kesintisiz', bulunan: kopuk.length ? `kopukluk: ${kopuk.slice(0, 10)}` : 'kesintisiz',
+  // Numaralar her kaynak bölümünde 1…N kesintisiz olmalı (çevirili/ikinci bölümlerde yeniden 1'den başlayabilir).
+  const kopuk: string[] = [];
+  for (const k of Object.keys(bulunanlar)) {
+    siirler.filter((p) => p.kaynak === k).forEach((p, i) => { if (p.no !== i + 1) kopuk.push(`${k}-${p.no}`); });
+  }
+  s.push({ kontrol: 'Şiir numaraları', beklenen: 'her bölümde 1…N kesintisiz', bulunan: kopuk.length ? `kopukluk: ${kopuk.slice(0, 10)}` : 'kesintisiz',
     tamam: kopuk.length === 0 });
 
+  // Şiir dizini: dizindeki kayıtlar "d" bölümünün şiirleriyle sırayla eşleşir.
   const dizinSorun: string[] = [];
-  if (dizin.length !== siirler.length) dizinSorun.push(`dizin ${dizin.length} kayıt, şiir ${siirler.length}`);
+  const dSiirler = siirler.filter((p) => p.kaynak === 'd');
+  if (dizin.length !== dSiirler.length) dizinSorun.push(`dizin ${dizin.length} kayıt, şiir ${dSiirler.length}`);
   for (const k of dizin) {
-    const p = siirler[k.no - 1];
+    const p = dSiirler.find((x) => x.no === k.no);
     const ilk = p?.bentler?.[0]?.dizeler?.[0];
     if (!p) dizinSorun.push(`dizinde ${k.no} var, şiir yok`);
-    else if (ilk !== k.ilkDize && ilk?.replace(/⟦\d+⟧/g, '') !== k.ilkDize)
+    else if (!dizinEslesir(ilk, k.ilkDize))
       dizinSorun.push(`${k.no}: dizin «${k.ilkDize}» ≠ şiir «${ilk}»`);
   }
-  s.push({ kontrol: 'Şiir dizini', beklenen: 'ilk dizeler eşleşir', bulunan: dizinSorun.length ? `${dizinSorun.length} fark` : `${dizin.length} = ${siirler.length}, tümü eşleşti`,
+  s.push({ kontrol: 'Şiir dizini', beklenen: 'ilk dizeler eşleşir', bulunan: dizinSorun.length ? `${dizinSorun.length} fark` : `${dizin.length} = ${dSiirler.length}, tümü eşleşti`,
     tamam: dizinSorun.length === 0, ayrinti: dizinSorun });
 
   // Dipnot: metindeki ⟦n⟧ işaretleri ile dipnot metinleri aynı küme, her biri bir kez.

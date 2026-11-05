@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 13.0.1" />
+		<dc:title>YUNUS EMRE DİVANI</dc:title>
+		<dc:publisher>DİYANET İŞLERİ BAŞKANLIĞI</dc:publisher>
+		<dc:date>2017-11-23T06:41:08Z</dc:date>
+		<dc:rights> </dc:rights>
+		<dc:language>tr-TR</dc:language>
+		<meta property="dcterms:modified">2017-11-23T06:41:08Z</meta>
+		<dc:identifier id="bookid">urn:uuid:D4B1DBB8-2167-4FA6-86C5-E98277998CC6</dc:identifier>
+	</metadata>
+	<manifest>
+		<item id="YunusEmreDivani" href="YunusEmreDivani.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-1" href="YunusEmreDivani-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-2" href="YunusEmreDivani-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-3" href="YunusEmreDivani-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-4" href="YunusEmreDivani-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-5" href="YunusEmreDivani-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-6" href="YunusEmreDivani-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-7" href="YunusEmreDivani-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-8" href="YunusEmreDivani-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-9" href="YunusEmreDivani-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-10" href="YunusEmreDivani-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-11" href="YunusEmreDivani-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-12" href="YunusEmreDivani-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-13" href="YunusEmreDivani-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-14" href="YunusEmreDivani-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-15" href="YunusEmreDivani-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-16" href="YunusEmreDivani-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-17" href="YunusEmreDivani-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-18" href="YunusEmreDivani-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="YunusEmreDivani-19" href="YunusEmreDivani-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="DiBSiirilkSatir5MM.css" href="css/DiBSiirilkSatir5MM.css" media-type="text/css" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" />
+		<item id="x12.png" href="image/12.png" media-type="image/png" />
+		<item id="x14.png" href="image/14.png" media-type="image/png" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x5.png" href="image/5.png" media-type="image/png" />
+		<item id="alt.png" href="image/alt.png" media-type="image/png" />
+		<item id="EL_F_OKUDUK.png" href="image/EL_F_OKUDUK.png" media-type="image/png" />
+		<item id="resimler-1_SB.png" href="image/resimler-1_SB.png" media-type="image/png" />
+		<item id="resimler-2_SB.png" href="image/resimler-2_SB.png" media-type="image/png" />
+		<item id="resimler-3_SB.png" href="image/resimler-3_SB.png" media-type="image/png" />
+		<item id="resimler-4_SB.png" href="image/resimler-4_SB.png" media-type="image/png" />
+		<item id="resimler-5_SB.png" href="image/resimler-5_SB.png" media-type="image/png" />
+		<item id="resimler-6_SB.png" href="image/resimler-6_SB.png" media-type="image/png" />
+		<item id="ust.png" href="image/ust.png" media-type="image/png" />
+		<item id="Y_nus-un_Ortak_y_Ziy_rettepe-deki_mak_m__SB.png" href="image/Y_nus%E2%80%99un_Ortak_y_Ziy_rettepe%E2%80%99deki_mak_m__SB.png" media-type="image/png" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="YunusEmreDivani" />
+		<itemref idref="YunusEmreDivani-1" />
+		<itemref idref="YunusEmreDivani-2" />
+		<itemref idref="YunusEmreDivani-3" />
+		<itemref idref="YunusEmreDivani-4" />
+		<itemref idref="YunusEmreDivani-5" />
+		<itemref idref="YunusEmreDivani-6" />
+		<itemref idref="YunusEmreDivani-7" />
+		<itemref idref="YunusEmreDivani-8" />
+		<itemref idref="YunusEmreDivani-9" />
+		<itemref idref="YunusEmreDivani-10" />
+		<itemref idref="YunusEmreDivani-11" />
+		<itemref idref="YunusEmreDivani-12" />
+		<itemref idref="YunusEmreDivani-13" />
+		<itemref idref="YunusEmreDivani-14" />
+		<itemref idref="YunusEmreDivani-15" />
+		<itemref idref="YunusEmreDivani-16" />
+		<itemref idref="YunusEmreDivani-17" />
+		<itemref idref="YunusEmreDivani-18" />
+		<itemref idref="YunusEmreDivani-19" />
+	</spine>
+</package>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="urn:uuid:D4B1DBB8-2167-4FA6-86C5-E98277998CC6" />
+		<meta name="dtb:depth" content="2" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+	</head>
+	<docTitle>
+		<text>YUNUS EMRE DİVANI</text>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1"><navLabel><text>YÛNUS EMRE DÎVÂN– SEÇMELER –</text></navLabel><content src="YunusEmreDivani-2.xhtml#_idParaDest-1" /></navPoint>
+		<navPoint id="navpoint2" playOrder="2"><navLabel><text>ÖN SÖZ</text></navLabel><content src="YunusEmreDivani-3.xhtml#_idParaDest-2" /></navPoint>
+		<navPoint id="navpoint3" playOrder="3"><navLabel><text>KISALTMALAR</text></navLabel><content src="YunusEmreDivani-4.xhtml#_idParaDest-3" /></navPoint>
+		<navPoint id="navpoint4" playOrder="4"><navLabel><text>YÛNUS EMRE</text></navLabel><content src="YunusEmreDivani-5.xhtml#_idParaDest-4" /></navPoint>
+		<navPoint id="navpoint5" playOrder="5"><navLabel><text>YÛNUS EMRE’NİN TARİHÎ HAYATI</text></navLabel><content src="YunusEmreDivani-6.xhtml#_idParaDest-5" /></navPoint>
+		<navPoint id="navpoint6" playOrder="6"><navLabel><text>YÛNUS EMRE’NİN MENKABEVÎ HAYATI</text></navLabel><content src="YunusEmreDivani-7.xhtml#_idParaDest-6" /></navPoint>
+		<navPoint id="navpoint7" playOrder="7"><navLabel><text>YÛNUS’UN DİLİ,DÜŞÜNCE DÜNYASI VE SAN’ATI</text></navLabel><content src="YunusEmreDivani-8.xhtml#_idParaDest-7" /></navPoint>
+		<navPoint id="navpoint8" playOrder="8"><navLabel><text>YÛNUS EMRE DÎVÂNI SEÇMELER</text></navLabel><content src="YunusEmreDivani-9.xhtml#_idParaDest-8" /></navPoint>
+		<navPoint id="navpoint9" playOrder="9"><navLabel><text>ÂŞIK YÛNUS</text></navLabel><content src="YunusEmreDivani-10.xhtml#_idParaDest-9" /></navPoint>
+		<navPoint id="navpoint10" playOrder="10"><navLabel><text>ÂŞIK YÛNUS’UN ŞİİRLERİNDEN SEÇMELER</text></navLabel><content src="YunusEmreDivani-12.xhtml#_idParaDest-10" /></navPoint>
+		<navPoint id="navpoint11" playOrder="11"><navLabel><text>ŞİİR DİZİNİ</text></navLabel><content src="YunusEmreDivani-13.xhtml#_idParaDest-11" /></navPoint>
+		<navPoint id="navpoint12" playOrder="12"><navLabel><text>YÛNUS EMRE DÎVÂN-SEÇMELER ŞİİR DİZİNİ</text></navLabel><content src="YunusEmreDivani-14.xhtml#_idParaDest-12" /></navPoint>
+		<navPoint id="navpoint13" playOrder="13"><navLabel><text>SÖZLÜK</text></navLabel><content src="YunusEmreDivani-16.xhtml#_idParaDest-13" /></navPoint>
+		<navPoint id="navpoint14" playOrder="14"><navLabel><text>KAYNAKÇA</text></navLabel><content src="YunusEmreDivani-18.xhtml#_idParaDest-14" /></navPoint>
+	</navMap>
+</ncx>
