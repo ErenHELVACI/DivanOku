@@ -1,0 +1,50 @@
+---
+import '../styles/global.css';
+interface Props { baslik: string; aciklama?: string }
+const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda rahat okutan platform.' } = Astro.props;
+---
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={aciklama} />
+    <!-- Özel sürüm: yazılı izin gelene kadar arama motorları görmesin (KURALLAR.md, Telif ve izin). -->
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{baslik}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script is:inline>
+      try { var t = localStorage.getItem('tema'); if (t === 'acik' || t === 'koyu') document.documentElement.dataset.tema = t; } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <a class="atla" href="#icerik">İçeriğe geç</a>
+    <header class="ust">
+      <div class="kap">
+        <a class="marka" href="/">Dîvân</a>
+        <nav class="menu" aria-label="Ana menü">
+          <a href="/">Kitaplar</a>
+          <button type="button" id="tema-dugme" aria-label="Açık ya da koyu temayı değiştir">Tema</button>
+        </nav>
+      </div>
+    </header>
+    <main id="icerik" tabindex="-1">
+      <div class="kap"><slot /></div>
+    </main>
+    <footer class="alt">
+      <div class="kap">
+        Özel sürüm: yayın izni alınmamıştır, herkese açık değildir. Kitapların hakları ilgili yayıncıya aittir.
+      </div>
+    </footer>
+    <script>
+      const dugme = document.getElementById('tema-dugme')!;
+      dugme.addEventListener('click', () => {
+        const kok = document.documentElement;
+        const suan = kok.dataset.tema ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'koyu' : 'acik');
+        const yeni = suan === 'koyu' ? 'acik' : 'koyu';
+        kok.dataset.tema = yeni;
+        try { localStorage.setItem('tema', yeni); } catch {}
+      });
+    </script>
+  </body>
+</html>

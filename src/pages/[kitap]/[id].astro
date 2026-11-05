@@ -1,0 +1,170 @@
+---
+import Temel from '../../layouts/Temel.astro';
+import { kitaplar, kitapBul, sozlukIndeksi, siirBasligi, ilkDize, turAdi } from '../../lib/veri.ts';
+import { normallestir } from '../../lib/normallestir.ts';
+
+export function getStaticPaths() {
+  return kitaplar().flatMap((k) => k.siirler.map((s) => ({ params: { kitap: k.kunye.slug, id: s.id } })));
+}
+const k = kitapBul(Astro.params.kitap!);
+const sira = k.siirler.findIndex((s) => s.id === Astro.params.id);
+const s = k.siirler[sira];
+const onceki = k.siirler[sira - 1];
+const sonraki = k.siirler[sira + 1];
+const baslik = siirBasligi(k, s);
+const dipnotlar = k.dipnotlar.filter((d) => d.siir === s.id).sort((a, b) => a.no - b.no);
+const indeks = sozlukIndeksi(k);
+
+// Dizeyi parçala: dipnot işareti ⟦n⟧, sözlükte tam eşleşen kelime, düz metin.
+type Parca = { t: 'm'; s: string } | { t: 'k'; s: string; a: string } | { t: 'd'; no: number };
+const kullanilan: Record<string, { madde: string; tanim: string }[]> = {};
+function parcala(dize: string): Parca[] {
+  const out: Parca[] = [];
+  let metin = '';
+  const bosalt = () => { if (metin) { out.push({ t: 'm', s: metin }); metin = ''; } };
+  for (const p of dize.split(/(⟦\d+⟧|[\p{L}\p{M}]+)/u)) {
+    if (!p) continue;
+    const d = p.match(/^⟦(\d+)⟧$/);
+    if (d) { bosalt(); out.push({ t: 'd', no: Number(d[1]) }); continue; }
+    const a = /^[\p{L}\p{M}]+$/u.test(p) ? normallestir(p) : '';
+    if (a && indeks.has(a)) {
+      bosalt(); out.push({ t: 'k', s: p, a });
+      kullanilan[a] = indeks.get(a)!.map((m) => ({ madde: m.madde, tanim: m.tanim }));
+    } else metin += p;
+  }
+  bosalt();
+  return out;
+}
+const bentler = s.bentler.map((b) => ({ ...b, dizeler: b.dizeler.map(parcala), anlam: s.anlamlar.find((a) => a.no === b.no) }));
+const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin]));
+---
+<Temel baslik={`${baslik} · ${k.kunye.sair}`} aciklama={ilkDize(s)}>
+  {onceki && <link rel="prev" href={`/${k.kunye.slug}/${onceki.id}/`} />}
+  {sonraki && <link rel="next" href={`/${k.kunye.slug}/${sonraki.id}/`} />}
+
+  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › <a href={`/${k.kunye.slug}/`}>{k.kunye.sair}</a> › {baslik}</nav>
+
+  <article>
+    <header class="siir-ust">
+      <h1>{baslik}</h1>
+      {s.baslikNotlari.map((n) => <p class="not">{n}</p>)}
+      {s.vezinler.map((v) => <p class="vezin">{v}</p>)}
+      <p class="not">{turAdi[s.tur]}</p>
+    </header>
+
+    <div class="siir" id="siir" lang="tr" tabindex="0" role="region" aria-label={`${baslik}, şiir metni`}>
+      {bentler.map((b) => (
+        <section class="bent" aria-label={`Bent ${b.no}`}>
+          <span class="bno" aria-hidden="true">{b.no}</span>
+          <p class="dizeler" style="margin:0">
+            {b.dizeler.map((dize) => (
+              <span class="dize" style="display:block">
+                {dize.map((p) =>
+                  p.t === 'm' ? p.s
+                  : p.t === 'k' ? <button type="button" class="kelime" data-a={p.a} aria-label={`Sözlük: ${p.s}`}>{p.s}</button>
+                  : <sup class="dn"><button type="button" data-d={p.no} aria-label={`Dipnot ${p.no}`}>{p.no}</button></sup>
+                )}
+              </span>
+            ))}
+          </p>
+          {b.anlam && (
+            <details class="anlam">
+              <summary>Türkçe anlam</summary>
+              <p>{b.anlam.metin}</p>
+            </details>
+          )}
+        </section>
+      ))}
+    </div>
+
+    {s.kaynakNotu && <p class="siir-alt"><strong>Kaynak notu:</strong> {s.kaynakNotu.replace(/⟦\d+⟧/g, '')}</p>}
+
+    {dipnotlar.length > 0 && (
+      <section class="siir-alt" aria-labelledby="dipnotlar-baslik">
+        <h2 id="dipnotlar-baslik" style="font-size:1.05rem">Dipnotlar</h2>
+        <ol style="list-style:none;padding:0">
+          {dipnotlar.map((d) => <li id={`dipnot-${d.no}`}><strong>{d.no}.</strong> {d.metin}</li>)}
+        </ol>
+      </section>
+    )}
+
+    <nav class="gezin" aria-label="Şiirler arasında gezin">
+      {onceki ? <a href={`/${k.kunye.slug}/${onceki.id}/`} rel="prev"><small>← Önceki</small>{siirBasligi(k, onceki)}</a> : <span style="flex:1"></span>}
+      {sonraki ? <a class="sonra" href={`/${k.kunye.slug}/${sonraki.id}/`} rel="next"><small>Sonraki →</small>{siirBasligi(k, sonraki)}</a> : <span style="flex:1"></span>}
+    </nav>
+
+    <p class="kucuk soluk" style="margin-top:2rem">
+      Kaynak: {k.kunye.baslik}, haz. {k.kunye.editor}, {k.kunye.yayinci}, {k.kunye.baski}. {k.kunye.telifNotu}.
+      Noktalı çizgili kelimeye dokununca sözlük, üst simgeye dokununca dipnot açılır. Sol ve sağ ok tuşları şiirler arasında gezdirir.
+    </p>
+  </article>
+
+  <div id="kart" role="region" aria-label="Sözlük ve dipnot" aria-live="polite" hidden>
+    <div class="icerik" id="kart-icerik"></div>
+    <button type="button" class="kapat" id="kart-kapat" aria-label="Kartı kapat">Kapat</button>
+  </div>
+
+  <script type="application/json" id="sozluk-veri" set:html={JSON.stringify(kullanilan)}></script>
+  <script type="application/json" id="dipnot-veri" set:html={JSON.stringify(dipnotMetinleri)}></script>
+  <script is:inline define:vars={{ onceki: onceki ? `/${k.kunye.slug}/${onceki.id}/` : '', sonraki: sonraki ? `/${k.kunye.slug}/${sonraki.id}/` : '' }}>
+    window.__gezin = { onceki, sonraki };
+  </script>
+</Temel>
+
+<script>
+  const sozluk: Record<string, { madde: string; tanim: string }[]> = JSON.parse(document.getElementById('sozluk-veri')!.textContent!);
+  const dipnot: Record<string, string> = JSON.parse(document.getElementById('dipnot-veri')!.textContent!);
+  const kart = document.getElementById('kart')!;
+  const icerik = document.getElementById('kart-icerik')!;
+  let acan: HTMLElement | null = null;
+
+  function ac(baslik: string, govdeler: string[], uyari?: string, tetikleyen?: HTMLElement) {
+    icerik.replaceChildren();
+    const h = document.createElement('h3'); h.textContent = baslik; icerik.append(h);
+    for (const g of govdeler) { const p = document.createElement('p'); p.textContent = g; icerik.append(p); } // düz metin: HTML olarak basılmaz
+    if (uyari) { const u = document.createElement('p'); u.className = 'uyari'; u.textContent = uyari; icerik.append(u); }
+    kart.hidden = false; acan = tetikleyen ?? null;
+  }
+  function kapat() { kart.hidden = true; acan?.focus(); acan = null; }
+  document.getElementById('kart-kapat')!.addEventListener('click', kapat);
+
+  document.getElementById('siir')!.addEventListener('click', (e) => {
+    const hedef = (e.target as HTMLElement).closest('button') as HTMLElement | null;
+    if (!hedef) return;
+    if (hedef.dataset.a) {
+      const m = sozluk[hedef.dataset.a] ?? [];
+      ac(hedef.textContent!, m.map((x) => `${x.madde}: ${x.tanim}`),
+        'Anlam kitabın sözlüğünden alınmıştır; metindeki kullanıma uymayabilir.', hedef);
+    } else if (hedef.dataset.d) {
+      ac(`Dipnot ${hedef.dataset.d}`, [dipnot[hedef.dataset.d] ?? ''], undefined, hedef);
+    }
+  });
+
+  // ---- Yazıyı sığdır: dizeler tek satır kalır; önce yazı küçülür (en çok 13 piksele kadar), sonra kutu kayar ----
+  const siir = document.getElementById('siir')!;
+  function sigdir() {
+    siir.style.removeProperty('font-size');
+    const taban = parseFloat(getComputedStyle(siir).fontSize);
+    let boy = taban;
+    for (let i = 0; i < 3 && siir.scrollWidth > siir.clientWidth + 1 && boy > 13; i++) {
+      boy = Math.max(13, boy * (siir.clientWidth / siir.scrollWidth) * 0.99);
+      siir.style.fontSize = `${boy}px`;
+    }
+  }
+  sigdir();
+  let zamanlayici = 0;
+  addEventListener('resize', () => { clearTimeout(zamanlayici); zamanlayici = window.setTimeout(sigdir, 100); });
+  document.fonts?.ready.then(sigdir);
+
+  // ---- Klavye: Esc kartı kapatır; sol/sağ ok önceki/sonraki şiire gider ----
+  addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !kart.hidden) { kapat(); return; }
+    if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+    const t = e.target as HTMLElement;
+    if (t.closest('input, select, textarea, [contenteditable]')) return;
+    if (t === siir && siir.scrollWidth > siir.clientWidth) return; // yatay kayan şiir kutusunda oklar kaydırmaya aittir
+    const g = (window as any).__gezin as { onceki: string; sonraki: string };
+    if (e.key === 'ArrowLeft' && g.onceki) location.href = g.onceki;
+    if (e.key === 'ArrowRight' && g.sonraki) location.href = g.sonraki;
+  });
+</script>

@@ -1,16 +1,18 @@
 ---
----
+import Temel from '../layouts/Temel.astro';
+import { kitaplar } from '../lib/veri.ts';
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+const liste = kitaplar();
+const sayi = (s: number | Record<string, number>) => (typeof s === 'number' ? s : Object.values(s).reduce((a, b) => a + b, 0));
+---
+<Temel baslik="Dîvân: kitaplar">
+  <h1>Kitaplar</h1>
+  <p class="soluk">Telefonda ve bilgisayarda rahat okunan, kitabın metnine dokunulmamış dîvânlar.</p>
+  {liste.map((k) => (
+    <a class="kitap-kart" href={`/${k.kunye.slug}/`}>
+      <h2>{k.kunye.baslik}</h2>
+      <p>{k.kunye.sair} · {sayi(k.kunye.siirSayisi)} şiir · {k.siirler.reduce((n, s) => n + s.bentler.length, 0)} bent</p>
+      <p class="kucuk soluk">Hazırlayan: {k.kunye.editor} · {k.kunye.baski} · {k.kunye.yayinci}</p>
+    </a>
+  ))}
+</Temel>

@@ -1,0 +1,43 @@
+---
+import Temel from '../../layouts/Temel.astro';
+import { kitaplar, kitapBul } from '../../lib/veri.ts';
+
+export function getStaticPaths() {
+  return kitaplar().map((k) => ({ params: { kitap: k.kunye.slug } }));
+}
+const k = kitapBul(Astro.params.kitap!);
+// Boş tanımlı maddeler gösterilmez; sözlük kitaptaki gibi, yapay zekasız.
+const maddeler = k.sozluk.filter((m) => m.tanim);
+---
+<Temel baslik={`Sözlük · ${k.kunye.baslik}`}>
+  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › <a href={`/${k.kunye.slug}/`}>{k.kunye.sair}</a> › Sözlük</nav>
+  <h1>Sözlük</h1>
+  <p class="soluk kucuk">{k.kunye.baslik} kitabının sözlüğü; anlamlar kitaptan olduğu gibi alınmıştır.</p>
+  <div class="araclar" role="search">
+    <label for="ara" style="position:absolute;left:-999px">Sözlükte ara</label>
+    <input type="search" id="ara" placeholder="Madde ara…" autocomplete="off" />
+  </div>
+  <p class="kucuk soluk" id="sayac" aria-live="polite">{maddeler.length} madde</p>
+  <dl class="sozluk" id="liste">
+    {maddeler.map((m) => (
+      <div data-metin={m.madde.toLocaleLowerCase('tr')}>
+        <dt>{m.madde}</dt>
+        <dd>{m.tanim}</dd>
+      </div>
+    ))}
+  </dl>
+</Temel>
+
+<script>
+  import { normallestir } from '../../lib/normallestir.ts';
+  const ara = document.getElementById('ara') as HTMLInputElement;
+  const sayac = document.getElementById('sayac')!;
+  const satirlar = [...document.querySelectorAll<HTMLElement>('#liste > div')];
+  const anahtar = new Map(satirlar.map((s) => [s, normallestir(s.dataset.metin!)]));
+  ara.addEventListener('input', () => {
+    const q = normallestir(ara.value);
+    let n = 0;
+    for (const s of satirlar) { const ok = !q || anahtar.get(s)!.includes(q); s.hidden = !ok; if (ok) n++; }
+    sayac.textContent = `${n} madde`;
+  });
+</script>

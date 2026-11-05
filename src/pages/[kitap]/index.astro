@@ -1,0 +1,70 @@
+---
+import Temel from '../../layouts/Temel.astro';
+import { kitaplar, kitapBul, bolumAdi, ilkDize, turAdi, siirBasligi } from '../../lib/veri.ts';
+
+export function getStaticPaths() {
+  return kitaplar().map((k) => ({ params: { kitap: k.kunye.slug } }));
+}
+const k = kitapBul(Astro.params.kitap!);
+const bolumler = Object.keys(k.kunye.siirKaynakOnekleri);
+const turler = [...new Set(k.siirler.map((s) => s.tur))];
+---
+<Temel baslik={`${k.kunye.baslik} · Dîvân`}>
+  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › {k.kunye.sair}</nav>
+  <h1>{k.kunye.baslik}</h1>
+  <p class="soluk">{k.kunye.sair} · Hazırlayan: {k.kunye.editor} · {k.kunye.baski}</p>
+  <p><a class="dugme" href={`/${k.kunye.slug}/sozluk/`}>Sözlük ({k.sozluk.filter((m) => m.tanim).length} madde)</a></p>
+
+  <div class="araclar" role="search">
+    <label class="sr-only" for="ara" style="position:absolute;left:-999px">Şiirlerde ara</label>
+    <input type="search" id="ara" placeholder="İlk dizede ara…" autocomplete="off" />
+    {bolumler.length > 1 && (
+      <select id="bolum" aria-label="Bölüm">
+        <option value="">Tüm bölümler</option>
+        {bolumler.map((b) => <option value={b}>{bolumAdi(k, b)}</option>)}
+      </select>
+    )}
+    {turler.length > 1 && (
+      <select id="tur" aria-label="Tür">
+        <option value="">Tüm türler</option>
+        {turler.map((t) => <option value={t}>{turAdi[t]}</option>)}
+      </select>
+    )}
+  </div>
+  <p class="kucuk soluk" id="sayac" aria-live="polite">{k.siirler.length} şiir</p>
+
+  <ul class="liste" id="liste">
+    {k.siirler.map((s) => (
+      <li data-bolum={s.kaynak} data-tur={s.tur} data-metin={ilkDize(s).toLocaleLowerCase('tr')}>
+        <a href={`/${k.kunye.slug}/${s.id}/`}>
+          <span class="no" aria-hidden="true">{s.no}</span>
+          <span>
+            <span class="sr-only" style="position:absolute;left:-999px">{siirBasligi(k, s)}: </span>{ilkDize(s)}
+            {bolumler.length > 1 && <span class="etiket">{bolumAdi(k, s.kaynak)}</span>}
+          </span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Temel>
+
+<script>
+  const ara = document.getElementById('ara') as HTMLInputElement;
+  const bolum = document.getElementById('bolum') as HTMLSelectElement | null;
+  const tur = document.getElementById('tur') as HTMLSelectElement | null;
+  const sayac = document.getElementById('sayac')!;
+  const satirlar = [...document.querySelectorAll<HTMLElement>('#liste li')];
+  function suz() {
+    const q = ara.value.toLocaleLowerCase('tr').trim();
+    let n = 0;
+    for (const li of satirlar) {
+      const ok = (!q || li.dataset.metin!.includes(q)) && (!bolum?.value || li.dataset.bolum === bolum.value) && (!tur?.value || li.dataset.tur === tur.value);
+      li.hidden = !ok;
+      if (ok) n++;
+    }
+    sayac.textContent = `${n} şiir`;
+  }
+  ara.addEventListener('input', suz);
+  bolum?.addEventListener('change', suz);
+  tur?.addEventListener('change', suz);
+</script>
