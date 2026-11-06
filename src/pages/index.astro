@@ -24,7 +24,7 @@ const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
 
   <div class="kitaplik">
   {liste.map((k, i) => (
-    <div class="kitap-kart" style={`--cilt:${ciltRenkleri[i % ciltRenkleri.length]}`}>
+    <div class="kitap-kart" style={`--cilt:${k.kunye.ciltRengi ?? ciltRenkleri[i % ciltRenkleri.length]}`}>
       <span class="sirt" aria-hidden="true"></span>
       <div class="govde">
         {k.sair && <a class="sair-bilgi" href={yol(`/${k.kunye.slug}/sair/`)} aria-label={`${k.kunye.sair} hakkında bilgi`}>Şair hakkında ›</a>}
