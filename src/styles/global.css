@@ -282,3 +282,8 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
 .kitaplik > .kitap-kart { margin-block: 0; }
 .kitap-kart > .govde { display: flex; flex-direction: column; }
 .kitap-kart .sayilar { margin-top: auto; padding-top: .7rem; } /* sayılar her kartın altında aynı hizada */
+
+/* Kitap sayfası düğmeleri */
+.dugmeler { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }
+.dugme.birincil { background: var(--vurgu); color: var(--vurgu-yazi); border-color: var(--vurgu); font-weight: 600; }
+.dugme.birincil:hover { filter: brightness(1.08); border-color: var(--yaldiz); }

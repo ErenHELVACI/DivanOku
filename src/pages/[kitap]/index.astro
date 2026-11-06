@@ -15,7 +15,7 @@ const turler = [...new Set(k.siirler.map((s) => s.tur))];
     <div class="sair">{k.kunye.sair}</div>
     <h1>{k.kunye.baslik}</h1>
     <p class="soluk kucuk">Hazırlayan: {k.kunye.editor} · {k.kunye.baski}</p>
-    <p>{k.sair && <a class="dugme" href={`/${k.kunye.slug}/sair/`}>Şair hakkında</a>} <a class="dugme" href={`/${k.kunye.slug}/sozluk/`}>Sözlük · {k.sozluk.filter((m) => m.tanim).length} madde →</a></p>
+    <p class="dugmeler"><button type="button" id="rastgele" class="dugme birincil" aria-label="Bu dîvândan rastgele bir şiir aç">⤮ Rastgele şiir</button> {k.sair && <a class="dugme" href={`/${k.kunye.slug}/sair/`}>Şair hakkında</a>} <a class="dugme" href={`/${k.kunye.slug}/sozluk/`}>Sözlük · {k.sozluk.filter((m) => m.tanim).length} madde →</a></p>
   </header>
 
   <div class="araclar" role="search">
@@ -70,4 +70,12 @@ const turler = [...new Set(k.siirler.map((s) => s.tur))];
   ara.addEventListener('input', suz);
   bolum?.addEventListener('change', suz);
   tur?.addEventListener('change', suz);
+
+  // Rastgele şiir: o an listede görünen (filtre ve aramaya uyan) şiirlerden birini açar; liste boşsa hiçbir şey yapmaz.
+  const rastgele = document.getElementById('rastgele') as HTMLButtonElement;
+  rastgele.addEventListener('click', () => {
+    const baglar = [...document.querySelectorAll<HTMLAnchorElement>('#liste li:not([hidden]) a')];
+    if (!baglar.length) { sayac.textContent = 'Seçili filtreye uyan şiir yok'; return; }
+    location.href = baglar[Math.floor(Math.random() * baglar.length)].href;
+  });
 </script>
