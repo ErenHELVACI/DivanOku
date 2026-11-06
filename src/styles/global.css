@@ -260,7 +260,8 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
   #kart::before { display: none; }
   #kart .icerik { padding-right: 0; padding-top: 2.4rem; max-width: none; }
   #kart button.kapat { top: .7rem; right: 1rem; }
-  body.kart-acik main { padding-right: 24rem; transition: padding-right .25s ease; }
+  main { transition: transform .25s ease; }
+  body.kart-acik main { transform: translateX(calc(var(--kayma, 0px) * -1)); } /* yalnız gerekirse ve gerektiği kadar */
   @media (prefers-reduced-motion: no-preference) { #kart { animation: sagdan .22s cubic-bezier(.2, .8, .2, 1); } }
   @keyframes sagdan { from { transform: translateX(1.2rem); opacity: 0; } }
 }

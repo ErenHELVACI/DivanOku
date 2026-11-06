@@ -183,10 +183,25 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
     });
     if (uyari) { const u = document.createElement('p'); u.className = 'uyari'; u.textContent = uyari; icerik.append(u); }
     kart.hidden = false; acan = tetikleyen ?? null;
-    document.body.classList.add('kart-acik'); // geniş ekranda kart sağ panel olur, içerik sola kayar (CSS)
-    requestAnimationFrame(() => sigdir());
+    kartKonumla(true);
   }
-  function kapat() { kart.hidden = true; document.body.classList.remove('kart-acik'); acan?.focus(); acan = null; requestAnimationFrame(() => sigdir()); }
+  function kapat() { kart.hidden = true; kartKonumla(false); acan?.focus(); acan = null; }
+  // Geniş ekranda kart sağ panel olur. Sayfa yalnızca panel şiirin üstünü kapatacaksa, ve yalnız o kadar, sola kayar;
+  // yeterli boşluk varsa (geniş pencere) hiçbir şey yerinden oynamaz.
+  const PANEL = matchMedia('(min-width: 1000px)');
+  function kartKonumla(acik: boolean) {
+    const kok = document.documentElement;
+    kok.style.setProperty('--kayma', '0px');
+    document.body.classList.toggle('kart-acik', acik && PANEL.matches);
+    if (!acik || !PANEL.matches) return;
+    const siirBlok = document.querySelector('.siir-ic') as HTMLElement | null;
+    if (!siirBlok) return;
+    const r = siirBlok.getBoundingClientRect();
+    const panelSol = document.documentElement.clientWidth - kart.offsetWidth; // açılış animasyonunun ara konumuna değil son konuma bakılır
+    const kayma = Math.max(0, Math.min(r.right + 16 - panelSol, r.left - 8));
+    kok.style.setProperty('--kayma', `${Math.round(kayma)}px`);
+  }
+  addEventListener('resize', () => { if (!kart.hidden) kartKonumla(true); });
   document.getElementById('kart-kapat')!.addEventListener('click', kapat);
 
   document.getElementById('siir')!.addEventListener('click', (e) => {
