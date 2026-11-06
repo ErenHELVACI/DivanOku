@@ -167,6 +167,8 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
   const sozluk: Record<string, { t: string; k: boolean }[]> = JSON.parse(document.getElementById('sozluk-veri')!.textContent!);
   const dipnot: Record<string, string> = JSON.parse(document.getElementById('dipnot-veri')!.textContent!);
   const kart = document.getElementById('kart')!;
+  // Kart <main> içinde kalırsa, sayfa sola kayarken (transform) 'fixed' konumu bozulur: gövdeye taşınır.
+  document.body.append(kart);
   const icerik = document.getElementById('kart-icerik')!;
   let acan: HTMLElement | null = null;
 
