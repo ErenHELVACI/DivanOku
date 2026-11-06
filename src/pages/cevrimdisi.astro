@@ -1,0 +1,38 @@
+---
+import Temel from '../layouts/Temel.astro';
+import '../styles/cevrimdisi.css';
+---
+<Temel baslik="İnternetsiz okuma · Dîvân" aciklama="Dîvânları indirip internetsiz okuyun, telefona kurun.">
+  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › İnternetsiz okuma</nav>
+  <header class="kitap-ust">
+    <div class="sair">Çevrimdışı</div>
+    <h1>İnternetsiz okuma</h1>
+    <p class="soluk kucuk">Okuduğunuz sayfalar otomatik olarak cihazınıza kaydedilir. Hepsini önceden indirirseniz internet olmadan da bütün şiirleri, sözlüğü ve aramayı kullanabilirsiniz.</p>
+  </header>
+
+  <p id="bagli-durum" class="durum-kutu" role="status"></p>
+
+  <section class="cevrimdisi-kutu" aria-labelledby="indir-baslik">
+    <h2 id="indir-baslik">Dîvânları indir</h2>
+    <p class="kucuk soluk">İndirme bir kez yapılır; bağlıyken açtığınız sayfalar arka planda güncel tutulur.</p>
+    <div class="ilerleme" hidden id="ilerleme-kap">
+      <progress id="ilerleme" max="100" value="0" aria-label="İndirme ilerlemesi"></progress>
+      <span id="ilerleme-yazi" class="kucuk"></span>
+    </div>
+    <p><button type="button" class="dugme birincil" id="hepsini-indir">Hepsini indir</button></p>
+    <ul class="kitap-indir" id="kitap-listesi"></ul>
+    <p class="kucuk soluk" id="depo-durum"></p>
+    <p><button type="button" class="dugme" id="sil">İndirilenleri sil</button></p>
+  </section>
+
+  <section class="cevrimdisi-kutu" aria-labelledby="kur-baslik">
+    <h2 id="kur-baslik">Telefona kur</h2>
+    <p class="kucuk">Uygulama gibi açılır, tam ekranda, ana ekrandan.</p>
+    <p><button type="button" class="dugme birincil" id="kur" hidden>Uygulama olarak kur</button></p>
+    <p class="kucuk soluk" id="kur-yazi">Tarayıcınız doğrudan kurmayı sunmuyorsa: Android'de tarayıcı menüsünden "Ana ekrana ekle", iPhone'da Safari'de Paylaş düğmesi ardından "Ana Ekrana Ekle".</p>
+  </section>
+</Temel>
+
+<script>
+  import '../scripts/cevrimdisi.ts';
+</script>

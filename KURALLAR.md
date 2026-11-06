@@ -15,3 +15,9 @@
 - Şemalar `veri/sema/*.sema.json` altındadır; her veri dosyası kendi şemasından geçmek zorundadır (`npm run dogrula <kitap>`).
 - Şiir kimliği `<kaynak>-<no>` (ör. `d-10`); kaynak öneki `kunye.json > siirKaynakOnekleri` içinde tanımlıdır. Numaralar her kaynak bölümünde 1'den başlar, bu yüzden kimlik yalnızca numara değildir.
 - Doğrulama hata bulursa düzeltme yapılmaz, listelenir. Kitapta olduğu gibi duran farklar `veri/<kitap>/inceleme.json` içinde sayıyla kayıtlıdır ve karar insanındır.
+
+## Arama ve internetsiz okuma (Aşama 3)
+- Arama metni ve sorgu aynı biçime getirilir (`src/lib/normallestir.ts`): küçük harf (Türkçe kurallarıyla), â/î/û → a/i/u, ı → i, kesme/ayn işaretleri atılır; aramada ayrıca ş/ç/ğ/ö → s/c/g/o. Sözlük eşleştirmesi bu geniş katlamayı kullanmaz.
+- Arama dizini `/arama/indeks.json` (derlemede üretilir, ~1,3 MB); sonuçta eşleşen kısım özgün (aksanlı) metin üzerinde işaretlenir.
+- Servis işçisi (`/sw.js`) yalnız yayın sürümünde kaydedilir; HTTPS (ya da localhost) gerekir. Önbellek adı sabit: `divan-icerik`.
+- `/cevrimdisi/` sayfası tüm sayfaları (yaklaşık 36 MB) önbelleğe indirir ve siler. Her derlemeden sonra `npm test` servis işçisinin mantığını sınar (`dogrulama/sw.test.ts`).

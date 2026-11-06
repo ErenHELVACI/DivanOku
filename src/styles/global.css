@@ -295,3 +295,8 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
 .gezin .rastgele-orta:hover { background: var(--vurgu); color: var(--vurgu-yazi); }
 .gezin .rastgele-orta:disabled { opacity: .6; cursor: wait; }
 @media (max-width: 520px) { .gezin .rastgele-orta .yazi { display: none; } .gezin .rastgele-orta { padding-inline: .8rem; } }
+
+.ana-ara { display: flex; gap: .5rem; max-width: 30rem; margin: 1.4rem auto 0; font-family: var(--sans); }
+.ana-ara input[type="search"] { flex: 1; font-size: 1.05rem; }
+
+#cevrimdisi-bant { position: fixed; left: 50%; bottom: .8rem; transform: translateX(-50%); z-index: 70; font: 600 .85rem var(--sans); background: var(--vurgu); color: var(--vurgu-yazi); padding: .45rem 1rem; border-radius: 2rem; box-shadow: 0 6px 20px -6px rgb(0 0 0 / .5); }

@@ -1,0 +1,13 @@
+/* Arama sayfası */
+.ara-form { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin-block: 1rem; font-family: var(--sans); }
+.ara-form input[type="search"] { flex: 1 1 14rem; font-size: 1.1rem; }
+.ara-form .tam { display: inline-flex; align-items: center; gap: .4rem; font: .9rem var(--sans); color: var(--soluk); }
+.sonuc { background: var(--sayfa); border: 1px solid var(--cizgi); border-radius: .6rem; padding: .8rem 1rem; margin-block: .8rem; box-shadow: var(--golge); }
+.sonuc h2 { margin: 0 0 .3rem; font-size: 1.05rem; }
+.sonuc h2 a { color: var(--lacivert); text-decoration: none; }
+.sonuc h2 a:hover { text-decoration: underline; }
+.sonuc .beyit { margin: .35rem 0; line-height: 1.5; }
+.sonuc mark { background: color-mix(in srgb, var(--yaldiz) 38%, transparent); color: inherit; border-radius: .2em; padding: 0 .08em; }
+.sonuc.dogrudan { display: block; text-decoration: none; color: var(--yazi); border-color: var(--yaldiz); }
+.sonuc.dogrudan:hover { background: color-mix(in srgb, var(--yaldiz) 12%, var(--sayfa)); }
+.kitap-etiket { display: inline-block; font: 600 .68rem var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--vurgu); border: 1px solid color-mix(in srgb, var(--vurgu) 55%, transparent); border-radius: 1rem; padding: .02rem .5rem; margin-right: .3rem; vertical-align: .08em; white-space: nowrap; }

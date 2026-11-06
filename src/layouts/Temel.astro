@@ -22,6 +22,11 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
     <meta name="theme-color" content="#0d1224" media="(prefers-color-scheme: dark)" />
     <title>{baslik}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/ikon-192.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Dîvân" />
     <script is:inline>
       try { var t = localStorage.getItem('tema'); if (t === 'acik' || t === 'koyu') document.documentElement.dataset.tema = t; } catch (e) {}
     </script>
@@ -33,6 +38,7 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
         <a class="marka" href="/"><Yildiz boy={22} />Dîvân</a>
         <nav class="menu" aria-label="Ana menü">
           <a href="/">Kitaplar</a>
+          <a href="/ara/">Ara</a>
           <a href="/sozluk/">Sözlük</a>
           <button type="button" id="tema-dugme" aria-label="Açık ya da koyu temayı değiştir">☾ Tema</button>
         </nav>
@@ -44,9 +50,22 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
     <footer class="alt">
       <div class="kap">
         <Yildiz boy={18} />
-        Özel sürüm: yayın izni alınmamıştır, herkese açık değildir.<br />Kitapların hakları ilgili yayıncıya aittir.
+        Özel sürüm: yayın izni alınmamıştır, herkese açık değildir.<br />Kitapların hakları ilgili yayıncıya aittir.<br /><a href="/cevrimdisi/">İnternetsiz okuma ve uygulama olarak kurma</a>
       </div>
     </footer>
+    <script>
+      // Servis işçisi: yalnızca yayın sürümünde (geliştirme sunucusunda önbellek sayfaların canlı yenilenmesini bozar)
+      if ('serviceWorker' in navigator && import.meta.env.PROD) {
+        addEventListener('load', () => { navigator.serviceWorker.register('/sw.js').catch(() => {}); });
+      }
+      // Çevrimdışı uyarısı
+      const bant = document.createElement('div');
+      bant.id = 'cevrimdisi-bant'; bant.setAttribute('role', 'status'); bant.hidden = navigator.onLine;
+      bant.textContent = 'Çevrimdışısınız: indirilmiş sayfalar açılır.';
+      document.body.append(bant);
+      addEventListener('offline', () => (bant.hidden = false));
+      addEventListener('online', () => (bant.hidden = true));
+    </script>
     <script>
       const dugme = document.getElementById('tema-dugme')!;
       dugme.addEventListener('click', () => {

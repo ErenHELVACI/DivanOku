@@ -1,0 +1,171 @@
+---
+import Temel from '../layouts/Temel.astro';
+import '../styles/ara.css';
+---
+<Temel baslik="Ara · Dîvân" aciklama="Altı dîvânın bütün şiirlerinde arama.">
+  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › Ara</nav>
+  <header class="kitap-ust">
+    <div class="sair">Altı dîvân</div>
+    <h1>Şiirlerde ara</h1>
+    <p class="soluk kucuk">â, î, û, ı/i ve ş/s, ç/c, ğ/g, ö/o farkı gözetilmez: "murâd", "Murad" ve "muradı" ya da "ask" ile "aşk" aynı sonucu verir. Şiir numarası da yazabilirsiniz ("56").</p>
+  </header>
+
+  <form class="ara-form" role="search" id="ara-form">
+    <label class="sr-only" for="q">Aranacak sözcük</label>
+    <input type="search" id="q" name="q" placeholder="Sözcük ya da dize ara…" autocomplete="off" autofocus />
+    <select id="kitap" aria-label="Kitap">
+      <option value="">Tüm dîvânlar</option>
+    </select>
+    <label class="tam"><input type="checkbox" id="tam" /> Tam sözcük</label>
+  </form>
+  <p class="kucuk soluk" id="durum" aria-live="polite">Dizin yükleniyor…</p>
+  <div id="sonuclar"></div>
+  <p><button type="button" id="daha" class="dugme" hidden>Daha fazla göster</button></p>
+</Temel>
+
+<script>
+  import { normalHarita, normallestir } from '../lib/normallestir.ts';
+
+  type Siir = { kitap: number; id: string; baslik: string; bentler: { dizeler: string[]; n: string[] }[] };
+  const q = document.getElementById('q') as HTMLInputElement;
+  const kitapSec = document.getElementById('kitap') as HTMLSelectElement;
+  const tam = document.getElementById('tam') as HTMLInputElement;
+  const durum = document.getElementById('durum')!;
+  const sonuclar = document.getElementById('sonuclar')!;
+  const daha = document.getElementById('daha') as HTMLButtonElement;
+
+  let kitaplar: [string, string, string][] = [];
+  let siirler: Siir[] = [];
+  const SAYFA = 40; // bir seferde gösterilen şiir sayısı
+  let eslesenler: { siir: Siir; bentIdx: number[] }[] = [];
+  let gosterilen = 0;
+  let jetonlar: string[] = [];
+
+  async function yukle() {
+    try {
+      const r = await fetch('/arama/indeks.json');
+      const v = await r.json();
+      kitaplar = v.k;
+      for (let i = 0; i < kitaplar.length; i++) kitapSec.append(new Option(kitaplar[i][1], String(i)));
+      siirler = v.s.map((x: any[]) => ({
+        kitap: x[0], id: x[1], baslik: x[2],
+        bentler: (x[3] as string[][]).map((dizeler) => ({ dizeler, n: dizeler.map((d) => normalHarita(d, true).n) })),
+      }));
+      durum.textContent = `${siirler.length.toLocaleString('tr')} şiirde arama yapabilirsiniz.`;
+      const url = new URL(location.href);
+      q.value = url.searchParams.get('q') ?? '';
+      if (url.searchParams.get('kitap')) kitapSec.value = url.searchParams.get('kitap')!;
+      tam.checked = url.searchParams.get('tam') === '1';
+      ara();
+    } catch {
+      durum.textContent = 'Arama dizini yüklenemedi. İnternet bağlantınızı kontrol edin.';
+    }
+  }
+
+  // Sözcük sınırı: aranan, bir sözcüğün tamamı mı (öncesi/sonrası boşluk, tire ya da metin başı/sonu)
+  const sinirli = (n: string, bas: number, son: number) => (bas === 0 || /[\s-]/.test(n[bas - 1])) && (son >= n.length || /[\s-]/.test(n[son]));
+  function bul(n: string, j: string, tamSozcuk: boolean): number {
+    let i = n.indexOf(j);
+    while (i >= 0) { if (!tamSozcuk || sinirli(n, i, i + j.length)) return i; i = n.indexOf(j, i + 1); }
+    return -1;
+  }
+
+  function ara() {
+    const metin = q.value.trim();
+    const url = new URL(location.href);
+    metin ? url.searchParams.set('q', metin) : url.searchParams.delete('q');
+    kitapSec.value ? url.searchParams.set('kitap', kitapSec.value) : url.searchParams.delete('kitap');
+    tam.checked ? url.searchParams.set('tam', '1') : url.searchParams.delete('tam');
+    history.replaceState(null, '', url);
+    sonuclar.replaceChildren(); daha.hidden = true; eslesenler = []; gosterilen = 0;
+    if (!siirler.length) return;
+    const norm = normallestir(metin, true);
+    if (norm.length < 2 && !/^\d+$/.test(norm)) { durum.textContent = metin ? 'En az iki harf yazın.' : `${siirler.length.toLocaleString('tr')} şiirde arama yapabilirsiniz.`; return; }
+    const kitapFiltre = kitapSec.value === '' ? -1 : Number(kitapSec.value);
+
+    // Şiir numarası: "56" ya da "d-56" doğrudan o şiire götürür (metin aramasının önünde listelenir)
+    const no = norm.match(/^(?:([a-z])-?)?(\d{1,3})$/);
+    const dogrudan = no ? siirler.filter((s) => (kitapFiltre < 0 || s.kitap === kitapFiltre) && (no[1] ? s.id === `${no[1]}-${no[2]}` : s.id.endsWith(`-${no[2]}`))) : [];
+
+    jetonlar = norm.split(' ').filter((t) => t.length > 0);
+    const uzunlar = jetonlar.filter((t) => t.length > 1);
+    if (uzunlar.length) jetonlar = uzunlar; // tek harfli parçalar ("i" gibi) her yerde geçtiği için, başka parça varsa atılır
+    const tamSozcuk = tam.checked;
+    if (!/^\d+$/.test(norm)) {
+      for (const s of siirler) {
+        if (kitapFiltre >= 0 && s.kitap !== kitapFiltre) continue;
+        const idx: number[] = [];
+        s.bentler.forEach((b, i) => {
+          const birlesik = b.n.join(' ');
+          if (jetonlar.every((j) => bul(birlesik, j, tamSozcuk) >= 0)) idx.push(i);
+        });
+        if (idx.length) eslesenler.push({ siir: s, bentIdx: idx });
+      }
+    }
+    const toplamBent = eslesenler.reduce((n, e) => n + e.bentIdx.length, 0);
+    durum.textContent = dogrudan.length || eslesenler.length
+      ? `${eslesenler.length} şiirde ${toplamBent} beyit bulundu${dogrudan.length ? `; ${dogrudan.length} şiir numarası eşleşti` : ''}.`
+      : 'Sonuç bulunamadı. Yazımı değiştirmeyi ya da "Tam sözcük" seçeneğini kapatmayı deneyin.';
+    for (const s of dogrudan) sonuclar.append(dogrudanKart(s));
+    goster();
+  }
+
+  function dogrudanKart(s: Siir) {
+    const a = document.createElement('a'); a.className = 'sonuc dogrudan'; a.href = `/${kitaplar[s.kitap][0]}/${s.id}/`;
+    const e = document.createElement('span'); e.className = 'kitap-etiket'; e.textContent = kitaplar[s.kitap][1];
+    const t = document.createElement('strong'); t.textContent = ` ${s.baslik}`;
+    const ilk = document.createElement('span'); ilk.className = 'soluk'; ilk.textContent = ` · ${s.bentler[0]?.dizeler[0] ?? ''}`;
+    a.append(e, t, ilk); return a;
+  }
+
+  // Eşleşen kısımları özgün (aksanlı) metin üzerinde işaretler
+  function isaretle(dize: string, kap: HTMLElement) {
+    const { n, idx } = normalHarita(dize, true);
+    const araliklar: [number, number][] = [];
+    for (const j of jetonlar) {
+      let i = n.indexOf(j);
+      while (i >= 0) {
+        if (!tam.checked || sinirli(n, i, i + j.length)) araliklar.push([idx[i], idx[i + j.length - 1] + 1]);
+        i = n.indexOf(j, i + j.length);
+      }
+    }
+    araliklar.sort((x, y) => x[0] - y[0]);
+    const birlesik: [number, number][] = [];
+    for (const a of araliklar) { const son = birlesik[birlesik.length - 1]; if (son && a[0] <= son[1]) son[1] = Math.max(son[1], a[1]); else birlesik.push([...a]); }
+    let imlec = 0;
+    for (const [b, s] of birlesik) {
+      if (b > imlec) kap.append(dize.slice(imlec, b));
+      const m = document.createElement('mark'); m.textContent = dize.slice(b, s); kap.append(m);
+      imlec = s;
+    }
+    if (imlec < dize.length) kap.append(dize.slice(imlec));
+  }
+
+  function goster() {
+    const dilim = eslesenler.slice(gosterilen, gosterilen + SAYFA);
+    for (const { siir, bentIdx } of dilim) {
+      const kutu = document.createElement('article'); kutu.className = 'sonuc';
+      const b = document.createElement('h2');
+      const a = document.createElement('a'); a.href = `/${kitaplar[siir.kitap][0]}/${siir.id}/`;
+      const e = document.createElement('span'); e.className = 'kitap-etiket'; e.textContent = kitaplar[siir.kitap][1];
+      a.append(e, ` ${siir.baslik}`); b.append(a); kutu.append(b);
+      for (const bi of bentIdx.slice(0, 3)) {
+        const p = document.createElement('p'); p.className = 'beyit';
+        siir.bentler[bi].dizeler.forEach((d, i) => { if (i) p.append(document.createElement('br')); isaretle(d, p); });
+        kutu.append(p);
+      }
+      if (bentIdx.length > 3) { const d = document.createElement('p'); d.className = 'kucuk soluk'; d.textContent = `+ ${bentIdx.length - 3} beyit daha`; kutu.append(d); }
+      sonuclar.append(kutu);
+    }
+    gosterilen += dilim.length;
+    daha.hidden = gosterilen >= eslesenler.length;
+  }
+
+  let zamanlayici = 0;
+  q.addEventListener('input', () => { clearTimeout(zamanlayici); zamanlayici = window.setTimeout(ara, 180); });
+  kitapSec.addEventListener('change', ara);
+  tam.addEventListener('change', ara);
+  daha.addEventListener('click', goster);
+  document.getElementById('ara-form')!.addEventListener('submit', (e) => { e.preventDefault(); ara(); });
+  yukle();
+</script>

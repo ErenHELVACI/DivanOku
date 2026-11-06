@@ -1,0 +1,10 @@
+/* İnternetsiz okuma sayfası */
+.durum-kutu { text-align: center; font: 600 .9rem var(--sans); padding: .55rem 1rem; border-radius: 2rem; border: 1px solid var(--cizgi); background: var(--sayfa); max-width: 26rem; margin: 0 auto 1.2rem; }
+.durum-kutu[data-durum="kapali"] { border-color: var(--vurgu); color: var(--vurgu); }
+.cevrimdisi-kutu { background: var(--sayfa); border: 1px solid var(--cizgi); border-radius: .6rem; padding: 1rem 1.1rem 1.2rem; margin-bottom: 1.4rem; box-shadow: var(--golge); }
+.cevrimdisi-kutu h2 { margin: 0 0 .3rem; font-size: 1.3rem; }
+.kitap-indir { list-style: none; margin: 1rem 0; padding: 0; }
+.kitap-indir li { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; padding: .55rem 0; border-top: 1px dashed var(--cizgi); font-family: var(--sans); }
+.kitap-indir li > span:first-child { font-weight: 600; flex: 1 1 12rem; }
+.ilerleme { display: flex; align-items: center; gap: .7rem; margin: .8rem 0; font-family: var(--sans); }
+.ilerleme progress { flex: 1; height: .7rem; accent-color: var(--vurgu); }

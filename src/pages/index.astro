@@ -13,6 +13,11 @@ const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
     <div class="tag">Türkçe dîvânlar</div>
     <h1>Dîvân</h1>
     <p class="ozet">Gönül şiirinin, telefonda da bilgisayarda da rahat okunan hâli.</p>
+    <form class="ana-ara" action="/ara/" method="get" role="search">
+      <label class="sr-only" for="ana-q">Şiirlerde ara</label>
+      <input type="search" id="ana-q" name="q" placeholder="Tüm şiirlerde ara… (murâd, ‘aşk, 56)" autocomplete="off" />
+      <button type="submit" class="dugme birincil">Ara</button>
+    </form>
     <div class="ayrac"><Yildiz boy={22} /></div>
   </section>
 
@@ -34,5 +39,5 @@ const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
   ))}
   </div>
 
-  <p style="text-align:center;margin-top:1.6rem"><a class="dugme" href="/sozluk/">Tüm sözlük: altı dîvânın sözlüğü bir arada →</a></p>
+  <p class="dugmeler" style="margin-top:1.6rem"><a class="dugme" href="/ara/">Tüm şiirlerde ara</a> <a class="dugme" href="/sozluk/">Tüm sözlük</a> <a class="dugme" href="/cevrimdisi/">İnternetsiz okuma</a></p>
 </Temel>
