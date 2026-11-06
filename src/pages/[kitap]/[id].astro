@@ -1,7 +1,7 @@
 ---
 import Temel from '../../layouts/Temel.astro';
 import { kitaplar, kitapBul, siirBasligi, ilkDize, turAdi } from '../../lib/veri.ts';
-import { tekKelimeIndeksi, farkliAnlamlar } from '../../lib/sozluk.ts';
+import { tekKelimeIndeksi, ifadeIndeksi, farkliAnlamlar } from '../../lib/sozluk.ts';
 import { normallestir } from '../../lib/normallestir.ts';
 
 export function getStaticPaths() {
@@ -29,6 +29,7 @@ const anahtarBul = (yazi: string) => {
   const tam = normallestir(yazi);
   return bulundu(tam) ? tam : bulundu(tam.replace(/-/g, '')) ? tam.replace(/-/g, '') : '';
 };
+const IFADELER = ifadeIndeksi();
 function parcala(dize: string): Parca[] {
   const out: Parca[] = [];
   let metin = '';
@@ -49,11 +50,34 @@ function parcala(dize: string): Parca[] {
     }
     metin += yazi;
   };
-  for (const p of dize.split(SOZCUK)) {
-    if (!p) continue;
+  const sozcukMu = (x: string) => /^[‘’ʿʾ]?[\p{L}\p{M}]/u.test(x);
+  const ogeler = dize.split(SOZCUK).filter(Boolean);
+  for (let i = 0; i < ogeler.length; i++) {
+    const p = ogeler[i];
     const d = p.match(/^⟦(\d+)⟧$/);
     if (d) { bosalt(); out.push({ t: 'd', no: Number(d[1]) }); continue; }
-    if (!/^[‘’ʿʾ]?[\p{L}\p{M}]/u.test(p)) { metin += p; continue; }
+    if (!sozcukMu(p)) { metin += p; continue; }
+
+    // 1) Tamlama / çok sözcüklü madde: ardışık sözcükler (arada yalnız boşluk), en uzun eşleşme önce
+    let parcalar: string[] = [];
+    let enIyi: { son: number; anahtar: string } | null = null;
+    for (let j = i, adet = 0; j < ogeler.length && adet < IFADELER.enUzun; adet++) {
+      parcalar = parcalar.concat(normallestir(ogeler[j]).split('-').filter(Boolean));
+      const anahtar = parcalar.join(' ');
+      if (adet >= 1 && IFADELER.harita.has(anahtar)) enIyi = { son: j, anahtar };
+      const ara = ogeler[j + 1], sonraki = ogeler[j + 2];
+      if (ara === undefined || !/^\s+$/.test(ara) || sonraki === undefined || !sozcukMu(sonraki)) break;
+      j += 2;
+    }
+    if (enIyi) {
+      const yazi = ogeler.slice(i, enIyi.son + 1).join('');
+      bosalt(); out.push({ t: 'k', s: yazi, a: `ifade:${enIyi.anahtar}` });
+      kullanilan[`ifade:${enIyi.anahtar}`] = farkliAnlamlar(IFADELER.harita.get(enIyi.anahtar)!, k.kunye.slug);
+      i = enIyi.son;
+      continue;
+    }
+
+    // 2) Tek sözcük
     const a = anahtarBul(p);
     if (a) { kelime(p, a); continue; } // tireli olsa da bütün hâliyle sözlükte var
     if (p.includes('-')) {

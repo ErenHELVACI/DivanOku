@@ -118,3 +118,25 @@ export function farkliAnlamlar(liste: KaynakliMadde[], once?: string): Anlam[] {
   }
   return out;
 }
+
+// Tamlamalar ve çok sözcüklü maddeler ("Hacc-ı ekber", "Âb-ı hayât", "Afv etmek"): şiirde ardışık sözcükler olarak aranır.
+// Anahtar: maddenin parçaları (boşluk ve tireyle bölünür, normalleştirilir) tek boşlukla birleştirilir: "hacc i ekber".
+let ifade: { harita: Map<string, KaynakliMadde[]>; enUzun: number } | null = null;
+export function ifadeIndeksi() {
+  if (ifade) return ifade;
+  const harita = new Map<string, KaynakliMadde[]>();
+  let enUzun = 0;
+  for (const m of maddeler()) {
+    const baslik = m.madde.replace(dilEki, '').trim();
+    if (!/\s/.test(baslik) || baslik.includes('/')) continue; // tek sözcükler ve "a/b" biçimli alternatifler başka yoldan
+    const parcalar = normallestir(baslik).split(/[\s-]+/).filter(Boolean);
+    if (parcalar.length < 2) continue;
+    const anahtar = parcalar.join(' ');
+    const liste = harita.get(anahtar) ?? [];
+    if (!liste.includes(m)) liste.push(m);
+    harita.set(anahtar, liste);
+    enUzun = Math.max(enUzun, parcalar.length);
+  }
+  ifade = { harita, enUzun };
+  return ifade;
+}
