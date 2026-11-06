@@ -183,8 +183,10 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
     });
     if (uyari) { const u = document.createElement('p'); u.className = 'uyari'; u.textContent = uyari; icerik.append(u); }
     kart.hidden = false; acan = tetikleyen ?? null;
+    document.body.classList.add('kart-acik'); // geniş ekranda kart sağ panel olur, içerik sola kayar (CSS)
+    requestAnimationFrame(() => sigdir());
   }
-  function kapat() { kart.hidden = true; acan?.focus(); acan = null; }
+  function kapat() { kart.hidden = true; document.body.classList.remove('kart-acik'); acan?.focus(); acan = null; requestAnimationFrame(() => sigdir()); }
   document.getElementById('kart-kapat')!.addEventListener('click', kapat);
 
   document.getElementById('siir')!.addEventListener('click', (e) => {

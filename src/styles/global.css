@@ -250,3 +250,17 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
 .sair-bilgi { position: absolute; top: .7rem; right: .75rem; z-index: 2; font: 600 .78rem var(--sans); letter-spacing: .02em; text-decoration: none; color: var(--vurgu); background: color-mix(in srgb, var(--vurgu) 10%, transparent); border: 1px solid color-mix(in srgb, var(--vurgu) 45%, transparent); border-radius: 2rem; padding: .3rem .7rem; }
 .sair-bilgi:hover { background: var(--vurgu); color: var(--vurgu-yazi); }
 .kitap-kart .sair { display: block; padding-right: 8.5rem; }
+
+/* Geniş ekran: sözlük/dipnot kartı altta değil SAĞDA açılır; beyit kapanmaz, içerik panelin soluna sığar. */
+@media (min-width: 1000px) {
+  #kart {
+    inset: 3.7rem 0 0 auto; width: 24rem; max-height: none; border-top: 0; border-left: 1px solid var(--yaldiz);
+    box-shadow: -10px 0 40px -14px rgb(0 0 0 / .4); padding: 1rem 1.2rem 1.5rem; overflow-y: auto;
+  }
+  #kart::before { display: none; }
+  #kart .icerik { padding-right: 0; padding-top: 2.4rem; max-width: none; }
+  #kart button.kapat { top: .7rem; right: 1rem; }
+  body.kart-acik main { padding-right: 24rem; transition: padding-right .25s ease; }
+  @media (prefers-reduced-motion: no-preference) { #kart { animation: sagdan .22s cubic-bezier(.2, .8, .2, 1); } }
+  @keyframes sagdan { from { transform: translateX(1.2rem); opacity: 0; } }
+}
