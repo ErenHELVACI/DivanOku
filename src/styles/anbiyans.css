@@ -51,6 +51,7 @@ html.anbiyans:has(#siir) .dize { line-height: 1.7; }
 .anbiyans-kontrol .yon[aria-disabled="true"] { opacity: .3; pointer-events: none; }
 @media (max-width: 600px) { .anbiyans-kontrol .yon { width: 2.4rem; height: 4rem; font-size: 2rem; } }
 
-/* Anbiyansta kaydırma çubukları görünmez (kaydırma tekerlek, dokunma ve klavyeyle sürer) */
-html.anbiyans:has(#siir), html.anbiyans:has(#siir) main, html.anbiyans:has(#siir) .siir { scrollbar-width: none; -ms-overflow-style: none; }
-html.anbiyans:has(#siir)::-webkit-scrollbar, html.anbiyans:has(#siir) main::-webkit-scrollbar, html.anbiyans:has(#siir) .siir::-webkit-scrollbar { display: none; width: 0; height: 0; }
+/* Anbiyansta kaydırma çubuğu daha ince ve sönük (genel tema çubuğunun hafif hâli) */
+html.anbiyans:has(#siir) main, html.anbiyans:has(#siir) .siir { scrollbar-width: thin; scrollbar-color: color-mix(in srgb, var(--yaldiz) 55%, transparent) transparent; }
+html.anbiyans:has(#siir) main::-webkit-scrollbar, html.anbiyans:has(#siir) .siir::-webkit-scrollbar { width: 6px; height: 6px; }
+html.anbiyans:has(#siir) main::-webkit-scrollbar-thumb, html.anbiyans:has(#siir) .siir::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--yaldiz) 45%, transparent); border: 0; }
