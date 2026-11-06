@@ -166,6 +166,7 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
 
     <nav class="gezin" aria-label="Şiirler arasında gezin">
       {onceki ? <a href={`/${k.kunye.slug}/${onceki.id}/`} rel="prev"><small>← Önceki</small>{siirBasligi(k, onceki)}</a> : <span style="flex:1"></span>}
+      <button type="button" id="rastgele-siir" class="rastgele-orta" data-kitap={k.kunye.slug} data-aktif={s.id} aria-label="Bu dîvândan rastgele başka bir şiir aç"><span aria-hidden="true">⤮</span><span class="yazi">Rastgele</span></button>
       {sonraki ? <a class="sonra" href={`/${k.kunye.slug}/${sonraki.id}/`} rel="next"><small>Sonraki →</small>{siirBasligi(k, sonraki)}</a> : <span style="flex:1"></span>}
     </nav>
 
@@ -278,4 +279,17 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
 </script>
 <script>
   import '../../scripts/cekmece.ts';
+
+  // Rastgele başka bir şiir: kitabın şiir listesinden (sekmedeki aynı küçük dosya) bugünküne eşit olmayan birini açar.
+  const rastgeleSiir = document.getElementById('rastgele-siir') as HTMLButtonElement;
+  rastgeleSiir.addEventListener('click', async () => {
+    rastgeleSiir.disabled = true;
+    try {
+      const r = await fetch(`/${rastgeleSiir.dataset.kitap}/liste.json`);
+      const v: { siirler: { id: string }[] } = await r.json();
+      const adaylar = v.siirler.filter((x) => x.id !== rastgeleSiir.dataset.aktif);
+      if (adaylar.length) location.href = `/${rastgeleSiir.dataset.kitap}/${adaylar[Math.floor(Math.random() * adaylar.length)].id}/`;
+    } catch { /* ağ yoksa düğme sessizce eski haline döner */ }
+    rastgeleSiir.disabled = false;
+  });
 </script>

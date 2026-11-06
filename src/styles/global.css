@@ -287,3 +287,11 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
 .dugmeler { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }
 .dugme.birincil { background: var(--vurgu); color: var(--vurgu-yazi); border-color: var(--vurgu); font-weight: 600; }
 .dugme.birincil:hover { filter: brightness(1.08); border-color: var(--yaldiz); }
+
+/* Önceki / sonraki arasındaki rastgele şiir düğmesi */
+.gezin { align-items: stretch; }
+.gezin .rastgele-orta { flex: 0 0 auto; align-self: stretch; flex-direction: column; justify-content: center; gap: .1rem; border-radius: .7rem; padding: .5rem 1rem; font: 600 .8rem var(--sans); letter-spacing: .04em; color: var(--vurgu); background: color-mix(in srgb, var(--vurgu) 9%, transparent); border: 1px solid color-mix(in srgb, var(--vurgu) 50%, transparent); }
+.gezin .rastgele-orta [aria-hidden] { font-size: 1.3rem; line-height: 1; }
+.gezin .rastgele-orta:hover { background: var(--vurgu); color: var(--vurgu-yazi); }
+.gezin .rastgele-orta:disabled { opacity: .6; cursor: wait; }
+@media (max-width: 520px) { .gezin .rastgele-orta .yazi { display: none; } .gezin .rastgele-orta { padding-inline: .8rem; } }
