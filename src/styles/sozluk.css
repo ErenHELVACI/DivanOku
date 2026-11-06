@@ -16,3 +16,7 @@
   .madde dt { font-size: 1.15rem; }
   .harf-baslik { top: 3rem; }
 }
+
+/* Tüm sözlük: madde başına kitap etiketli tanımlar */
+.madde.coklu dd p { margin: 0 0 .35rem; }
+.kitap-etiket { display: inline-block; font: 600 .68rem var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--vurgu); border: 1px solid color-mix(in srgb, var(--vurgu) 55%, transparent); border-radius: 1rem; padding: .02rem .5rem; margin-right: .3rem; vertical-align: .08em; white-space: nowrap; }

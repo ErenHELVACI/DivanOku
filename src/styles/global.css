@@ -231,3 +231,9 @@ button.kelime:focus-visible { outline: 3px solid var(--odak); border-radius: 2px
   .sayfa-cerceve::before { inset: .3rem; }
   .bent { grid-template-columns: 1.9em max-content; column-gap: .35em; }
 }
+
+/* Yalnız başka dîvânların sözlüğünde olan kelime: noktalı çizgi (bu kitabın sözlüğündekiler düz çizgi) */
+button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--yaldiz) 0 3px, transparent 3px 6px); }
+#kart h4 { margin: .7rem 0 .2rem; font: 600 .78rem var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--soluk); }
+#kart p.diger { font-size: 1.05rem; }
+#kart .kitap-etiket { font: 600 .62rem var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--vurgu); border: 1px solid color-mix(in srgb, var(--vurgu) 55%, transparent); border-radius: 1rem; padding: .02rem .45rem; margin-right: .25rem; }

@@ -1,6 +1,7 @@
 ---
 import Temel from '../../layouts/Temel.astro';
-import { kitaplar, kitapBul, sozlukIndeksi, siirBasligi, ilkDize, turAdi } from '../../lib/veri.ts';
+import { kitaplar, kitapBul, siirBasligi, ilkDize, turAdi } from '../../lib/veri.ts';
+import { tekKelimeIndeksi } from '../../lib/sozluk.ts';
 import { normallestir } from '../../lib/normallestir.ts';
 
 export function getStaticPaths() {
@@ -13,11 +14,13 @@ const onceki = k.siirler[sira - 1];
 const sonraki = k.siirler[sira + 1];
 const baslik = siirBasligi(k, s);
 const dipnotlar = k.dipnotlar.filter((d) => d.siir === s.id).sort((a, b) => a.no - b.no);
-const indeks = sozlukIndeksi(k);
+// Birleşik sözlük: önce bu kitabın kendi maddeleri, sonra diğer dîvânların maddeleri (tanımlar birleştirilmez).
+const indeks = tekKelimeIndeksi();
 
 // Dizeyi parçala: dipnot işareti ⟦n⟧, sözlükte tam eşleşen kelime, düz metin.
-type Parca = { t: 'm'; s: string } | { t: 'k'; s: string; a: string } | { t: 'd'; no: number };
-const kullanilan: Record<string, { madde: string; tanim: string }[]> = {};
+type Parca = { t: 'm'; s: string } | { t: 'k'; s: string; a: string; baska: boolean } | { t: 'd'; no: number };
+type Kart = { i: { m: string; t: string }[]; d: { s: string; m: string; t: string }[] };
+const kullanilan: Record<string, Kart> = {};
 function parcala(dize: string): Parca[] {
   const out: Parca[] = [];
   let metin = '';
@@ -29,8 +32,13 @@ function parcala(dize: string): Parca[] {
     const a = /^[\p{L}\p{M}]+$/u.test(p) ? normallestir(p) : '';
     // Tek harfli sözcükler (ı, u, İ…) eşleştirilmez: "ı" ile "İ" gibi yanlış eşleşmeler çıkıyor ("Âb-ı Hayât").
     if (a.length >= 2 && indeks.has(a)) {
-      bosalt(); out.push({ t: 'k', s: p, a });
-      kullanilan[a] = indeks.get(a)!.map((m) => ({ madde: m.madde, tanim: m.tanim }));
+      const hepsi = indeks.get(a)!;
+      const kendi = hepsi.filter((m) => m.kitap === k.kunye.slug);
+      bosalt(); out.push({ t: 'k', s: p, a, baska: kendi.length === 0 });
+      kullanilan[a] = {
+        i: kendi.map((m) => ({ m: m.madde, t: m.tanim })),
+        d: hepsi.filter((m) => m.kitap !== k.kunye.slug).map((m) => ({ s: m.sair, m: m.madde, t: m.tanim })),
+      };
     } else metin += p;
   }
   bosalt();
@@ -81,7 +89,7 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
               <span class="dize" style="display:block">
                 {dize.map((p) =>
                   p.t === 'm' ? p.s
-                  : p.t === 'k' ? <button type="button" class="kelime" data-a={p.a} aria-label={`Sözlük: ${p.s}`}>{p.s}</button>
+                  : p.t === 'k' ? <button type="button" class={p.baska ? 'kelime baska' : 'kelime'} data-a={p.a} aria-label={`Sözlük: ${p.s}`}>{p.s}</button>
                   : <sup class="dn"><button type="button" data-d={p.no} aria-label={`Dipnot ${p.no}`}>{p.no}</button></sup>
                 )}
               </span>
@@ -134,16 +142,25 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
 </Temel>
 
 <script>
-  const sozluk: Record<string, { madde: string; tanim: string }[]> = JSON.parse(document.getElementById('sozluk-veri')!.textContent!);
+  const sozluk: Record<string, { i: { m: string; t: string }[]; d: { s: string; m: string; t: string }[] }> = JSON.parse(document.getElementById('sozluk-veri')!.textContent!);
   const dipnot: Record<string, string> = JSON.parse(document.getElementById('dipnot-veri')!.textContent!);
   const kart = document.getElementById('kart')!;
   const icerik = document.getElementById('kart-icerik')!;
   let acan: HTMLElement | null = null;
 
-  function ac(baslik: string, govdeler: string[], uyari?: string, tetikleyen?: HTMLElement) {
+  function ac(baslik: string, govdeler: string[], uyari?: string, tetikleyen?: HTMLElement, digerler: { s: string; m: string }[] = [], bosMesaj?: string) {
     icerik.replaceChildren();
     const h = document.createElement('h3'); h.textContent = baslik; icerik.append(h);
     for (const g of govdeler) { const p = document.createElement('p'); p.textContent = g; icerik.append(p); } // düz metin: HTML olarak basılmaz
+    if (!govdeler.length && bosMesaj) { const p = document.createElement('p'); p.className = 'uyari'; p.textContent = bosMesaj; icerik.append(p); }
+    if (digerler.length) {
+      const b = document.createElement('h4'); b.textContent = 'Diğer dîvânlarda'; icerik.append(b);
+      for (const d of digerler) {
+        const p = document.createElement('p'); p.className = 'diger';
+        const e = document.createElement('span'); e.className = 'kitap-etiket'; e.textContent = d.s;
+        p.append(e, ` ${d.m}`); icerik.append(p);
+      }
+    }
     if (uyari) { const u = document.createElement('p'); u.className = 'uyari'; u.textContent = uyari; icerik.append(u); }
     kart.hidden = false; acan = tetikleyen ?? null;
   }
@@ -154,9 +171,10 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
     const hedef = (e.target as HTMLElement).closest('button') as HTMLElement | null;
     if (!hedef) return;
     if (hedef.dataset.a) {
-      const m = sozluk[hedef.dataset.a] ?? [];
-      ac(hedef.textContent!, m.map((x) => `${x.madde}: ${x.tanim}`),
-        'Anlam kitabın sözlüğünden alınmıştır; metindeki kullanıma uymayabilir.', hedef);
+      const m = sozluk[hedef.dataset.a] ?? { i: [], d: [] };
+      ac(hedef.textContent!, m.i.map((x) => `${x.m}: ${x.t}`),
+        'Anlamlar kitapların sözlüklerinden olduğu gibi alınmıştır; metindeki kullanıma uymayabilir.', hedef,
+        m.d.map((x) => ({ s: x.s, m: `${x.m}: ${x.t}` })), 'Bu kitabın sözlüğünde yok.');
     } else if (hedef.dataset.d) {
       ac(`Dipnot ${hedef.dataset.d}`, [dipnot[hedef.dataset.d] ?? ''], undefined, hedef);
     }
