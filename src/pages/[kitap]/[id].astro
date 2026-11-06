@@ -97,7 +97,6 @@ const bentler = s.bentler.map((b) => ({ ...b, dizeler: b.dizeler.map(parcala), a
 const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin]));
 ---
 <Temel baslik={`${baslik} · ${k.kunye.sair}`} aciklama={ilkDize(s)}>
-  <button slot="menu-ek" type="button" id="favori-dugme" class="favori-dugme" data-kitap={k.kunye.slug} data-id={s.id} aria-pressed="false" aria-label="Favorilere ekle"><span aria-hidden="true">☆</span><span class="yazi"> Favori</span></button>
   <button slot="menu-ek" type="button" id="anbiyans-ac" class="anbiyans-dugme" aria-label="Anbiyans modu: yalnız şiir, tam sayfa"><span aria-hidden="true">◐</span><span class="yazi"> Anbiyans</span></button>
   {onceki && <link rel="prev" href={yol(`/${k.kunye.slug}/${onceki.id}/`)} />}
   {sonraki && <link rel="next" href={yol(`/${k.kunye.slug}/${sonraki.id}/`)} />}
@@ -156,6 +155,7 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
       ))}
       </div>
     </div>
+    <button type="button" id="favori-dugme" class="favori-kose" data-kitap={k.kunye.slug} data-id={s.id} aria-pressed="false" aria-label="Favorilere ekle"><span aria-hidden="true">☆</span></button>
     </div>
 
     {s.kaynakNotu && <p class="siir-alt"><strong>Kaynak notu:</strong> {s.kaynakNotu.replace(/⟦\d+⟧/g, '')}</p>}
