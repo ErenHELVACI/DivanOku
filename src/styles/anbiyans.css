@@ -1,0 +1,51 @@
+/* Anbiyans modu: yalnız şiir, tam sayfa, sakin zemin; düğmeler 3 saniye sonra kaybolur.
+   Sınıf <html> üzerindedir ve yalnız şiir sayfasında (içinde #siir olan) etkilidir. */
+.anbiyans-dugme { margin-top: .6rem; }
+
+html.anbiyans:has(#siir) header.ust,
+html.anbiyans:has(#siir) footer.alt,
+html.anbiyans:has(#siir) .ust-arac,
+html.anbiyans:has(#siir) .siir-ust,
+html.anbiyans:has(#siir) .sems,
+html.anbiyans:has(#siir) .siir-alt,
+html.anbiyans:has(#siir) .gezin,
+html.anbiyans:has(#siir) .cekmece,
+html.anbiyans:has(#siir) .cekmece-dugme,
+html.anbiyans:has(#siir) .cekmece-perde,
+html.anbiyans:has(#siir) article > p.kucuk { display: none !important; }
+
+html.anbiyans:has(#siir) body { overflow: hidden; }
+html.anbiyans:has(#siir) main {
+  position: fixed; inset: 0; z-index: 30; padding: 4.5rem 1rem 3rem; overflow-y: auto; display: flex;
+  background:
+    radial-gradient(90% 70% at 50% 0%, color-mix(in srgb, var(--yaldiz) 14%, transparent), transparent 70%),
+    radial-gradient(80% 60% at 50% 100%, color-mix(in srgb, var(--lacivert) 12%, transparent), transparent 70%),
+    var(--zemin);
+}
+html.anbiyans:has(#siir) main > .kap { margin: auto; max-width: 70rem; }
+html.anbiyans:has(#siir) .sayfa-cerceve { background: transparent; border: 0; box-shadow: none; padding: 0; margin: 0; }
+html.anbiyans:has(#siir) .sayfa-cerceve::before { display: none; }
+html.anbiyans:has(#siir) .siir { --yazi-boyu: clamp(1.5rem, 2.6vw, 2.4rem); overflow-x: auto; }
+html.anbiyans:has(#siir) .bent { margin-block: 1.3em; }
+html.anbiyans:has(#siir) .dize { line-height: 1.75; }
+
+@media (prefers-reduced-motion: no-preference) {
+  html.anbiyans:has(#siir) .siir { animation: anbiyans-belir 1.2s ease both; }
+  @keyframes anbiyans-belir { from { opacity: 0; transform: scale(.985); } }
+}
+
+/* Kontroller: yalnız anbiyansta görünür; hareketsizlikte (3 sn) kaybolur */
+.anbiyans-kontrol { position: fixed; inset: 0; z-index: 60; pointer-events: none; transition: opacity .5s ease; }
+.anbiyans-kontrol[hidden] { display: none; }
+.anbiyans-kontrol.sessiz { opacity: 0; }
+.anbiyans-kontrol.sessiz, html.anbiyans:has(.anbiyans-kontrol.sessiz) { cursor: none; }
+.anbiyans-kontrol > * { pointer-events: auto; }
+.anbiyans-kontrol.sessiz > * { pointer-events: none; }
+.anbiyans-kontrol .cik { position: absolute; top: .9rem; right: .9rem; }
+.anbiyans-kontrol .baslik { position: absolute; top: 1.1rem; left: 50%; transform: translateX(-50%); font: 500 .85rem var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--soluk); max-width: 60vw; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.anbiyans-kontrol .yon { position: absolute; top: 50%; transform: translateY(-50%); width: 3.2rem; height: 5.5rem; display: grid; place-items: center; font: 400 2.6rem/1 var(--display); color: var(--vurgu); background: color-mix(in srgb, var(--sayfa) 70%, transparent); border: 1px solid var(--cizgi); border-radius: 1rem; text-decoration: none; }
+.anbiyans-kontrol .yon:hover { border-color: var(--yaldiz); }
+.anbiyans-kontrol .onceki { left: .8rem; }
+.anbiyans-kontrol .sonraki { right: .8rem; }
+.anbiyans-kontrol .yon[aria-disabled="true"] { opacity: .3; pointer-events: none; }
+@media (max-width: 600px) { .anbiyans-kontrol .yon { width: 2.4rem; height: 4rem; font-size: 2rem; } }

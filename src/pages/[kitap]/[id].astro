@@ -4,6 +4,7 @@ import Temel from '../../layouts/Temel.astro';
 import { kitaplar, kitapBul, siirBasligi, ilkDize, turAdi } from '../../lib/veri.ts';
 import { tekKelimeIndeksi, ifadeIndeksi, farkliAnlamlar } from '../../lib/sozluk.ts';
 import { normallestir } from '../../lib/normallestir.ts';
+import '../../styles/anbiyans.css';
 
 export function getStaticPaths() {
   return kitaplar().flatMap((k) => k.siirler.map((s) => ({ params: { kitap: k.kunye.slug, id: s.id } })));
@@ -124,6 +125,7 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
       {s.baslikNotlari.map((n) => <p class="not">{n}</p>)}
       {s.vezinler.map((v) => <p class="vezin">{v}</p>)}
       <span class="tur">{turAdi[s.tur]}</span>
+      <p><button type="button" id="anbiyans-ac" class="dugme anbiyans-dugme" aria-label="Anbiyans modu: yalnız şiir, tam sayfa">☾ Anbiyans modu</button></p>
     </header>
 
     <div class="siir" id="siir" lang="tr" tabindex="0" role="region" aria-label={`${baslik}, şiir metni`}>
@@ -176,6 +178,13 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
       Noktalı çizgili kelimeye dokununca sözlük, üst simgeye dokununca dipnot açılır. Sol ve sağ ok tuşları şiirler arasında gezdirir.
     </p>
   </article>
+
+  <div id="anbiyans-kontrol" class="anbiyans-kontrol" hidden>
+    <button type="button" class="cik dugme" id="anbiyans-cik" aria-label="Anbiyans modundan çık (Esc)">✕ Çık</button>
+    <span class="baslik" aria-hidden="true">{k.kunye.sair} · {baslik}</span>
+    <a class="yon onceki" id="anbiyans-onceki" href={onceki ? yol(`/${k.kunye.slug}/${onceki.id}/`) : '#'} aria-label="Önceki şiir" aria-disabled={onceki ? 'false' : 'true'} rel="prev">‹</a>
+    <a class="yon sonraki" id="anbiyans-sonraki" href={sonraki ? yol(`/${k.kunye.slug}/${sonraki.id}/`) : '#'} aria-label="Sonraki şiir" aria-disabled={sonraki ? 'false' : 'true'} rel="next">›</a>
+  </div>
 
   <div id="kart" role="region" aria-label="Sözlük ve dipnot" aria-live="polite" hidden>
     <div class="icerik" id="kart-icerik"></div>
@@ -294,4 +303,43 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
     } catch { /* ağ yoksa düğme sessizce eski haline döner */ }
     rastgeleSiir.disabled = false;
   });
+</script>
+
+<script>
+  // Anbiyans modu: <html> sınıfı + sessionStorage (sekme boyunca sürer: ok tuşlarıyla şiirler arasında geçerken mod kapanmaz).
+  const kok = document.documentElement;
+  const kontrol = document.getElementById('anbiyans-kontrol')!;
+  const ac = document.getElementById('anbiyans-ac') as HTMLButtonElement;
+  const kart = document.getElementById('kart');
+  let sessizlikZamani = 0;
+
+  const gor = () => {
+    kontrol.classList.remove('sessiz');
+    clearTimeout(sessizlikZamani);
+    sessizlikZamani = window.setTimeout(() => kontrol.classList.add('sessiz'), 3000); // 3 saniye hareketsizlikten sonra kaybolur
+  };
+  const etkinlikler = ['pointermove', 'pointerdown', 'touchstart', 'keydown', 'wheel'] as const;
+  const dinle = (a: boolean) => etkinlikler.forEach((e) => (a ? addEventListener(e, gor, { passive: true }) : removeEventListener(e, gor)));
+  const yenidenSigdir = () => requestAnimationFrame(() => dispatchEvent(new Event('resize'))); // şiir sayfasındaki yazı sığdırma yeniden çalışır
+
+  function anbiyansAc() {
+    kok.classList.add('anbiyans');
+    try { sessionStorage.setItem('anbiyans', '1'); } catch { /* depolama yoksa mod yalnız bu sayfada kalır */ }
+    kontrol.hidden = false; dinle(true); gor(); yenidenSigdir();
+    document.getElementById('anbiyans-cik')?.focus({ preventScroll: true });
+  }
+  function anbiyansKapat() {
+    kok.classList.remove('anbiyans');
+    try { sessionStorage.removeItem('anbiyans'); } catch { /* yok say */ }
+    kontrol.hidden = true; dinle(false); clearTimeout(sessizlikZamani); yenidenSigdir();
+    ac.focus({ preventScroll: true });
+  }
+  ac.addEventListener('click', anbiyansAc);
+  document.getElementById('anbiyans-cik')!.addEventListener('click', anbiyansKapat);
+  // Esc: önce açık sözlük kartını kapatır (o kendi dinleyicisinde); kart kapalıysa moddan çıkar. Yakalama aşamasında bakılır.
+  addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && kok.classList.contains('anbiyans') && kart?.hidden) anbiyansKapat();
+  }, true);
+  // Başka şiirden gelindiyse (mod açık kaldıysa) kontroller de açılır
+  if (kok.classList.contains('anbiyans')) { kontrol.hidden = false; dinle(true); gor(); yenidenSigdir(); }
 </script>

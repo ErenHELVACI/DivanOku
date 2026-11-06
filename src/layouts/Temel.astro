@@ -30,6 +30,7 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
     <meta name="apple-mobile-web-app-title" content="Dîvân" />
     <script is:inline>
       try { var t = localStorage.getItem('tema'); if (t === 'acik' || t === 'koyu') document.documentElement.dataset.tema = t; } catch (e) {}
+      try { if (sessionStorage.getItem('anbiyans') === '1') document.documentElement.classList.add('anbiyans'); } catch (e) {}
     </script>
   </head>
   <body>
