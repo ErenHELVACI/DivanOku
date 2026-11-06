@@ -21,7 +21,9 @@ export type Siir = {
 };
 export type Dipnot = { no: number; siir: string; metin: string };
 export type SozlukMaddesi = { madde: string; tanim: string };
-export type Kitap = { kunye: Kunye; siirler: Siir[]; dipnotlar: Dipnot[]; sozluk: SozlukMaddesi[] };
+export type SairOge = { t: 'ust' | 'alt' | 'p' | 'alinti'; m: string };
+export type Sair = { bolumler: { baslik: string; ogeler: SairOge[] }[]; dipnotlar: { no: number; metin: string }[] };
+export type Kitap = { kunye: Kunye; siirler: Siir[]; dipnotlar: Dipnot[]; sozluk: SozlukMaddesi[]; sair: Sair | null };
 
 let onbellek: Kitap[] | null = null;
 
@@ -34,6 +36,7 @@ export function kitaplar(): Kitap[] {
       siirler: oku<Siir[]>(d.name, 'siirler'),
       dipnotlar: oku<Dipnot[]>(d.name, 'dipnotlar'),
       sozluk: oku<SozlukMaddesi[]>(d.name, 'sozluk'),
+      sair: existsSync(join(KOK, d.name, 'sair.json')) ? oku<Sair>(d.name, 'sair') : null,
     }))
     .sort((a, b) => a.kunye.baslik.localeCompare(b.kunye.baslik, 'tr'));
   return onbellek;

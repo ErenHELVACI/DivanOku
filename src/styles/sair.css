@@ -1,0 +1,17 @@
+/* Şair hakkında: uzun metin sayfası; rahat satır uzunluğu, temiz zemin */
+.icindekiler ol { list-style: none; margin: 0 auto 1.5rem; padding: 0; max-width: 34rem; display: grid; gap: .4rem; font-family: var(--sans); }
+.icindekiler a { display: block; padding: .55rem .9rem; border: 1px solid var(--cizgi); border-radius: .6rem; background: var(--sayfa); text-decoration: none; color: var(--yazi); }
+.icindekiler a:hover { border-color: var(--yaldiz); }
+.sair-bolum { background: var(--sayfa); border: 1px solid var(--cizgi); border-radius: .6rem; padding: 1.2rem 1.1rem 1.4rem; margin-bottom: 1.6rem; box-shadow: var(--golge); scroll-margin-top: 4.5rem; }
+.sair-bolum p { margin: .75rem 0; max-width: 40rem; hyphens: auto; }
+.bolum-baslik { margin: 0 0 .5rem; font-size: clamp(1.4rem, 4.5vw, 1.9rem); color: var(--vurgu); border-bottom: 1px solid var(--yaldiz); padding-bottom: .5rem; }
+.ust-baslik { margin: 1.8rem 0 .4rem; font-size: 1.3rem; color: var(--lacivert); }
+.alt-baslik { margin: 1.4rem 0 .2rem; font: 600 1.05rem var(--display); color: var(--lacivert); }
+.alinti { margin: 1rem 0; padding: .1rem 0 .1rem 1rem; border-left: 3px solid var(--yaldiz); font-style: italic; }
+.alinti p { margin: .1rem 0; }
+.sair-bolum sup.dn a { color: var(--vurgu); text-decoration: none; font: 700 .7em var(--sans); padding: .15em .25em; border-radius: .6em; background: color-mix(in srgb, var(--vurgu) 12%, transparent); }
+.dipnotlar { margin-top: 1.6rem; font: .95rem/1.55 var(--sans); }
+.dipnotlar h3 { font-size: 1rem; margin: 0 0 .4rem; }
+.dipnotlar ol { list-style: none; padding: 0; margin: 0; }
+.dipnotlar li { margin: .45rem 0; scroll-margin-top: 5rem; }
+.dipnotlar li:target { background: color-mix(in srgb, var(--yaldiz) 22%, transparent); border-radius: .3rem; }

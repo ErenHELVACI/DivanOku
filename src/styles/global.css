@@ -239,3 +239,14 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
 #kart .kitap-etiket { font: 600 .62rem var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--vurgu); border: 1px solid color-mix(in srgb, var(--vurgu) 55%, transparent); border-radius: 1rem; padding: .02rem .45rem; margin-right: .25rem; }
 
 #kart u { text-decoration-line: underline; text-decoration-color: var(--yaldiz); text-decoration-thickness: 2px; text-underline-offset: .22em; }
+
+/* Kitap kartı: tüm kart kitaba gider (esnek bağlantı); köşedeki "Şair hakkında" ayrı bağlantıdır */
+.kitap-kart { position: relative; }
+.kitap-kart:hover { transform: translateY(-3px) rotate(-.15deg); border-color: var(--yaldiz); }
+.kitap-kart h2 a.kart-ana { color: inherit; text-decoration: none; }
+.kitap-kart h2 a.kart-ana::after { content: ""; position: absolute; inset: 0; border-radius: inherit; z-index: 1; }
+.kitap-kart h2 a.kart-ana:focus-visible { outline: none; }
+.kitap-kart:has(a.kart-ana:focus-visible) { outline: 3px solid var(--odak); outline-offset: 3px; }
+.sair-bilgi { position: absolute; top: .7rem; right: .75rem; z-index: 2; font: 600 .78rem var(--sans); letter-spacing: .02em; text-decoration: none; color: var(--vurgu); background: color-mix(in srgb, var(--vurgu) 10%, transparent); border: 1px solid color-mix(in srgb, var(--vurgu) 45%, transparent); border-radius: 2rem; padding: .3rem .7rem; }
+.sair-bilgi:hover { background: var(--vurgu); color: var(--vurgu-yazi); }
+.kitap-kart .sair { display: block; padding-right: 8.5rem; }

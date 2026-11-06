@@ -1,0 +1,7 @@
+---
+// Metindeki ⟦n⟧ işaretlerini üst simge bağlantıya çevirir; metin düz metin olarak basılır (HTML olarak değil).
+interface Props { m: string }
+const { m } = Astro.props;
+const parcalar = m.split(/(⟦\d+⟧)/).filter(Boolean).map((x) => { const d = x.match(/^⟦(\d+)⟧$/); return d ? { no: Number(d[1]) } : { s: x }; });
+---
+{parcalar.map((x) => 's' in x ? x.s : <sup class="dn"><a id={`dr-${x.no}`} href={`#dn-${x.no}`} aria-label={`Dipnot ${x.no}`}>{x.no}</a></sup>)}

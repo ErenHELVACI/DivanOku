@@ -1,0 +1,58 @@
+---
+import Temel from '../../layouts/Temel.astro';
+import '../../styles/sair.css';
+import DipnotluMetin from '../../components/DipnotluMetin.astro';
+import { kitaplar, kitapBul } from '../../lib/veri.ts';
+
+export function getStaticPaths() {
+  return kitaplar().filter((k) => k.sair).map((k) => ({ params: { kitap: k.kunye.slug } }));
+}
+const k = kitapBul(Astro.params.kitap!);
+const sair = k.sair!;
+const dipnotMetni = new Map(sair.dipnotlar.map((d) => [d.no, d.metin]));
+
+// Ardışık "alinti" öğeleri tek blokta toplanır; her bölümün dipnotları kendi sonunda listelenir.
+type Blok = { t: 'ust' | 'alt' | 'p'; m: string } | { t: 'alinti'; satirlar: string[] };
+const bolumler = sair.bolumler.map((b, i) => {
+  const bloklar: Blok[] = [];
+  for (const o of b.ogeler) {
+    const son = bloklar[bloklar.length - 1];
+    if (o.t === 'alinti') { if (son && son.t === 'alinti') son.satirlar.push(o.m); else bloklar.push({ t: 'alinti', satirlar: [o.m] }); }
+    else bloklar.push({ t: o.t, m: o.m });
+  }
+  const nolar = [...b.ogeler.map((o) => o.m).join(' ').matchAll(/⟦(\d+)⟧/g)].map((x) => Number(x[1]));
+  return { ...b, id: `b${i + 1}`, bloklar, nolar };
+});
+---
+<Temel baslik={`Şair hakkında · ${k.kunye.sair}`}>
+  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › <a href={`/${k.kunye.slug}/`}>{k.kunye.sair}</a> › Şair hakkında</nav>
+  <header class="kitap-ust">
+    <div class="sair">Şair hakkında</div>
+    <h1>{k.kunye.sair}</h1>
+    <p class="soluk kucuk">{k.kunye.baslik} kitabının tanıtım bölümleri, kitaptan olduğu gibi alınmıştır.</p>
+  </header>
+
+  {bolumler.length > 1 && (
+    <nav class="icindekiler" aria-label="Bölümler">
+      <ol>{bolumler.map((b) => <li><a href={`#${b.id}`}>{b.baslik}</a></li>)}</ol>
+    </nav>
+  )}
+
+  {bolumler.map((b) => (
+    <article class="sair-bolum" id={b.id}>
+      <h2 class="bolum-baslik">{b.baslik}</h2>
+      {b.bloklar.map((o) =>
+        o.t === 'alinti' ? <blockquote class="alinti">{o.satirlar.map((l) => <p><DipnotluMetin m={l} /></p>)}</blockquote>
+        : o.t === 'ust' ? <h3 class="ust-baslik"><DipnotluMetin m={o.m} /></h3>
+        : o.t === 'alt' ? <h4 class="alt-baslik"><DipnotluMetin m={o.m} /></h4>
+        : <p><DipnotluMetin m={o.m} /></p>
+      )}
+      {b.nolar.length > 0 && (
+        <section class="dipnotlar" aria-label={`${b.baslik} dipnotları`}>
+          <h3>Dipnotlar</h3>
+          <ol>{b.nolar.map((n) => <li id={`dn-${n}`}><b>{n}.</b> {dipnotMetni.get(n)} <a href={`#dr-${n}`} aria-label="Metne dön">↩</a></li>)}</ol>
+        </section>
+      )}
+    </article>
+  ))}
+</Temel>

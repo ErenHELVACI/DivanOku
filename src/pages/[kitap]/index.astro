@@ -15,7 +15,7 @@ const turler = [...new Set(k.siirler.map((s) => s.tur))];
     <div class="sair">{k.kunye.sair}</div>
     <h1>{k.kunye.baslik}</h1>
     <p class="soluk kucuk">Hazırlayan: {k.kunye.editor} · {k.kunye.baski}</p>
-    <p><a class="dugme" href={`/${k.kunye.slug}/sozluk/`}>Sözlük · {k.sozluk.filter((m) => m.tanim).length} madde →</a></p>
+    <p>{k.sair && <a class="dugme" href={`/${k.kunye.slug}/sair/`}>Şair hakkında</a>} <a class="dugme" href={`/${k.kunye.slug}/sozluk/`}>Sözlük · {k.sozluk.filter((m) => m.tanim).length} madde →</a></p>
   </header>
 
   <div class="araclar" role="search">

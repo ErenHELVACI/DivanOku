@@ -141,6 +141,21 @@ export function dogrula(kitap: string): Sonuc[] {
   const aykiri = [...bos.map((m) => `boş tanım: ${m}`), ...ayniTam.map((m) => `birebir yinelenen: ${m}`)];
   s.push({ kontrol: 'Sözlük', beklenen: 'yinelenen ve boş madde aykırı', bulunan: `${sozluk.length} madde, ${aykiri.length} aykırı`, tamam: aykiri.length === 0, ayrinti: aykiri });
 
+  // Şair/eser tanıtım bölümleri (varsa): şemadan geçer, metindeki dipnot işaretleri dipnot metinleriyle birebir eşleşir.
+  if (existsSync(`${d}/sair.json`)) {
+    const sair = oku(`${d}/sair.json`);
+    const Ajv = (Ajv2020 as any).default ?? Ajv2020;
+    const dogrulayici = new Ajv({ allErrors: true, strict: true }).compile(oku('veri/sema/sair.sema.json'));
+    const sorun: string[] = dogrulayici(sair) ? [] : (dogrulayici.errors ?? []).map((e: any) => `sair.json${e.instancePath}: ${e.message}`);
+    const isr: number[] = [];
+    for (const b of sair.bolumler) for (const o of b.ogeler) for (const m of o.m.matchAll(/⟦(\d+)⟧/g)) isr.push(Number(m[1]));
+    const metinNo = sair.dipnotlar.map((x: any) => x.no);
+    for (const n of isr) if (!metinNo.includes(n)) sorun.push(`işaret var, metin yok: ${n}`);
+    for (const n of metinNo) if (!isr.includes(n)) sorun.push(`metin var, işaret yok: ${n}`);
+    if (new Set(isr).size !== isr.length) sorun.push('bir dipnot işareti birden çok yerde');
+    s.push({ kontrol: 'Şair bilgisi', beklenen: 'şemadan geçer; işaret = dipnot', bulunan: sorun.length ? `${sorun.length} sorun` : `${sair.bolumler.length} bölüm, ${sair.dipnotlar.length} dipnot, tümü eşleşti`, tamam: sorun.length === 0, ayrinti: sorun });
+  }
+
   const ua = existsSync(`${d}/uyarilar.json`) ? oku(`${d}/uyarilar.json`) : [];
   s.push({ kontrol: 'Ayrıştırıcı uyarıları', beklenen: '0 uyarı', bulunan: `${ua.length} uyarı`, tamam: ua.length === 0,
     ayrinti: ua.map((u: any) => (u.siir ? `[${u.siir}] ` : '') + u.mesaj) });

@@ -1,0 +1,2494 @@
+{
+ "kaynakDosyalar": [
+  8
+ ],
+ "bolumler": [
+  {
+   "baslik": "ÜMMÎ SİNÂN HALVETÎ",
+   "ogeler": [
+    {
+     "t": "alt",
+     "m": "Hayatı"
+    },
+    {
+     "t": "p",
+     "m": "Mustafa Lütfî’nin Tuhfetü’l-Âsrî Fî Menâkıb-ı Mısrî adlı eserinde “tarîkat ve hakikatin rehberi”⟦1⟧ diye nitelenen Ümmî Sinân, Antalya’nın Elmalı kazasındandır.⟦2⟧ O, bir şiirinde üstadından, doğduğu ve yaşadığı Elmalı’dan söz eder; Elmalı ile manevî makamı arasında bir ilgi kurarak şöyle der:"
+    },
+    {
+     "t": "alinti",
+     "m": "Kâinâtı ârifâne seyr edenlerden recâm"
+    },
+    {
+     "t": "p",
+     "m": "Anlayan bu remzi rahmet okusun üstâdıma"
+    },
+    {
+     "t": "p",
+     "m": ".............................................."
+    },
+    {
+     "t": "p",
+     "m": "İsm-i a’zam bî-nişân ü lâ-mekân şehrindedir"
+    },
+    {
+     "t": "p",
+     "m": "Şehri Elmalı Sinân Ümmî okurlar adıma"
+    },
+    {
+     "t": "alinti",
+     "m": "Asıl adı Yusuf’tur. “Ümmî Sinân” veya “Sinân Ümmî” olarak tanınmıştır."
+    },
+    {
+     "t": "p",
+     "m": "Doğum tarihi kesin olarak belirlenemiyor. Kimi ipuçlarından hareket ederek tahmin edebiliyoruz."
+    },
+    {
+     "t": "p",
+     "m": "XVII. yüzyılın arif şairlerinden Niyâzî-i Mısrî, Ümmî Sinân’ın yetiştirdiği bir kişiliktir. Bazı eserlerinde mürşidinden de söz etmiştir. Birisi kendi el yazısıyla mevcut olan “Hâtırât”ı,⟦3⟧ diğeri de “İrfan Sofraları”⟦4⟧ dır. Niyâzî Mısri’nin, şeyhinin Hakk’a göçüne düştüğü tarih şiirinden anlaşılacağı üzere, Ümmî Sinân 1067/1657 tarihinde vuslat etmiştir. Bu tarihte Niyâzî-i Mısrî 40, Ümmi Sinan ise 90 yaşın üzerindedir. Doğum tarihini bulmak için vuslat tarihi olan 1657’den en az doksan yıl geri gitmemiz gerekmektedir. Bu da bize 1567 tarihini verir."
+    },
+    {
+     "t": "p",
+     "m": "Ailesine ilişkin bilgimiz sınırlıdır. Kendisinin eğitimini yürüttüğü Süleyman ve Selamî Halil adındaki iki oğlundan söz edilmektedir. Aynı zamanda şair olan Süleyman Efendi şiirlerinde “Hakirî” Selamî Efendi ise, “Selamî” mahlasını kullanmıştır.⟦5⟧"
+    },
+    {
+     "t": "p",
+     "m": "Elmalı’nın adıyla özdeşleştiği Ümmî Sinân, Mustafa Lütfî’nin alıntıladığı,"
+    },
+    {
+     "t": "alinti",
+     "m": "Zâhirde dırahşân u bâtında cevâhirdân"
+    },
+    {
+     "t": "p",
+     "m": "Elmalı deyip geçmez bir dil ki ola insân"
+    },
+    {
+     "t": "alinti",
+     "m": "beytinde belirtildiği üzere, gerçekten de, döneminde pek çok kişiyi etkilemiş, ilmiyle ve erdemiyle insanların gönlünde taht kurmuştur. Bu ünlü mutasavvıfın hayatı hakkında bildiklerimiz, şöhretine oranla oldukça azdır."
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân, Halvetî yolunun büyüklerinden Eroğlu Nûri’ye⟦6⟧ bağlıdır. Üstadı Eroğlu 1603 tarihinde vefat edince, onun yerine geçmiştir. Sadece tasavvufî eğitimle meşgul olmayıp, bugüne kadar gelen ve kendi adıyla anılan medresede⟦7⟧ dersler de vermiştir."
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân, 11. 3. 1657 tarihinde Elmalı’da Hakk’a vuslat etmiştir⟦8⟧. Vefatıyla ilgili elimizde bazı belgeler mevcuttur. Bunlardan birincisi, Niyâzî-i Mısrî’ye ait tarih manzumesidir. Elmalı İlçe Halk Kütüphanesi’ndeki bir Mecmûa içinde bulunan şiir, “Velehu Mersiyye-i Tarih-i Şeyh Ümmî Sinân k.s.” başlığıyla kayıtlıdır:⟦9⟧"
+    },
+    {
+     "t": "p",
+     "m": "Uğradı cân yine mâtem üstüne"
+    },
+    {
+     "t": "p",
+     "m": "Olmaya bir nâle nâlem üstüne"
+    },
+    {
+     "t": "alinti",
+     "m": "Cân u dil meksûf u mahsûf oldular"
+    },
+    {
+     "t": "p",
+     "m": "Kara gün doğdu bu hânem üstüne"
+    },
+    {
+     "t": "alinti",
+     "m": "Feyzimin suyu yerinden od çıkar"
+    },
+    {
+     "t": "p",
+     "m": "Yaraşır bana ki yanam üstüne"
+    },
+    {
+     "t": "alinti",
+     "m": "Yıkılıp meyhâne hiç mey kalmadı"
+    },
+    {
+     "t": "p",
+     "m": "Bir eşik bulam mı yatam üstüne"
+    },
+    {
+     "t": "alinti",
+     "m": "Geldi şeyhimin Niyâzî târîhi"
+    },
+    {
+     "t": "p",
+     "m": "San kıyâmet kopdu âlem üstüne⟦10⟧"
+    },
+    {
+     "t": "p",
+     "m": "Sene: 1067 (11. 3. 1657)"
+    },
+    {
+     "t": "alinti",
+     "m": "Ümmî Sinân’ın Hakk’a vuslatıyla ilgili ikinci belge, yine aynı Mecmûa’da bulunmaktadır. Oğlu Süleyman Efendi’nin kaydettiği bilgiler şöyledir:"
+    },
+    {
+     "t": "p",
+     "m": "“Merhûm ve mağfûrunleh Ümmî Sinân Efendi ismuhu Yusuf Efendi. Dâr-ı dünyâdan dâr-ı âhirete intikâl etdiği sene seb’a sittîn ü elf. Medfûn fî Elmalı. Sene 1067."
+    },
+    {
+     "t": "p",
+     "m": "Fî şehr-i Cemâziye’l-âhirin yigirmi beşinci gecesi vâki’ olup dünyâdan âhirete intikâl edip salı günü dahve-i kübrâdan hâk-i siyâha tapşırıldı. Nevverallahu merkadehu ve rahmetullahi ve kuddise sırrehu.”⟦11⟧"
+    },
+    {
+     "t": "p",
+     "m": "Süleyman Efendi’nin bu kaydından, Ümmî Sinân’ın vuslat tarihini ayrıntılı olarak öğrenme imkânı buluyoruz: 9-10 Nisan 1657, Salı."
+    },
+    {
+     "t": "p",
+     "m": "Üçüncü bir belge ise, Hüseyin Ayvansarayî’ye aittir. Ayvansarayî şöyle demektedir: “Sinân Ümmî Şeyh Mehmed Uşşakî-i Halvetî. Vefatına “Rızâ’ullah” (1068) tarihtir. Şeyh Mısrî’nin şeyhidir”.⟦12⟧ Ayvansarayî, bu bilgileri Tezkire’sinde de tekrar eder. Ancak bu eserinde kaydettiği iki mısralık “gül” redifli şiir, İbrahim Sinân Ümmî’ye aittir.⟦13⟧"
+    },
+    {
+     "t": "p",
+     "m": "Bir diğer belge Müstakimzâde Süleyman Sadettin’in “Mecelletü’n-Nisâb”ındaki kayıttır:"
+    },
+    {
+     "t": "p",
+     "m": "“Sinân Ümmî, eş-şeyh Yûsuf Sinâneddin el-Elmalı, şeyhü’l Mısrî Muhammed Niyâzî ve mürşiduhu Tuvuffiye kable’l-mie ba’del elfi ve huve gayru’ş-Şeyh Ümmî Sinân ve huve kadîmün minhu bi-mieti sene ev ezyed.”⟦14⟧"
+    },
+    {
+     "t": "p",
+     "m": "Müstakim-zâde’nin bu kaydında, şairin vefat tarihini 1100/M.1688 olarak belirlemesi doğru değildir."
+    },
+    {
+     "t": "p",
+     "m": "Buraya kadar elde ettiğimiz bilgilere dayanarak şunu söyleyebiliriz:"
+    },
+    {
+     "t": "p",
+     "m": "Yusuf Ümmî Sinân el-Halvetî’nin doğum yeri, erkânı, vefat tarihi ve mezarı bilinmekte, ailesi ve öğrenim hayatı ile ilgili bilgilerimiz ise yetersiz kalmaktadır."
+    },
+    {
+     "t": "p",
+     "m": "Elmalı’daki kabri ve âsitânesi, vefatından günümüze kadar bir ziyaret yeri olmuştur. Kendi adıyla anılan caminin duvarına bitişik olan eski türbe 1926’da yıkılmış, yeni türbe, yine camiye bitişik olarak 1959’da yapılmıştır.⟦15⟧"
+    },
+    {
+     "t": "alt",
+     "m": "Erkânı ve Silsilesi"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân, Halvetiyye erkânının Ahmediyye şubesine bağlı bir ariftir.⟦16⟧"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân, kendi silsilesini,"
+    },
+    {
+     "t": "alinti",
+     "m": "Mâye evvel Mustafâ’ya Hâlık’ın ihsânıdır"
+    },
+    {
+     "t": "p",
+     "m": "Cebrâil etdi edâ çünkim evvelden cânıdır"
+    },
+    {
+     "t": "alinti",
+     "m": "matlaıyla başlayan silsilenâmesinde anlatmaktadır.⟦17⟧"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân, divânında, seyr ü sülûkunu tamamlatan şeyhi Eroğlu’ndan şöyle söz eder:"
+    },
+    {
+     "t": "alinti",
+     "m": "Bu sırra erdiğim hâlim sorarsan"
+    },
+    {
+     "t": "p",
+     "m": "Baş kodum bir zamân yollar içinde"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân eydür Eroğlu derler"
+    },
+    {
+     "t": "p",
+     "m": "İsmini şeyhimin iller içinde"
+    },
+    {
+     "t": "p",
+     "m": "Yâ İlâhî sen meded eyle ki bu Ümmî Sinân"
+    },
+    {
+     "t": "p",
+     "m": "Aldanıp düşmeye tâ kim bunda mekr ile âla"
+    },
+    {
+     "t": "alinti",
+     "m": "Pîri hem azîzidir Eroğlu hürmetine kıl nazar"
+    },
+    {
+     "t": "p",
+     "m": "Tâ varıp dergâhına ol zâtını âsân bula"
+    },
+    {
+     "t": "alinti",
+     "m": "Ümmî Sinân, Eroğlu’na mensup olmakla birlikte, -Niyâzî-i Mısrî’nin İrfan Sofraları’nı istinsah eden öğrencisi Kârî-i Mısrî Mustafa Efendi’nin bir notundan öğrendiğimize göre- yedi ism-i şerifi Eroğlu’ndan tamamladıktan sonra, hilafet makamını (esmâsını) Vâhib Ümmî’nin Denizlili halifesi Mazhar Sultan’dan almıştır. Kâri-i Mısrî’nin verdiği bilgi şöyledir:"
+    },
+    {
+     "t": "p",
+     "m": "“.... Ümmî Sinân Elmalılı ks. hazretlerinin oğlu Murtaza Çelebi’den işittiğime göre Ümmî Sinân ks yedi usûl-i esmâyı önce Sultan Eroğlu (ks.)’ndan almış, onun vefâtından sonra da fürû’-ı esmâ-i İlâhiyyeyi de Abdülvehhâb Sultan’ın halifesi Mazhar Sultan’dan terakkî eylemiştir. Müellif Hazretleri (Niyâzî-i Mısrî) ise, esmâyı Şeyhi Ümmî Sinân Elmalılı ks.’dan almış, Onun vefatından sonra da, iki ismi Ümmî Sinân’ın halifesi Kütahyalı Müslihüddin Efendi’den terakkî eylemiştir. “.⟦18⟧"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân Hazretleri’nin divanında Şeyh Ömer mazharî ile ilgili biri medhiye diğeri mersiye iki şiiri bulunmaktadır."
+    },
+    {
+     "t": "alinti",
+     "m": "Eyâ cânlar içinde cân fedâdır yoluna cân baş"
+    },
+    {
+     "t": "p",
+     "m": "Be-hakk-ı âyet-i Kur’ân fedâdır yoluna cân baş"
+    },
+    {
+     "t": "p",
+     "m": "Gönüller derdine dermân fedâdır yoluna cân baş"
+    },
+    {
+     "t": "p",
+     "m": "Efendim Mazharî Sultân fedâdır yoluna cân baş"
+    },
+    {
+     "t": "p",
+     "m": "Arzûlayıp geldim yine kapına"
+    },
+    {
+     "t": "p",
+     "m": "Efendim Mazharî Sultân kandasın"
+    },
+    {
+     "t": "p",
+     "m": "Yüz sürmek isteriz senin tapına"
+    },
+    {
+     "t": "p",
+     "m": "Efendim Mazharî Sultân kandasın"
+    },
+    {
+     "t": "alt",
+     "m": "Eserleri"
+    },
+    {
+     "t": "p",
+     "m": "Edebiyat tarihimizde, Ümmî Sinân mahlasıyla ünlenmiş iki sufi şair vardır. Bu iki şair, birbiriyle karıştırılagelmiştir.⟦19⟧ Bunlardan -şu anda konu edindiğimiz arifin dışındaki- Ümmî Sinân’ın asıl adı İbrahim’dir. Halvetî ekolünün Sinâniyye koluna mensuptur. Karaman veya Bursa’da doğmuş, 1568 tarihinde İstanbul’da vefat etmiştir. Bu mutasavvıf şairin, şiirlerini içeren bir mecmuası bulunmaktadır.⟦20⟧ Söz konusu şiirler, Yunus Emre tarzıyla yazılmıştır ve Yusuf Ümmî Sinân’ın şiirleriyle karışacak kadar benzerlik göstermektedir"
+    },
+    {
+     "t": "p",
+     "m": "Hüseyin Vassaf Bey, İbrahim Ümmî Sinân hakkında yazmış olduğu makalesinde, Yusuf Ümmî Sinân ile karıştırılmaması için şöyle bir not düşmüştür :"
+    },
+    {
+     "t": "p",
+     "m": "“Bir de Sinân Ümmî vardır ki, Konya vilayetinde Elmalı Kasabası’ndan neş’et etmiş, kibâr-ı ehlullahdan bir zâtdır. Hazret-i Mısrî Niyâzî’nin mürşid-i mükerremidir. Müretteb bir divânı olup Bayezid’de yazma nüshası Kütüphâne-i Umumîde olduğu gibi evvelce tab‘ edilmiş olduğu da nüsha-i matbu‘asından anlaşılmışdır. Mütala‘asını erbâbı aşka tavsiye ederim.”⟦21⟧"
+    },
+    {
+     "t": "p",
+     "m": "Yusuf Ümmî Sinân’ın iki eseri vardır:"
+    },
+    {
+     "t": "alinti",
+     "m": "1. Kutbü’l-Maânî:"
+    },
+    {
+     "t": "p",
+     "m": "İnsânî hakikatin tenezzül ve tekamülünü, yani devir konusunu anlatan tasavvufî mensûr bir eserdir. Müellif hattı Elmalı’da mevcut iken kaybolmuştur. Bilinen tek nüshası İzmir Millî Kütüphanesi’ndedir."
+    },
+    {
+     "t": "p",
+     "m": "Bu nüshanın özellikleri şöyledir: Nu: 2011; vr. 63b-74a, müstensih; ?; İstinsah tarihi; ?; st: 17; yz. nesih; eb. 210x155; 140x85. Yazmanın içinde 9 adet risale bulunmaktadır. Kutbü’l-Maânî beşinci risaledir. Tamamı 11 varaktır.⟦22⟧ Yazmada, Sinân Ümmî’nin üstadı Eroğlu’nun da tasavvufî bir risalesi mevcuttur. Son varakta, Sinân b. İbrahim kaydı bulunmaktadır."
+    },
+    {
+     "t": "p",
+     "m": "Eser, salat u selamdan sonra “Amma ba’d: Şöyle ma’lûm ola ki, bu risâle insanın âlem-i ervâhdan âlem-i suflîye ne tarîkle nüzûl edip ve ne tarîkle urûc edeceğin beyân eder.” şeklinde devam etmektedir."
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân’a göre Allah önce Muhammedî nûru yaratmış, ona esmâ usulünü telkin etmiştir. Bu tevhîdin ve esmânın nuruyla da bütün âlemleri yaratmış(yaratmakta)dır. Müellif, eserinde insanî hakikatin, iniş ve yükseliş mertebelerini bir bütün olarak semâ kavramıyla açıklamaktadır."
+    },
+    {
+     "t": "p",
+     "m": "Eserde nüzûl sırası şöyle verilmiştir:"
+    },
+    {
+     "t": "p",
+     "m": "l- Hakîkat-i Muhammediyye,"
+    },
+    {
+     "t": "p",
+     "m": "2- Hakâyık-ı İnsân,"
+    },
+    {
+     "t": "p",
+     "m": "3- Âlem-i Lâhût,"
+    },
+    {
+     "t": "p",
+     "m": "4- Âlem-i Ceberût,"
+    },
+    {
+     "t": "p",
+     "m": "5- Âlem-i Melekût,"
+    },
+    {
+     "t": "p",
+     "m": "6- Arş,"
+    },
+    {
+     "t": "p",
+     "m": "7- Kürsî,"
+    },
+    {
+     "t": "p",
+     "m": "8- Yedi Gök,"
+    },
+    {
+     "t": "p",
+     "m": "9- Heyûla,"
+    },
+    {
+     "t": "p",
+     "m": "10- Tabâyi’-hâne ve meni."
+    },
+    {
+     "t": "p",
+     "m": "11- Ana rahmi,"
+    },
+    {
+     "t": "p",
+     "m": "12- Cenin ve Çocuk."
+    },
+    {
+     "t": "p",
+     "m": "Semâ kelimesini “devr” anlamında kullanan Ümmî Sinân, bu kavramı üç bölüme ayırır, her bölümü ayrıca kendi içinde üçer kısımda değerlendirir :"
+    },
+    {
+     "t": "p",
+     "m": "1- Semâ-i ulâ:"
+    },
+    {
+     "t": "p",
+     "m": "Bu semâ, insanın âlem-i ervâhtaki semâıdır."
+    },
+    {
+     "t": "p",
+     "m": "a- Hakikat-i Muhammediyye’nin semâı,"
+    },
+    {
+     "t": "p",
+     "m": "b- Hakâyık-ı insânın (ayân-ı sâbitelerin) semâı,"
+    },
+    {
+     "t": "p",
+     "m": "c- Hakâyık-ı insânın melekût âlemindeki semâı."
+    },
+    {
+     "t": "p",
+     "m": "2- Semâ-i vustâ:"
+    },
+    {
+     "t": "p",
+     "m": "Bu semâ, insanın mülk âlemindeki semâıdır."
+    },
+    {
+     "t": "p",
+     "m": "a- Nefsânî ve Şeytânî semâ,"
+    },
+    {
+     "t": "p",
+     "m": "b- Cismânî ve nûrânî semâ,"
+    },
+    {
+     "t": "p",
+     "m": "c- Müridlere has, rûhanî ve insânî sırrın rücuuyla ilgili semâ."
+    },
+    {
+     "t": "p",
+     "m": "3- Semâ-i uhrâ:"
+    },
+    {
+     "t": "p",
+     "m": "Bu semâ, insanın âhiret âlemindeki semâıdır."
+    },
+    {
+     "t": "p",
+     "m": "a- Nefsî insanın âhiretteki cezaya dayalı semâı,"
+    },
+    {
+     "t": "p",
+     "m": "b- Talip ve âriflerin âhiretteki mükafata dayalı semaı,"
+    },
+    {
+     "t": "p",
+     "m": "c- İnsanî sırlarına (ayân-ı sâbiteye) dönen Hak dostlarının “Hazîre-i kuds”te (Allah’ın dostlarının rûhlarının toplanacakları mahalde) zât tecellîsiyle yapacakları semâ.⟦23⟧"
+    },
+    {
+     "t": "alinti",
+     "m": "2. Divân-ı İlâhiyât:"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân’ın ilahîleri mürettep bir divânda toplanmış ve Yalvaçlı Şeyh Süleyman Efendi tarafından eski harflerle bastırılmıştır.⟦24⟧ Yazma nüshaları bazı kütüphanelerimizde bulunmaktadır.⟦25⟧ Tespit edebildiklerimiz şunlardır:"
+    },
+    {
+     "t": "p",
+     "m": "1- İstanbul Ün. Ktp. Ty. Nu: 912. İstinsah tarihi: Yok. Müstensih: Ziyâî."
+    },
+    {
+     "t": "p",
+     "m": "2- İstanbul Ün. Ktp. Ty. Nu: 512.; 128 yp."
+    },
+    {
+     "t": "p",
+     "m": "3- Bâyezid Ktp. Ty. Nu: 3356 (B). İstinsah tarihi: 1298.; 130 yp. Müstensih: Süleyman Ef."
+    },
+    {
+     "t": "p",
+     "m": "4- Süleymaniye Ktp. Haşim Paşa Bl. Nu: 70 (M.F.A. A/3936). İstinsah tarihi: 1304. Müstensih: Ali Haydar ibn Ahmed Muhtar."
+    },
+    {
+     "t": "p",
+     "m": "5- Elmalı İlçe Halk Ktp. Nu: 43/2, vr. 37b-163a. İstinsah tarihi: 1138/1725."
+    },
+    {
+     "t": "p",
+     "m": "6- M. H. Bayrı Nüshası.⟦26⟧"
+    },
+    {
+     "t": "p",
+     "m": "7- Kütahya Vahit Paşa İl halk Ktp. Nu: 1315; Mecmûatü’r-Resâil’in 90-221. sayfalarının içinde."
+    },
+    {
+     "t": "p",
+     "m": "8- Konya, Koyunoğlu Ktp. yz. Nu: 14035."
+    },
+    {
+     "t": "p",
+     "m": "Yusuf Ümmî Sinân’ın bilgelik tarihimiz içinde yer edinmesini sağlayan ve şöhretini temin eden eseri, kuşkusuz Divân-ı İlâhiyat’ıdır. Divândaki şiirler, hurûf-ı hecâ (elif-be) ile tertip edilmiştir. Bu eserde, iki yüz kadar ilahî ve nutuk mevcuttur. İçinde, az da olsa, tasavvufî içerikli tevhîd, münâcât, iştişfâ, na’t, devriyye, hayvânnâme türlerinde şiir bulunmaktadır."
+    },
+    {
+     "t": "p",
+     "m": "Yusuf Ümmî Sinân, şiirlerinde çoğunlukla aruz veznini kullanmış, az da olsa, heceyle ilahîler yazmıştır. Aruzlu şiirlerinde vezin hataları mevcuttur."
+    },
+    {
+     "t": "p",
+     "m": "Şiirlerinde Ümmî Sinân veya Sinân Ümmî ismini mahlas olarak kullanmaktadır."
+    },
+    {
+     "t": "p",
+     "m": "İlahîlerinde Yunus Emre ve onun ilk takipçileri Kaygusuz Abdal, Hacı Bayram-ı Veli, Eşrefoğlu Rumî gibi, hakîkî aşkı, nefis terbiye ve mertebelerini, insan-ı kâmil anlayışını, genel olarak Allah ve Peygamber sevgisini dile getirmektedir. Varlığın birliği anlıyışına mensup diğer ariflerde olduğu gibi derin bir Allah, varlık ve insan bilinci vardır. O, bu anlayışını âşıkâne-lirik bir üslupla aktarmaktadır. Şiirler, sade sayılabilecek bir Türkçe ile kaleme alınmakla birlikte, basit değildir. Yerel motifler ve tasavvufî kavramlar, ilahîlerdeki sadeliği, derinlik ve edebîlik kazandırmaktadır."
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân kendinden önce ve sonra gelen bazı mutasavvıf şairler gibi mizahtan da hoşlanmış olacak ki, daha çok sosyal ve tasavvufî eleştiri aracı olarak kullanılan ve bugüne kadar pek işlenmeyen “hayvânnâme” türünde de şiir kaleme almıştır. Divânında bir örneği bulunan hayvânnâme, mizahî, mecazî ve tasavvufî bir tenkid olup, “nefsî” insanı anlatır."
+    },
+    {
+     "t": "alinti",
+     "m": "Leylek binâ yapmağa cem’ eylemiş çamırı"
+    },
+    {
+     "t": "p",
+     "m": "Kurna düzer kabakdan hammâmcılık zamîri"
+    },
+    {
+     "t": "alinti",
+     "m": "matla’lı şiir, Yunus Emre’nin “Çıkdım erik dalına...” matla’ıyla başlayan ünlü şathiyyesinin ve mecazî yoğunluğu olan buna benzer şiirlerin devamı niteliğindedir."
+    },
+    {
+     "t": "alinti",
+     "m": "Kaplu kaplu bağalar kanatlanmış uçmağa"
+    },
+    {
+     "t": "p",
+     "m": "Kertenkele dirilmiş Kırım suyun içmeğe"
+    },
+    {
+     "t": "alinti",
+     "m": "diyen Kaygusuz Abdal,⟦27⟧"
+    },
+    {
+     "t": "alinti",
+     "m": "Seyr eyledim cihânı halk bend ile giriftâr"
+    },
+    {
+     "t": "p",
+     "m": "Âzâdlar bölüğünde yok derdlilere tîmâr"
+    },
+    {
+     "t": "p",
+     "m": "Gökden top yuvarlandı koz ağacına düşdü"
+    },
+    {
+     "t": "p",
+     "m": "Yadlar bilişler çokluk savaşuban yağmalar⟦28⟧"
+    },
+    {
+     "t": "alinti",
+     "m": "diyen Şeyh Sahfî Mehmed (Bursavî) gibi; Ümmî Sinân da, aynı geleneğe uyup, kendinden önceki mutasavvıf şairlerin izini takip etmiştir. Şiirin tamamı şöyledir:"
+    },
+    {
+     "t": "alinti",
+     "m": "Leylek binâ yapmağa cem’ eylemiş çamırı"
+    },
+    {
+     "t": "p",
+     "m": "Kurna düzer kabakdan hammâmcılık zamîri"
+    },
+    {
+     "t": "alinti",
+     "m": "Kartal kâdılık almış saksağan muhzır olmuş"
+    },
+    {
+     "t": "p",
+     "m": "Kurbağa yeşil geymiş eydür menem emîri"
+    },
+    {
+     "t": "alinti",
+     "m": "Kuzgun karpuz eylemiş bir ardıcın başına"
+    },
+    {
+     "t": "p",
+     "m": "Çıkmış bir su boğası uğurlayıp kemiri"
+    },
+    {
+     "t": "alinti",
+     "m": "Derdik kavak yaprağın kaftân edip giymeğe"
+    },
+    {
+     "t": "p",
+     "m": "Sırtında kara keçe kürk geyersin samurî"
+    },
+    {
+     "t": "alinti",
+     "m": "Un yoğurduk hamîrden etmek edip satmağa"
+    },
+    {
+     "t": "p",
+     "m": "Key sakın gâfil olma ekşidirsin hamîri"
+    },
+    {
+     "t": "alinti",
+     "m": "Kuyumcusun kalpazan ustagersin iş bozan"
+    },
+    {
+     "t": "p",
+     "m": "Altûn gümüş satarsın bakır ile demiri"
+    },
+    {
+     "t": "alinti",
+     "m": "Ümmî Sinân bu sözün ma’nîsini anlayan"
+    },
+    {
+     "t": "p",
+     "m": "İbrâhim’in pûtunu bulsa yıkar yemiri"
+    },
+    {
+     "t": "p",
+     "m": "Tasavvuf edebiyatımızın güçlü temsilcilerinden olan şairimizin tesiri özellikle bulunduğu çevre olan Antalya, Elmalı ve çevresinde, Afyon, Denizli, Uşak ve Kütahya gibi şehirlerde yoğunluk kazanmaktadır.⟦29⟧ Daha sonra, öğrencisi Niyâzî-i Mısrî’nin va’z ve sohbetlerinin etkisiyle Ümmî Sinân’ın şöhreti saray çevresine kadar ulaşmıştır. Devlet seçkinlerinin isteği üzerine, oğullarından birini Mısrî’yle birlikte bir defa İstanbul’a göndermiştir."
+    },
+    {
+     "t": "p",
+     "m": "Saray çevresine kadar uzanan bu etkinin dışında meclislerde okuna gelen bestelenmiş ilahîleriyle, yaygın olağanüstü hâlleriyle, ahlak ve fazileti, yetiştirdiği olgun ve sanatkâr sûfi şairleriyle o, edebiyat tarihimizin dikkate değer kişiliklerinden birisidir."
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân’ın bir başka önemli özelliği, müderris olmasıdır. Gündüzleri kendi adıyla anılan medresede dersler vermiş; geceleri de kendi evinde irfani sohbetleriyle sûfileri eğitmiştir. Bu açıdan O, şeriat ve tarikat alimleri arasındaki gerilime dâhil olmamıştır. Ümmî Sinân, bu özelliğiyle de, tarihte pek az görülen bir olgunluk sergilemektedir."
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân’ın anılması gereken bir başka özelliği daha vardır. O da, çağında, toplumdan, toplumun dertlerinden kendini mükellef tutması ve sorumluluk şuuruyla hareket etmesidir. Ümmî Sinân, bütün kâmil mutasavvıflarda görüldüğü üzere, hayatın içinde yaşayan ve topluma önemli tesirler bırakan sûfîlerden birisidir. O, gerek yaşayışıyla ve gerekse şiirleriyle İslam irfanını ortaya koyarken, aynı zamanda çağını eleştirmekten de geri kalmamıştır. Şu şiir, onun Divân’ı içinde bu tür eleştirilerinin en dikkati çekenlerinden birisidir:"
+    },
+    {
+     "t": "alinti",
+     "m": "Ey gönül bak kâinâta gör cihânın hâlini"
+    },
+    {
+     "t": "p",
+     "m": "Âhir olmuşdur zamânın va’desi gözle bunu"
+    },
+    {
+     "t": "alinti",
+     "m": "Zirâ çok türlü alâmet zâhir oldu bir birin"
+    },
+    {
+     "t": "p",
+     "m": "Maşrık u mağrib arası giydi cehlin zulmünü"
+    },
+    {
+     "t": "alinti",
+     "m": "Fakîrin hâlin sorarsan pür-şikâyet Tanrı’dan"
+    },
+    {
+     "t": "p",
+     "m": "Hırs u nefsin iğvâsıyla şeytân almış sabrını"
+    },
+    {
+     "t": "alinti",
+     "m": "Hubb-ı dünyâ balçığıyla yaptı hayrın kapısın"
+    },
+    {
+     "t": "p",
+     "m": "Kaplamıştır hırs u gaflet ağniyânın gönlini"
+    },
+    {
+     "t": "alinti",
+     "m": "Âlimin ilmin sorarsan şöyledir bahsi müdâm"
+    },
+    {
+     "t": "p",
+     "m": "Ebced öğrense bir oğlan satmak ister ilmini"
+    },
+    {
+     "t": "alinti",
+     "m": "Hırs-ı dünyânın elinden bak mürîdin cengine"
+    },
+    {
+     "t": "p",
+     "m": "Açmak isterler meşâyıh perdesinden sırrını"
+    },
+    {
+     "t": "alinti",
+     "m": "Pîrlerin gönlünde yoktur hergiz ölüm korkusu"
+    },
+    {
+     "t": "p",
+     "m": "Sanki şol hubb-ı zamândır gözler isen kavlini"
+    },
+    {
+     "t": "alinti",
+     "m": "Ne hatunlarda hayâ var ne kız-oğlanda edeb"
+    },
+    {
+     "t": "p",
+     "m": "Ne yiğitlerde kemâlât var göreler fi’lini"
+    },
+    {
+     "t": "alinti",
+     "m": "Mescidin kapılarına yaptı evler ankebût"
+    },
+    {
+     "t": "p",
+     "m": "Çün cemâat yok imâmın te’sîr eylemez ünü"
+    },
+    {
+     "t": "alinti",
+     "m": "Pâdişâhlar dürdü adlin defterin yaktı oda"
+    },
+    {
+     "t": "p",
+     "m": "Saçtılar beğler hakîmler halka zulmün odunu"
+    },
+    {
+     "t": "alinti",
+     "m": "Zulm ü gafletten cihân uş tutuşup par par yanar"
+    },
+    {
+     "t": "p",
+     "m": "Gussasından kimse bilmez kimsenin ahvâlini"
+    },
+    {
+     "t": "alinti",
+     "m": "Ârif olan bildi iblîs çerisinin cengini"
+    },
+    {
+     "t": "p",
+     "m": "Her kişinin üstüne kıldı havâle cehlini"
+    },
+    {
+     "t": "alinti",
+     "m": "Fâil-i mutlakdır ol Hak kün fe kân emrindedir"
+    },
+    {
+     "t": "p",
+     "m": "Her ne isterse kılar ol kimse yıkmaz hükmünü"
+    },
+    {
+     "t": "alinti",
+     "m": "Lutf anındır kahr anındır derd anın dermân anın"
+    },
+    {
+     "t": "p",
+     "m": "Lutf içün kıldı havâle kullarına kahrını"
+    },
+    {
+     "t": "alinti",
+     "m": "Ey Sinân Ümmî nazar kıl olma tevhîdden cüdâ"
+    },
+    {
+     "t": "p",
+     "m": "Pâdişâhlar pâdişâhı pek bilir ef’âlini"
+    },
+    {
+     "t": "alt",
+     "m": "Halifeleri"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân, kendinden sonra, tasavvufî eğitime yetkili önemli sûfiler yetiştirmiştir. Bunların bazıları aynı zamanda şairdir."
+    },
+    {
+     "t": "p",
+     "m": "Bunlardan biri Kütahyalı Gülaboğlu Askerî (ö. 1693, Afyon)’dir.⟦30⟧ Tasavvufî bir divânı, bir mesnevîsi ve Sülûku’s Sâlikîn fi Beyânı Esrâri’l-Ârifîn adlı mensur bir eseri olan Askerî’nin şu şiirleri, onun şair kişiliği hakkında fikir verebilecek niteliktedir:"
+    },
+    {
+     "t": "alinti",
+     "m": "Tâ ezel kalû belâdan eyledim ikrâr-ı aşk"
+    },
+    {
+     "t": "p",
+     "m": "Öldürürlerse beni ben etmezem inkâr-ı aşk"
+    },
+    {
+     "t": "alinti",
+     "m": "Zâil olmaz haşre dek kalbimde bu efkâr-ı aşk"
+    },
+    {
+     "t": "p",
+     "m": "Her nefes verdikçe zikrim dâimâ ezkâr-ı aşk"
+    },
+    {
+     "t": "alinti",
+     "m": "Ârifim fark etmezem hiç Ka’be’yi puthâneden"
+    },
+    {
+     "t": "p",
+     "m": "Âşık u rindim cihânda çıkmazam meyhâneden"
+    },
+    {
+     "t": "alinti",
+     "m": "Bâde-i câm-ı elesti nûş edip cânâneden"
+    },
+    {
+     "t": "p",
+     "m": "Mest-i lâ-ya‘kil olup oldum ebed hammâr-ı aşk"
+    },
+    {
+     "t": "alinti",
+     "m": "Rûh-ı Mûsâ’ya tecellî nâgehân edip zuhûr"
+    },
+    {
+     "t": "p",
+     "m": "Pâre pâre etti varlık dâğını mânend-i Tûr"
+    },
+    {
+     "t": "alinti",
+     "m": "Kalmadı zulmet siyâhı şeş cihet hep oldu nûr"
+    },
+    {
+     "t": "p",
+     "m": "Gün gibi doğdu vücûdum şehrine envâr-ı aşk"
+    },
+    {
+     "t": "alinti",
+     "m": "Askerî der kimse bilmez bizi şâha mahremiz"
+    },
+    {
+     "t": "p",
+     "m": "Biz sarây-ı bezm-i vahdet sohbetine hem-demiz"
+    },
+    {
+     "t": "alinti",
+     "m": "Zahme-i künh-i celâlin satvetidir nağmemiz"
+    },
+    {
+     "t": "p",
+     "m": "Bâğ-ı Kudsün bülbülüyüz eyleriz izhâr-ı aşk"
+    },
+    {
+     "t": "alinti",
+     "m": "Bahâr eyyâmı gül mevsimi geldi"
+    },
+    {
+     "t": "p",
+     "m": "Gel ey bülbül gel e efgân edelim"
+    },
+    {
+     "t": "alinti",
+     "m": "Cihân ezhâr ile hep cümle doldu"
+    },
+    {
+     "t": "p",
+     "m": "Gel ey bülbül gel e efgân edelim"
+    },
+    {
+     "t": "alinti",
+     "m": "Akıtıp çeşmimizden kanlı yaşı"
+    },
+    {
+     "t": "p",
+     "m": "Fedâ edip yolunda cân u başı"
+    },
+    {
+     "t": "alinti",
+     "m": "Hakîkat gülşeninde güle karşı"
+    },
+    {
+     "t": "p",
+     "m": "Gel ey bülbül gel e efgân edelim"
+    },
+    {
+     "t": "alinti",
+     "m": "Seninle gel beri hem-râz olalım"
+    },
+    {
+     "t": "p",
+     "m": "Nevâ-yı aşka hem dem-sâz olalım"
+    },
+    {
+     "t": "alinti",
+     "m": "Yanıp dertleşip ehl-i râz olalım"
+    },
+    {
+     "t": "p",
+     "m": "Gel ey bülbül gel e efgân edelim"
+    },
+    {
+     "t": "alinti",
+     "m": "Verelim şevk ile aşkdan nişânı"
+    },
+    {
+     "t": "p",
+     "m": "Edelim rûz u şeb âh ü figânı"
+    },
+    {
+     "t": "alinti",
+     "m": "Sadâ vü sıytımız tutsun cihânı"
+    },
+    {
+     "t": "p",
+     "m": "Gel ey bülbül gel e efgân edelim"
+    },
+    {
+     "t": "alinti",
+     "m": "Olup bu Askerî miskîne hem-dem"
+    },
+    {
+     "t": "p",
+     "m": "Derûnu derdine gel eyle merhem"
+    },
+    {
+     "t": "alinti",
+     "m": "Visâl-i yâr içün derd ile her dem"
+    },
+    {
+     "t": "p",
+     "m": "Gel ey bülbül gel e efgân edelim"
+    },
+    {
+     "t": "alinti",
+     "m": "Âlem-i lâhûtdan nâsût iline"
+    },
+    {
+     "t": "p",
+     "m": "Cihânı sırr ile seyrâna geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Bülbül-i kudsîyim vahdet gülüne"
+    },
+    {
+     "t": "p",
+     "m": "Şakıyı şakıyı reyhâna geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Ben kıdem şehrinin sultânı idim"
+    },
+    {
+     "t": "p",
+     "m": "Hakîkat dürrünün şol kânı idim"
+    },
+    {
+     "t": "alinti",
+     "m": "Küntü kenz sırrının mihmânı idim"
+    },
+    {
+     "t": "p",
+     "m": "Ahsen-i takvîme insâna geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Mahabbet bâdını estirip Hudâ"
+    },
+    {
+     "t": "p",
+     "m": "Redd edip vahdetden eyledi cüdâ"
+    },
+    {
+     "t": "alinti",
+     "m": "Anın’çün cânımı eyleyip fedâ"
+    },
+    {
+     "t": "p",
+     "m": "Visâli ıydına kurbâna geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Şükür yine Hak’tan ihsan erişdi"
+    },
+    {
+     "t": "p",
+     "m": "Nefsim rûha tâbi’ olup barışdı"
+    },
+    {
+     "t": "alinti",
+     "m": "Rûhum rûhullaha erip karışdı"
+    },
+    {
+     "t": "p",
+     "m": "Katreyim deryâ-yı ummâna geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Askerî bağlayıp eğnine postu"
+    },
+    {
+     "t": "p",
+     "m": "Arayıp kendinde bulmuşdur dostu"
+    },
+    {
+     "t": "alinti",
+     "m": "Yârimin elinden câm-ı elesti"
+    },
+    {
+     "t": "p",
+     "m": "Nûş edip ezelden mestâne geldim"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân’ın bir başka öğrencisi Mehmed Efendi’dir. Mehmed Efendi Uşaklıdır. Ümmî Sinân, 1647’de onu Uşak’ta ziyaret etmiştir. Niyâzî-i Mısrî’nin Ümmî Sinân’a, bu ziyaret sırasında intisap ettiğini biliyoruz. Niyâzî, Mehmed Efendi için bir vefat tarihi düşürmüştür:"
+    },
+    {
+     "t": "alinti",
+     "m": "Hüsn-i hâtemine Niyâzî dedi târîhin anın"
+    },
+    {
+     "t": "p",
+     "m": "Allah Allah dedi vü kıldı bekâya irtihâl⟦31⟧"
+    },
+    {
+     "t": "alinti",
+     "m": "Ümmî Sinân’ın bir başka öğrencisi Muslihüddin Mustafa Uşşakî’dir. Hayatı hakkında fazla bilgimiz yoktur. Elmalı’daki 43 numaralı Mecmûa’nın 218-307 sayfaları arasında mürettep bir divânı bulunmaktadır. Bu divândaki şecereden öğrendiğimiz kadarıyla Muslihüddin Mustafa’nın soyu Hz. Ebubekir’e dayanmaktadır. Şiirlerinde “Şeyhî” mahlasını kullanmıştır. Söz konusu Mecmûa’daki -bazıları mürşid Ümmî Sinân medhiyesi olan- ilahilerinden biri şöyledir:"
+    },
+    {
+     "t": "alinti",
+     "m": "Ey dosta giden yârenler"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "p",
+     "m": "Dostun cemâlin görenler"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "alinti",
+     "m": "İlm-i ledünni bilenler"
+    },
+    {
+     "t": "p",
+     "m": "Esrâr-ı sırra erenler"
+    },
+    {
+     "t": "p",
+     "m": "Pîr nazarında duranlar"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "alinti",
+     "m": "Her dem bahâr dost illeri"
+    },
+    {
+     "t": "p",
+     "m": "Taze açılmış gülleri"
+    },
+    {
+     "t": "p",
+     "m": "Şol esen seher yelleri"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "alinti",
+     "m": "Kim ki aşk bahrine dalar"
+    },
+    {
+     "t": "p",
+     "m": "İlm ü irfân gelir dolar"
+    },
+    {
+     "t": "p",
+     "m": "Çağlayuban akan sular"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "alinti",
+     "m": "Çarh urup döner felekler"
+    },
+    {
+     "t": "p",
+     "m": "Hakk‘a arz eder dilekler"
+    },
+    {
+     "t": "p",
+     "m": "Hakk’ın seyyâhı melekler"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "alinti",
+     "m": "Geçer geceler gündüzler"
+    },
+    {
+     "t": "p",
+     "m": "Ederler Hakk‘a niyâzlar"
+    },
+    {
+     "t": "p",
+     "m": "Devr edip dönen yıldızlar"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "alinti",
+     "m": "Şeyh derdine düşen inler"
+    },
+    {
+     "t": "p",
+     "m": "Dostun irfânların dinler"
+    },
+    {
+     "t": "p",
+     "m": "Ol ile varan gemiler"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "alinti",
+     "m": "Dervîşlerin yollar gözler"
+    },
+    {
+     "t": "p",
+     "m": "Senin hûb cemâlin gözler"
+    },
+    {
+     "t": "p",
+     "m": "Lutf eylen beğler gâziler"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "alinti",
+     "m": "Çünki takdîr işin işler"
+    },
+    {
+     "t": "p",
+     "m": "Şeyhî pîre cân bağışlar"
+    },
+    {
+     "t": "p",
+     "m": "Ol semte uğrayan kuşlar"
+    },
+    {
+     "t": "p",
+     "m": "Bizden pîre selâm eylen"
+    },
+    {
+     "t": "alinti",
+     "m": "Ümmî Sinân’ın öğrencilerinden Uşaklı Ahmed Efendi de, Matlaî mahlasıyla aruz ve heceyle şiirler yazan bir şairdir. Elmalı’daki 43 numaralı Mecmûa’da elli bir şiiri bulunmaktadır⟦32⟧. Şu ilâhîler Onundur :"
+    },
+    {
+     "t": "alinti",
+     "m": "Çünki nakkâş-ı ezel nakşında sûret gösterir"
+    },
+    {
+     "t": "p",
+     "m": "Anın ol mahbûb-ı dil mahbûb-ı sûret gösterir"
+    },
+    {
+     "t": "alinti",
+     "m": "Hüsnünü ol gösterüben hem sevip hem sevdirir"
+    },
+    {
+     "t": "p",
+     "m": "Nite a’mâ göre anı hüsn-i sûret gösterir"
+    },
+    {
+     "t": "alinti",
+     "m": "Nûr-ı şemsi ta’rîf etsen nice bile görmeyen"
+    },
+    {
+     "t": "p",
+     "m": "Nûr içinde nûra bak kim nurda sûret gösterir"
+    },
+    {
+     "t": "alinti",
+     "m": "Kim ki mahbûb-ı dili sevdiyse anı ezelî"
+    },
+    {
+     "t": "p",
+     "m": "Ol muhabbet-i ezelden anda sûret gösterir"
+    },
+    {
+     "t": "alinti",
+     "m": "Sûreti ko zâhidâ gel görmek istersen anı"
+    },
+    {
+     "t": "p",
+     "m": "Matlaî her neye baksan anda sûret gösterir"
+    },
+    {
+     "t": "p",
+     "m": "Cihâna gelmeğin işi"
+    },
+    {
+     "t": "p",
+     "m": "Âdem demine ermekdir"
+    },
+    {
+     "t": "p",
+     "m": "Bırakıp gayrı teşvîşi"
+    },
+    {
+     "t": "p",
+     "m": "Âdem demine ermekdir"
+    },
+    {
+     "t": "alinti",
+     "m": "Felekler anınçün döner"
+    },
+    {
+     "t": "p",
+     "m": "Melekler hod ana iner"
+    },
+    {
+     "t": "p",
+     "m": "Bilmeyen şeytânla yanar"
+    },
+    {
+     "t": "p",
+     "m": "Âdem demine ermekdir"
+    },
+    {
+     "t": "alinti",
+     "m": "Şânında dendi rûhunâ"
+    },
+    {
+     "t": "p",
+     "m": "Niçin gezersin düşün â"
+    },
+    {
+     "t": "p",
+     "m": "Hak‘la olmağa âşinâ"
+    },
+    {
+     "t": "p",
+     "m": "Âdem demine ermekdir"
+    },
+    {
+     "t": "alinti",
+     "m": "Âdem‘de yokla âdemi"
+    },
+    {
+     "t": "p",
+     "m": "Âdem‘de bil cümle gamı"
+    },
+    {
+     "t": "p",
+     "m": "Kendinde bulmağa anı"
+    },
+    {
+     "t": "p",
+     "m": "Âdem demine ermekdir"
+    },
+    {
+     "t": "alinti",
+     "m": "Cümle âlem Âdem özler"
+    },
+    {
+     "t": "p",
+     "m": "Âdem‘den ol Hakk‘ı gözler"
+    },
+    {
+     "t": "p",
+     "m": "Kulağına girmez sözler"
+    },
+    {
+     "t": "p",
+     "m": "Âdem demine ermekdir"
+    },
+    {
+     "t": "alinti",
+     "m": "Ölmezden evvel ölmeğe"
+    },
+    {
+     "t": "p",
+     "m": "Bunda hesâbın görmeğe"
+    },
+    {
+     "t": "p",
+     "m": "Kişi nefsini bilmeğe"
+    },
+    {
+     "t": "p",
+     "m": "Âdem demine ermekdir"
+    },
+    {
+     "t": "alinti",
+     "m": "Ey Matlaî aç gözünü"
+    },
+    {
+     "t": "p",
+     "m": "Tevhîde döndür sözünü"
+    },
+    {
+     "t": "p",
+     "m": "Bilmeğe kendi özünü"
+    },
+    {
+     "t": "p",
+     "m": "Âdem demine ermekdir"
+    },
+    {
+     "t": "alinti",
+     "m": "Mâsivâdan dûr eden"
+    },
+    {
+     "t": "p",
+     "m": "Nefesidir kâmilin"
+    },
+    {
+     "t": "p",
+     "m": "Kalbin içre Tûr eden"
+    },
+    {
+     "t": "p",
+     "m": "Nefesidir kâmilin"
+    },
+    {
+     "t": "alinti",
+     "m": "Sana seni bildiren"
+    },
+    {
+     "t": "p",
+     "m": "Ölmezden ön öldüren"
+    },
+    {
+     "t": "p",
+     "m": "Elin alıp kaldıran"
+    },
+    {
+     "t": "p",
+     "m": "Nefesidir kâmilin"
+    },
+    {
+     "t": "alinti",
+     "m": "Anâsırdan geçiren"
+    },
+    {
+     "t": "p",
+     "m": "Dost iline uçuran"
+    },
+    {
+     "t": "p",
+     "m": "Âb-ı hayât içiren"
+    },
+    {
+     "t": "p",
+     "m": "Nefesidir kâmilin"
+    },
+    {
+     "t": "alinti",
+     "m": "Sır iline yol veren"
+    },
+    {
+     "t": "p",
+     "m": "Tâze tâze gül veren"
+    },
+    {
+     "t": "p",
+     "m": "Bülbül gibi dil veren"
+    },
+    {
+     "t": "p",
+     "m": "Nefesidir kâmilin"
+    },
+    {
+     "t": "alinti",
+     "m": "Mest ü hayrân eyleyen"
+    },
+    {
+     "t": "p",
+     "m": "Nefsi kurbân eyleyen"
+    },
+    {
+     "t": "p",
+     "m": "Cânı uryân eyleyen"
+    },
+    {
+     "t": "p",
+     "m": "Nefesidir kâmilin"
+    },
+    {
+     "t": "alinti",
+     "m": "Matlaî’yi cân eden"
+    },
+    {
+     "t": "p",
+     "m": "Cânlara cânân eden"
+    },
+    {
+     "t": "p",
+     "m": "Âleme sultân eden"
+    },
+    {
+     "t": "p",
+     "m": "Nefesidir kâmilin"
+    },
+    {
+     "t": "alinti",
+     "m": "Müftî Dervîş veya Müftî Şeyh olarak bilinen Çavdaroğlu Ahmed Efendi de, Ümmî Sinân’ın yetiştirdiği sûfilerdendir. Onunla ilgili en yeni bilgi, Gaybî Sun’ullah’ın yazmış olduğu Mes’ele-i Sülûk⟦33⟧ adlı risâlenin içinde tespit edilmiştir.⟦34⟧ Bu risâlenin dibâcesinde verilen bilgiye göre Ümmî Sinân’ın öğrencilerinden ve Niyâzî-i Mısrî’nin beş arkadaşından birisi olan Müftî Dervîş, Gaybî Sun’ullah’ın babasıdır. Söz konusu Risâle’nin girişinde şu bilgiler vardır."
+    },
+    {
+     "t": "p",
+     "m": "“Mezkûr Sun’ullah Efendi Müftî Dervîş denmekle ma’rûf eş-Şeyh Ahmed Efendi ibn eş-Şeyh Beşir Efendi’nin oğludur. Mezbûr Şeyh Ahmed Efendi Medine-i Kütahya’ya on sekiz yıl müftî olup ba’dehu müftiliği terk edip Elmalılı Ümmî Sinân Efendi Hazretlerinden bey’at eyleyip teslim-i küllî olmuşdur Âhirü’l-emr irşâd olup tarîk-i halvetiyyede kâmil mürşid oldu. Ammâ evvel müftî iken gâyet münkirînden idi. İnkârdan geçip ikrâra geldiği kıssa-i dırazdır. Bu mahalde zikr olması mümkin değildir. Fe-fehm.”⟦35⟧"
+    },
+    {
+     "t": "p",
+     "m": "Aynı yerde, hâşiyede Müftî Dervîş’e ait olan şu mısralar da kaydedilmiştir:"
+    },
+    {
+     "t": "alinti",
+     "m": "Müftî Dervîş’in münkirlik"
+    },
+    {
+     "t": "p",
+     "m": "Başından geçdi ol körlük"
+    },
+    {
+     "t": "alinti",
+     "m": "Budur Allah’a şükürlük"
+    },
+    {
+     "t": "p",
+     "m": "Yâ ben nice dönmeyeyim⟦36⟧"
+    },
+    {
+     "t": "alinti",
+     "m": "Müftî Dervîş’in aruz ve heceyle yazdığı 172 şiirden oluşan bir divân’ı vardır.⟦37⟧ Şiirlerinde Müftî, Müftî Dervîş ve az da olsa Çavdaroğlu, Çavdaroğlu Ahmed mahlaslarını kullanmıştır. Çavdaroğlu, divân’ından öğrendiğimize göre, Fusûs, Fütûhât, İhyâ, Nefehât gibi eserlerden haberdârdır. Mezarı Kütahya Kabristanı (Musalla)’nda bulunmaktadır. Manevî silsilesini anlattığı şiirinde üstâdı Ümmî Sinân’dan şu şekilde söz eder:"
+    },
+    {
+     "t": "alinti",
+     "m": "Hepisinin feyzi gelsin isteyen şeyhinde bulsun⟦38⟧"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân himmet kılsın bizi onlardan ayırma"
+    },
+    {
+     "t": "alinti",
+     "m": "Çavdaroğlu’nun şairliğini göstermek üzere buraya dört şiirini kaydediyoruz:"
+    },
+    {
+     "t": "alinti",
+     "m": "Bilmezem ne vardır şu esen yelde⟦39⟧"
+    },
+    {
+     "t": "p",
+     "m": "Her esdikçe doğrar cân u ciğerim"
+    },
+    {
+     "t": "p",
+     "m": "Cân gövdeye sığmaz hayretler basar"
+    },
+    {
+     "t": "p",
+     "m": "Her esdikçe doğrar cân u ciğerim"
+    },
+    {
+     "t": "alinti",
+     "m": "Bilmezem cân bundan ne koku duyar"
+    },
+    {
+     "t": "p",
+     "m": "Câna türlü türlü hâletler koyar"
+    },
+    {
+     "t": "p",
+     "m": "Cünûn u hayretler cân ilin boyar"
+    },
+    {
+     "t": "p",
+     "m": "Her esdikçe doğrar cân u ciğerim"
+    },
+    {
+     "t": "alinti",
+     "m": "Dokundukça cân u teni yırtsam der"
+    },
+    {
+     "t": "p",
+     "m": "Hiç bilmezem n’itsem ne işlesem der"
+    },
+    {
+     "t": "p",
+     "m": "Başım alsan döne döne çıksam der"
+    },
+    {
+     "t": "p",
+     "m": "Her esdikçe doğrar cân u ciğerim"
+    },
+    {
+     "t": "alinti",
+     "m": "Gözleyip esdikçe gülün hâlini"
+    },
+    {
+     "t": "p",
+     "m": "Dilim tâbir etmekde âcizdir kanı"
+    },
+    {
+     "t": "p",
+     "m": "Bilmem dosta tutgurur mu vaslını"
+    },
+    {
+     "t": "p",
+     "m": "Her esdikçe doğrar cân u ciğerim"
+    },
+    {
+     "t": "alinti",
+     "m": "Bilmezem nedir bu bana gelenler"
+    },
+    {
+     "t": "p",
+     "m": "Yel estikçe böyle câna dolanlar"
+    },
+    {
+     "t": "p",
+     "m": "Müfti Dervîşe deyversin bilenler"
+    },
+    {
+     "t": "p",
+     "m": "Her esdikçe doğrar cân u ciğerim"
+    },
+    {
+     "t": "alinti",
+     "m": "Zikr edeyin Rabb’im seni⟦40⟧"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyü inleyü"
+    },
+    {
+     "t": "p",
+     "m": "Derdin ile doyur beni"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyü inleyü"
+    },
+    {
+     "t": "alinti",
+     "m": "Derdini derman bileyin"
+    },
+    {
+     "t": "p",
+     "m": "Hüsnüne hayran olayın"
+    },
+    {
+     "t": "p",
+     "m": "Zâr u sergerdân olayın"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyü inleyü"
+    },
+    {
+     "t": "alinti",
+     "m": "Bakmayam dünyâ âhirne"
+    },
+    {
+     "t": "p",
+     "m": "Meyl eylemeyem vaslına"
+    },
+    {
+     "t": "p",
+     "m": "Ko gark olayın hazrete"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyü inleyü"
+    },
+    {
+     "t": "alinti",
+     "m": "Şöyle Mecnûn eyle beni"
+    },
+    {
+     "t": "p",
+     "m": "Bilmeyeyin beni seni"
+    },
+    {
+     "t": "p",
+     "m": "Dost diyeyin dün ü güni"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyü inleyü"
+    },
+    {
+     "t": "alinti",
+     "m": "Yok eyle bu cân u tenim"
+    },
+    {
+     "t": "p",
+     "m": "Helâl olsun sana kanım"
+    },
+    {
+     "t": "p",
+     "m": "Göklere boyansın ünüm"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyü inleyü"
+    },
+    {
+     "t": "alinti",
+     "m": "Gözlerimi giryân eyle"
+    },
+    {
+     "t": "p",
+     "m": "Ciğerimi biryân eyle"
+    },
+    {
+     "t": "p",
+     "m": "Cânı aşka kurbân eyle"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyü inleyü"
+    },
+    {
+     "t": "alinti",
+     "m": "Derdinden gayrısı yokdur"
+    },
+    {
+     "t": "p",
+     "m": "Beni derdin ile tut dur"
+    },
+    {
+     "t": "p",
+     "m": "Derdin bana iyilikdir"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyi inleyi"
+    },
+    {
+     "t": "alinti",
+     "m": "Habîb’inin şefâ’atin"
+    },
+    {
+     "t": "p",
+     "m": "Lâyık gör bana himmetin"
+    },
+    {
+     "t": "p",
+     "m": "Doldur câna muhabbetin"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyü inleyü"
+    },
+    {
+     "t": "alinti",
+     "m": "Müfti Dervîş eydür ey şah"
+    },
+    {
+     "t": "p",
+     "m": "Kabûl et duâmı Allâh"
+    },
+    {
+     "t": "p",
+     "m": "Eyle işim âh ile vâh"
+    },
+    {
+     "t": "p",
+     "m": "Mevlâm inleyü inleyü"
+    },
+    {
+     "t": "alinti",
+     "m": "Halîfe-i Yezdânî⟦41⟧"
+    },
+    {
+     "t": "p",
+     "m": "Hem sûret-i Rahmânî"
+    },
+    {
+     "t": "p",
+     "m": "Sırr-ı seb’a’l-mesânî"
+    },
+    {
+     "t": "p",
+     "m": "Sultân Pîr’im Azîz’im"
+    },
+    {
+     "t": "alinti",
+     "m": "Dertlilerin dermânı"
+    },
+    {
+     "t": "p",
+     "m": "Garîblerin mihmânı"
+    },
+    {
+     "t": "p",
+     "m": "Âşıkların seyrânı"
+    },
+    {
+     "t": "p",
+     "m": "Cânım Pîr’im Azîz’im"
+    },
+    {
+     "t": "alinti",
+     "m": "Nûr-ı pâk-i Sübhânî"
+    },
+    {
+     "t": "p",
+     "m": "Evc-i burc-ı irfânî"
+    },
+    {
+     "t": "p",
+     "m": "Şem’-i Şâh-ı Merdânî"
+    },
+    {
+     "t": "p",
+     "m": "Sultân Pîr’im Azîz’im"
+    },
+    {
+     "t": "alinti",
+     "m": "Hayâlin ile doldum"
+    },
+    {
+     "t": "p",
+     "m": "Ben beni yavı kıldım"
+    },
+    {
+     "t": "p",
+     "m": "Bilmezem hîç ne oldum"
+    },
+    {
+     "t": "p",
+     "m": "Cânım Pîr’im Azîz’im"
+    },
+    {
+     "t": "alinti",
+     "m": "Kemter gedâ kullara"
+    },
+    {
+     "t": "p",
+     "m": "Nazar etmen anlara"
+    },
+    {
+     "t": "p",
+     "m": "Yaraşır sultânlara"
+    },
+    {
+     "t": "p",
+     "m": "Cânım Pîr’im Azîz’im"
+    },
+    {
+     "t": "alinti",
+     "m": "Nazarında durayın"
+    },
+    {
+     "t": "p",
+     "m": "Dâim boynum eğeyin"
+    },
+    {
+     "t": "p",
+     "m": "Her dem seni anayın"
+    },
+    {
+     "t": "p",
+     "m": "Sultân Pîr’im Azîz’im"
+    },
+    {
+     "t": "alinti",
+     "m": "Fahrı yürür âşıkın"
+    },
+    {
+     "t": "p",
+     "m": "Ma’şûka hayrân ola"
+    },
+    {
+     "t": "p",
+     "m": "Dâim hayrân et beni"
+    },
+    {
+     "t": "p",
+     "m": "Sultân Pîr’im Azîz’im"
+    },
+    {
+     "t": "alinti",
+     "m": "Müftî Dervîş hastayı"
+    },
+    {
+     "t": "p",
+     "m": "Nefs elinden yastayı"
+    },
+    {
+     "t": "p",
+     "m": "İrgür bu dil-besteyi"
+    },
+    {
+     "t": "p",
+     "m": "Sultân Pîr’im Azîz’im"
+    },
+    {
+     "t": "alinti",
+     "m": "Pîre doğru giden yollar⟦42⟧"
+    },
+    {
+     "t": "p",
+     "m": "Bizden Pîre selâm eyle"
+    },
+    {
+     "t": "p",
+     "m": "Pîre doğru esen yeller"
+    },
+    {
+     "t": "p",
+     "m": "Bizden Pîre selâm eyle"
+    },
+    {
+     "t": "alinti",
+     "m": "Eşiğinde tozan tozlar"
+    },
+    {
+     "t": "p",
+     "m": "Cemâlini gören gözler"
+    },
+    {
+     "t": "p",
+     "m": "Göz dikip bakan yıldızlar"
+    },
+    {
+     "t": "p",
+     "m": "Bizden Pîre selâm eyle"
+    },
+    {
+     "t": "alinti",
+     "m": "Gözlerimden akan yaşlar"
+    },
+    {
+     "t": "p",
+     "m": "Bağrımda türeyen başlar"
+    },
+    {
+     "t": "p",
+     "m": "Üstüne doğan güneşler"
+    },
+    {
+     "t": "p",
+     "m": "Bizden Pîre selâm eyle"
+    },
+    {
+     "t": "alinti",
+     "m": "Devr eyleyen yazlar kışlar"
+    },
+    {
+     "t": "p",
+     "m": "Sohbete varan kardaşlar"
+    },
+    {
+     "t": "p",
+     "m": "Üstüne uğrayan kuşlar"
+    },
+    {
+     "t": "p",
+     "m": "Bizden Pîre selâm eyle"
+    },
+    {
+     "t": "alinti",
+     "m": "Üstünde dönen felekler"
+    },
+    {
+     "t": "p",
+     "m": "Pîrin hizmetini bekler"
+    },
+    {
+     "t": "p",
+     "m": "Tevhîde varan melekler"
+    },
+    {
+     "t": "p",
+     "m": "Bizden Pîre selâm eyle"
+    },
+    {
+     "t": "alinti",
+     "m": "Gurbette gönlüm kim eğler"
+    },
+    {
+     "t": "p",
+     "m": "Hasret ciğerimi dağlar"
+    },
+    {
+     "t": "p",
+     "m": "Ol semte ulaşan dağlar"
+    },
+    {
+     "t": "p",
+     "m": "Bizden Pîre selâm eyle"
+    },
+    {
+     "t": "alinti",
+     "m": "Müftî Dervîş derdimendi"
+    },
+    {
+     "t": "p",
+     "m": "Pek tutsun himmet kemendi"
+    },
+    {
+     "t": "p",
+     "m": "Allah’ım güzel Efendi"
+    },
+    {
+     "t": "p",
+     "m": "Bizden Pîre selâm eyle"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân’ın en şöhretli öğrencisi Niyâzî-i Mısrî’dir.⟦43⟧ Mısrî, Ümmî Sinân’ın yetiştirdiği içinde kendisinin de bulunduğu beş öğrencisini, “beş er” diye niteler:"
+    },
+    {
+     "t": "alinti",
+     "m": "Biz beş er idik çıkdık bir demde yola girdik⟦44⟧"
+    },
+    {
+     "t": "p",
+     "m": "Kırk yılda pîre erdik bu sohbete erince"
+    },
+    {
+     "t": "alinti",
+     "m": "Niyâzî-i Mısrî, bu kişilerin içinde önemli bir yere sahiptir. Ümmî Sinân’dan sonra, manevî makamı o temsil etmiştir. Fikirleriyle, yazmış olduğu otuzdan fazla tasavvufî eseri ve bilhassa Yûnus Emre edâsındaki divânıyla insanlar üzerinde büyük tesirler bırakmış bir şairdir."
+    },
+    {
+     "t": "p",
+     "m": "Niyâzî-i Mısrî, gerek İrfan Sofraları’nda, gerekse ilahîlerinde Ümmî Sinân’a mensubiyetinden çeşitli vesilelerle söz eder. Ümmî Sinân’a intisabı vesilesiyle şu gazelini kaleme almıştır:"
+    },
+    {
+     "t": "alinti",
+     "m": "Aşkın meyine ben kana geldim⟦45⟧"
+    },
+    {
+     "t": "p",
+     "m": "Şevkin oduna hoş yana geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Şem’-i tevhîdi gördüm yakılmış"
+    },
+    {
+     "t": "p",
+     "m": "Gitdi karârım pervâne geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Halka-i zikri kurmuş âşıklar"
+    },
+    {
+     "t": "p",
+     "m": "Ben de sahnında cevlâna geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Mecnûn’um bugün Leylî derdinden"
+    },
+    {
+     "t": "p",
+     "m": "N’eylerim aklı dîvâne geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Derdi cânânın açdı yareler"
+    },
+    {
+     "t": "p",
+     "m": "Bağrım üstünde dermâna geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Ümmî Sinân’ın hâk-i pâyine"
+    },
+    {
+     "t": "p",
+     "m": "Sürmeğe yüzüm sultâna geldim"
+    },
+    {
+     "t": "alinti",
+     "m": "Yaremi bildim yârimden imiş"
+    },
+    {
+     "t": "p",
+     "m": "Bunda Niyâzî Lokmân’a geldim"
+    },
+    {
+     "t": "p",
+     "m": "Mısrî’nin, Bursa’da ikamet ettiği günlerde gördüğü bir rüyâ ile hayatının seyri değişmiştir.⟦46⟧:"
+    },
+    {
+     "t": "alinti",
+     "m": "Dost illerinin menzili key âlî göründü⟦47⟧"
+    },
+    {
+     "t": "p",
+     "m": "Derd-i dile derman olan Elmalı göründü"
+    },
+    {
+     "t": "alinti",
+     "m": "mısralarıyla başlayan şiirinin devamında:"
+    },
+    {
+     "t": "alinti",
+     "m": "Ten Ya’kûb’unun gözleri açılsa aceb mi"
+    },
+    {
+     "t": "p",
+     "m": "Can Yûsuf’unun gül yüzünün hâli göründü"
+    },
+    {
+     "t": "alinti",
+     "m": "diyerek üstadının ismiyle Hz. Yusuf’un temsil ettiği manevî makam olan rûh hâlini, tevriyeli bir üslupla ele alıp işler. Dolayısıyla Elmalı’nın maddî çehresiyle Yusuf Ümmî Sinân’ın manevî şahsiyetini özdeşleştirir. Bu şiirini Hâtırat’ına da kaydeden Niyâzî-i Mısrî, “Azîzim Ümmî Sinân Hazretlerini ziyarete giderken Elmalı göründükde tulû’ etmiş idi bu şiir” diye bir açıklamada bulunur.⟦48⟧"
+    },
+    {
+     "t": "p",
+     "m": "Niyâzî-i Mısrî, 1647 senesinde bağlandığı Ümmî Sinân’dan, dokuz sene (Mehmed Şemseddin Efendi’ye göre 12 seneye yakın)⟦49⟧ süren eğitimden sonra 1656 senesinde mezun olmuştur."
+    },
+    {
+     "t": "p",
+     "m": "Mısrî, bir şiirinde, bütün bilgi ve kabiliyetinin üstadından kaynaklandığını, elde ettiği her türlü bilgi ve sırrın kendisine onun tarafından verildiğini anlatır. O, “Eylesin Allah çok tahiyyâtı” matla mısraıyla başlayan şiirini başından geçen şöyle bir olay vesilesiyle söylemiştir."
+    },
+    {
+     "t": "p",
+     "m": "Manevi eğitimini tamamlamak üzere olduğu günlerinden birinde, bir cuma günü üstadının isteği üzerine halka nasihat etmek üzere kürsüye çıkar. Va’za başlayacağı sırada dili tutulur ve konuşamaz. Bunun Ümmî Sinân’dan kaynaklandığını anlar ve tevazuyla yüzüne bakar. Bu esnada dili çözülür ve konuşmaya başlar. Bunun üzerine va’z sırasında doğaçlama olarak şu şiiri söyler:"
+    },
+    {
+     "t": "alinti",
+     "m": "Eylesin Allah çok tahiyyâtı⟦50⟧"
+    },
+    {
+     "t": "p",
+     "m": "Ana kim verdi ilm-i gâyâtı"
+    },
+    {
+     "t": "alinti",
+     "m": "Gizli sultândır sırr-ı Sübhân’dır"
+    },
+    {
+     "t": "p",
+     "m": "Mürşid-i cândır hep makâlâtı"
+    },
+    {
+     "t": "alinti",
+     "m": "Kutb-ı halâyık bahr-ı hakâyık"
+    },
+    {
+     "t": "p",
+     "m": "Ferd-i câmi’dir hep makâmâtı"
+    },
+    {
+     "t": "alinti",
+     "m": "Ey nice cânlar yarını bekler"
+    },
+    {
+     "t": "p",
+     "m": "Bulmadık derler bunda lezzâtı"
+    },
+    {
+     "t": "alinti",
+     "m": "Arayıp bulan kulluğun kılan"
+    },
+    {
+     "t": "p",
+     "m": "Telkînin alan buldu hâlâtı"
+    },
+    {
+     "t": "alinti",
+     "m": "Şehri Elmalı cânda bulmalı"
+    },
+    {
+     "t": "p",
+     "m": "Ümmî Sinân’dır şöhret-i zâtı"
+    },
+    {
+     "t": "alinti",
+     "m": "Şeyhini Hak bil ey Niyâzî kim"
+    },
+    {
+     "t": "p",
+     "m": "Pîr yüzündendir Hak hidâyâtı"
+    },
+    {
+     "t": "p",
+     "m": "Hâtırât’ında zaman zaman Ümmî Sinân’dan söz eder. Bu anekdotlardan birisi şöyledir:"
+    },
+    {
+     "t": "p",
+     "m": "“Bizim azîzimiz kendi şeyhi (Mazhar Efendi)’nin oğlu Zuhûrî Efendi derler idi. Elmalı’ya geliyor haberin işidince karşı çıkmışlar, uzaktan birbirlerini görünce atlarından inmişler yüz üstüne düşmüşler. Sürüne sürüne kavuşup iki tarafdan olan dervîşler bir garrâ koparmışlar. Gûyâ kıyametden bir gün olmuş...”⟦51⟧"
+    },
+    {
+     "t": "p",
+     "m": "Bu satırlardan Ümmî Sinân’ın son derece mütevazı bir kişi olduğu anlaşılmaktadır."
+    },
+    {
+     "t": "p",
+     "m": "Diğer taraftan, Ümmî Sinân’ın yetiştirdiği öğrencilerinden birisi de Şair Askerî’dir. Askerî, aslen Kütahyalıdır. Ancak görevli olarak Afyon’a gönderilmiş ve burada yaşamıştır. Askerî’nin Divân’ında da, Ümmî Sinân ile ilgili bazı şiirler bulunmaktadır. Genellikle övgü mahiyetinde olan bu şiirlerin birinde şöyle diyor:"
+    },
+    {
+     "t": "alinti",
+     "m": "Halvetîyiz biz şevk ile devrânımız vardır bizim⟦52⟧"
+    },
+    {
+     "t": "p",
+     "m": "Her dem safâ vü zevk ile handânımız vardır bizim"
+    },
+    {
+     "t": "alinti",
+     "m": ".........................................................."
+    },
+    {
+     "t": "p",
+     "m": "Askerî eydür dem be-dem Hakk’ın şükür ihsânına"
+    },
+    {
+     "t": "alinti",
+     "m": "Ümmî Sinân gibi ulu bürhânımız vardır bizim"
+    },
+    {
+     "t": "p",
+     "m": "Bir başka şiirinde şeyhinden şöyle bahseder:"
+    },
+    {
+     "t": "alinti",
+     "m": "Cismimin şehrinde mihmândır pîrim Ümmî Sinân⟦53⟧"
+    },
+    {
+     "t": "p",
+     "m": "Gönlümün tahtında sultândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Varlığım cümle hayâtım sıhhatim oldur benim"
+    },
+    {
+     "t": "p",
+     "m": "Cismime cân câna cânândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Nûş edip enfâs-i kudsün bulmuşuz âb-ı hayât"
+    },
+    {
+     "t": "p",
+     "m": "Çeşmi şol âb-ı hayvândır pirim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Aşk gülzârında durmaz mürg-i cân eyler figân"
+    },
+    {
+     "t": "p",
+     "m": "Bâğ-ı cânda verd-i reyhândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Âsumân-ı dilde doğup zulmeti nûr eyledi"
+    },
+    {
+     "t": "p",
+     "m": "Burc-ı cânda şems-i tâbândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Gitmedik râh-i dalâlete hamdüli’llah çok şükür"
+    },
+    {
+     "t": "p",
+     "m": "Râh-ı Hak’da bana bürhândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Mahzen-i esrâr-ı vahdet ma’den-i ilm-i ledün"
+    },
+    {
+     "t": "p",
+     "m": "Tevhîd-i deryâ-yı irfândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Kibriyâ-yı Hızr’a ol mahrem olupdur sırr ile"
+    },
+    {
+     "t": "p",
+     "m": "Zât-ı âla a’zimü’ş-şândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Âsitânın bekleyenler dü cihânda oldu şâd"
+    },
+    {
+     "t": "p",
+     "m": "Bir atâ-bahş sâhib-ihsândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Dopdoludur on sekiz bin âlemin etvârına"
+    },
+    {
+     "t": "p",
+     "m": "Kanda baksam ayn-ı ayândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Âşinâ-yı ezelîdir rûh ana olmaz cüdâ"
+    },
+    {
+     "t": "p",
+     "m": "Yâr-i bâkî vü kadîmândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Kalbimin emrâzına kat kat devâlar eyledi"
+    },
+    {
+     "t": "p",
+     "m": "Der Muhammed derde dermândır pîrim Ümmî Sinân"
+    },
+    {
+     "t": "alinti",
+     "m": "Kütahya yakınlarındaki Aslan’da oturan Subhî mahlaslı bir sûfi şair de, Ümmî Sinân tarafından yetiştirilmiştir. Subhî’nin Ümmî Sinân için yazdığı bir övgü şiiri şöyledir:"
+    },
+    {
+     "t": "alinti",
+     "m": "Velâyet tahtının sultânıyımış⟦54⟧"
+    },
+    {
+     "t": "p",
+     "m": "Yetişdim hâline Ümmî Sinân’ın"
+    },
+    {
+     "t": "p",
+     "m": "Ma’rifet kânının ummânıyımış"
+    },
+    {
+     "t": "p",
+     "m": "Dalmışım bahrine Ümmî Sinân’ın"
+    },
+    {
+     "t": "alinti",
+     "m": "Kâmil mürşid olan tâlibin yoklar"
+    },
+    {
+     "t": "p",
+     "m": "Gerçek âşık olan gediğin bekler"
+    },
+    {
+     "t": "p",
+     "m": "Katarlanmış katarına âşıklar"
+    },
+    {
+     "t": "p",
+     "m": "Sârbânım yoluna Ümmî Sinân’ın"
+    },
+    {
+     "t": "alinti",
+     "m": "Gerçek mürşid olan izini izler"
+    },
+    {
+     "t": "p",
+     "m": "Pür-ma’rifet olan aslını özler"
+    },
+    {
+     "t": "p",
+     "m": "Bir hümâyım gözüm dîdârı gözler"
+    },
+    {
+     "t": "p",
+     "m": "Konmuşum koluna Ümmî Sinân’ın"
+    },
+    {
+     "t": "alinti",
+     "m": "Elhak Pîr Muhammed deyip giderim"
+    },
+    {
+     "t": "p",
+     "m": "Ma’rifet cevherin aldım satarım"
+    },
+    {
+     "t": "p",
+     "m": "Dost bağında biten gülde öterim"
+    },
+    {
+     "t": "p",
+     "m": "Bülbülüm gülüne Ümmî Sinân’ın"
+    },
+    {
+     "t": "alinti",
+     "m": "Evliyâ Enbiyâ Hakk’ın rehberi"
+    },
+    {
+     "t": "p",
+     "m": "Muhammed’dir cümlesinin serveri"
+    },
+    {
+     "t": "p",
+     "m": "Subhî ummânında buldu gevheri"
+    },
+    {
+     "t": "p",
+     "m": "Tahsîn kemâline Ümmî Sinân’ın"
+    },
+    {
+     "t": "alinti",
+     "m": "Buraya kadar verdiğimiz bilgilerden anlaşılacağı üzere, Ümmî Sinân, XVII. asrın ilk yarısında yetişen Türk Tasavvuf Tarihi ve Edebiyatının büyük ve önemli temsilcilerinden birisidir. Şair, bilgin, ahlakçı ve eğitimci taraflarıyla dikkate değer bir şahsiyettir. Tasavvuf edebiyatının, Yunus Emre’yle başlayan aşıkane-arifane şiir tarzının önemli izleyici ve temsilcilerinden birisidir. Kendisinden sonra da Niyâzî-i Mısrî gibi âbidevi bir şahsiyet, arif bir şair yetiştirerek çağına damgasını vurmuştur."
+    }
+   ]
+  }
+ ],
+ "dipnotlar": [
+  {
+   "no": 1,
+   "metin": "Mustafa Lütfî, Tuhfetü’l-Asrî Fî Menakıbı Mısrî, Bursa 1309, s. 20."
+  },
+  {
+   "no": 2,
+   "metin": "Sadık Vicdanî, Tomar-ı Turuk-ı Aliyye (Tarikatler Ve Silsileleri), Haz. İrfan Gündüz, İstanbul 1995, s. 248; Nail Tuman, Tuhfe-i Nâilî, (Haz. M. Tatcı-C. Kurnaz), C. I, Ankara 2001, s. 453."
+  },
+  {
+   "no": 3,
+   "metin": "Niyazî-i Mısrî, Kelimat-ı Kudsiyye, Bursa İl Halk Ktp. Orhan Gazi Bl. No: 690."
+  },
+  {
+   "no": 4,
+   "metin": "Niyazî-i Mısrî, İrfan Sofraları, Çev. Süleyman Ateş, Ankara 1971."
+  },
+  {
+   "no": 5,
+   "metin": "Ekiz, A.g.e., s. 55-60. Nüzûlî’nin Süleyman Efendi hakkında bir şiiri vardır. (Bkz. Divân-ı Mustafa Nüzûlî, s. 55-56)."
+  },
+  {
+   "no": 6,
+   "metin": "Süleyman Fikri, Antalya Livası Tarihi, İstanbul 1340-1342, s. 185; Ekiz, A.g.e., s. 20; Bursalı Mehmed Tahir, Osmanlı Müellifleri, C. I, İstanbul 1333, s. 26; Bursalı M. Tahir; Aydın Vilayetine Mensup Meşâyıh, Ulemâ, Şuarâ ve Müverrihînin Terâcim-i Ahvâli, İzmir 1905."
+  },
+  {
+   "no": 7,
+   "metin": "Medresenin planı için bkz. Abdullah Ekiz, Dünden Bugüne Elmalı, s. 81."
+  },
+  {
+   "no": 8,
+   "metin": "Nail Tuman, “Şeyh Muhammed Yusuf Sinaneddin, Elmalı, vefatı H. 1078/ M.1667. Elmalı’da medfundur. (...) Vefeyât-ı Ayvansarayî’nin, vefat tarihini H. 1068/M. 1658 göstermesi yanlıştır,” demektedir (Tuhfe-i Nâilî, C. I, s. 453). Tuman, burada Ayvansarayî’nin Mecmûa-i Tevârih’iyle Vefeyât’ındaki bilgileri karıştırmıştır. Söz konusu tarih için bkz. Hafız Hüseyin Ayvansarayî, Mecmûa-i Tevarih, Haz. Fahri Ç. Derin-Vahid Çabuk, İstanbul 1985, s. 231. Ayvansarayî şöyle demektedir: “Sinan Ümmî Şeyh Mehmed Uşşakî-i Halvetî. Vefatına “Rızâ’ullah” (1068) tarihtir. Şeyh Mısrî’nin şeyhidir”. Ayvansarayî’nin Tezkire’sinde de verilen tarih H. 1068’dir. Bkz. Ayvansarayî, Tezkire-i Ayvansarayî, Süleymaniye Ktp. Uşşâkî Tekkesi Bl. Nu: 1107, vr. 40a; Vasfi Mahir Kocatürk ise vefat tarihini 1664 olarak göstermektedir (Tekke Şiiri Antolojisi, Ankara 1968, s. 317). Bu vefat tarihi, Abdullah Ekiz’in (Sinan Ümmî ve Ahfadı, Ankara 1962, s. 13.) ve bizim yaptığımız araştırmalardan anlaşılacağı üzere 1657 olacaktır (Mustafa Tatcı, Elmalılı Ümmî Sinan Halvetî, Elmalı, 1993, s. 3); Fehmi Kuyumcu, Evliyanın Dilinden, s. 395."
+  },
+  {
+   "no": 9,
+   "metin": "Mecmûa, Elmalı İlçe Halk Ktp. Ty. Nu: 43/2, s. 400. Mecmûa’nın Abdullah Ekiz tarafından tespit edilen künyesi şöyledir: 21x15 cm. Meşin kaplı, 19/21 satırlı, 320 yaprak, İstanbul tarihi 1138/1725 (A. g. e., s. 9-10)."
+  },
+  {
+   "no": 10,
+   "metin": "A. Ekiz, A.g.e., s. 14. Tarih mısraı “San kıyâmet kopdı âlem üsdine” şeklindedir."
+  },
+  {
+   "no": 11,
+   "metin": "Mecmûa, Elmalı İl Halk Ktp. Ty. Nu: 43/2, s. 36; Ekiz, A.g.e., s. 14-15."
+  },
+  {
+   "no": 12,
+   "metin": "Yazarın buradaki Ümmî Sinan’a atfen yaptığı “Şeyh Mehmed-i Uşşâkî-i Halvetî” tesbiti yanlıştır. Bu isim Niyâzî divanında kendisine tarih düşürülen Ümmî Sinan’ın Uşaklı dervişi Mehmed Efendi’ye aittir. Niyâzî bu zat için “şeyhim” ibaresini kullandığı için (bkz. Niyâzî-i Mısrî Divânı, Ankara 1998, s. LXXV.) Ayvansarayî Ümmî Sinân’ın ismiyle öğrencisinin ismini karıştırmaktadır."
+  },
+  {
+   "no": 13,
+   "metin": "Hafız Hüseyin Ayvansarayî, Mecmûa-i Tevarih, Haz. Fahri Ç. Derin-Vahid Çabuk, İstanbul 1985, s. 231; Aynı yazar, Tezkire-i Ayvansarayî, Süleymaniye Ktp. Uşşâkî Tekkesi Bl. Nu: 1107, vr. 40a."
+  },
+  {
+   "no": 14,
+   "metin": "Müstakimzâde Süleyman Sadettin, Mecelletü’n-Nisâb, Tıpkıbasım, Ankara 2000, Vr. 260a. (Şeyh Yûsuf Sinânüddin Elmalı, Mısrî Muhammed Niyâzî’nin şeyhi ve mürşidi 1100/M.1688 yılında vefat etti. Bu Şeyh Ümmî Sinân’dan ayrıdır. Ümmî Sinân, bundan yüz yıl ya da daha çok eskidir.)"
+  },
+  {
+   "no": 15,
+   "metin": "Abdullah Ekiz, Sinan Ümmî ve Ahfadı., s. 52; Aynı yazar, Dünden Bugüne Elmalı, Elmalı 2001, s. 106."
+  },
+  {
+   "no": 16,
+   "metin": "Bedri Noyan “Bütün Yönleriyle Bektaşîlik ve Alevîlik” (C. IV, Ankara 2001, s. 521) adlı eserinde Ümmî Sinân bahsinde şöyle demektedir: “Ümmî Sinân aslen Halvetîdir. Halvetîliğin Yiğitbaşı kolunun büyüklerindendir. Sonradan Bektaşiliğe intisap etmiştir. Vefatından sonra, oğlu Mustafa yerine geçmiştir. Mustafa da 1128 (1715 M.) de Hakk’a yürümüş ve Elmalı’da sırlanmıştır. M. Halit Bayrı’nın “Türk Folklor Araştırmaları Dergisi”nin 129. sayısındaki yazısına göre, Ümmî Sinân’ın yatırı İstanbul’dadır. Burasının bir makam olması daha büyük bir olasılıktır.” Buradaki tesbitlerin ilk cümlesi hariç, tamamı yanlıştır. Halvetiyye’de irşad makamında bulunan bir zat sonradan neden Bektaşiliğe intisap etme ihtiyacı duysun? Kaldı ki, Ümmî Sinan’ın Bektaşîliğiyle ilgili bir tek belge yoktur. Vefatından sonra yerine oğlu Mustafa geçmemiştir. Çünkü bu isimde bir oğlunun varlığı bilinmemektedir. Bilinen oğullarının şiirleri elinizdeki bu eserin içinde söz konusu edilmiştir. M. H. Bayrı’nın tespiti ve bu tespitten hareketle Sayın Noyan’ın İstanbul’daki makam kabul ettiği yer, İbrahim Sinan Ümmî’ye aittir. Bu şahıs Elmalılı Ümmî Sinân’dan farklı bir Halvetî şeyhidir. Merhum Noyan adı geçen eserinde pek çok mutasavvıf şairi mesnetsiz olarak Bektaşîleştirmektedir."
+  },
+  {
+   "no": 17,
+   "metin": "Manzumenin metni yukarıda geçmişti. Bkz."
+  },
+  {
+   "no": 18,
+   "metin": "Niyâzî-i Mısrî, A.g.e., s. 95."
+  },
+  {
+   "no": 19,
+   "metin": "Meselâ bkz. Mehmed Süreyya, Sicill-i Osmanî, Haz. Nuri Akbayar-Seyit Ali Kahraman, C. 5, İstanbul 1996, s. 1513."
+  },
+  {
+   "no": 20,
+   "metin": "İbrahim Sinan Ümmî, Divânçe, İstanbul Ün. Merkez Ktb. Nu. 7220."
+  },
+  {
+   "no": 21,
+   "metin": "Hüseyin Vassaf, “İbrahim Ümmî Sinan Hazretleri”, Ceride-i Sûfiyye, Sayı: 107, s. 138-139."
+  },
+  {
+   "no": 22,
+   "metin": "Bkz. Mustafa Tatcı, Edebiyattan İçeri, Ankara 1997, s. 203; Ayrıca bu eserin çeviri metni bir master tezine konu olmuştur. Bkz. Mehmet Erdem, Sinan Ümmî Ve Kutbü’l-Maânî İsimli Risâlesi Üzerine Bir İnceleme, Dokuz Eylül Ün. İlahiyat Fak, YLT., İzmir 1997."
+  },
+  {
+   "no": 23,
+   "metin": "Mustafa Tatcı, Edebiyattan İçeri, Ankara 1997, s. 203."
+  },
+  {
+   "no": 24,
+   "metin": "Divân eski harflerle basılmış olup künyesi şöyledir: Kitâb-ı Sinan Ümmî, Haz. Yalvaçlı Coşkunzade Şeyh Süleyman Efendi, Muharrem Efendi Matbaası, İstanbul 1299. Ayrıca, Hamit Dikmen yazmış olduğu “Elmalılı Şeyh Yusuf Ümmî Sinan Efendi” (Erdem, Aydın Sayılı Özel Sayısı II, C. 9, s. 26, Ankara 1996, s. 643-649) adlı makalesinde Ümmî Sinan Divânı’nı DTCF.’de lisans tezi olarak hazırladığını belirtmektedir (Ümmî Sinan Divânı, Ankara 1977). Divân yine İ. Ü. Ktp. nüshası esas alınarak O. Kamil Erdem tarafından daha önce değerlendirilmiştir (Sinan Ümmî Divânından Seçmeler, Fetih yay. İstanbul 1976). Tarafımızdan hazırlanan bir seçme ise daha önce yayınlanmıştır. Bkz. M. Tatcı, Elmalılı Ümmî Sinan, Antalya 1993."
+  },
+  {
+   "no": 25,
+   "metin": "Divân ve nüshalarıyla ilgili bilgi için bkz. Tuman, A.g.e., C. I, s. 453."
+  },
+  {
+   "no": 26,
+   "metin": "Mehmed Halit Bayrı, şu yazısında elindeki yazma nüshadan söz etmektedir: “Müellif Mutasavvıf Şairler: Sinan Ümmî”, Türk Folklor Araştırmaları, VI/27 (1960), s. 2128."
+  },
+  {
+   "no": 27,
+   "metin": "Şiir için bkz. A. Gölpınarlı, Türk Tasavvuf Şiiri Antolojisi, İstanbul 1972, s. 185."
+  },
+  {
+   "no": 28,
+   "metin": "Bu şiir ve şairin hayatı için, bkz. Mehmed Şemseddin Ulusoy, Gülzâr-ı Mısrî, (müellif hattı, bir kopyası elimizde), s. 160."
+  },
+  {
+   "no": 29,
+   "metin": "Bkz. Osman Türer, Muhammed Nazmî, Hayatı, San’atı ve Hediyyetü’l-İhvân’ı, C. II, A.Ü. İF. Doktora Tezi, Ankara 1982, s. 204,"
+  },
+  {
+   "no": 30,
+   "metin": "Bkz. Edip Ali Baki, Gülaboğlu Muhammed Askerî-Hayatı ve Eserleri, Taşpınar Dergisi, C. VIII, Afyon 1941, s. 86-88; Mehmed S. Aygen, Şair Mutasavvıf Gülaboğlu Muhammed Askeri, (tarihsiz) Afyon; Hamza Güner, Kütahyalı Şair ve Edipler, Kütahya 1967, 66-68; Kenan Erdoğan, “Beş Erden Biri Kütahyalı Şeyh Muhammed Askerî”, Yedi İklim Dergisi, s. 68, Kasım 1995, s. 80 vd; İsmail Ünver, “Askerî”, TDV/İslâm Ansiklopedisi, C. III, s. 491-492; Mehmet Sarı, “Askeri”, Türk Dünyası Edebiyatçıları Ansiklopedisi, C. I, Ankara 2001, s. 474."
+  },
+  {
+   "no": 31,
+   "metin": "Muhammed Nûr, Mısrî Niyazî Divânı Şerhi, Ankara 1976, s. 134."
+  },
+  {
+   "no": 32,
+   "metin": "Mecmûa’nın 605-621 sayfaları arasında bulunan bu şiirler yayınlanmıştır. Bkz. Mustafa Tatcı-Kerim Kara, Xvıı. Asır Şairlerinden Uşaklı Ahmed Matlaî, Divançe-i İlahîyat, Ankara 2007."
+  },
+  {
+   "no": 33,
+   "metin": "AÜ., İlahiyat Fak. Ktp. Yz. Nu: 1468"
+  },
+  {
+   "no": 34,
+   "metin": "Bu yazmada ayrıca Gaybî’nin Risâle fî Halli’d-Devrâni’s-Sûfiyye adlı risalesi de vardır. Söz konusu risale Bilal Kemikli tarafından tanıtılmıştır Bkz. “Türk Tasavvuf Edebiyatında Risâle-i Devrân ve Semâ Türü ve Gaybî’nin Devrân ve Semâ’a İlişkin Görüşleri”, İlâhiyat Fakültesi Dergisi, C. XXXVII., Ankara 1997, s. 455"
+  },
+  {
+   "no": 35,
+   "metin": "Kemikli, A.g. m., s. 455."
+  },
+  {
+   "no": 36,
+   "metin": "Kemikli, A.g. m., s. 455. Bu kıt’anın geçtiği şiirin tamamı Müftî Derviş’in Divânında mevcut olup (bkz. Milli Ktb. Yz. A. 3488/1,vr. 5b) şöyledir: Efendim bana bakarkenYâ ben nice dönmeyeyimGönlüm durmayıp akarkenYâ ben nice dönmeyeyimÖzenmezem ona bunaHüsnüne kalmışam tanaSeverim diyicek banaYâ ben nice dönmeyeyim Dönmeyenin bağrı başdırDönenlerin rûhu kuşdurDönmemek âşıka suçdurYâ ben nice dönmeyeyim Zikriledir ağız tadıDurmaz kimin kim var oduBakıp duranın yok uduYâ ben nice dönmeyeyim Münkir bilmez bu bir hâldirÂşıklara usûl yoldurÂşıka ölmeden bedeldirYâ ben nice dönmeyeyim Müftî Derviş’in münkirlikBaşından geçdi ol körlükBudur âşıka şükürlükYâ ben nice dönmeyeyim"
+  },
+  {
+   "no": 37,
+   "metin": "Bkz. Milli Ktb. (Ankara) Yz. A. 3488/1, vr. 2a-36b. Ata Terzibaşı’nın elinde bulunduğunu öğrendiğimiz 37 yp. olan yz. nüshada, 177 şiir mevcuttur. Bkz. Bilinmeyen Şairlerden Müftü Derviş, Kardaşlık Dergisi, s. 5-6, Eylül-Ekim 1976."
+  },
+  {
+   "no": 38,
+   "metin": "M. Tatcı, C. Kurnaz, Çavdaroğlu Müfti Derviş, Ankara 1999, s. 23."
+  },
+  {
+   "no": 39,
+   "metin": "M. Tatcı, C. Kurnaz, A.g.e., s. 67."
+  },
+  {
+   "no": 40,
+   "metin": "M. Tatcı, C. Kurnaz, A.g.e., s. 29."
+  },
+  {
+   "no": 41,
+   "metin": "M. Tatcı, C. Kurnaz, A.g.e., s. 53."
+  },
+  {
+   "no": 42,
+   "metin": "M. Tatcı, C. Kurnaz, A.g.e., s. 33."
+  },
+  {
+   "no": 43,
+   "metin": "Niyazî-i Mısrî hakkında pek çok araştırma vardır. Bunların en önemlisi hiç şüphesiz Mısrî erkanının son temsilcisi olan Mehmed Şemseddin Ulusoy (ö. 1936) tarafından yazılan Gülzâr-ı Mısrî adlı menakıpnamedir. Gülzar’ın bir yazması Mustafa Kara Bey’in elindedir. Aslı kayıp olan diğer bir yazmanın kopyası da bizdedir. (Bunun dışında bkz. Mustafa Tatcı, Edebiyattan İçeri, Ankara 1997, Kenan Erdoğan, Niyâzî-i Mısrî, Hayatı-Edebî kişiliği-Eserleri ve Divânı’nın Tenkitli Metni, Doktora Tezi, Erzurum 1993, s. 293; Mustafa Kara, Niyazî-i Mısrî, Ankara 1994; Baha Doğramacı, Niyazî-i Mısrî, Ankara 1988; İbrahim Râkım, Vâkıât-ı Niyazî-i Mısrî, Haz. Kâmil Beki, Uludağ Ün., SBE. Yüksek Lisans Tezi, Bursa 1997; Mustafa Aşkar, Niyâzî-i Mısrî ve Tasavvuf Anlayışı, Ankara 1998. Dr. Mustafa Tatcı, Burc-ı Belada Bir Merd-i Hüda, H Yayınları, İstanbul 2010."
+  },
+  {
+   "no": 44,
+   "metin": "Kenan Erdoğan, Niyâzî-i Mısrî Divânı, s. 203. Burada beş er sözüyle kastedilen, aynı zamanda dört unsur ve Rûhü’l-kudüs’tür. Beş erden biri olan Çavdaroğlu’nun, “Cem’ olıcak bir araya beşimiz/ Sevdiğimiz zikr etmekdir işimiz” mısraları da aynı hususa işaret etmektedir (Bkz. Çavdaroğlu Müftî Derviş, Dîvân, vr. 10a)."
+  },
+  {
+   "no": 45,
+   "metin": "Mısrî Niyâzî Divânı Şerhi, s. 149-150."
+  },
+  {
+   "no": 46,
+   "metin": "Bkz. Mustafa Lütfî, A.g.e., s. 10-11; Mehmed Şemseddin, Gülzâr-ı Mısrî, s. 410, İbrahim Râkım Efendi, Vâkıât-ı Mısrî, Süleymaniye Ktp. İzmir Bl. Nu: 790, vr. 7; Hüseyin Vassâf Bey, Sefine-i Evliyâ, Süleymaniye Ktp. Yz. Bağışlar, C. III-IV, Nu: 2307-2309, s. 78."
+  },
+  {
+   "no": 47,
+   "metin": "Mısrî Niyâzî Divânı Şerhi, s. 270."
+  },
+  {
+   "no": 48,
+   "metin": "Niyâzî-i Mısrî, Kelimât-ı Kudsiyye, vr. 90b."
+  },
+  {
+   "no": 49,
+   "metin": "Mehmed Şemseddin, Bursa Dergâhları, Yâdigâr-ı Şemsî, I-II, Bursa 1997, s. 519."
+  },
+  {
+   "no": 50,
+   "metin": "Mısrî Niyazî Divânı Şerhi, s. 110-111."
+  },
+  {
+   "no": 51,
+   "metin": "Niyazî-i Mısrî, A.g.e., vr. 40a. Abdullah Ekiz, burada adı geçen Zuhûrî Efendi’nin kimliğini tespit edemediğini söylüyor (A.g.e., s. 28). Bu çalışmadan daha sonra elde edilen Mısrî’nin hatıratı ve Kulalı Nüzûlî’nin silsilenamesi gibi belgelerdeki bilgilere göre bu zatın Vâhib Ümmî’nin halifesi Mazharî’nin oğlu olduğu anlaşılmıştır."
+  },
+  {
+   "no": 52,
+   "metin": "M. Sadettin Aygen, A.g.e., s. 44."
+  },
+  {
+   "no": 53,
+   "metin": "M. Sadettin Aygen, A.g.e., s. 78."
+  },
+  {
+   "no": 54,
+   "metin": "Ekiz, A.g.e., s. 39."
+  }
+ ]
+}
