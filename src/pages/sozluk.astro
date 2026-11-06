@@ -1,7 +1,7 @@
 ---
 import Temel from '../layouts/Temel.astro';
 import '../styles/sozluk.css';
-import { genelSozluk } from '../lib/sozluk.ts';
+import { genelSozluk, farkliAnlamlar } from '../lib/sozluk.ts';
 
 const gruplar = genelSozluk();
 const harfler = [...new Set(gruplar.map((g) => g.harf))].sort((a, b) => a.localeCompare(b, 'tr'));
@@ -12,7 +12,7 @@ const toplamMadde = gruplar.reduce((n, g) => n + g.maddeler.length, 0);
   <header class="kitap-ust">
     <div class="sair">Altı dîvân</div>
     <h1>Tüm sözlük</h1>
-    <p class="soluk kucuk">{gruplar.length} sözcük, {toplamMadde} madde. Her anlam kendi kitabının adıyla verilir; tanımlar birleştirilmemiş, kitaplardan olduğu gibi alınmıştır.</p>
+    <p class="soluk kucuk">{gruplar.length} sözcük, {toplamMadde} madde. Dîvânlarda aynı sözcük için verilen farklı anlamlar bir arada sunulur; anlamlar kitaplardan olduğu gibi alınmıştır.</p>
   </header>
 
   <div class="araclar" role="search">
@@ -34,8 +34,8 @@ const toplamMadde = gruplar.reduce((n, g) => n + g.maddeler.length, 0);
             <div class="madde coklu" data-anahtar={g.anahtar}>
               <dt>{g.baslik}</dt>
               <dd>
-                {g.maddeler.map((m) => (
-                  <p class="kaynakli"><span class="kitap-etiket">{m.sair}</span> {m.madde !== g.baslik ? <i class="soluk">{m.madde}: </i> : null}{m.tanim}</p>
+                {farkliAnlamlar(g.maddeler).map((t, i, h) => (
+                  <p class="kaynakli">{h.length > 1 ? `${i + 1}. ` : ''}{t}</p>
                 ))}
               </dd>
             </div>
