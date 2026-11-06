@@ -10,6 +10,7 @@
     "baslik": { "type": "string", "minLength": 1, "description": "Kartlarda ve başlıklarda görünen kısa ad (\"<Şair> Dîvânı\")" },
     "tamBaslik": { "type": "string", "description": "Kitabın tam adı; kaynak gösterimlerinde kullanılır" },
     "sair": { "type": "string", "minLength": 1 },
+    "sira": { "type": "integer", "minimum": 1, "description": "Ana sayfada ve listelerde kitapların sıralanma düzeni (küçük olan önce)" },
     "ciltRengi": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$", "description": "Yayının gerçek cilt/kapak rengi; ana sayfadaki kartın yan şeridi" },
     "editor": { "type": "string" },
     "yayinci": { "type": "string", "minLength": 1 },

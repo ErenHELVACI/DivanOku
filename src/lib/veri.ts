@@ -7,7 +7,7 @@ const KOK = join(process.cwd(), 'veri');
 const oku = <T,>(kitap: string, ad: string): T => JSON.parse(readFileSync(join(KOK, kitap, `${ad}.json`), 'utf8'));
 
 export type Kunye = {
-  slug: string; baslik: string; tamBaslik?: string; sair: string; ciltRengi?: string; editor: string; yayinci: string; seri?: string;
+  slug: string; baslik: string; tamBaslik?: string; sair: string; ciltRengi?: string; sira?: number; editor: string; yayinci: string; seri?: string;
   baski: string; baskiYili: number; isbn: string; telifNotu: string;
   izin: { durum: string; kaynak: string; tarih: string };
   siirSayisi: number | Record<string, number>;
@@ -38,7 +38,7 @@ export function kitaplar(): Kitap[] {
       sozluk: oku<SozlukMaddesi[]>(d.name, 'sozluk'),
       sair: existsSync(join(KOK, d.name, 'sair.json')) ? oku<Sair>(d.name, 'sair') : null,
     }))
-    .sort((a, b) => a.kunye.baslik.localeCompare(b.kunye.baslik, 'tr'));
+    .sort((a, b) => (a.kunye.sira ?? 99) - (b.kunye.sira ?? 99) || a.kunye.baslik.localeCompare(b.kunye.baslik, 'tr'));
   return onbellek;
 }
 
