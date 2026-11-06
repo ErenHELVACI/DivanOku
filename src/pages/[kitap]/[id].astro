@@ -186,32 +186,21 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
     kartKonumla(true);
   }
   function kapat() { kart.hidden = true; kartKonumla(false); acan?.focus(); acan = null; }
-  // Geniş ekranda kart, dokunulan kelimenin hizasında SAĞDA açılır, içeriği kadar yüksektir ve sayfayla birlikte kayar
-  // (sayfaya göre konumlu). Sayfa yalnızca kart o hizadaki dizeleri kapatacaksa, ve yalnız o kadar, sola kayar.
+  // Geniş ekranda kart sağda, ekranda hep aynı seviyede (üst bandın hemen altında) durur ve içeriği kadar yüksektir;
+  // şiir kaydırılırken yerinde kalır. Sayfa yalnızca kart şiirin dizelerini kapatacaksa, ve yalnız o kadar, sola kayar
+  // (şiirin en sağdaki dizesine göre bir kez hesaplanır; kaydırmada oynamaz).
   const PANEL = matchMedia('(min-width: 1000px)');
   const KENAR = 16; // kartın sağ kenar boşluğu (px)
   function kartKonumla(acik: boolean) {
     const kok = document.documentElement;
     kok.style.setProperty('--kayma', '0px');
-    kart.style.top = '';
     document.body.classList.toggle('kart-acik', acik && PANEL.matches);
-    if (!acik || !PANEL.matches || !acan) return;
-    // Dikey: kelimenin satırıyla hizalı; sayfanın altından taşmasın, üst bandın altına girmesin
-    const kelimeUst = acan.getBoundingClientRect().top + scrollY;
-    const ustSinir = (document.querySelector('header.ust') as HTMLElement).offsetHeight + 12;
-    const boy = kart.offsetHeight;
-    // Kelimenin hizası; ama kart açıldığı anda ekranda tamamen görünsün (aşağıdan taşıyorsa yukarı alınır),
-    // sayfanın sonundan taşmasın ve yapışkan üst bandın altına girmesin
-    const alt = Math.min(kelimeUst - 12, kok.scrollHeight - boy - 12, scrollY + innerHeight - boy - 12);
-    const top = Math.max(scrollY + ustSinir, alt);
-    kart.style.top = `${Math.round(top)}px`;
-    // Yatay: yalnız kartın dikey aralığına denk gelen dizeler kapanıyorsa ve yalnız o kadar kay
+    if (!acik || !PANEL.matches) return;
     const panelSol = kok.clientWidth - kart.offsetWidth - KENAR; // açılış animasyonunun ara konumuna değil son konuma bakılır
-    const kartUst = top - scrollY, kartAlt = kartUst + boy;
     let enSag = 0, enSol = Infinity;
     for (const d of document.querySelectorAll<HTMLElement>('.dize')) {
       const r = d.getBoundingClientRect();
-      if (r.bottom > kartUst && r.top < kartAlt) { enSag = Math.max(enSag, r.right); enSol = Math.min(enSol, r.left); }
+      enSag = Math.max(enSag, r.right); enSol = Math.min(enSol, r.left);
     }
     if (!enSag) return;
     const kayma = Math.max(0, Math.min(enSag + 16 - panelSol, enSol - 8));

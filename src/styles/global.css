@@ -266,10 +266,10 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
   @keyframes sagdan { from { transform: translateX(1.2rem); opacity: 0; } }
 }
 
-/* Geniş ekran kartı: içeriği kadar yüksek, kelimenin hizasında, sayfayla birlikte kayar (üstteki "fixed" panel kuralını geçersiz kılar) */
+/* Geniş ekran kartı: içeriği kadar yüksek, ekranda hep aynı seviyede (üst bandın altında) */
 @media (min-width: 1000px) {
   #kart {
-    position: absolute; inset: auto 1rem auto auto; top: 5rem; width: 24rem; max-height: none; overflow: visible;
+    position: fixed; inset: 5.8rem 1rem auto auto; width: 24rem; max-height: calc(100dvh - 7.2rem); overflow-y: auto;
     border: 1px solid var(--yaldiz); border-radius: .7rem; padding: 1rem 1.2rem 1.2rem;
     box-shadow: 0 16px 44px -14px rgb(0 0 0 / .5);
   }
