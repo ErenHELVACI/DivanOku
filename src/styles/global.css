@@ -265,3 +265,14 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
   @media (prefers-reduced-motion: no-preference) { #kart { animation: sagdan .22s cubic-bezier(.2, .8, .2, 1); } }
   @keyframes sagdan { from { transform: translateX(1.2rem); opacity: 0; } }
 }
+
+/* Geniş ekran kartı: içeriği kadar yüksek, kelimenin hizasında, sayfayla birlikte kayar (üstteki "fixed" panel kuralını geçersiz kılar) */
+@media (min-width: 1000px) {
+  #kart {
+    position: absolute; inset: auto 1rem auto auto; top: 5rem; width: 24rem; max-height: none; overflow: visible;
+    border: 1px solid var(--yaldiz); border-radius: .7rem; padding: 1rem 1.2rem 1.2rem;
+    box-shadow: 0 16px 44px -14px rgb(0 0 0 / .5);
+  }
+  #kart .icerik { padding-top: .1rem; padding-right: 4.8rem; }
+  #kart button.kapat { top: .6rem; right: .7rem; }
+}
