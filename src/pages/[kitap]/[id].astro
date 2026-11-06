@@ -20,20 +20,33 @@ const indeks = tekKelimeIndeksi();
 // Dizeyi parçala: dipnot işareti ⟦n⟧, sözlükte tam eşleşen kelime, düz metin.
 type Parca = { t: 'm'; s: string } | { t: 'k'; s: string; a: string } | { t: 'd'; no: number };
 const kullanilan: Record<string, { t: string; k: boolean }[]> = {}; // kelime -> farklı anlamlar (kaynak gösterilmez)
+// Sözcük: harfler ve harf aralarındaki üst noktalar/kesmeler tek sözcüktür ("Ya‘ni", "ma‘nâ", "‘aşk", "mü’min").
+// ‘ (ayn işareti) hiçbir zaman sözcüğü bölmez. ’ ya da ' (kesme) bölebilir: "Hakk’a", "Tanrı’nın" gibi ek almış biçimlerde
+// tam yazılış sözlükte yoksa kesmeden önceki kök denenir ("Hakk" tıklanır, "’a" düz metin kalır).
+const SOZCUK = /(⟦\d+⟧|[‘ʿ]?[\p{L}\p{M}]+(?:[‘’'ʿʾ`´][\p{L}\p{M}]+)*)/u;
+const bulundu = (a: string) => a.length >= 2 && indeks.has(a); // tek harfli sözcükler eşleştirilmez ("ı" ile "İ" karışıyordu)
 function parcala(dize: string): Parca[] {
   const out: Parca[] = [];
   let metin = '';
   const bosalt = () => { if (metin) { out.push({ t: 'm', s: metin }); metin = ''; } };
-  for (const p of dize.split(/(⟦\d+⟧|[\p{L}\p{M}]+)/u)) {
+  const kelime = (yazi: string, a: string) => {
+    bosalt(); out.push({ t: 'k', s: yazi, a });
+    kullanilan[a] = farkliAnlamlar(indeks.get(a)!, k.kunye.slug);
+  };
+  for (const p of dize.split(SOZCUK)) {
     if (!p) continue;
     const d = p.match(/^⟦(\d+)⟧$/);
     if (d) { bosalt(); out.push({ t: 'd', no: Number(d[1]) }); continue; }
-    const a = /^[\p{L}\p{M}]+$/u.test(p) ? normallestir(p) : '';
-    // Tek harfli sözcükler (ı, u, İ…) eşleştirilmez: "ı" ile "İ" gibi yanlış eşleşmeler çıkıyor ("Âb-ı Hayât").
-    if (a.length >= 2 && indeks.has(a)) {
-      bosalt(); out.push({ t: 'k', s: p, a });
-      kullanilan[a] = farkliAnlamlar(indeks.get(a)!, k.kunye.slug);
-    } else metin += p;
+    if (!/^[‘ʿ]?[\p{L}\p{M}]/u.test(p)) { metin += p; continue; }
+    const tam = normallestir(p);
+    if (bulundu(tam)) { kelime(p, tam); continue; }
+    const kesme = p.search(/[’'`´]/);
+    if (kesme > 0) {
+      const kok = p.slice(0, kesme);
+      const ka = normallestir(kok);
+      if (bulundu(ka)) { kelime(kok, ka); metin += p.slice(kesme); continue; }
+    }
+    metin += p;
   }
   bosalt();
   return out;
