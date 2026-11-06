@@ -34,8 +34,8 @@ const toplamMadde = gruplar.reduce((n, g) => n + g.maddeler.length, 0);
             <div class="madde coklu" data-anahtar={g.anahtar}>
               <dt>{g.baslik}</dt>
               <dd>
-                {farkliAnlamlar(g.maddeler).map((t, i, h) => (
-                  <p class="kaynakli">{h.length > 1 ? `${i + 1}. ` : ''}{t}</p>
+                {farkliAnlamlar(g.maddeler).map((x, i, h) => (
+                  <p class="kaynakli">{h.length > 1 ? `${i + 1}. ` : ''}{x.t}</p>
                 ))}
               </dd>
             </div>

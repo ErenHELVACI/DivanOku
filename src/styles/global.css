@@ -237,3 +237,5 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
 #kart h4 { margin: .7rem 0 .2rem; font: 600 .78rem var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--soluk); }
 #kart p.diger { font-size: 1.05rem; }
 #kart .kitap-etiket { font: 600 .62rem var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--vurgu); border: 1px solid color-mix(in srgb, var(--vurgu) 55%, transparent); border-radius: 1rem; padding: .02rem .45rem; margin-right: .25rem; }
+
+#kart u { text-decoration-line: underline; text-decoration-color: var(--yaldiz); text-decoration-thickness: 2px; text-underline-offset: .22em; }

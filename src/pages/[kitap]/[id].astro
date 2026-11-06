@@ -19,7 +19,7 @@ const indeks = tekKelimeIndeksi();
 
 // Dizeyi parçala: dipnot işareti ⟦n⟧, sözlükte tam eşleşen kelime, düz metin.
 type Parca = { t: 'm'; s: string } | { t: 'k'; s: string; a: string } | { t: 'd'; no: number };
-const kullanilan: Record<string, string[]> = {}; // kelime -> farklı anlamlar (kaynak gösterilmez)
+const kullanilan: Record<string, { t: string; k: boolean }[]> = {}; // kelime -> farklı anlamlar (kaynak gösterilmez)
 function parcala(dize: string): Parca[] {
   const out: Parca[] = [];
   let metin = '';
@@ -136,18 +136,21 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
 </Temel>
 
 <script>
-  const sozluk: Record<string, string[]> = JSON.parse(document.getElementById('sozluk-veri')!.textContent!);
+  const sozluk: Record<string, { t: string; k: boolean }[]> = JSON.parse(document.getElementById('sozluk-veri')!.textContent!);
   const dipnot: Record<string, string> = JSON.parse(document.getElementById('dipnot-veri')!.textContent!);
   const kart = document.getElementById('kart')!;
   const icerik = document.getElementById('kart-icerik')!;
   let acan: HTMLElement | null = null;
 
-  function ac(baslik: string, govdeler: string[], uyari?: string, tetikleyen?: HTMLElement, numarali = false) {
+  function ac(baslik: string, govdeler: { t: string; k?: boolean }[], uyari?: string, tetikleyen?: HTMLElement, numarali = false) {
     icerik.replaceChildren();
     const h = document.createElement('h3'); h.textContent = baslik; icerik.append(h);
     govdeler.forEach((g, i) => {
       const p = document.createElement('p');
-      p.textContent = numarali && govdeler.length > 1 ? `${i + 1}. ${g}` : g; // düz metin: HTML olarak basılmaz
+      if (numarali && govdeler.length > 1) p.append(`${i + 1}. `);
+      const metin = document.createElement(g.k ? 'u' : 'span'); // okunan dîvânın sözlüğündeki anlamın altı çizilir
+      metin.textContent = g.t; // düz metin: HTML olarak basılmaz
+      p.append(metin);
       icerik.append(p);
     });
     if (uyari) { const u = document.createElement('p'); u.className = 'uyari'; u.textContent = uyari; icerik.append(u); }
@@ -161,8 +164,9 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
     if (!hedef) return;
     if (hedef.dataset.a) {
       const m = sozluk[hedef.dataset.a] ?? [];
+      const kendi = m.some((x) => x.k);
       ac(hedef.textContent!, m,
-        m.length > 1 ? 'Dîvânlarda bu sözcük için farklı anlamlar verilmiştir; metindeki kullanıma uyanı seçin.' : 'Anlam dîvânların sözlüklerinden alınmıştır; metindeki kullanıma uymayabilir.', hedef, true);
+        (m.length > 1 ? 'Dîvânlarda bu sözcük için farklı anlamlar verilmiştir; metindeki kullanıma uyanı seçin.' : 'Anlam dîvânların sözlüklerinden alınmıştır; metindeki kullanıma uymayabilir.') + (kendi ? ' Altı çizili: okuduğunuz dîvânın sözlüğündeki anlam.' : ''), hedef, true);
     } else if (hedef.dataset.d) {
       ac(`Dipnot ${hedef.dataset.d}`, [dipnot[hedef.dataset.d] ?? ''], undefined, hedef);
     }

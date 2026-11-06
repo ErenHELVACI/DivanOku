@@ -66,30 +66,51 @@ export function genelSozluk(): SozlukGrubu[] {
   return genel;
 }
 
-// Bir sözcüğün farklı anlamları: kaynak kitap gösterilmez. Aynı anlam (işaret/harf büyüklüğü farkı hariç) tek kez yazılır;
-// sıra: önce `once` kitabının anlamları, sonra diğerleri. Metin kitaplardan olduğu gibi alınır, birleştirilmez.
-export function farkliAnlamlar(liste: KaynakliMadde[], once?: string): string[] {
+// Bir sözcüğün farklı anlamları: kaynak kitap gösterilmez ve hiçbir anlam iki kez yazılmaz.
+// Her tanım önce ayrı anlamlara bölünür ("1. … 2. …", ";" ve cümle sonları), her anlam virgüllü eş anlam
+// parçalarına ayrılır; daha önce gösterilmiş bir parça tekrar gösterilmez, boşalan anlam hiç gösterilmez.
+// Sözcüklerin kendisi değişmez; yalnız yinelenenler ayıklanır ve noktalama yeniden kurulur.
+// `once`: okunan kitap. Onun anlamları önce işlenir ve `k: true` ile işaretlenir (arayüzde altı çizilir).
+export type Anlam = { t: string; k: boolean };
+
+const KISALTMA = /\b(Hz|bk|Bk|C|vb|vs|Bl|Yz|Ktp|nr|vr|Hk|Nu|s|S|ö|b|a|f|t)\.(?=\s)/g;
+const DIL_ETIKETI = /^\(\s*[aft]\.?(\s*[aft]\.?)?\s*\)\s*/i;
+
+function anlamlaraBol(tanim: string): string[] {
+  let x = tanim.replace(DIL_ETIKETI, '').replace(KISALTMA, (m) => m.replace('.', '\u0001'));
+  x = x.replace(/(^|[\s.;!?])\d{1,2}\.\s+(?=[\p{L}(])/gu, '$1\u0002'); // "1. İçki. 2. An" numaraları
+  return x
+    .split(/\u0002|;|(?<=[.!?])\s+(?=[\p{Lu}(‘’“"])/u)
+    .map((p) => p.replace(/\u0001/g, '.').replace(DIL_ETIKETI, '').trim().replace(/[.\s]+$/, ''))
+    .filter(Boolean);
+}
+
+export function farkliAnlamlar(liste: KaynakliMadde[], once?: string): Anlam[] {
   const sirali = [...liste].sort((a, b) => Number(b.kitap === once) - Number(a.kitap === once));
-  // Aynı anlam sayılanlar tek yazılır: aynı metin, bir tanımın ötekinin içinde tamamen geçmesi
-  // ("Görünme, belirme." ⊂ "Görünme, belirme. Allah’ın sır ve …": uzun olan kalır) ve sözcük kümesi
-  // büyük ölçüde örtüşenler (kalb/kalp gibi yazım farkı). Metin değiştirilmez; yalnız hangisinin gösterileceği seçilir.
-  const anahtarlar: { a: string; k: Set<string> }[] = [];
-  const out: string[] = [];
-  const kume = (a: string) => new Set(a.split(' ').filter(Boolean));
-  // Kısa tanım, uzununun içinde SÖZCÜK sınırlarıyla ve en az 2 sözcük olarak geçiyorsa içerilmiş sayılır
-  // (tek sözcüklük "Toprak." gibi kısa tanımlar başkalarını yutmasın).
-  const icerir = (uzun: string, kisa: { a: string; k: Set<string> }) => kisa.k.size >= 2 && ` ${uzun} `.includes(` ${kisa.a} `);
-  const benzer = (x: Set<string>, y: Set<string>) => {
+  const gorulen = new Set<string>();
+  const gorulenKumeler: Set<string>[] = [];
+  const ortusme = (x: Set<string>, y: Set<string>) => {
     let ort = 0;
     for (const w of x) if (y.has(w)) ort++;
-    return ort / (x.size + y.size - ort) >= 0.55;
+    return ort / (x.size + y.size - ort);
   };
+  const out: Anlam[] = [];
   for (const m of sirali) {
-    const a = normallestir(m.tanim);
-    const k = kume(a);
-    const i = anahtarlar.findIndex((o) => o.a === a || icerir(a, o) || icerir(o.a, { a, k }) || benzer(o.k, k));
-    if (i < 0) { anahtarlar.push({ a, k }); out.push(m.tanim); continue; }
-    if (a.length > anahtarlar[i].a.length && icerir(a, anahtarlar[i])) { anahtarlar[i] = { a, k }; out[i] = m.tanim; } // içeren (daha ayrıntılı) olan kalır
+    for (const anlam of anlamlaraBol(m.tanim)) {
+      const parcalar = anlam.split(/,\s*/).map((p) => p.trim()).filter(Boolean);
+      const kalan = parcalar.filter((p) => {
+        const a = normallestir(p);
+        if (!a || gorulen.has(a)) return false;
+        // Uzun parçalarda küçük yazım/çoğul farkıyla aynı anlam ("ermiş kişi" / "ermiş kişiler") tekrar sayılır.
+        const kume = new Set(a.split(' ').map((w) => w.slice(0, 5)));
+        if (kume.size >= 4 && gorulenKumeler.some((o) => ortusme(o, kume) >= 0.6)) return false;
+        gorulen.add(a);
+        gorulenKumeler.push(kume);
+        return true;
+      });
+      if (!kalan.length) continue;
+      out.push({ t: `${kalan.join(', ')}.`, k: m.kitap === once });
+    }
   }
   return out;
 }
