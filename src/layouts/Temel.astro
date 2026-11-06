@@ -38,12 +38,17 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
     <header class="ust">
       <div class="kap">
         <a class="marka" href={yol('/')}><Yildiz boy={22} />Dîvân</a>
-        <nav class="menu" aria-label="Ana menü">
-          <a href={yol('/')}>Kitaplar</a>
-          <a href={yol('/ara/')}>Ara</a>
-          <a href={yol('/sozluk/')}>Sözlük</a>
+        <nav class="menu" aria-label="Ana menü" id="menu">
+          <div class="menu-linkler" id="menu-linkler">
+            <a href={yol('/')}>Kitaplar</a>
+            <a href={yol('/ara/')}>Ara</a>
+            <a href={yol('/sozluk/')}>Sözlük</a>
+            <a class="yalniz-mobil" href={yol('/favoriler/')}>★ Favoriler</a>
+            <a class="yalniz-mobil" href={yol('/cevrimdisi/')}>İnternetsiz okuma</a>
+          </div>
           <slot name="menu-ek" />
-          <button type="button" id="tema-dugme" aria-label="Açık ya da koyu temayı değiştir">☾ Tema</button>
+          <button type="button" id="tema-dugme" aria-label="Açık ya da koyu temayı değiştir"><span aria-hidden="true">☾</span><span class="yazi"> Tema</span></button>
+          <button type="button" id="menu-ac" class="menu-ac" aria-expanded="false" aria-controls="menu-linkler" aria-label="Menüyü aç"><span aria-hidden="true">☰</span></button>
         </nav>
       </div>
     </header>
@@ -79,6 +84,20 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
         kok.dataset.tema = yeni;
         try { localStorage.setItem('tema', yeni); } catch {}
       });
+    </script>
+      <script>
+      // Dar ekranda bağlantılar "☰" düğmesinin açtığı bir listeye girer
+      const menu = document.getElementById('menu')!;
+      const ac = document.getElementById('menu-ac')!;
+      const kapat = () => { menu.classList.remove('acik'); ac.setAttribute('aria-expanded', 'false'); ac.setAttribute('aria-label', 'Menüyü aç'); };
+      ac.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const acik = menu.classList.toggle('acik');
+        ac.setAttribute('aria-expanded', String(acik)); ac.setAttribute('aria-label', acik ? 'Menüyü kapat' : 'Menüyü aç');
+      });
+      addEventListener('click', (e) => { if (!menu.contains(e.target as Node)) kapat(); });
+      addEventListener('keydown', (e) => { if (e.key === 'Escape') kapat(); });
+      menu.querySelectorAll('.menu-linkler a').forEach((a) => a.addEventListener('click', kapat));
     </script>
   </body>
 </html>

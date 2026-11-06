@@ -312,3 +312,20 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
 *::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--yaldiz) 70%, var(--cizgi)); border-radius: 8px; border: 2px solid var(--zemin2); }
 *::-webkit-scrollbar-thumb:hover { background: var(--vurgu); }
 *::-webkit-scrollbar-corner { background: transparent; }
+
+/* Üst bant: geniş ekranda bağlantılar yan yana; dar ekranda "☰" menüsü, düğmeler yalnız simge */
+.menu-linkler { display: flex; align-items: center; gap: 1rem; }
+.menu-ac, .yalniz-mobil { display: none; }
+.marka { white-space: nowrap; }
+@media (max-width: 640px) {
+  .marka { font-size: 1.25rem; }
+  .menu { gap: .4rem; }
+  .menu .yazi { display: none; }
+  .menu button { padding-inline: .75rem; min-width: 2.5rem; justify-content: center; }
+  .menu-ac { display: inline-flex; }
+  .menu-linkler { display: none; position: absolute; left: 0; right: 0; top: 100%; flex-direction: column; align-items: stretch; gap: 0; background: var(--sayfa); border-bottom: 1px solid var(--yaldiz); box-shadow: 0 18px 30px -14px rgb(0 0 0 / .5); padding: .3rem 1rem .7rem; z-index: 40; }
+  .menu.acik .menu-linkler { display: flex; }
+  .menu-linkler a { padding: .85rem .2rem; border-bottom: 1px dashed var(--cizgi); font-size: 1.05rem; color: var(--yazi); }
+  .menu-linkler a:last-child { border-bottom: 0; }
+  .yalniz-mobil { display: block; }
+}
