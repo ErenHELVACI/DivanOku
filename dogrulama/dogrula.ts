@@ -63,20 +63,26 @@ export function dogrula(kitap: string): Sonuc[] {
   // Fark yalnız â/î/û, ı/i, ü/u gibi işaret farkıysa "yazım farkı" sayılır ve ayrı bilgi satırında listelenir.
   const dizinSorun: string[] = [];
   const dizinYazim: string[] = [];
-  const dSiirler = siirler.filter((p) => p.kaynak === 'd');
-  if (dizin.length !== dSiirler.length) dizinSorun.push(`dizin ${dizin.length} kayıt, şiir ${dSiirler.length}`);
   const numaraKayik: string[] = [];
-  dizin.forEach((k, i) => {
-    const p = dizin.length === dSiirler.length ? dSiirler[i] : dSiirler.find((x) => x.no === k.no);
-    const ilk = p?.bentler?.[0]?.dizeler?.[0];
-    if (!p) { dizinSorun.push(`dizinde ${k.no} var, şiir yok`); return; }
-    if (k.no !== p.no) numaraKayik.push(`${i + 1}. kayıt: dizinde ${k.no}, şiir ${p.no}`);
-    if (!dizinEslesir(ilk, k.ilkDize)) {
-      const kisa = `${p.no}: dizin «${k.ilkDize}» ≠ şiir «${ilk}»`;
-      if (dizinEslesir(normallestir(ilk ?? ''), normallestir(k.ilkDize))) dizinYazim.push(kisa);
-      else dizinSorun.push(kisa);
-    }
-  });
+  // Dizin kayıtları bölüm (kaynak öneki) başına, kendi şiirleriyle sırayla eşlenir.
+  const dizinBolumleri = [...new Set(dizin.map((k: any) => k.kaynak ?? 'd'))];
+  for (const bl of dizinBolumleri) {
+    const kayitlar = dizin.filter((k: any) => (k.kaynak ?? 'd') === bl);
+    const dSiirler = siirler.filter((p) => p.kaynak === bl);
+    if (kayitlar.length !== dSiirler.length) dizinSorun.push(`${bl}: dizin ${kayitlar.length} kayıt, şiir ${dSiirler.length}`);
+    kayitlar.forEach((k: any, i: number) => {
+      const p = kayitlar.length === dSiirler.length ? dSiirler[i] : dSiirler.find((x) => x.no === k.no);
+      const ilk = p?.bentler?.[0]?.dizeler?.[0];
+      if (!p) { dizinSorun.push(`dizinde ${bl}-${k.no} var, şiir yok`); return; }
+      if (k.no !== p.no) numaraKayik.push(`${bl}: ${i + 1}. kayıt: dizinde ${k.no}, şiir ${p.no}`);
+      if (!dizinEslesir(ilk, k.ilkDize)) {
+        const kisa = `${p.id}: dizin «${k.ilkDize}» ≠ şiir «${ilk}»`;
+        if (dizinEslesir(normallestir(ilk ?? ''), normallestir(k.ilkDize))) dizinYazim.push(kisa);
+        else dizinSorun.push(kisa);
+      }
+    });
+  }
+  const dSiirler = siirler.filter((p) => p.kaynak === 'd');
   if (numaraKayik.length) dizinSorun.push(`dizin numaraları kitapta şiir numaralarından kayık (${numaraKayik.length} kayıt; ilk: ${numaraKayik[0]}; son: ${numaraKayik.at(-1)})`);
   s.push({ kontrol: 'Şiir dizini', beklenen: 'ilk dizeler eşleşir', bulunan: dizinSorun.length ? `${dizinSorun.length} fark` : `${dizin.length} = ${dSiirler.length}, tümü eşleşti`,
     tamam: dizinSorun.length === 0, ayrinti: dizinSorun });

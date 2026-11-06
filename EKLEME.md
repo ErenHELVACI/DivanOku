@@ -57,5 +57,9 @@ npm test && npm run build
 ```
 Site motoru yeni kitabı kendiliğinden bulur (`veri/*/siirler.json` olan her klasör). Ana sayfada cilt rengi sıradan atanır (`src/pages/index.astro`).
 
-## Eşrefoğlu Rûmî (PDF)
-`Eşrefoğlu Rumi Divanı.pdf` metin katmanı taşıyor ama ş, ğ, İ harfleri ve bazı rakamlar çıkarılamıyor (13 bin boş karakter), yani metin güvenilmez. Bu PDF'ten kitap eklenmedi. ePUB'ı bulunursa yukarıdaki yol aynen işler.
+## PDF kaynaklı kitap (Eşrefoğlu Rûmî)
+`Eşrefoğlu Rumi Divanı.pdf` ePUB olmadan eklendi. Dikkat edilecekler:
+- Metin katmanı `pdftotext -enc UTF-8` ile çıkarılmalı. Kodlama verilmezse ş, ğ, İ, ı sessizce düşer (bu yüzden önce yanlışlıkla "kullanılamaz" denmişti).
+- Döküm: `bash ayristirici/dokum-pdf.sh <slug>` (düzen metni) ve `node ayristirici/dokum-pdf.ts <slug>` (konumlu parçalar; çift sütunlu sözlük için).
+- Kitaba özel ayrıştırıcı: `ayristirici/esrefoglu-rumi.ts` (şiirler ">N" işaretli, dipnot işareti kelimeye yapışık rakam, sayfa üst bilgileri atılır, sözlük sütun konumlarından okunur).
+- Künyede yayın numarası ve ISBN rakamları PDF'te yok; uydurulmadı, boş bırakıldı. Basılı kitaptan tamamlanmalı.

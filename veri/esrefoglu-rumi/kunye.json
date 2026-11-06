@@ -1,0 +1,18 @@
+{
+  "slug": "esrefoglu-rumi",
+  "baslik": "Eşrefoğlu Abdullâh Rûmî: Dîvân-ı İlâhiyât",
+  "sair": "Eşrefoğlu Rûmî",
+  "editor": "Mustafa Tatcı",
+  "yayinci": "T.C. Diyanet İşleri Başkanlığı, Dini Yayınlar Genel Müdürlüğü",
+  "seri": "Diyanet İşleri Başkanlığı Yayınları, Edebî Eserler",
+  "baski": "1. Baskı, 2014",
+  "baskiYili": 2014,
+  "isbn": "",
+  "telifNotu": "© T.C. Diyanet İşleri Başkanlığı (künyede yazılı)",
+  "izin": { "durum": "yok", "kaynak": "", "tarih": "" },
+  "siirSayisi": { "d": 135, "m": 7, "k": 64 },
+  "siirSayisiKaynagi": "Kitabın şiir dizinindeki kayıt sayıları (Dîvân 135, Mesnevîler 7, Kıt'alar 64); ön sözde sayı yazmıyor.",
+  "siirKaynakOnekleri": { "d": "Dîvân-ı İlâhiyât", "m": "Mesnevîler", "k": "Kıt'alar" },
+  "kaynakDosya": "kaynak/esrefoglu-rumi/kaynak.pdf",
+  "kunyeNotu": "PDF kaynaklıdır (ePUB yok). Künye sayfasında yayın numarası, ISBN rakamları ve baskı yeri PDF metin katmanında bulunmadığından boş bırakıldı; basılı kitaptan tamamlanmalı. Dipnot numaraları kitapta bölüm içinde sürer (Kıt'alar'da yeniden 1'den başlar); burada çakışmasın diye sıra numarası verildi. Sözlükte satır sonu tireleri birleştirildi."
+}

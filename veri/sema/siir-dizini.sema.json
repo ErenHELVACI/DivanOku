@@ -5,6 +5,6 @@
   "type": "array",
   "items": {
     "type": "object", "required": ["no", "ilkDize"], "additionalProperties": false,
-    "properties": { "no": { "type": "integer", "minimum": 1 }, "ilkDize": { "type": "string", "minLength": 1 } }
+    "properties": { "kaynak": { "type": "string", "pattern": "^[a-z]$", "description": "Çok bölümlü kitapta kaydın hangi bölüme ait olduğu; yoksa d" }, "no": { "type": "integer", "minimum": 1 }, "ilkDize": { "type": "string", "minLength": 1 } }
   }
 }

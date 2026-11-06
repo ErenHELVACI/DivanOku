@@ -14,7 +14,7 @@
     "seri": { "type": "string" },
     "baski": { "type": "string" },
     "baskiYili": { "type": "integer", "minimum": 1800, "maximum": 2100 },
-    "isbn": { "type": "string", "pattern": "^[0-9-]{10,17}$" },
+    "isbn": { "type": "string", "pattern": "^([0-9-]{10,17})?$", "description": "Kaynakta okunamıyorsa boş bırakılır (uydurulmaz)" },
     "telifNotu": { "type": "string", "minLength": 1 },
     "izin": {
       "type": "object",
@@ -37,7 +37,7 @@
     },
     "siirSayisiKaynagi": { "type": "string" },
     "siirKaynakOnekleri": { "type": "object", "minProperties": 1, "propertyNames": { "pattern": "^[a-z]$" }, "additionalProperties": { "type": "string", "minLength": 1 } },
-    "kaynakDosya": { "type": "string", "pattern": "^kaynak/.+[.]epub$" },
+    "kaynakDosya": { "type": "string", "pattern": "^kaynak/.+[.](epub|pdf)$" },
     "kunyeNotu": { "type": "string" }
   }
 }
