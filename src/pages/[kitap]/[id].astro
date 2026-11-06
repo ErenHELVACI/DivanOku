@@ -23,7 +23,7 @@ const kullanilan: Record<string, { t: string; k: boolean }[]> = {}; // kelime ->
 // Sözcük: harfler ve harf aralarındaki üst nokta, kesme ve tire tek parça alınır ("Ya‘ni", "ma‘nâ", "‘aşk", "mü’min", "Bed-nâm").
 // Eşleştirme sırası: 1) tüm yazılış sözlükte varsa bir bütün olarak; 2) tireliyse parçalara bölünüp her parça ayrı;
 // 3) kesmeliyse ("Hakk’a", "Tanrı’nın") kesmeden önceki kök. ‘ (ayn işareti) hiçbir zaman sözcüğü bölmez.
-const SOZCUK = /(⟦\d+⟧|[‘ʿ]?[\p{L}\p{M}]+(?:[‘’'ʿʾ`´-][\p{L}\p{M}]+)*)/u;
+const SOZCUK = /(⟦\d+⟧|[‘’ʿʾ]?[\p{L}\p{M}]+(?:[‘’'ʿʾ`´-]+[\p{L}\p{M}]+)*)/u; // ayraçlar art arda gelebilir ("tahte’l-‘ulâ": "-" ve "‘")
 const bulundu = (a: string) => a.length >= 2 && indeks.has(a); // tek harfli sözcükler eşleştirilmez ("ı" ile "İ" karışıyordu)
 const anahtarBul = (yazi: string) => {
   const tam = normallestir(yazi);
@@ -53,7 +53,7 @@ function parcala(dize: string): Parca[] {
     if (!p) continue;
     const d = p.match(/^⟦(\d+)⟧$/);
     if (d) { bosalt(); out.push({ t: 'd', no: Number(d[1]) }); continue; }
-    if (!/^[‘ʿ]?[\p{L}\p{M}]/u.test(p)) { metin += p; continue; }
+    if (!/^[‘’ʿʾ]?[\p{L}\p{M}]/u.test(p)) { metin += p; continue; }
     const a = anahtarBul(p);
     if (a) { kelime(p, a); continue; } // tireli olsa da bütün hâliyle sözlükte var
     if (p.includes('-')) {
