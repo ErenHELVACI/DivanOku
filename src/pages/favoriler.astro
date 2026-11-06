@@ -1,0 +1,75 @@
+---
+import { yol } from '../lib/yol.ts';
+import Temel from '../layouts/Temel.astro';
+import '../styles/favori.css';
+import { kitaplar } from '../lib/veri.ts';
+
+const meta = kitaplar().map((k) => ({ slug: k.kunye.slug, sair: k.kunye.sair, ad: k.kunye.baslik }));
+---
+<Temel baslik="Favorilerim · Dîvân" aciklama="Favori şiirleriniz, bu cihazda saklanır.">
+  <nav class="ekmek" aria-label="Konum"><a href={yol('/')}>Kitaplar</a> › Favoriler</nav>
+  <header class="kitap-ust">
+    <div class="sair">Bu cihazda</div>
+    <h1>Favorilerim</h1>
+    <p class="soluk kucuk">Favori şiirleriniz yalnızca bu tarayıcıda saklanır; hesap ya da sunucu gerekmez. Tarayıcı verilerini silerseniz favoriler de silinir.</p>
+  </header>
+  <p class="dugmeler" id="fav-araclar" hidden><button type="button" class="dugme" id="hepsini-sil">Hepsini sil</button></p>
+  <div id="fav-icerik" aria-live="polite"><p class="fav-bos">Yükleniyor…</p></div>
+  <script type="application/json" id="kitap-meta" set:html={JSON.stringify(meta)}></script>
+</Temel>
+
+<script>
+  import { oku, sil, hepsiniSil } from '../scripts/favoriler.ts';
+  import { TEMEL } from '../lib/yol.ts';
+  type Meta = { slug: string; sair: string; ad: string };
+  type Liste = { siirler: { id: string; no: number; b: string; i: string }[] };
+  const meta: Meta[] = JSON.parse(document.getElementById('kitap-meta')!.textContent!);
+  const kap = document.getElementById('fav-icerik')!;
+  const araclar = document.getElementById('fav-araclar')!;
+  const onbellek = new Map<string, Liste | null>();
+
+  async function listeAl(slug: string): Promise<Liste | null> {
+    if (onbellek.has(slug)) return onbellek.get(slug)!;
+    try { const l = await (await fetch(`${TEMEL}/${slug}/liste.json`)).json(); onbellek.set(slug, l); return l; }
+    catch { onbellek.set(slug, null); return null; }
+  }
+
+  async function ciz() {
+    const favoriler = oku();
+    kap.replaceChildren();
+    araclar.hidden = favoriler.length === 0;
+    if (!favoriler.length) {
+      const p = document.createElement('p'); p.className = 'fav-bos';
+      p.append('Henüz favori şiiriniz yok. Bir şiiri okurken üst banttaki ', Object.assign(document.createElement('b'), { textContent: '☆ Favori' }), ' düğmesine basın. ');
+      const a = document.createElement('a'); a.href = `${TEMEL}/`; a.textContent = 'Kitaplara göz atın.'; p.append(a); kap.append(p); return;
+    }
+    for (const m of meta) {
+      const bunlar = favoriler.filter((f) => f.k === m.slug);
+      if (!bunlar.length) continue;
+      const liste = await listeAl(m.slug);
+      const sira = new Map(liste?.siirler.map((s, i) => [s.id, i]) ?? []);
+      bunlar.sort((a, b) => (sira.get(a.id) ?? 1e9) - (sira.get(b.id) ?? 1e9));
+      const kutu = document.createElement('section'); kutu.className = 'fav-grup'; kutu.setAttribute('aria-label', m.sair);
+      const h = document.createElement('h2');
+      const ha = document.createElement('a'); ha.href = `${TEMEL}/${m.slug}/`; ha.textContent = m.sair;
+      const adet = document.createElement('span'); adet.className = 'adet'; adet.textContent = `${bunlar.length} favori`;
+      h.append(ha, adet); kutu.append(h);
+      const ul = document.createElement('ul');
+      for (const f of bunlar) {
+        const s = liste?.siirler.find((x) => x.id === f.id);
+        const li = document.createElement('li');
+        const a = document.createElement('a'); a.href = `${TEMEL}/${m.slug}/${f.id}/`;
+        a.textContent = s ? `${s.no}. ${s.i}` : `Şiir ${f.id}`; // düz metin: HTML olarak basılmaz
+        const k = document.createElement('button'); k.type = 'button'; k.className = 'dugme kaldir'; k.textContent = 'Kaldır';
+        k.setAttribute('aria-label', `${a.textContent} şiirini favorilerden kaldır`);
+        k.addEventListener('click', () => sil(f.k, f.id));
+        li.append(a, k); ul.append(li);
+      }
+      kutu.append(ul); kap.append(kutu);
+    }
+  }
+
+  document.getElementById('hepsini-sil')!.addEventListener('click', () => { if (confirm('Tüm favoriler silinsin mi?')) hepsiniSil(); });
+  addEventListener('favori-degisti', ciz);
+  ciz();
+</script>

@@ -21,3 +21,7 @@
 - Arama dizini `/arama/indeks.json` (derlemede üretilir, ~1,3 MB); sonuçta eşleşen kısım özgün (aksanlı) metin üzerinde işaretlenir.
 - Servis işçisi (`/sw.js`) yalnız yayın sürümünde kaydedilir; HTTPS (ya da localhost) gerekir. Önbellek adı sabit: `divan-icerik`.
 - `/cevrimdisi/` sayfası tüm sayfaları (yaklaşık 36 MB) önbelleğe indirir ve siler. Her derlemeden sonra `npm test` servis işçisinin mantığını sınar (`dogrulama/sw.test.ts`).
+
+## Favoriler
+- Favori şiirler yalnızca tarayıcıda (`localStorage`, anahtar `divan-favoriler`) tutulur; hesap ya da sunucu gerekmez. Kayıt: kitap kodu + şiir kimliği + eklenme zamanı. Kimlik değişmez kuralı (`d-10`) favorilerin dayanağıdır.
+- Kitap başına sayılır, tek listede (`/favoriler/`) kitaplara göre gruplanır. Başka sekmede değişirse sayfalar güncellenir.

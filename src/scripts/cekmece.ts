@@ -1,5 +1,6 @@
 // Şiir sayfasındaki yan sekme: tüm şiirlerin listesi, açılıp kapanır, son tercih hatırlanır.
 import { TEMEL } from '../lib/yol.ts';
+import { oku } from './favoriler.ts';
 const cekmece = document.getElementById('cekmece')!;
 const perde = document.getElementById('cekmece-perde')!;
 const dugme = document.getElementById('cekmece-dugme')!;
@@ -32,6 +33,7 @@ async function yukle() {
       const n = document.createElement('span'); n.className = 'n'; n.textContent = String(s.no);
       const t = document.createElement('span'); t.textContent = s.i; // düz metin: HTML olarak basılmaz
       a.append(n, t);
+      if (oku().some((f) => f.k === cekmece.dataset.kitap && f.id === s.id)) li.classList.add('fav');
       if (s.id === cekmece.dataset.aktif) { a.setAttribute('aria-current', 'page'); li.className = 'aktif'; }
       li.append(a); liste.append(li);
     }

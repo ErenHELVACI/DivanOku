@@ -7,7 +7,7 @@ import { TEMEL } from '../lib/yol.ts';
 
 export const GET: APIRoute = () => {
   // Kurulumda önbelleğe alınan çekirdek: ana sayfalar, arama dizini, kitap sayfaları
-  const cekirdek = ['/', '/ara/', '/sozluk/', '/cevrimdisi/', '/arama/indeks.json', '/manifest.webmanifest', '/favicon.svg', '/ikon-192.png',
+  const cekirdek = ['/', '/ara/', '/sozluk/', '/cevrimdisi/', '/favoriler/', '/arama/indeks.json', '/manifest.webmanifest', '/favicon.svg', '/ikon-192.png',
     ...kitaplar().flatMap((k) => [`/${k.kunye.slug}/`, `/${k.kunye.slug}/liste.json`, `/${k.kunye.slug}/sozluk/`, ...(k.sair ? [`/${k.kunye.slug}/sair/`] : [])])].map((a) => TEMEL + a);
   const kod = String.raw`// Dîvân servis işçisi (sürüm ${Date.now()})
 const ONBELLEK = 'divan-icerik';

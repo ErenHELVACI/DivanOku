@@ -1,6 +1,7 @@
 ---
 import { yol } from '../../lib/yol.ts';
 import Temel from '../../layouts/Temel.astro';
+import '../../styles/favori.css';
 import { kitaplar, kitapBul, bolumAdi, ilkDize, turAdi, siirBasligi } from '../../lib/veri.ts';
 
 export function getStaticPaths() {
@@ -34,12 +35,13 @@ const turler = [...new Set(k.siirler.map((s) => s.tur))];
         {turler.map((t) => <option value={t}>{turAdi[t]}</option>)}
       </select>
     )}
+    <label class="fav-filtre"><input type="checkbox" id="fav-suz" /> ★ Yalnız favoriler</label>
   </div>
   <p class="kucuk soluk" id="sayac" aria-live="polite">{k.siirler.length} şiir</p>
 
-  <ul class="liste" id="liste">
+  <ul class="liste" id="liste" data-kitap={k.kunye.slug}>
     {k.siirler.map((s) => (
-      <li data-bolum={s.kaynak} data-tur={s.tur} data-metin={ilkDize(s).toLocaleLowerCase('tr')}>
+      <li data-id={s.id} data-bolum={s.kaynak} data-tur={s.tur} data-metin={ilkDize(s).toLocaleLowerCase('tr')}>
         <a href={yol(`/${k.kunye.slug}/${s.id}/`)}>
           <span class="no" aria-hidden="true">{s.no}</span>
           <span>
@@ -58,11 +60,12 @@ const turler = [...new Set(k.siirler.map((s) => s.tur))];
   const tur = document.getElementById('tur') as HTMLSelectElement | null;
   const sayac = document.getElementById('sayac')!;
   const satirlar = [...document.querySelectorAll<HTMLElement>('#liste li')];
+  const favSuz = document.getElementById('fav-suz') as HTMLInputElement;
   function suz() {
     const q = ara.value.toLocaleLowerCase('tr').trim();
     let n = 0;
     for (const li of satirlar) {
-      const ok = (!q || li.dataset.metin!.includes(q)) && (!bolum?.value || li.dataset.bolum === bolum.value) && (!tur?.value || li.dataset.tur === tur.value);
+      const ok = (!q || li.dataset.metin!.includes(q)) && (!bolum?.value || li.dataset.bolum === bolum.value) && (!tur?.value || li.dataset.tur === tur.value) && (!favSuz.checked || li.dataset.fav === '1');
       li.hidden = !ok;
       if (ok) n++;
     }
@@ -79,4 +82,17 @@ const turler = [...new Set(k.siirler.map((s) => s.tur))];
     if (!baglar.length) { sayac.textContent = 'Seçili filtreye uyan şiir yok'; return; }
     location.href = baglar[Math.floor(Math.random() * baglar.length)].href;
   });
+
+  // Favoriler: listede yıldız ve "yalnız favoriler" süzgeci
+  import { oku } from '../../scripts/favoriler.ts';
+  const kitapKodu = document.getElementById('liste')!.dataset.kitap!;
+  function favIsaretle() {
+    const benim = new Set(oku().filter((f) => f.k === kitapKodu).map((f) => f.id));
+    for (const li of satirlar) li.dataset.fav = benim.has(li.dataset.id!) ? '1' : '0';
+    favSuz.disabled = benim.size === 0 && !favSuz.checked;
+    suz();
+  }
+  favSuz.addEventListener('change', suz);
+  addEventListener('favori-degisti', favIsaretle);
+  favIsaretle();
 </script>

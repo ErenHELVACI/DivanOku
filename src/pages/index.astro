@@ -34,11 +34,28 @@ const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
         <span class="sayilar">
           <span><b>{sayi(k.kunye.siirSayisi)}</b>şiir</span>
           <span><b>{k.siirler.reduce((n, s) => n + s.bentler.length, 0)}</b>bent</span>
+          <span class="fav-sayi" data-kitap={k.kunye.slug} hidden><b>0</b>★ favori</span>
         </span>
       </div>
     </div>
   ))}
   </div>
 
-  <p class="dugmeler" style="margin-top:1.6rem"><a class="dugme" href={yol('/ara/')}>Tüm şiirlerde ara</a> <a class="dugme" href={yol('/sozluk/')}>Tüm sözlük</a> <a class="dugme" href={yol('/cevrimdisi/')}>İnternetsiz okuma</a></p>
+  <p class="dugmeler" style="margin-top:1.6rem"><a class="dugme" href={yol('/favoriler/')}>★ Favorilerim <span id="fav-toplam" class="soluk"></span></a> <a class="dugme" href={yol('/ara/')}>Tüm şiirlerde ara</a> <a class="dugme" href={yol('/sozluk/')}>Tüm sözlük</a> <a class="dugme" href={yol('/cevrimdisi/')}>İnternetsiz okuma</a></p>
 </Temel>
+
+<script>
+  // Her kartta o kitaptan kaç favori olduğu (yalnızca varsa görünür) ve toplam
+  import { kitapSayilari } from '../scripts/favoriler.ts';
+  function guncelle() {
+    const s = kitapSayilari();
+    document.querySelectorAll<HTMLElement>('.fav-sayi').forEach((e) => {
+      const n = s[e.dataset.kitap!] ?? 0;
+      e.hidden = n === 0; e.querySelector('b')!.textContent = String(n);
+    });
+    const toplam = Object.values(s).reduce((a, b) => a + b, 0);
+    document.getElementById('fav-toplam')!.textContent = toplam ? `(${toplam})` : '';
+  }
+  addEventListener('favori-degisti', guncelle);
+  guncelle();
+</script>

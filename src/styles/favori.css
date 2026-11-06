@@ -1,0 +1,25 @@
+/* Favoriler */
+.favori-dugme[aria-pressed="true"] { border-color: var(--yaldiz); background: color-mix(in srgb, var(--yaldiz) 20%, transparent); }
+.favori-dugme[aria-pressed="true"] [aria-hidden] { color: var(--yaldiz); }
+@media (max-width: 560px) { .favori-dugme .yazi { display: none; } }
+
+#toast { position: fixed; left: 50%; bottom: 1.2rem; transform: translateX(-50%); z-index: 80; font: 600 .9rem var(--sans); background: var(--yazi); color: var(--zemin); padding: .55rem 1.1rem; border-radius: 2rem; box-shadow: 0 8px 24px -8px rgb(0 0 0 / .5); opacity: 0; pointer-events: none; transition: opacity .25s ease; max-width: 90vw; }
+#toast.gorunur { opacity: 1; }
+
+/* Kitap sayfası listesi: favori şiirin yanında yıldız */
+ul.liste li[data-fav="1"] .no::after { content: "★"; display: block; position: absolute; transform: translate(1.5rem, -1.25rem); font-size: .8rem; color: var(--yaldiz); }
+ul.liste li .no { position: relative; }
+.fav-filtre { display: inline-flex; align-items: center; gap: .4rem; font: .9rem var(--sans); color: var(--soluk); }
+.cekmece-liste li.fav .n::after { content: " ★"; color: var(--yaldiz); }
+
+/* /favoriler/ sayfası */
+.fav-grup { background: var(--sayfa); border: 1px solid var(--cizgi); border-radius: .6rem; padding: .9rem 1rem 1rem; margin-bottom: 1.2rem; box-shadow: var(--golge); }
+.fav-grup h2 { margin: 0 0 .4rem; font-size: 1.25rem; display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
+.fav-grup h2 a { color: var(--lacivert); text-decoration: none; }
+.fav-grup h2 .adet { font: 500 .85rem var(--sans); color: var(--soluk); }
+.fav-grup ul { list-style: none; margin: 0; padding: 0; }
+.fav-grup li { display: grid; grid-template-columns: 1fr auto; gap: .6rem; align-items: center; border-top: 1px dashed var(--cizgi); padding: .45rem 0; }
+.fav-grup li a { text-decoration: none; color: var(--yazi); display: block; }
+.fav-grup li a:hover { color: var(--vurgu); }
+.fav-grup li .kaldir { font-size: .8rem; min-height: 2.1rem; padding: .25rem .7rem; }
+.fav-bos { text-align: center; color: var(--soluk); padding: 2rem 1rem; }

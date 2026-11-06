@@ -5,6 +5,7 @@ import { kitaplar, kitapBul, siirBasligi, ilkDize, turAdi } from '../../lib/veri
 import { tekKelimeIndeksi, ifadeIndeksi, farkliAnlamlar } from '../../lib/sozluk.ts';
 import { normallestir } from '../../lib/normallestir.ts';
 import '../../styles/anbiyans.css';
+import '../../styles/favori.css';
 
 export function getStaticPaths() {
   return kitaplar().flatMap((k) => k.siirler.map((s) => ({ params: { kitap: k.kunye.slug, id: s.id } })));
@@ -96,6 +97,7 @@ const bentler = s.bentler.map((b) => ({ ...b, dizeler: b.dizeler.map(parcala), a
 const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin]));
 ---
 <Temel baslik={`${baslik} · ${k.kunye.sair}`} aciklama={ilkDize(s)}>
+  <button slot="menu-ek" type="button" id="favori-dugme" class="favori-dugme" data-kitap={k.kunye.slug} data-id={s.id} aria-pressed="false" aria-label="Favorilere ekle"><span aria-hidden="true">☆</span><span class="yazi"> Favori</span></button>
   <button slot="menu-ek" type="button" id="anbiyans-ac" class="anbiyans-dugme" aria-label="Anbiyans modu: yalnız şiir, tam sayfa"><span aria-hidden="true">◐</span><span class="yazi"> Anbiyans</span></button>
   {onceki && <link rel="prev" href={yol(`/${k.kunye.slug}/${onceki.id}/`)} />}
   {sonraki && <link rel="next" href={yol(`/${k.kunye.slug}/${sonraki.id}/`)} />}
@@ -342,4 +344,24 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
   }, true);
   // Başka şiirden gelindiyse (mod açık kaldıysa) kontroller de açılır
   if (kok.classList.contains('anbiyans')) { kontrol.hidden = false; dinle(true); gor(); yenidenSigdir(); }
+</script>
+
+<script>
+  // Favori düğmesi: durum tarayıcıda (localStorage) tutulur; başka sekmede değişirse burada da güncellenir.
+  import { varMi, degistir } from '../../scripts/favoriler.ts';
+  const dugme = document.getElementById('favori-dugme') as HTMLButtonElement;
+  const { kitap, id } = dugme.dataset as { kitap: string; id: string };
+  let toast = document.getElementById('toast');
+  if (!toast) { toast = document.createElement('div'); toast.id = 'toast'; toast.setAttribute('role', 'status'); document.body.append(toast); }
+  let zaman = 0;
+  const bildir = (m: string) => { toast!.textContent = m; toast!.classList.add('gorunur'); clearTimeout(zaman); zaman = window.setTimeout(() => toast!.classList.remove('gorunur'), 1800); };
+  const guncelle = () => {
+    const f = varMi(kitap, id);
+    dugme.setAttribute('aria-pressed', String(f));
+    dugme.setAttribute('aria-label', f ? 'Favorilerden çıkar' : 'Favorilere ekle');
+    (dugme.firstElementChild as HTMLElement).textContent = f ? '★' : '☆';
+  };
+  dugme.addEventListener('click', () => { const f = degistir(kitap, id); guncelle(); bildir(f ? 'Favorilere eklendi' : 'Favorilerden çıkarıldı'); });
+  addEventListener('favori-degisti', guncelle);
+  guncelle();
 </script>
