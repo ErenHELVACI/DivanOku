@@ -16,6 +16,7 @@ const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
     <div class="ayrac"><Yildiz boy={22} /></div>
   </section>
 
+  <div class="kitaplik">
   {liste.map((k, i) => (
     <div class="kitap-kart" style={`--cilt:${ciltRenkleri[i % ciltRenkleri.length]}`}>
       <span class="sirt" aria-hidden="true"></span>
@@ -31,6 +32,7 @@ const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
       </div>
     </div>
   ))}
+  </div>
 
   <p style="text-align:center;margin-top:1.6rem"><a class="dugme" href="/sozluk/">Tüm sözlük: altı dîvânın sözlüğü bir arada →</a></p>
 </Temel>

@@ -276,3 +276,9 @@ button.kelime.baska { background-image: repeating-linear-gradient(90deg, var(--y
   #kart .icerik { padding-top: .1rem; padding-right: 4.8rem; }
   #kart button.kapat { top: .6rem; right: .7rem; }
 }
+
+/* Kitap kartları eşit boyda: satırlar en uzun kartın yüksekliğini paylaşır */
+.kitaplik { display: grid; gap: 1.1rem; grid-auto-rows: 1fr; }
+.kitaplik > .kitap-kart { margin-block: 0; }
+.kitap-kart > .govde { display: flex; flex-direction: column; }
+.kitap-kart .sayilar { margin-top: auto; padding-top: .7rem; } /* sayılar her kartın altında aynı hizada */
