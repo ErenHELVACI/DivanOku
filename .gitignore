@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Kullanıcının GitHub deposunun yerel kopyası (iç içe depo); bu projenin parçası değil
+/Divan/
