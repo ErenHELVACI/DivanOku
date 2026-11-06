@@ -8,7 +8,7 @@
   "seri": "Diyanet İşleri Başkanlığı Yayınları, Edebî Eserler",
   "baski": "1. Baskı, 2014",
   "baskiYili": 2014,
-  "isbn": "",
+  "isbn": "978-975-19-5968-3",
   "telifNotu": "© T.C. Diyanet İşleri Başkanlığı (künyede yazılı)",
   "izin": {
     "durum": "yok",
@@ -27,5 +27,5 @@
     "k": "Kıt'alar"
   },
   "kaynakDosya": "kaynak/esrefoglu-rumi/kaynak.pdf",
-  "kunyeNotu": "PDF kaynaklıdır (ePUB yok). Künye sayfasında yayın numarası, ISBN rakamları ve baskı yeri PDF metin katmanında bulunmadığından boş bırakıldı; basılı kitaptan tamamlanmalı. Dipnot numaraları kitapta bölüm içinde sürer (Kıt'alar'da yeniden 1'den başlar); burada çakışmasın diye sıra numarası verildi. Sözlükte satır sonu tireleri birleştirildi."
+  "kunyeNotu": "PDF kaynaklıdır (ePUB yok). Künye sayfasında yayın numarası ve baskı yeri PDF metin katmanında bulunmadığından boş bırakıldı. ISBN (978-975-19-5968-3) ve katalog kodu (2023-34-Y-0003-1003) basılı kitabın künye fotoğrafından alındı (kullanıcı); ISBN sağlama basamağı doğrulandı. Dikkat: katalog kodundaki 2023 yılı, PDF'teki '1. Baskı, 2014' ibaresiyle uyuşmuyor; basılı kitap farklı bir baskı olabilir, baskı yılı doğrulanmalı. Dipnot numaraları kitapta bölüm içinde sürer (Kıt'alar'da yeniden 1'den başlar); burada çakışmasın diye sıra numarası verildi. Sözlükte satır sonu tireleri birleştirildi."
 }
