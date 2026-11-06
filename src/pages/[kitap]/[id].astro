@@ -170,7 +170,7 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
     </nav>
 
     <p class="kucuk soluk" style="margin-top:2rem">
-      Kaynak: {k.kunye.baslik}, haz. {k.kunye.editor}, {k.kunye.yayinci}, {k.kunye.baski}. {k.kunye.telifNotu}.
+      Kaynak: {k.kunye.tamBaslik ?? k.kunye.baslik}, haz. {k.kunye.editor}, {k.kunye.yayinci}, {k.kunye.baski}. {k.kunye.telifNotu}.
       Noktalı çizgili kelimeye dokununca sözlük, üst simgeye dokununca dipnot açılır. Sol ve sağ ok tuşları şiirler arasında gezdirir.
     </p>
   </article>

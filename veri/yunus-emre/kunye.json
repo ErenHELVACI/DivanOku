@@ -1,6 +1,7 @@
 {
   "slug": "yunus-emre",
-  "baslik": "Yûnus Emre Dîvânı (Seçmeler)",
+  "baslik": "Yûnus Emre Dîvânı",
+  "tamBaslik": "Yûnus Emre Dîvânı (Seçmeler)",
   "sair": "Yûnus Emre",
   "editor": "Mustafa Tatcı",
   "yayinci": "T.C. Diyanet İşleri Başkanlığı, Dini Yayınlar Genel Müdürlüğü",
@@ -9,10 +10,20 @@
   "baskiYili": 2012,
   "isbn": "978-975-19-5338-4",
   "telifNotu": "© T.C. Diyanet İşleri Başkanlığı (künyede yazılı)",
-  "izin": { "durum": "yok", "kaynak": "", "tarih": "" },
-  "siirSayisi": { "d": 247, "a": 21 },
+  "izin": {
+    "durum": "yok",
+    "kaynak": "",
+    "tarih": ""
+  },
+  "siirSayisi": {
+    "d": 247,
+    "a": 21
+  },
   "siirSayisiKaynagi": "d: kitabın ön sözünde 'Yûnus Emre Dîvân-Seçmeler adlı eserde 247 şiir bulunmaktadır' yazar; a: kitapta 'Âşık Yûnus'un Şiirlerinden Seçmeler' bölümünün kendi numaralaması (1–21), kitapta sayısı ayrıca belirtilmemiştir.",
-  "siirKaynakOnekleri": { "d": "Yûnus Emre Dîvân-Seçmeler", "a": "Âşık Yûnus'un Şiirlerinden Seçmeler" },
+  "siirKaynakOnekleri": {
+    "d": "Yûnus Emre Dîvân-Seçmeler",
+    "a": "Âşık Yûnus'un Şiirlerinden Seçmeler"
+  },
   "kaynakDosya": "kaynak/yunus-emre/kaynak.epub",
   "kunyeNotu": "Künye bilgisi ePUB'daki 'YunusEmreDivani-1.xhtml' sayfasından alınmıştır; 'dc:rights' alanı boştur."
 }
