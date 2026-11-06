@@ -1,4 +1,5 @@
 // İnternetsiz okuma sayfası: sayfaları servis işçisinin kullandığı önbelleğe toptan indirir, durumu gösterir, siler.
+import { TEMEL } from '../lib/yol.ts';
 const ONBELLEK = 'divan-icerik'; // src/pages/sw.js.ts ile aynı ad
 type Grup = { slug: string; ad: string; adresler: string[] };
 let genel: string[] = [];
@@ -50,8 +51,8 @@ const genelSayfalar = () => genel;
 
 // Bir sayfanın ya da varlığın başvurduğu /_astro/ dosyaları (komut dosyası, stil, yazı tipi; göreli "./parca.js" içe aktarmaları dahil)
 function varlikBul(adres: string, metin: string): string[] {
-  const bulunan = new Set<string>([...metin.matchAll(/\/_astro\/[^"'\s)\\]+/g)].map((m) => m[0]));
-  if (adres.endsWith('.js')) for (const m of metin.matchAll(/["'`]\.\/([^"'`\s]+\.(?:js|css|woff2?))["'`]/g)) bulunan.add(`/_astro/${m[1]}`);
+  const bulunan = new Set<string>([...metin.matchAll(/\/_astro\/[^"'\s)\\]+/g)].map((m) => TEMEL + m[0]));
+  if (adres.endsWith('.js')) for (const m of metin.matchAll(/["'`]\.\/([^"'`\s]+\.(?:js|css|woff2?))["'`]/g)) bulunan.add(`${TEMEL}/_astro/${m[1]}`);
   return [...bulunan].filter((b) => !/(cyrillic|greek|vietnamese)|\.woff$/.test(b)); // Türkçe için latin ve latin-ext yeter; eski .woff gerekmez
 }
 
@@ -100,7 +101,7 @@ async function indir(adresler: string[]) {
 
 async function yukle() {
   try {
-    const r = await fetch('/sayfalar.json');
+    const r = await fetch(TEMEL + '/sayfalar.json');
     const v = await r.json();
     genel = v.genel; kitaplar = v.kitaplar;
   } catch {

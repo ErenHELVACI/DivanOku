@@ -3,14 +3,16 @@
 // Sayfaları toptan indirme ve silme istemci tarafında yapılır (src/scripts/cevrimdisi.ts), aynı önbelleği kullanır.
 import type { APIRoute } from 'astro';
 import { kitaplar } from '../lib/veri.ts';
+import { TEMEL } from '../lib/yol.ts';
 
 export const GET: APIRoute = () => {
   // Kurulumda önbelleğe alınan çekirdek: ana sayfalar, arama dizini, kitap sayfaları
   const cekirdek = ['/', '/ara/', '/sozluk/', '/cevrimdisi/', '/arama/indeks.json', '/manifest.webmanifest', '/favicon.svg', '/ikon-192.png',
-    ...kitaplar().flatMap((k) => [`/${k.kunye.slug}/`, `/${k.kunye.slug}/liste.json`, `/${k.kunye.slug}/sozluk/`, ...(k.sair ? [`/${k.kunye.slug}/sair/`] : [])])];
+    ...kitaplar().flatMap((k) => [`/${k.kunye.slug}/`, `/${k.kunye.slug}/liste.json`, `/${k.kunye.slug}/sozluk/`, ...(k.sair ? [`/${k.kunye.slug}/sair/`] : [])])].map((a) => TEMEL + a);
   const kod = String.raw`// Dîvân servis işçisi (sürüm ${Date.now()})
 const ONBELLEK = 'divan-icerik';
 const CEKIRDEK = ${JSON.stringify(cekirdek)};
+const TEMEL = ${JSON.stringify(TEMEL)}; // sitenin alt yolu ('' = kök)
 
 // Sayfaların ve varlıkların başvurduğu /_astro/ dosyaları: komut dosyaları, stiller, yazı tipleri ve bunların birbirine
 // bağlantıları ("./parca.js" gibi göreli içe aktarmalar dahil) bulunana kadar taranır; hepsi önbelleğe alınır.
@@ -18,8 +20,8 @@ const CEKIRDEK = ${JSON.stringify(cekirdek)};
 const GEREKSIZ = /(cyrillic|greek|vietnamese)|\.woff$/;
 function basvurular(adres, metin) {
   const bulunan = new Set();
-  for (const m of metin.matchAll(/\/_astro\/[^"'\s)\\]+/g)) bulunan.add(m[0]);
-  if (adres.endsWith('.js')) for (const m of metin.matchAll(/["'\x60]\.\/([^"'\x60\s]+\.(?:js|css|woff2?))["'\x60]/g)) bulunan.add('/_astro/' + m[1]);
+  for (const m of metin.matchAll(/\/_astro\/[^"'\s)\\]+/g)) bulunan.add(TEMEL + m[0]);
+  if (adres.endsWith('.js')) for (const m of metin.matchAll(/["'\x60]\.\/([^"'\x60\s]+\.(?:js|css|woff2?))["'\x60]/g)) bulunan.add(TEMEL + '/_astro/' + m[1]);
   return new Set([...bulunan].filter((b) => !GEREKSIZ.test(b)));
 }
 async function varliklar(sayfalar, onbellek) {
@@ -58,7 +60,7 @@ self.addEventListener('fetch', (olay) => {
   const istek = olay.request;
   if (istek.method !== 'GET') return;
   const adres = new URL(istek.url);
-  if (adres.origin !== location.origin || adres.pathname === '/sw.js') return;
+  if (adres.origin !== location.origin || adres.pathname === TEMEL + '/sw.js') return;
 
   const sayfaMi = istek.mode === 'navigate' || adres.pathname.endsWith('.json');
   olay.respondWith((async () => {
@@ -69,7 +71,7 @@ self.addEventListener('fetch', (olay) => {
       const agdan = fetch(istek).then((y) => { if (y.ok) onbellek.put(istek.url.split('?')[0], y.clone()); return y; });
       if (kayitli) { agdan.catch(() => {}); return kayitli; }
       try { return await agdan; } catch (e) {
-        if (istek.mode === 'navigate') { const yedek = await onbellek.match('/cevrimdisi/'); if (yedek) return yedek; }
+        if (istek.mode === 'navigate') { const yedek = await onbellek.match(TEMEL + '/cevrimdisi/'); if (yedek) return yedek; }
         return new Response('Çevrimdışı', { status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
       }
     }
@@ -79,5 +81,5 @@ self.addEventListener('fetch', (olay) => {
   })());
 });
 `;
-  return new Response(kod, { headers: { 'Content-Type': 'application/javascript; charset=utf-8', 'Service-Worker-Allowed': '/' } });
+  return new Response(kod, { headers: { 'Content-Type': 'application/javascript; charset=utf-8', 'Service-Worker-Allowed': TEMEL + '/' } });
 };

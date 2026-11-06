@@ -1,4 +1,5 @@
 ---
+import { yol } from '../../lib/yol.ts';
 import Temel from '../../layouts/Temel.astro';
 import '../../styles/sair.css';
 import DipnotluMetin from '../../components/DipnotluMetin.astro';
@@ -25,7 +26,7 @@ const bolumler = sair.bolumler.map((b, i) => {
 });
 ---
 <Temel baslik={`Şair hakkında · ${k.kunye.sair}`}>
-  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › <a href={`/${k.kunye.slug}/`}>{k.kunye.sair}</a> › Şair hakkında</nav>
+  <nav class="ekmek" aria-label="Konum"><a href={yol('/')}>Kitaplar</a> › <a href={yol(`/${k.kunye.slug}/`)}>{k.kunye.sair}</a> › Şair hakkında</nav>
   <header class="kitap-ust">
     <div class="sair">Şair hakkında</div>
     <h1>{k.kunye.sair}</h1>

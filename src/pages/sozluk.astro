@@ -1,4 +1,5 @@
 ---
+import { yol } from '../lib/yol.ts';
 import Temel from '../layouts/Temel.astro';
 import '../styles/sozluk.css';
 import { genelSozluk, farkliAnlamlar } from '../lib/sozluk.ts';
@@ -8,7 +9,7 @@ const harfler = [...new Set(gruplar.map((g) => g.harf))].sort((a, b) => a.locale
 const toplamMadde = gruplar.reduce((n, g) => n + g.maddeler.length, 0);
 ---
 <Temel baslik="Tüm sözlük · Dîvân">
-  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › Tüm sözlük</nav>
+  <nav class="ekmek" aria-label="Konum"><a href={yol('/')}>Kitaplar</a> › Tüm sözlük</nav>
   <header class="kitap-ust">
     <div class="sair">Altı dîvân</div>
     <h1>Tüm sözlük</h1>

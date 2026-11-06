@@ -1,4 +1,5 @@
 // Şiir sayfasındaki yan sekme: tüm şiirlerin listesi, açılıp kapanır, son tercih hatırlanır.
+import { TEMEL } from '../lib/yol.ts';
 const cekmece = document.getElementById('cekmece')!;
 const perde = document.getElementById('cekmece-perde')!;
 const dugme = document.getElementById('cekmece-dugme')!;
@@ -14,7 +15,7 @@ async function yukle() {
   if (yuklendi) return;
   yuklendi = true;
   try {
-    const r = await fetch(`/${cekmece.dataset.kitap}/liste.json`);
+    const r = await fetch(`${TEMEL}/${cekmece.dataset.kitap}/liste.json`);
     const v: { bolumler: Record<string, string>; siirler: { id: string; no: number; b: string; i: string }[] } = await r.json();
     const coklu = Object.keys(v.bolumler).length > 1;
     liste.replaceChildren();
@@ -27,7 +28,7 @@ async function yukle() {
       const li = document.createElement('li');
       li.dataset.m = tr(s.i);
       const a = document.createElement('a');
-      a.href = `/${cekmece.dataset.kitap}/${s.id}/`;
+      a.href = `${TEMEL}/${cekmece.dataset.kitap}/${s.id}/`;
       const n = document.createElement('span'); n.className = 'n'; n.textContent = String(s.no);
       const t = document.createElement('span'); t.textContent = s.i; // düz metin: HTML olarak basılmaz
       a.append(n, t);

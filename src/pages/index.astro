@@ -1,4 +1,5 @@
 ---
+import { yol } from '../lib/yol.ts';
 import Temel from '../layouts/Temel.astro';
 import Yildiz from '../components/Yildiz.astro';
 import { kitaplar } from '../lib/veri.ts';
@@ -13,7 +14,7 @@ const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
     <div class="tag">Türkçe dîvânlar</div>
     <h1>Dîvân</h1>
     <p class="ozet">Gönül şiirinin, telefonda da bilgisayarda da rahat okunan hâli.</p>
-    <form class="ana-ara" action="/ara/" method="get" role="search">
+    <form class="ana-ara" action={yol('/ara/')} method="get" role="search">
       <label class="sr-only" for="ana-q">Şiirlerde ara</label>
       <input type="search" id="ana-q" name="q" placeholder="Tüm şiirlerde ara… (murâd, ‘aşk, 56)" autocomplete="off" />
       <button type="submit" class="dugme birincil">Ara</button>
@@ -26,9 +27,9 @@ const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
     <div class="kitap-kart" style={`--cilt:${ciltRenkleri[i % ciltRenkleri.length]}`}>
       <span class="sirt" aria-hidden="true"></span>
       <div class="govde">
-        {k.sair && <a class="sair-bilgi" href={`/${k.kunye.slug}/sair/`} aria-label={`${k.kunye.sair} hakkında bilgi`}>Şair hakkında ›</a>}
+        {k.sair && <a class="sair-bilgi" href={yol(`/${k.kunye.slug}/sair/`)} aria-label={`${k.kunye.sair} hakkında bilgi`}>Şair hakkında ›</a>}
         <span class="sair">{k.kunye.sair}</span>
-        <h2><a class="kart-ana" href={`/${k.kunye.slug}/`}>{k.kunye.baslik}</a></h2>
+        <h2><a class="kart-ana" href={yol(`/${k.kunye.slug}/`)}>{k.kunye.baslik}</a></h2>
         <p class="kucuk soluk">Hazırlayan: {k.kunye.editor} · {k.kunye.baski}<br />{k.kunye.yayinci}</p>
         <span class="sayilar">
           <span><b>{sayi(k.kunye.siirSayisi)}</b>şiir</span>
@@ -39,5 +40,5 @@ const ciltRenkleri = ['#23336b', '#8f2a1e', '#1f5a4a', '#5b2a62', '#7a5a14'];
   ))}
   </div>
 
-  <p class="dugmeler" style="margin-top:1.6rem"><a class="dugme" href="/ara/">Tüm şiirlerde ara</a> <a class="dugme" href="/sozluk/">Tüm sözlük</a> <a class="dugme" href="/cevrimdisi/">İnternetsiz okuma</a></p>
+  <p class="dugmeler" style="margin-top:1.6rem"><a class="dugme" href={yol('/ara/')}>Tüm şiirlerde ara</a> <a class="dugme" href={yol('/sozluk/')}>Tüm sözlük</a> <a class="dugme" href={yol('/cevrimdisi/')}>İnternetsiz okuma</a></p>
 </Temel>

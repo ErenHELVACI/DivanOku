@@ -1,4 +1,5 @@
 ---
+import { yol } from '../../lib/yol.ts';
 import Temel from '../../layouts/Temel.astro';
 import '../../styles/sozluk.css';
 import { kitaplar, kitapBul } from '../../lib/veri.ts';
@@ -21,7 +22,7 @@ for (const m of maddeler) {
 const sirali = [...gruplar.entries()].sort((a, b) => a[0].localeCompare(b[0], 'tr'));
 ---
 <Temel baslik={`Sözlük · ${k.kunye.baslik}`}>
-  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › <a href={`/${k.kunye.slug}/`}>{k.kunye.sair}</a> › Sözlük</nav>
+  <nav class="ekmek" aria-label="Konum"><a href={yol('/')}>Kitaplar</a> › <a href={yol(`/${k.kunye.slug}/`)}>{k.kunye.sair}</a> › Sözlük</nav>
   <header class="kitap-ust">
     <div class="sair">{k.kunye.sair}</div>
     <h1>Sözlük</h1>

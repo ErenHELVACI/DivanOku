@@ -1,4 +1,5 @@
 ---
+import { yol } from '../../lib/yol.ts';
 import Temel from '../../layouts/Temel.astro';
 import { kitaplar, kitapBul, bolumAdi, ilkDize, turAdi, siirBasligi } from '../../lib/veri.ts';
 
@@ -10,12 +11,12 @@ const bolumler = Object.keys(k.kunye.siirKaynakOnekleri);
 const turler = [...new Set(k.siirler.map((s) => s.tur))];
 ---
 <Temel baslik={`${k.kunye.baslik} · Dîvân`}>
-  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › {k.kunye.sair}</nav>
+  <nav class="ekmek" aria-label="Konum"><a href={yol('/')}>Kitaplar</a> › {k.kunye.sair}</nav>
   <header class="kitap-ust">
     <div class="sair">{k.kunye.sair}</div>
     <h1>{k.kunye.baslik}</h1>
     <p class="soluk kucuk">Hazırlayan: {k.kunye.editor} · {k.kunye.baski}</p>
-    <p class="dugmeler"><button type="button" id="rastgele" class="dugme birincil" aria-label="Bu dîvândan rastgele bir şiir aç">⤮ Rastgele şiir</button> {k.sair && <a class="dugme" href={`/${k.kunye.slug}/sair/`}>Şair hakkında</a>} <a class="dugme" href={`/${k.kunye.slug}/sozluk/`}>Sözlük · {k.sozluk.filter((m) => m.tanim).length} madde →</a></p>
+    <p class="dugmeler"><button type="button" id="rastgele" class="dugme birincil" aria-label="Bu dîvândan rastgele bir şiir aç">⤮ Rastgele şiir</button> {k.sair && <a class="dugme" href={yol(`/${k.kunye.slug}/sair/`)}>Şair hakkında</a>} <a class="dugme" href={yol(`/${k.kunye.slug}/sozluk/`)}>Sözlük · {k.sozluk.filter((m) => m.tanim).length} madde →</a></p>
   </header>
 
   <div class="araclar" role="search">
@@ -39,7 +40,7 @@ const turler = [...new Set(k.siirler.map((s) => s.tur))];
   <ul class="liste" id="liste">
     {k.siirler.map((s) => (
       <li data-bolum={s.kaynak} data-tur={s.tur} data-metin={ilkDize(s).toLocaleLowerCase('tr')}>
-        <a href={`/${k.kunye.slug}/${s.id}/`}>
+        <a href={yol(`/${k.kunye.slug}/${s.id}/`)}>
           <span class="no" aria-hidden="true">{s.no}</span>
           <span>
             <span class="sr-only">{siirBasligi(k, s)}: </span>{ilkDize(s)}

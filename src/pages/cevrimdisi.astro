@@ -1,9 +1,10 @@
 ---
+import { yol } from '../lib/yol.ts';
 import Temel from '../layouts/Temel.astro';
 import '../styles/cevrimdisi.css';
 ---
 <Temel baslik="İnternetsiz okuma · Dîvân" aciklama="Dîvânları indirip internetsiz okuyun, telefona kurun.">
-  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › İnternetsiz okuma</nav>
+  <nav class="ekmek" aria-label="Konum"><a href={yol('/')}>Kitaplar</a> › İnternetsiz okuma</nav>
   <header class="kitap-ust">
     <div class="sair">Çevrimdışı</div>
     <h1>İnternetsiz okuma</h1>

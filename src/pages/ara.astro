@@ -1,9 +1,10 @@
 ---
+import { yol } from '../lib/yol.ts';
 import Temel from '../layouts/Temel.astro';
 import '../styles/ara.css';
 ---
 <Temel baslik="Ara · Dîvân" aciklama="Altı dîvânın bütün şiirlerinde arama.">
-  <nav class="ekmek" aria-label="Konum"><a href="/">Kitaplar</a> › Ara</nav>
+  <nav class="ekmek" aria-label="Konum"><a href={yol('/')}>Kitaplar</a> › Ara</nav>
   <header class="kitap-ust">
     <div class="sair">Altı dîvân</div>
     <h1>Şiirlerde ara</h1>
@@ -24,6 +25,7 @@ import '../styles/ara.css';
 </Temel>
 
 <script>
+  import { TEMEL } from '../lib/yol.ts';
   import { normalHarita, normallestir } from '../lib/normallestir.ts';
 
   type Siir = { kitap: number; id: string; baslik: string; bentler: { dizeler: string[]; n: string[] }[] };
@@ -43,7 +45,7 @@ import '../styles/ara.css';
 
   async function yukle() {
     try {
-      const r = await fetch('/arama/indeks.json');
+      const r = await fetch(TEMEL + '/arama/indeks.json');
       const v = await r.json();
       kitaplar = v.k;
       for (let i = 0; i < kitaplar.length; i++) kitapSec.append(new Option(kitaplar[i][1], String(i)));
@@ -111,7 +113,7 @@ import '../styles/ara.css';
   }
 
   function dogrudanKart(s: Siir) {
-    const a = document.createElement('a'); a.className = 'sonuc dogrudan'; a.href = `/${kitaplar[s.kitap][0]}/${s.id}/`;
+    const a = document.createElement('a'); a.className = 'sonuc dogrudan'; a.href = `${TEMEL}/${kitaplar[s.kitap][0]}/${s.id}/`;
     const e = document.createElement('span'); e.className = 'kitap-etiket'; e.textContent = kitaplar[s.kitap][1];
     const t = document.createElement('strong'); t.textContent = ` ${s.baslik}`;
     const ilk = document.createElement('span'); ilk.className = 'soluk'; ilk.textContent = ` · ${s.bentler[0]?.dizeler[0] ?? ''}`;
@@ -146,7 +148,7 @@ import '../styles/ara.css';
     for (const { siir, bentIdx } of dilim) {
       const kutu = document.createElement('article'); kutu.className = 'sonuc';
       const b = document.createElement('h2');
-      const a = document.createElement('a'); a.href = `/${kitaplar[siir.kitap][0]}/${siir.id}/`;
+      const a = document.createElement('a'); a.href = `${TEMEL}/${kitaplar[siir.kitap][0]}/${siir.id}/`;
       const e = document.createElement('span'); e.className = 'kitap-etiket'; e.textContent = kitaplar[siir.kitap][1];
       a.append(e, ` ${siir.baslik}`); b.append(a); kutu.append(b);
       for (const bi of bentIdx.slice(0, 3)) {
