@@ -3,7 +3,8 @@
 .icindekiler a { display: block; padding: .55rem .9rem; border: 1px solid var(--cizgi); border-radius: .6rem; background: var(--sayfa); text-decoration: none; color: var(--yazi); }
 .icindekiler a:hover { border-color: var(--yaldiz); }
 .sair-bolum { background: var(--sayfa); border: 1px solid var(--cizgi); border-radius: .6rem; padding: 1.2rem 1.1rem 1.4rem; margin-bottom: 1.6rem; box-shadow: var(--golge); scroll-margin-top: 4.5rem; }
-.sair-bolum p { margin: .75rem 0; max-width: 40rem; hyphens: auto; }
+.sair-bolum p { margin: .75rem 0; max-width: 40rem; text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
+.sair-bolum .alinti p, .sair-bolum .dipnotlar { text-align: left; } /* dizeler ve dipnot listesi iki yana yaslanmaz */
 .bolum-baslik { margin: 0 0 .5rem; font-size: clamp(1.4rem, 4.5vw, 1.9rem); color: var(--vurgu); border-bottom: 1px solid var(--yaldiz); padding-bottom: .5rem; }
 .ust-baslik { margin: 1.8rem 0 .4rem; font-size: 1.3rem; color: var(--lacivert); }
 .alt-baslik { margin: 1.4rem 0 .2rem; font: 600 1.05rem var(--display); color: var(--lacivert); }

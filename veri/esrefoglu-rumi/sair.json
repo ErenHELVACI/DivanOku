@@ -1,0 +1,679 @@
+{
+ "kaynakDosyalar": [
+  9,
+  10,
+  11,
+  12,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34
+ ],
+ "bolumler": [
+  {
+   "baslik": "Ön Söz",
+   "ogeler": [
+    {
+     "t": "p",
+     "m": "Kültür tarihimizde Türkistan’da XII. asırdan itibâren Ahmed-i Yesevî Hazretleri’yle başlayan “hikmet” geleneği, bir asır sonra Anadolu’da Yûnus Emre Hazretleri’yle “İlâhî” ismiyle devam etmiştir. Malûm olduğu üzere “Hikmet” varlığın ve eşyanın hakîkatiyle ilgilidir. “İlâhî” kelimesi ise “Allah’a ait” demektir. Istılahta, Kur’ân-ı Azimüşşân’ın bildirdiği nefis merhalelerini tamamlayıp mutmaine, raziyye ve marziyyeden geçerek kemâle ulaşan kişilerin, Cenâb-ı Hakk’ın varlığında yokluk bilincine ulaşarak vecd ile fânifillah olanların yaşadıkları manevî tecrübeleri anlattıkları sözler, şiirler ve bestelerdir."
+    },
+    {
+     "t": "p",
+     "m": "Cenâb-ı Hak Resûl-i Ekrem Efendimizin ağzından “Ben kulumu sevince de artık onun işiten kulağı, gören gözü, tutan eli, yürüyen ayağı olurum. Benden bir şey isterse mutlaka onu veririm. Bana sığındığında da muhakkak onu korurum…” (Buhârî, Rikâk, 38) buyurmaktadır. Şu bir gerçektir ki yolu şehr-i fenâya (=yokluk makamına) uğrayanların vücûdlarındaki tasarruf Hakk’a ait olunca, evliyâullahın dili de ilâhî yani “Allah’a ait” olacaktır. Bu manevî makâm ve hâlleri yaşayan kişi hangi milletten olursa olsun, hangi dili konuşursa konuşsun, sözleri “İlâhî”dir. Bizim dilimizde bu makam ve hâllerle ilgili tecrübelerini ilk yazan kişiler Doğu Türkçesi’nde Ahmed-i Yesevî, Batı Türkçesinde de Yûnus Emre’dir. Bu Hak dostları aşk ve manâ dilimizin kurucularıdır. Bu dil günlük dilin ötesinde manevî ve remzî özellikler taşıdığı için her iki şahıs, kullandığımız günlük Türkçe’ye “manâ elbisesi” giydirerek, kendilerine özgü yeni bir dil ortaya koymuşlardır. Bu dile “manâ dili”, “aşk dili”, “kudret dili” veya Kur’an’daki “mantıku’t-tayr” remzinden hareketle “kuş dili” de denmektedir. Kuş dili, maddeden manâya yükselenlerin, nefisleri her türlü bağımlılıktan kurtulan “mücâhede ve müşâhede” ehlinin dilidir."
+    },
+    {
+     "t": "p",
+     "m": "İrfân, aşk ve mânâ dilimizin temsilcilerinden birisi de Eşrefoğlu Hazretleri’dir. Bir manzûmesinde: “Aşkına düşen cânların yoluna baş verenlerin/Aşk bülbülü olanların kimse dilin bilmez imiş” nutkeden Eşrefoğlu XV. asırda Anadolu’da yaşayan Yûnus Emre üslûbunun takipçilerinden biridir. İslâm’ın insanlığa hediye ettiği bu kudsî gönül, Kâdiriyye erkânını Anadolu’da temsil eden ve kendi adıyla anılan kolunun kurucu pîridir. Mısır’dan Suriye’nin Hama şehrine buradan da Anadolu’ya hicretle önce Manisa’ya oradan da İznik’e yerleşen, aslen Mekkeli ve Hz. Peygamber’in soyundan geldiği rivâyet edilen bir ailenin çocuğudur. Çocukluk ve gençlik yılları İznik’te geçen Eşrefoğlu Rûmî, Bursa’ya giderek Çelebi Sultân Mehmed Medresesi’nde tahsil görmüştür. Bu sırada gönlüne düşen ilâhî sevgiyle Emîr Sultân’ın manevî halkasına dâhil olmak istemişse de Emîr Sultân Hazretleri ondaki aşk ve gayreti görerek kendisini Ankara’ya, Hacı Bayram Velî’ye göndermiştir. Eşrefoğlu Hazretleri Hacı Bayrâm Velî Dergâhı’nda on yıldan daha uzun bir süre yoğun ibâdetle, tevhide azamî dikkatle ve çetin mücâhedelerle seyr ü sülûk çıkarmıştır. Sülûku döneminde Hacı Bayrâm-ı Velî tarafından Dergâhın imâmetine getirilen Eşrefoğlu bilâhire şeyhinin kızı Hayrünnisâ ile evlenmiş ve hilâfetle İznik’e tayin edilmiştir. Burada gönlüne bir tatminsizlik geldiği için Hacı Bayram Velî Hazretlerine müracaat neticesinde Geylânî Hazretleri’nin silsilesinden ve ahfadından Şeyh Hüseyin Hamavî’nin ikamet ettiği Hama şehrine gönderilmiştir. Burada Hüseyin Hamavî Hazretleri tarafından bir erbaîn çıkartılan Eşrefoğlu, halvet tamamladığında bu sefer bir Kâdirî halîfesi olarak Hama’dan tekrâr İznik’e gönderilmiştir. Dönüşünde İznik ve Bursa’da irşâd faaliyetlerine başlayan Pîr Hazretleri’nin kendi adıyla anılan Kâdiriyye’nin Eşrefiyye şubesine ait uygulamalarında Bayramîlik ile Kâdirîliği birleştirdiği görülmektedir. Eşrefoğlu uzun sayılabilecek bir ömür sürmüş ve 1469 senesinde bu âlemden göçmüştür. Kabri İznik’te kendi adıyla anılan caminin bitişiğindedir. Bu kutsal gönüllü eren Kur’ân’ın hakîkatinden ve Resûl-i Ekrem’in örnek ahlâkından aldığı ilhâmla sadırdan satırlara intikâl eden nutk-ı şerîfleriyle çorak iklîmlere su serpmeye, ölü gönülleri diriltmeye devam etmektedir."
+    },
+    {
+     "t": "p",
+     "m": "Elinizdeki eserde XV. asırdan beri ölü gönüllerimizi dirilten Eşrefoğlu Hazretleri’nin “Dîvân-ı İlâhiyât”ı ele alınmaktadır. Eserin girişinde Hazret-i Pîr’in kısaca hayatı, eserleri ve sonunda nutk-ı şerîflerinin lugatı ile manzûmelerinin dizini verilmiştir. Türk Edebiyatı tarihinde Dîvân-ı İlâhiyâtlar içinde önemli bir yeri olan, okunma ve bestelenme sırası yönüyle Yûnus Emre ve Niyâzî-i Mısrî’den sonra ilk sıralarda yer alan Eşrefoğlu’nun şiirleri bugüne kadar hem Osmanlı Türkçesi’yle hem de günümüz alfabesine aktarılarak birkaç kez yayınlanmıştır. Bu eserlerde kullanılan yazmalardan kaynaklanan bazı noksanlıklar görülmektedir. Gözümüze çarpan bu noksanlıklar elinizdeki çalışmada giderilmeye çalışılmıştır."
+    },
+    {
+     "t": "p",
+     "m": "Eşrefoğlu Hazretleri’nin yazmalardan hareketle yeniden tertip ettiğimiz Dîvân-ı İlâhiyât’ında aruz ve hece ile yazılmış 206 manzûme bulunmaktadır. Bunların 135 tanesi gazel, 7’si mesnevî, 64 tanesi de kıt’a şeklindedir. Gazellerin bir kısmı hece ile kaleme alınmıştır. Eşrefoğlu Hazretleri, yaşadığı asırdan beri gerek nutk-ı şerîfleriyle gerek Müzekki’n-Nüfûs’uyla ve gerekse diğer eserleriyle ölü gönüllerimize varoluş sırrımızı üfleyip durmakta ve hayat vermeye devam etmektedir."
+    },
+    {
+     "t": "p",
+     "m": "Rûhâniyetine selâm, bu irfân pınarlarından kanan gönüllere aşk olsun, vesselâm."
+    },
+    {
+     "t": "p",
+     "m": "Mustafa Tatcı"
+    },
+    {
+     "t": "p",
+     "m": "Ankara 2014"
+    }
+   ]
+  },
+  {
+   "baslik": "Eşrefoğlu Abdullâh Rûmî",
+   "ogeler": [
+    {
+     "t": "alinti",
+     "m": "Yâ Hazret-i Pîr Eşref-zâde Meded"
+    },
+    {
+     "t": "p",
+     "m": "İslâm coğrafyasında yaygın ve etkin olarak yaşayan Hak yollarından biri de Kâdirîliktir. Gavsü’l-Azam Abdülkâdir Geylânî Hazretleri (ö. h.562/1166) tarafından kurulan Kâdiriyye (Geylâniyye) tarikatı, Endonezya’dan Kuzey Afrika’ya, Sibirya’dan Afrika içlerine kadar müntesipleri tarafından dünyanın dört bucağında temsil edilmekte ve yaşatılmaktadır."
+    },
+    {
+     "t": "p",
+     "m": "Abdülkâdir Geylânî Hazretleri’nin yolu Kâdiriyyeyi Anadolu’ya ilk defa getiren kişi Hacı Bayram Velî’nin damadı Eşrefoğlu Rûmî’dir. Eşrefiyye şubesinin müessisi olan Eşrefoğlu Abdullah Rûmî Hazretleri aynı zamanda Geylânî Hazretleri’nden sonra Kâdiriyye’nin pîr-i sânîsi kabûl edilmiştir."
+    },
+    {
+     "t": "alt",
+     "m": "Hayatı"
+    },
+    {
+     "t": "p",
+     "m": "Eşrefoğlu Rûmî Hazretleri’nin soyu İmâm Ali Efendimiz’e dayanmaktadır. Mısır’dan Suriye’nin Hama kasabasına, daha sonra da Anadolu’ya göç edip önce Manisa’ya oradan da İznik’e yerleşen, aslen Mekkeli ve Hz. Peygamber’in soyundan geldiği rivâyet edilen bir ailenin çocuğudur."
+    },
+    {
+     "t": "p",
+     "m": "Asıl adı Abdullah, babasının adı Eşref, dedesinin adı Muhammed Mısrî’dir. Babasının adına izâfeten ‘Eşrefoğlu’, ‘Eşrefzâde’; Anadolu’da tevellüd etmesi sebebiyle ‘Eşref-i Rûmî’ diye şöhret bulmuştur. Hüseyin Vassaf Bey’in tesbitine göre H. 754 / M. 1353 târîhinde İznik’te dünyaya gelmiştir.⟦1⟧ Onun Emîr Sultân (ö.833/1429) ve Hacı Bayram-ı Velî (ö. 833/1429-30) münâsebetini göz önünde bulundurarak bu tarihin çok erken olduğunu söyleyenler olmuştur. Nitekim Orhan Köprülü’nün özel kütüphanesinde bulunan bir menâkıbnâmede doğum tarihi 779/1377 olarak kaydedilmiştir.⟦2⟧ Fakat zât-ı âlilerinin M. 1469 senesinde yüz yirmi yaşında vefat ettiği düşünülürse 1349 yılında doğmuş olduğu söylenebilir."
+    },
+    {
+     "t": "p",
+     "m": "…"
+    },
+    {
+     "t": "p",
+     "m": "Çocukluk ve gençlik yılları İznik’te geçen Eşrefoğlu Rûmî, ileri yaşlarında Bursa’ya giderek Çelebi Sultân Mehmed Medresesi’nde tahsîle başlamış ve burada tanınmış müderrislerden ders almıştır. Tahsîli sırasında gördüğü bir rüyâ üzerine nereden gelip nereye gittiğini, bu dünyada hangi gaye ile yaratıldığını düşünmeye başlayan Eşrefoğlu ledün ilminden nasîbi olduğunu anlamış ve bir arayışa girmiştir. Gönlünde bu hâl cevlân ederken devrinde Abdâl Mehmed nâmıyla meşhûr olan bir meczûb-ı ilâhînin nazar-ı feyzine uğrayıp onun işâretiyle Emîr Sultân Hazretleri’ne sevkedilir. Hazret-i Emîr’le mülâkatlarında kendisinin dervîşliğe kabûlünü ister. Onun maneviyat yolundaki bu arzu ve gayreti Emîr Buharî’nin hoşuna gider. Menâkıb-ı Eşrefzâde’de bu olay şöyle anlatılmaktadır:"
+    },
+    {
+     "t": "p",
+     "m": "“Bir şeb bazı vekâyi sebebiyle muhabbet-i ezelî ve inâyet-i lemyezelî üzerlerine gâlip ve müstevlî olup Hakk’ın cezbelerinde bir cezbe, bütün âhiret amellerine eş değerdir fehvasınca, cezbe-i Hak yetişip dünyadan inkıta-ı küllî bulup tarîk-ı meşâyihe sülûk etmek daîyesinde kalplerine ilhâm-ı Rabbanî olup ol zamanda Bursa’da meczûbân-ı ilâhiyyeden Abdâl Mehmed Hazretleri hayâtta iken ale’s-sabâh tefe’ül için huzûrlarına vardılar. Tarîk-ı meşâyihdan bana nasîb ve dâye var ise maârif-i ilâhî müyesser olur ise, alâmetleri zuhûr ede diye niyet ile gidip muntazır durdukça, ba’de’z-zamân Abdâl Mehmed Hazretleri dahi Eşrefzâde Efendi Hazretleri’ne nazar edip buyurdular ki:"
+    },
+    {
+     "t": "p",
+     "m": "-Danişmend, var bize köfteli çorba getir."
+    },
+    {
+     "t": "p",
+     "m": "Onlar dahı pâzâra varıp her ne kadar köfteli çorba arar, ama bulamaz. Âhirü’l-emr köftesiz bir çanak alıp mil’aka ile getirip nazarında korlar."
+    },
+    {
+     "t": "p",
+     "m": "Abdâl Mehmed Hazretleri mil’akayı eline alıp çorbayı karıştırırlar. Görür kim köftesi yok! Eşrefzâde Efendi Hazretleri’ne bakıp buyurur ki:"
+    },
+    {
+     "t": "p",
+     "m": "-Danişmend hani bunun köftesi?"
+    },
+    {
+     "t": "p",
+     "m": "Eşrefzâde Efendi buyurur ki:"
+    },
+    {
+     "t": "p",
+     "m": "Sultânım bugün köfteli çorba kalmamış, inşallah yarın köftelisini dahı getüreyim, der."
+    },
+    {
+     "t": "p",
+     "m": "Hemen Abdâl Mehmed Hazretleri bunları imtihân için tarîk-i ammda olan -balçık ki zeyl-i hayvânât ile mahlûttur.- bir mikdâr balçığı alıp bir kaç yuvarlak yapıp çorbanın içine ilkâ edip çorbayı karıştırıp Hazret-i Eşrefzâde Efendi’nin dest-i saâdetine verip:"
+    },
+    {
+     "t": "p",
+     "m": "-Ekl eyle şunu! diye emîr buyururlar."
+    },
+    {
+     "t": "p",
+     "m": "Eşrefzâde Efendi dahi bilâ-tevakkuf velâ-taallüm sem’an ve ta’aten deyip hemân ekl etmeğe agâz eyledikde Abdâl Mehmed Hazretleri:"
+    },
+    {
+     "t": "p",
+     "m": "Yâ sen olmayıp da kim olsa gerek! diye buyururlar.⟦3⟧”"
+    },
+    {
+     "t": "p",
+     "m": "Abdâl Mehmed onu, Emîr Sultân’a gönderdi ise de Emîr Sultân onu “Kuzu, biz pîr ve intikâlimiz dahi karîbdir; varın şehr-i Ankara’ya azîmet edip Hacı Bayram-ı Velî birâderimize git⟦4⟧” diyerek yaşlılığı sebebiyle Hacı Bayram’a gitmesini söyler. Eşrefoğlu vakit kaybetmeden yola çıkar ve Ankara’ya gelip Hacı Bayram-ı Velî’den nasip ister. Hacı Bayram-ı Velî onu kabul ettiği gibi hiç vakit geçirmeden sülûkunu başlatır. Eşrefoğlu, başlangıçta helâ temizliği de dâhil olmak üzere en çetin imtihânlarla on bir yıl sürecek olan riyâzet ve mücâhede ile sülûk çıkarır, nefis terbiyesi için ağır hizmetlerde çalışır. Yine sülûku sırasında Hacı Bayram Sultan tarafından dergâhın imâmetine tâyin edildiği gibi kızı Hayrünnisâ ile evlenip damadı olma şerefine nâil olur. Sülûkunu ikmâl edince mürşidi Hacı Bayram Velî tarafından irşâd gayesiyle İznik’e tâyin edilir. Hacı Bayram-ı Veli bir sohbetinde “Meşayih katında çok söylemek küstahlıktır, çok konuşma” buyurmuştur. Nitekim onun has mürîdlerinden olan ve tekkenin on bir sene imamlığını yapan Eşrefoğlu “Ben şeyhime on bir sene hizmet ettim. Bu on bir senede bir defa dünya kelâmı etmedim.” buyurmuştur. Muhtemelen onun intisâbıyla hilâfete nâil olduğu bu süre, 1412’den sonraki bir seneye rastlamaktadır."
+    },
+    {
+     "t": "p",
+     "m": "Eşrefoğlu Hazretleri İznik’e geldiğinde halkın irşâdına meyletmeyip erbaîne çekilir. Bu müddet içinde hâlinin ve ilminin zevkiyle yetinmeyip manevî mertebelerde daha kemâle ulaşmak gayesiyle tekrar şeyhi Hacı Bayram Velî’ye müracaat eder. Erbaîn sırasında yaşadığı manevî hallerini murakabe eden Hacı Bayram Velî onu Hama’da Geylanî Hazretleri’nin soyundan gelen Şeyh Hüseyin Hamavî Hazretleri’ne sevk eder."
+    },
+    {
+     "t": "p",
+     "m": "…"
+    },
+    {
+     "t": "p",
+     "m": "Eşrefzâde emri alınca zevcesi ve çocuğuyla birlikte Hama’ya doğru yola çıkarlar. Kendisi yaya, zevcesi ve çocuğunu merkebe bindirmiş olarak sıcak bir yaz günü zorlu bir yolculuktan sonra Hama’daki Kâdirî dergâhına varırlar. Hamavî Hazretleri birkaç dervîş göndererek daha Hama’ya girmeden Eşrefoğlu’nu karşılamalarını istemiş fakat bu zevât Eşrefzâde ailesini pejmurde hâllerinden ötürü tanıyamayıp geçip gitmişlerdir. Dergâha intikâllerinde Hüseyin Hamavî Eşrefoğlu’na “Rûmî” şeklinde hitâp ettiği için Eşrefoğlu daha sonra “Eşrefzâde Abdullah Rûmî” ismiyle tanınmıştır. Şeyh Hazretleri onu, varır varmaz derhâl erbaîne koyar. Halvetinin otuz birinci günü akşamı hizmetine verilen dervîş, elinde bulamaç olduğu hâlde hücreye varınca, Eşrefzâde’yi hücrenin bir köşesine ölü gibi kaskatı olduğu hâlde dayanmış görür. Eliyle dokunup uyarmak ister, hareket etmez. Şeyhinin huzûruna gelip:"
+    },
+    {
+     "t": "p",
+     "m": "“-Efendim, Rûmî vefât etmiş, siz sağ olunuz, der. Şeyh Hüseyin Hamavî Hazretleri dervîşin sözüne pek itibar etmez, hücrenin kilitlenip anahtarının kendisine teslîm edilmesini emreder. Bu hâl ertesi gün çevrede şâyi olur. Bazıları:"
+    },
+    {
+     "t": "p",
+     "m": "-Meyyitin hücre içinde bırakılmasına ne lüzûm var, defn olunsun, varıp şeyhe arz edelim.” derler. Bir kısmı da:"
+    },
+    {
+     "t": "p",
+     "m": "-Şeyhin işine müdahâle etmek caiz değildir, diye itiraz ederler. Nihâyet keyfiyyet şeyhe arz olununca Şeyh Hazretleri:"
+    },
+    {
+     "t": "p",
+     "m": "-Kırk gün olmayınca hücreyi açmayacağım.” buyururlar. Zira erbaînin kırılmaması zaruridir. Vaktâ ki kırk gün tamâm olur, Hüseyin Hamavî ihvân ile birlikte hücre kapısına gelirler:"
+    },
+    {
+     "t": "p",
+     "m": "-Ya Rûmî!”, diye hitâb eder. Ses gelmez. İkinci defa seslenir. Yine ses gelmez. Üçüncüde farka gelip istiğrâk hâlinden uyanırlar ve:"
+    },
+    {
+     "t": "p",
+     "m": "-Lebbeyk azîzim! Bize kıydınız.” derler. Nitekim dünyevî bütün lezzetlerden üstün olan istiğrak ve vecd âleminden dünyaya dönmek kadar acı bir şey yoktur. Dünyaya döndürülen Eşrefzâde’ye o gün icâzeti ve sair tarîkat âlemleri verilir ve bu sefer bir Kâdirî halîfesi olarak memûren İznik’e destûrlanır. ⟦5⟧”"
+    },
+    {
+     "t": "p",
+     "m": "Bu sırada Hamavî Hazretleri yol hazırlığı içinde olan Eşrefoğlu’na dönüp:"
+    },
+    {
+     "t": "p",
+     "m": "“Halk senin zâhirine de bakar. Yâ Rûmî, şu hırkayı ve pabuçları da al, giy evlâdım” buyurur. Eşrefoğlu Hazretleri hırkayı giyer fakat pabuçları giyemez. Onu da başına geçirmeye çalışır. Efendi hazretleri sebebini sorduğunda:"
+    },
+    {
+     "t": "p",
+     "m": "“Mürşidimin verdiği pabuç ayağıma değil ancak başıma tâc olsa gerektir.” der."
+    },
+    {
+     "t": "p",
+     "m": "…"
+    },
+    {
+     "t": "p",
+     "m": "Dervîş de olsa bir kâmil insanın murakabesinde terbiyeden geçmedikten sonra insan nefs-i emmâresinin huylarından kurtulamaz. Nitekim Eşrefoğlu Hazretleri’nin kısa zamanda irşâd olup hilâfet ve icâzetle destûr verildiğini gören eski dervîşlerden bir kısmı aralarında; “Biz bu kadar zamandan beri mürşidimizin hizmetindeyiz. Bize himmet edilmedi. Bu Rûmî denilen kişi kırk günde himmete uğradı. Bu nasıl iştir?” diye çoktan dedikoduya başlamışlardı bile. Buna manen vâkıf olan Hüseyin Hamavî Hazretleri ihvânını bir sahrada topladı. Onlara bir ders vermek niyetindeydi:"
+    },
+    {
+     "t": "p",
+     "m": "“Yâ Rûmî! Bu kadar zamandır bizimlesin inşâallah birlikte yemek yiyelim sonra yola çıkarsın.” dedi. Yemekler hazırlandı, sofralar kuruldu. Mesire alanında su yoktu. Dervîşler:"
+    },
+    {
+     "t": "p",
+     "m": "“Sultanım, burada su yoktur” dediler. Hüseyin Hamavî, Eşrefoğlu hâriç bütün dervîşlerine su aramalarını söyledi. Dervîşân sahraya çıkıp su aradı fakat bir damla su bulamadı. Bunun üzerine Hüseyin Hamavî:"
+    },
+    {
+     "t": "p",
+     "m": "“Rûmî! Gerçi sen misâfirsin. Misâfire hizmet ettirmek doğru değildir amma bir de sen ara, belki sen bulursun.” deyince, Eşrefoğlu:"
+    },
+    {
+     "t": "p",
+     "m": "“Eyvallah sultânım” diyerek yerinden kalktı, bir ağacın yanına gidip teyemmüm etti ve secdeye varıp “Yâ Rabbî! Lutfet, su ihsân eyle.” diyerek Cenâb-ı Hakk’a niyâz etti. Bir müddet sonra başını secdeden kaldırdı. Secde ettiği yerde bir pınar kaynamaya başlamıştı."
+    },
+    {
+     "t": "p",
+     "m": "Yanında getirdiği bardağı doldurup mürşidine götürüp takdim etti. Hüseyin Hamavî dervîşâna dönüp"
+    },
+    {
+     "t": "p",
+     "m": "“Su yoktur demiştiniz, bakın Rûmî suyu buldu!” dedi. Dervîşler hemen suyun bulunduğu yere gittiler. Suyun daha yeni çıkıp akmaya başladığını görünce Rûmî’nin kemâlini ve şeyhlerinin ona neden himmet ettiğini anladılar⟦6⟧."
+    },
+    {
+     "t": "p",
+     "m": "Hüseyin Hamavî, Abdullah Rûmî’yi Anadolu’ya uğurladıktan sonra arkasından hayran hayran nazar etti ve şöyle buyurdu:"
+    },
+    {
+     "t": "p",
+     "m": "“Abdullah-ı Rûmî bir bahr-i muhit imiş bizde bulunan her şeyi çekip sînesine aldı.” buyurdu⟦7⟧."
+    },
+    {
+     "t": "p",
+     "m": "…"
+    },
+    {
+     "t": "p",
+     "m": "Eşrefoğlu zevcesi ve çocuğuyla birlikte önce Ankara’ya kayınpederi ve şeyhi Hacı Bayram-ı Velî’nin dergâhına uğradı. Burada bir müddet müsâferetten sonra Bursa’ya ve oradan İznik’e geçti. Pınarbaşı’nda bir tekke kurup Bayramîlik ile Kâdirîliği birleştirerek Eşrefiyye şubesini tesis etti ve kendi usulüyle halkın irşâdıyla meşgul oldu. Bu sebeple kendisine Kâdirîlerce pîr-i sâni (ikinci pîr) de denmiştir."
+    },
+    {
+     "t": "p",
+     "m": "Onun İznik’te irşâda başlamasıyla ilgili bir menkıbesi şöyledir: Eşrefoğlu Hama’dan, şeyhinin yanından ayrıldıktan sonra İznik’e döndü. Fakat halkı irşâd edecek yerde mahvî olarak yaşamaya başladı. Melâmet hırkasına bürünmüş izini kaybettirmişti. Şöhret âfettir diye kimsenin dikkatini çekmiyordu. Onun bu münzevî hayatı kısa sürdü. Kendisini Hama’dan tanıyan bir zât İznik’e gelmiş, huzûr-ı pîrdeki hâllerini anlatmaya başlamıştı. Tabiatıyla bundan sonra halkın nazarı Eşrefoğlu’nun üzerine çevrildi. İtibârı artmıştı. Eşrefoğlu Hazretleri bu hürmet ve itibârdan rahatsız olmaya başladı. İzini kaybettirmek için şehirden uzaklaşıp dağlara çekildi. Onun, dağlarda başıboş dolaşması bir köylünün dikkatini çekti. Bu zât onun kim olduğunu sorduğunda “kaçgın” olduğunu söyledi. Köylü Hazret-i Pîr’i bu sözü üzerine suçlu sanarak evine davet etti. Maksadı onu gizlice subaşıya teslîm edip ödül almaktı. O gece evde Hazret-i Pîr’in zikir ve tefekkür hâlinden etkilenen aile yaptıkları hatayı anlamışlar, onun İznik’te şöhreti yayılan Eşrefzâde olduğunu anlamışlardı. Kim olduğu öğrendiklerinde kendisinden önce özür dilemişler ve akâbinde mürîdliğe kabul edilmelerini istemişlerdi. Hazret-i Pîr bu Rabbânî cilveyi bildiği için onları mürîdliğe kabul etmiş ve irşâd faaliyetleri böylece başlamıştı. Artık münzevî olmaması gerektiğini anlamıştı. İznik’e döndü ve Abdülkâdir Geylânî Hazretleri’nin çerâğını İznik’te uyandırdı. Ömrünün sonuna kadar Pınarbaşı’ndaki tekkesinde aşk ve irfân dağıttı."
+    },
+    {
+     "t": "p",
+     "m": "…."
+    },
+    {
+     "t": "p",
+     "m": "Eşrefzâde Hazretleri uzun denilebilecek bir ömür sürmüş ve yine bu uzun ömründe pek çok insanı hakîkat yolunda uyanması için irşâd ve tenvîr etmiştir. Mürîdleri arasında devrin ünlü sadrazamı Mahmud Paşa da var idi."
+    },
+    {
+     "t": "p",
+     "m": "Hazret-i Pîr İznik’te H. 874/1469’de bir rivâyete göre yüz, diğer bir rivâyete göre yüz yirmi yaşlarında iken vefât etmiştir. Kabri şimdilerde câmi olarak kullanılan dergâhının hazîresindedir. Ölümüne “Eşrefzâde azm-i cinân eyledi” mısraıyla tarih düşürülmüştür."
+    },
+    {
+     "t": "p",
+     "m": "…"
+    },
+    {
+     "t": "p",
+     "m": "Vasiyeti üzerine yerine, küçük yaştan itibâren yetiştirmiş olduğu ve kızı Züleyha ile evlendirdiği halîfesi Abdürrahîm"
+    },
+    {
+     "t": "p",
+     "m": "Tirsî postnişîn olmuş ve silsilesi bu zâttan yürümüştür."
+    },
+    {
+     "t": "p",
+     "m": "…"
+    },
+    {
+     "t": "p",
+     "m": "Eşrefzâde Abdullah Rûmî Hazretleri’nin silsilesi Pîr-i tarîkat Abdülkâdir Geylanî’den kendisine gelinceye kadar şöyledir:"
+    },
+    {
+     "t": "p",
+     "m": "Hz. Pîr, Seyyid Abdülkâdir (K.s.),"
+    },
+    {
+     "t": "p",
+     "m": "Hz. Seyyid Şemseddîn b. Hz. Abdülkâdir (K.s.),"
+    },
+    {
+     "t": "p",
+     "m": "Şeyh Seyyid Hüsâmüddîn Şefik b. Şemseddîn (K.s.),"
+    },
+    {
+     "t": "p",
+     "m": "Şeyh Seyyid Ahmed Şihâbeddîn b. Hüsâmeddîn (K.s.),"
+    },
+    {
+     "t": "p",
+     "m": "Şeyh Seyyid Alâeddîn b. Şihâbeddîn (K.s.),"
+    },
+    {
+     "t": "p",
+     "m": "Şeyh Seyyid Hüseyin el-Hamâvî b. Şihâbeddîn (K.s.),"
+    },
+    {
+     "t": "p",
+     "m": "Pîr-i Sânî, Şeyh Eşrefzâde Seyyid Abdullâh er-Rûmî (K.s.)."
+    },
+    {
+     "t": "p",
+     "m": "…."
+    },
+    {
+     "t": "p",
+     "m": "Evliyâ Çelebi, Eşrefoğlu’nun içinde medfun bulunduğu İznik’teki câmi, türbe ve dergâhtan da bahsederek ondan “yetmiş bin mürîde mâlik bir pîşvâ-yı âşıkân⟦8⟧” diye söz eder. Türbesi daha sonra Sultan IV. Murâd Han tarafından yeniden yaptırılmış ve kıymetli çinilerle süslenmişse de Yunan işgali sırasında Yunanlılar tarafından yıkılmıştır."
+    },
+    {
+     "t": "p",
+     "m": "Eşrefzâde’yle ilgili rivâyet edilen menâkıbı Veliyüddîn Efendi toplamıştır. Bu menkıbelerden birisi de Fâtih Sultân Mehmed Han’ın annesiyle ilgilidir."
+    },
+    {
+     "t": "p",
+     "m": "Şeyhin yaşadığı dönemde Osmanlı tahtında oturan Fâtih’in eşi Mükrime Sultan’ın dilindeki bir yarayı tedâvî etmesi için kendisine başvurulmuştur. Bu davetin birkaç defa tekrarlanması ve hatta Fatih’in şiddet kullanılıp şeyhi zoraki getirtmeye çalışması üzerine Hazret-i Pîr İstanbul’a giderek “nefesiyle” hastayı tedâvî etmiştir. 1751 senesinde İbrahim Hâs Efendi tarafından kaleme alınan Tezkire’de ve bilâhire Velîyüddîn Efendi’nin de menâkıbında nakledilen bu hâdise Fâtih’in annesine atfedilerek şöyle anlatılmaktadır:"
+    },
+    {
+     "t": "p",
+     "m": "“Rivâyet olunur ki: Şeyh Eşrefzâde (k.s.), adı Abdullah’dır. Şerîf ve Hüseynî’dir. Ferîd-i asr idi. Çok kerâmetleri vardır. Sâhib-i keşf idi ve nice te’lîfleri vardır ve ilâhiyâtı ser-be-ser esrârdır. Şeyh Hüseyn-i Hamavî’nin halîfesidir ve Eşrefî tarîkinin reisidir. Şeyh Hacı Bayrâm Velî’nin damâdıdır. O asırda olan pâdişâhın anasının dili tutuldu. Derler ki o vakitde bulunan hukemâ davet olunup Pâdişâh dedi:"
+    },
+    {
+     "t": "p",
+     "m": "“Vâlidemin dili açılmalıdır. Her ne kadar ki ilâç eylediler, çâre olmadı.”"
+    },
+    {
+     "t": "p",
+     "m": "Âciz kalıp dediler:"
+    },
+    {
+     "t": "p",
+     "m": "“Pâdişâhım her ne kadar mu’âlece var ise eyledik. Allah, te’sîrini halk etmedi. Bu, nefese muhtâçdır. İlâç ile olur değildir. Bu emri ulemâ kullarınızdan suâl eyleyiniz. Onlara sipâriş buyurunuz. “"
+    },
+    {
+     "t": "p",
+     "m": "Pes pâdişâh, Şeyhülislâmı ve Sadreyn Efendileri vesâir ulemâ da’vet olunup pâdişâh dedi:"
+    },
+    {
+     "t": "p",
+     "m": "“Vâlidemin dili tutuldu, duâ edin. Elbette açılmak gerekdir. Ulemâ dediler:"
+    },
+    {
+     "t": "p",
+     "m": "“Bizler kitâplarda tahrîr olunan emr ü nehyi bildirmeye kâdiriz. Bu emr-i asîr (zor iş), bizim elimizden gelmez. Ehl-i tarîk olan meşâyihler, vera’ ve mücâhede ve riyâzat sâhibleridir. Keşf ü kerâmet ile ma’rûflardır. Müstecâbü’d-da’ve (duâları kabul edilen) onlardır. Onlar, sâhibü’l hâl ve sâhibü’l-esmâdır. Bu emr, onların yüzünden vücûda gelir.”"
+    },
+    {
+     "t": "p",
+     "m": "Pes, pâdişâh dahi ne kadar meşâyıh-ı tarîk var ise ihzâr eyledi. Dedi:"
+    },
+    {
+     "t": "p",
+     "m": "“Vâlidemin dili tutuldu. Duâ mı edersiz, teveccüh mü edersiz; vâlidemin dili açılmak gerekdir ve illâ diyârımda durmazsız.”"
+    },
+    {
+     "t": "p",
+     "m": "Pes meşâyıh dediler:"
+    },
+    {
+     "t": "p",
+     "m": "“Bize üç gün mühlet verin, müşâvere edelim,” deyip gitdiler. Üçüncü gün huzûr-ı pâdişâha gelip dediler:"
+    },
+    {
+     "t": "p",
+     "m": "“Bu iş bizim birimizin elinden gelmez. Zîrâ bu umûra birimizin kudreti yokdur. Bizler hemân icrâ-yı tarîk için post şeyhleriyiz. Bu emrin vücûd bulması İznik’de Eşref-zâde Şeyh Abdullah vardır, onun elinden gelir. İçimizde ondan gayrı ehl-i hâl yokdur.” deyip cevâb verdiler. Pes pâdişâh dahi İznik’e adam gönderip Eşref-zâde’yi getirdiler. Pâdişâh azîm ikrâm eyledi. Dedi: “Vâlidemin dili tutuldu.” Şeyh dedi: “Bizim dahi vâlidemiz olup önümüze gelir.” Çün vâlideyi şeyhin önüne götürdüler. Şeyh bir filcân ile su istedi. Getirdiler. O suyun üzerine okuyup üfledi, vâlideye verdi. Vâlide dahi içti, “el-hâmdü li’llâh” dedi. Pâdişâh’a müjde eylediler. Vâlide, tekellüm etmeğe başladı. Şeyh Eşref-zâde’ye azîm ikrâm eylediler. Vâfir altın vesâir nesne verdiler. Kabûl etmedi. Pâdişâh dedi: “Şeyh Efendi tekkenizi tecdîd edelim.” Şeyh dedi: “Pâdişâhım, o tekke, bizim gibi nice şeyhi eskidir.” Dedi: “Tekkenizi vakıf ta’yîn edeyim.” Şeyh dedi: “Dervîşler vakıf çeşmesinden su içmezler ve ondan abdest almazlar.” Pâdişâh, etbâ’ına ve vâlidesine dedi: “Nice edelim, şeyhe bir nesne kabûl etdiremedik.” Vâlidesi dedi: “Ben kabûl etdiririm.” Vâlide şeyhe dedi: “Ey şeyh, ulû’l-emre itâat var mıdır?” Dedi: “Vardır!” Vâlide dedi: “Bu altını alırsın.” Şeyh dahi bi’z-zarûre aldı. Pâdişâh dedi: “Bu kadar nesne ne olsa gerekdir. Bir şey dahi kabûl etdirmeğe bir çâre olsa!”"
+    },
+    {
+     "t": "p",
+     "m": "Hudemâ dediler:"
+    },
+    {
+     "t": "p",
+     "m": "“Bir kaç köy bir siyâh cariyenin üzerine edesiz. Câriyeyi dahi şeyhe bağışlayasız.” Pâdişâh böyle eyledi."
+    },
+    {
+     "t": "p",
+     "m": "Şeyh giderken aldığı altınları sarây içinde beşer onar ona buna verdi. Meğer şeyhin altın verdiği adamların vâlidede alacakları var imiş. On altın alacağı olana on altın vermiş. On beş altın alacağı olana on beş altın vermiş. Her kimin vâlidede ne kadar alacağı var ise, şeyh ona o kadar altın vermiş. Ba’dehu, Harem kapısı’ndan taşra giderken bir siyâh câriye şeyhin koltuğuna girdi. Şeyh, pâdişâhın yüzüne bakdıkda pâdişâh dedi:"
+    },
+    {
+     "t": "p",
+     "m": "“Sizin abdest suyunuza yardım eder. Şeyh dahi hankâhına geldi. Ba’de zamânin bir gün bir niceler şeyh ile kelâm ederler idi. Kelâmları, terk ile fenâ bahsine erişdi. Şeyh dedi:"
+    },
+    {
+     "t": "p",
+     "m": "“Bir sâat pâdişâh huzûrunda oturdum. Kalktığım yere yedi yılda oturamadım.⟦9⟧” der ve ilave eder:"
+    },
+    {
+     "t": "p",
+     "m": "-Yarabbi sultânları bizim kalbimizden, bizi sultânların kalbinden çıkar!⟦10⟧”"
+    },
+    {
+     "t": "p",
+     "m": "…"
+    },
+    {
+     "t": "p",
+     "m": "Yine Menâkıb-ı Eşrefzâde’de, Eşrefoğlu’nun İznik’e döndükten sonra pâdişâhın onun arkasından tebdîl-i kıyâfetle gelerek kendisini dervîşliğe kabûl etmesi için ısrar ettiği, Eşrefoğlu’nun ise uzun nasîhatlerden sonra pâdişâhı İstanbul’a geri dönmeye râzı edebildiği rivâyeti de yer almaktadır."
+    },
+    {
+     "t": "p",
+     "m": "Fâtih Sultân Mehmed’in sadrazamı Mahmûd Paşa’nın da Eşrefoğlu’nun mürîdleri arasında bulunduğu, hatta Fâtih tarafından Yedikule Zindanı’na hapsedildiği zaman duâsıyla pâdişâhın gazâbını hafifletmesi için adamlarından birini Eşrefoğlu’na gönderdiği bilgilerimiz arasındadır."
+    },
+    {
+     "t": "alt",
+     "m": "Eşrefoğlu Rûmî’nin Eserleri"
+    },
+    {
+     "t": "p",
+     "m": "1. Dîvân"
+    },
+    {
+     "t": "p",
+     "m": "Hâl-i hazırda çeşitli kütüphanelerde şiir sayıları birbirinden farklı elliye yakın yazma nüshası tespit edilmiş olan dîvânda hece ve aruzla yazılmış gazel, mesnevî, koşma, kıt’a ve müstakil beyitler şeklinde şiirler mevcuttur. Tasavvufî Türk edebiyatında aşk ve irfâna ait nutkettiği manzûmeleriyle tanınan Eşrefoğlu Rûmî, -diğer mutasavvıf şairlerde olduğu gibi- şiirlerinde Kur’ân-ı Kerim’den âyetlere, hadîslere, İslâm ulularına, tasavvufî remizlere, mahallî söyleyişlere ve atasözlerine yer vermiş, vahdet-i vücûd inancını ve seyr ü sülûk hâllerini samimî bir edâ ve ilâhî aşkın coşkusuyla dile getirmiştir. Özellikle ilâhî aşkı işlediği şiirlerinin pek çoğu bestelenmiştir. Sadettin Nüzhet Ergun, Eşrefoğlu’nun şiirleri en çok bestelenen mutasavvıf şairlerden biri olduğunu söyler ve Müstakimzâde Süleyman Sadeddîn’den naklen kendisinin de bazı besteler yaptığını belirtir (Türk Şairleri, III, 1368). Bugün de Kâdirî dergâhlarında kıyâmî zikir Eşrefoğlu’nun, “Cem‘ olmuş dervîşleri pîrim Abdülkâdir’in” ilâhîsiyle başlamaktadır. Onun şiirlerinde Yûnus Emre’nin açık tesiri görülür. Eşrefoğlu Hazretleri’nin dîvânı eski harflerle birkaç defa yayımlanmış (İstanbul 1261, 1286, 1296, 1890, 1301, 1307) yeni harflerle de Eşrefoğlu Rûmî’nin hayatı ve şahsiyetiyle ilgili geniş bir inceleme ile birlikte tam olarak ilk defa Âsaf Halet Çelebi tarafından neşredilmiş (İstanbul 1944), bunu daha sonraki baskılar takip etmiştir (1967, 1972). Asaf Halet’in yayınında (İstanbul 1944) 129 şiir mevcuttur. Tercüman’ın 1001 Temel Eser dizisinden neşredilen Dîvân’da ise 125 gazel, 7 mesnevî ve 98 tane dörtlük ve beyit bulunmaktadır. Son olarak konuyla ilgili bir çalışma yapan Mustafa Güneş’in hazırladığı eserde (İstanbul 2006) 220 şiir bulunmaktadır. Fakat bu dîvânda bazı şiirler farklı şiirler sanılarak iki ayrı yerde verildiği gibi yine Eşrefoğlu’na ait olmayan mesela Yûnus’un ve Niyâzî-i Mısrî’nin şiirleri de ona ait gösterilmiştir."
+    },
+    {
+     "t": "p",
+     "m": "Eşrefoğlu Rûmî’nin mevcût yazma nüshalardaki şiirleri hem aruzla hem de heceyle yazılmış şiirlerdir. Eşrefoğlu’nun aruzu kullanmada başarılı olduğu söylenemez. Zirâ aruzla yazılmış şiirleri oldukça kusurludur. Ancak tasavvufî gelenekte şiir irşadî ve terbiyevî işleviyle değerlendirildiği ve herhangi bir estetik kaygı ile yazılmadığı için şiirlerdeki şekil yönü mutasavvıf şairlerce önemli görülmemiştir. Onlara göre önemli olan şekil değil, irfânî derinliktir. Bu yönüyle Eşrefoğlu’nun şiirleri samimiyet, anlam derinliği ve zenginliği açısından yetkin şiirlerdir. Diğer taraftan Eşrefoğlu’nun dîvânında “Tecellî şevk-i dîdârın beni mest eyledi hayran/Enelhak sırrını candan anunçün kılmazam pinhân” matla‘lı manzume gibi cem idrâkiyle söylenmiş şathiyyât türünde yazılmış bir kaç manzûme bulunmakla beraber onda şerîatın zâhirine mugayir herhangi bir ifâdeye rastlanmaz."
+    },
+    {
+     "t": "p",
+     "m": "Elinizdeki “Dîvân-ı İlâhiyât”, bir tenkitli metin olmakla birlikte, herhangi bir nüshaya bağımlı kalınarak hazırlanmamıştır. Ankara Milli Kütüphane’de bulunan A/1931/4; Yz. A/3306; A/8293/2; B/130 numaralı yazmaların üzerine diğer bazı yazmalardan eksikler giderilmeye çalışılmıştır. Buna rağmen tek nüshada bulunan şiirlerdeki bazı tereddütlü kelime ve ibârelerde hatalı okumalar mevcûttur. Bunların zamanla giderilmesi umut edilir."
+    },
+    {
+     "t": "alt",
+     "m": "Dîvân-ı İlâhiyât’ın nüshaları"
+    },
+    {
+     "t": "p",
+     "m": "Eşrefoğlu Abdullah Rûmî Hazretleri’nin Dîvân-ı İlâhiyât’ının tesbit edebildiğimiz yazmaları şunlardır:"
+    },
+    {
+     "t": "p",
+     "m": "Ankara Milli Kütüphane, Yz. A/3306, s. 121."
+    },
+    {
+     "t": "p",
+     "m": "Ankara Milli Kütüphane, Yz. A/756, s. 54."
+    },
+    {
+     "t": "p",
+     "m": "Ankara Milli Kütüphane, Yz. A/8293/2, 44b-79b."
+    },
+    {
+     "t": "p",
+     "m": "Ankara Milli Kütüphane, Yz. B/130, s. 36."
+    },
+    {
+     "t": "p",
+     "m": "Ankara Milli Kütüphane, Yz. A/1931/4, vr. 71a-120b."
+    },
+    {
+     "t": "p",
+     "m": "Süleymaniye Kütüphanesi, Tarlan Bl. Yz. Nu: 34/1."
+    },
+    {
+     "t": "p",
+     "m": "Süleymaniye Kütüphanesi, Esad Efendi Bl., Yz. Nu: 2590, s. 49."
+    },
+    {
+     "t": "p",
+     "m": "Süleymaniye Kütüphanesi, Hacı Mahmud Efendi Bl. Yz. Nu: 55/4, s. 101-168."
+    },
+    {
+     "t": "p",
+     "m": "Süleymaniye Kütüphanesi, Hacı Mahmud Efendi Bl. Yz. Nu: 3437, s. 85."
+    },
+    {
+     "t": "p",
+     "m": "Süleymaniye Kütüphanesi, Mihrişah Sultan Bl., Yz. Nu: 383, s. 39."
+    },
+    {
+     "t": "p",
+     "m": "Süleymaniye Kütüphanesi, Hasan Hayri Bl. Yz. Nu: 5/55."
+    },
+    {
+     "t": "p",
+     "m": "Süleymaniye Kütüphanesi, Laleli Bl. Yz. Nu: 1732."
+    },
+    {
+     "t": "p",
+     "m": "Süleymaniye Kütüphanesi, Nafiz Paşa Bl. Yz. Nu: 886/1."
+    },
+    {
+     "t": "p",
+     "m": "Süleymaniye Kütüphanesi, Tahir Ağa Bl. Yz. Nu: 623."
+    },
+    {
+     "t": "p",
+     "m": "İstanbul Üniversitesi Kütüphanesi, Yz. Nu: T/2933, 50."
+    },
+    {
+     "t": "p",
+     "m": "İstanbul Üniversitesi Kütüphanesi, Yz. T/2933, 73-103."
+    },
+    {
+     "t": "p",
+     "m": "Ali Emirî Efendi Manzum Eserler, Ali Emiri Bl. Yz. Nu: 27, s. 79."
+    },
+    {
+     "t": "p",
+     "m": "Ali Emirî Efendi Manzum Eserler, Ali Emiri Bl. 28, Yz. Nu: s. 32."
+    },
+    {
+     "t": "p",
+     "m": "Ali Emirî Efendi Manzum Eserler, Ali Emiri Bl. Yz. Nu: 28/1, s. 32."
+    },
+    {
+     "t": "p",
+     "m": "Selim Ağa Kütüphanesi, Haşim Paşa Bl. Yz. Nu: 81, s. 16-49."
+    },
+    {
+     "t": "p",
+     "m": "Konya Bölge Yazma Eserler Kütüphanesi, Konya İl Halk Kütüphanesi, 1876/1, s. 1-31."
+    },
+    {
+     "t": "p",
+     "m": "Çorum İl Halk Kütüphanesi, Yz. Nu: 2220/3."
+    },
+    {
+     "t": "p",
+     "m": "Bursa Yazma Eserler Kütüphanesi, Genel Bl. 1235."
+    },
+    {
+     "t": "p",
+     "m": "Bursa Yazma Eserler Kütüphanesi, Genel Bl. 312/2."
+    },
+    {
+     "t": "p",
+     "m": "Bursa Yazma Eserler Kütüphanesi, Genel Bl. 724/1."
+    },
+    {
+     "t": "p",
+     "m": "İngiltere Milli Kütüphanesi Türkçe Yazmaları, Or. 7699."
+    },
+    {
+     "t": "p",
+     "m": "Vatikan Kütüphanesi Türkçe Yazmaları, Turco, 206/1."
+    },
+    {
+     "t": "p",
+     "m": "Vatikan Kütüphanesi Türkçe Yazmaları, Vat. Turco 193/1."
+    },
+    {
+     "t": "p",
+     "m": "Mısır (Kahire) Milli Kütüphanesi, T. Yz. Talat/61, yp. 279-310."
+    },
+    {
+     "t": "p",
+     "m": "Mısır (Kahire) Milli Kütüphanesi, T. Yz. Talat/9, yp. 65."
+    },
+    {
+     "t": "p",
+     "m": "Kuzey Kıbrıs Türk Cumhuriyeti Kıbrıs Kütüphanesi Milli Arşiv Yz. Nu: 1139/3, vr.42a-60a."
+    },
+    {
+     "t": "p",
+     "m": "Avusturya Milli Kütüphanesi Türkçe Yazmaları, Mxt. 190/2, Vr. 44a-81b."
+    },
+    {
+     "t": "p",
+     "m": "İstanbul Büyükşehir Belediyesi, Atatürk Kitaplığı, K. 586, s. 37."
+    },
+    {
+     "t": "p",
+     "m": "İstanbul Büyükşehir Belediyesi, Atatürk Kitaplığı, OE. Yz. Nu:448, s.79."
+    },
+    {
+     "t": "p",
+     "m": "İstanbul Büyükşehir Belediyesi, Atatürk Kitaplığı, OE. Yz. Nu: 630, s. 78."
+    },
+    {
+     "t": "p",
+     "m": "İstanbul Büyükşehir Belediyesi, Atatürk Kitaplığı, OE. Yz. Nu: 769, s. 21-97."
+    },
+    {
+     "t": "p",
+     "m": "İstanbul Büyükşehir Belediyesi, Atatürk Kitaplığı, OE. Yz. Nu: 1005/1, s. 1-4."
+    },
+    {
+     "t": "p",
+     "m": "İstanbul Büyükşehir Belediyesi, Atatürk Kitaplığı, OE. Yz. Nu: 615/12."
+    },
+    {
+     "t": "p",
+     "m": "İstanbul Büyükşehir Belediyesi, Atatürk Kitaplığı, OE. Yz. Nu: 1622/10, s. 116-119."
+    },
+    {
+     "t": "p",
+     "m": "Yapı Kredi Sermet Çifter Araştırma Kütüphanesi Türkçe Yazmaları, Yz. Nu: 924/2, s. 35-56."
+    },
+    {
+     "t": "p",
+     "m": "Türk Dil Kurumu Kütüphanesi. Yz. Nu: /A 299, s. 34."
+    },
+    {
+     "t": "p",
+     "m": "Köprülü Yazma Eser Kütüphanesi, Hafız Ahmed Paşa Bl. Yz. Nu: 119/8, s. 19-85."
+    },
+    {
+     "t": "alt",
+     "m": "2. Müzekki’n-nüfûs"
+    },
+    {
+     "t": "p",
+     "m": "Eşrefoğlu Rûmî’nin bu eseri, Anadolu sahasında yazılan ve en çok okunan tasavvufî eserlerden biridir. Dili bugün için bile oldukça anlaşılır sâdeliktedir. Mutasavvıfın mukaddimede bildirdiğine göre h. 852/1449’da telif edilmiştir. “Nefislerin arınması” anlamına gelen Müzekki’n-Nüfûs, iki bölümden oluşan bir nasîhatnâmedir. Birinci bölümde dünya sevgisinin sebepleri, bu sevgiden kurtulma çâreleri, insan nefsinin merhâleleri, İslâm edep ve ahlâkı, nefisle mücâhede, seyr u sülûk konuları âyet ve hadîslerle desteklenerek tahkiyevî bir üslûpla anlatılmaktadır. İkinci bölümde ise kibir mevzuu ele alınmış ve insan terbiyesinin yolları gösterilmiştir."
+    },
+    {
+     "t": "p",
+     "m": "Osmanlı Türkçesi’yle pek çok kere tab’ edilen (bk. İstanbul 1269, 1281, 1298, 1322, 1966, 1968, 1977) Müzekki’n-Nüfûs’un yine çeşitli kütüphânelerimizde hayli yazma nüshası bulunmaktadır. Eserin ilmî neşrî Abdullah Uçman tarafından yapılmıştır: Bk. Eşrefoğlu Rûmî, Müzekki’n-Nüfûs, İstanbul 2001."
+    },
+    {
+     "t": "alt",
+     "m": "3. Tarîkatnâme"
+    },
+    {
+     "t": "p",
+     "m": "Eşrefoğlu bu eserinde tarîkat adâb ve erkânıyla; mürşid ve mürîdin vasıflarıyla, sülûka ait esas ve inceliklerle ilgili bilgiler verir. Bu mevzûlar ele alınırken sık sık Hz. Peygamber’in sünnetinden, hadîslerinden, dört halîfenin ve çeşitli mutasavvıfların davranış ve sözlerinden tanıklar getirilmiştir. Eserin ilmî neşrî Esra Keskinkılıç tarafından yapılmıştır: Bk. Eşrefoğlu Rûmi, Tarîkatnâme, İstanbul 2002."
+    },
+    {
+     "t": "alt",
+     "m": "4. Diğer eserleri"
+    },
+    {
+     "t": "p",
+     "m": "Mehmed Şemseddîn, Yâdigâr-ı Şemşî’de kaynak zikretmeksizin Eşrefoğlu’nun Delâilü’n-nübüvve, Fütüvvetnâme, İbretnâme, Ma’zeretnâme (Hediyyetü’l-fukarâ), Elestnâme, Nasîhatnâme, Hayretnâme, Münâcâtnâme, Esrârü’t-tâlibîn adlı risâlelerinin bulunduğunu söyler. Bu bilgi daha sonra konuyla ilgili hemen bütün eserlerde aynen tekrarlanmıştır. Delâilü’n-nübüvve ve Esrârü’t-tâlibîn dışında kalan risâleler, Mehmed Fuad Köprülü’nün Yapı Kredi Bankası’na intikâl eden kitapları arasında bulunan bir mecmûada yer almaktadır. 856 (1452) yılında istinsah edilen bu mecmûadaki eserler mesnevî tarzında olup hiçbirinde müellifinin adı geçmemektedir. Ancak her eserin başında müstensih Nasûh b. Ahmed’in, risâlenin Eşref b. Ahmed’e ait olduğuna dair kaydı bulunmaktadır. Bu mesnevîlerden Fütüvvetnâme, Orhan Bilgin tarafından, elde açık bir delîl bulunmamakla birlikte Eşrefoğlu’nun babası Eşref b. Ahmed’e ait olabileceği kanâatiyle yayımlanmıştır (Şeyh Eşref b. Ahmed, Fütüvvetnâme, haz. Orhan Bilgin, İstanbul 1992). Yeni bilgiler elde edilinceye kadar bu eserlerin Eşrefoğlu’na mı yoksa babasına mı ait olduğunu tesbit etmek oldukça güç görünmektedir."
+    }
+   ]
+  }
+ ],
+ "dipnotlar": [
+  {
+   "no": 1,
+   "metin": "Hüseyin Vassâf, Sefîne-i Evliyâ, (haz. Ali Yılmaz-Mehmet Akkuş), C. 1, İstanbul 2006, s. 65-66."
+  },
+  {
+   "no": 2,
+   "metin": "Abdullah Uçman-Necla Pekolcay, “Eşrefoğlu Rûmî”, TDV İslâm Ansiklopedisi, C. 11, İstanbul s. 481."
+  },
+  {
+   "no": 3,
+   "metin": "Bursalı Mehmed Veliyüddîn Efendi, Menâkıb-ı Eşrefzâde, Süleymaniye Kütüphânesi, Hüsrev Paşa Bl. Nu: 182, vr. 2a."
+  },
+  {
+   "no": 4,
+   "metin": "Bursalı Mehmed Veliyüddîn Efendi, A.g.e., vr. 2a."
+  },
+  {
+   "no": 5,
+   "metin": "Hüseyin Vassâf, Sefîne-i Evliyâ, (haz. Ali Yılmaz-Mehmet Akkuş), C. 1, İstanbul 2006, s. 65-66."
+  },
+  {
+   "no": 6,
+   "metin": "Bursalı Mehmed Veliyüddîn Efendi, A.g.e., vr. 9a."
+  },
+  {
+   "no": 7,
+   "metin": "Bursalı Mehmed Veliyüddîn Efendi, A.g.e., vr. 9a."
+  },
+  {
+   "no": 8,
+   "metin": "Evliya Çelebi, Seyâhatnâme, İstanbul 1314, C. III, s. 7."
+  },
+  {
+   "no": 9,
+   "metin": "İbrahim Hâs, Tezkiretü’l-Hâs, Süleymaniye Ktp. HM. Ef. Bl. Yz. Nu: 4543."
+  },
+  {
+   "no": 10,
+   "metin": "Bursalı Mehmed Veliyüddîn Efendi, A.g.e., vr. 12b."
+  }
+ ]
+}

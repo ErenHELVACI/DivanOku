@@ -63,3 +63,8 @@ Site motoru yeni kitabı kendiliğinden bulur (`veri/*/siirler.json` olan her kl
 - Döküm: `bash ayristirici/dokum-pdf.sh <slug>` (düzen metni) ve `node ayristirici/dokum-pdf.ts <slug>` (konumlu parçalar; çift sütunlu sözlük için).
 - Kitaba özel ayrıştırıcı: `ayristirici/esrefoglu-rumi.ts` (şiirler ">N" işaretli, dipnot işareti kelimeye yapışık rakam, sayfa üst bilgileri atılır, sözlük sütun konumlarından okunur).
 - Künyede yayın numarası ve ISBN rakamları PDF'te yok; uydurulmadı, boş bırakıldı. Basılı kitaptan tamamlanmalı.
+
+## Şair/eser tanıtımı (sair.json)
+- ePUB'lar için: `ayristirici/sair.ts` içinde kitabın tanıtım dosyalarının numaraları listelenir, `node ayristirici/sair.ts <kitap>` çalıştırılır.
+- PDF için: düz akan metin olduğundan kitaba özel yazılır (`ayristirici/sair-pdf.ts`, Eşrefoğlu Rûmî): paragraf başı girintili satırdır, satır sonu tireleri birleştirilir, sayfa altı dipnotları basılı numarayla bağlanır.
+- `npm run dogrula -- <kitap>` şemayı ve dipnot işaretlerinin metinlerle eşleşmesini kontrol eder.
