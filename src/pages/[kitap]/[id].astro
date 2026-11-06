@@ -20,11 +20,15 @@ const indeks = tekKelimeIndeksi();
 // Dizeyi parçala: dipnot işareti ⟦n⟧, sözlükte tam eşleşen kelime, düz metin.
 type Parca = { t: 'm'; s: string } | { t: 'k'; s: string; a: string } | { t: 'd'; no: number };
 const kullanilan: Record<string, { t: string; k: boolean }[]> = {}; // kelime -> farklı anlamlar (kaynak gösterilmez)
-// Sözcük: harfler ve harf aralarındaki üst noktalar/kesmeler tek sözcüktür ("Ya‘ni", "ma‘nâ", "‘aşk", "mü’min").
-// ‘ (ayn işareti) hiçbir zaman sözcüğü bölmez. ’ ya da ' (kesme) bölebilir: "Hakk’a", "Tanrı’nın" gibi ek almış biçimlerde
-// tam yazılış sözlükte yoksa kesmeden önceki kök denenir ("Hakk" tıklanır, "’a" düz metin kalır).
-const SOZCUK = /(⟦\d+⟧|[‘ʿ]?[\p{L}\p{M}]+(?:[‘’'ʿʾ`´][\p{L}\p{M}]+)*)/u;
+// Sözcük: harfler ve harf aralarındaki üst nokta, kesme ve tire tek parça alınır ("Ya‘ni", "ma‘nâ", "‘aşk", "mü’min", "Bed-nâm").
+// Eşleştirme sırası: 1) tüm yazılış sözlükte varsa bir bütün olarak; 2) tireliyse parçalara bölünüp her parça ayrı;
+// 3) kesmeliyse ("Hakk’a", "Tanrı’nın") kesmeden önceki kök. ‘ (ayn işareti) hiçbir zaman sözcüğü bölmez.
+const SOZCUK = /(⟦\d+⟧|[‘ʿ]?[\p{L}\p{M}]+(?:[‘’'ʿʾ`´-][\p{L}\p{M}]+)*)/u;
 const bulundu = (a: string) => a.length >= 2 && indeks.has(a); // tek harfli sözcükler eşleştirilmez ("ı" ile "İ" karışıyordu)
+const anahtarBul = (yazi: string) => {
+  const tam = normallestir(yazi);
+  return bulundu(tam) ? tam : bulundu(tam.replace(/-/g, '')) ? tam.replace(/-/g, '') : '';
+};
 function parcala(dize: string): Parca[] {
   const out: Parca[] = [];
   let metin = '';
@@ -33,20 +37,31 @@ function parcala(dize: string): Parca[] {
     bosalt(); out.push({ t: 'k', s: yazi, a });
     kullanilan[a] = farkliAnlamlar(indeks.get(a)!, k.kunye.slug);
   };
+  // Tireyle bölünemeyen tek parça: önce kendisi, olmazsa kesmeden önceki kök
+  const tekParca = (yazi: string) => {
+    const a = anahtarBul(yazi);
+    if (a) { kelime(yazi, a); return; }
+    const kesme = yazi.search(/[’'`´]/);
+    if (kesme > 0) {
+      const kok = yazi.slice(0, kesme);
+      const ka = anahtarBul(kok);
+      if (ka) { kelime(kok, ka); metin += yazi.slice(kesme); return; }
+    }
+    metin += yazi;
+  };
   for (const p of dize.split(SOZCUK)) {
     if (!p) continue;
     const d = p.match(/^⟦(\d+)⟧$/);
     if (d) { bosalt(); out.push({ t: 'd', no: Number(d[1]) }); continue; }
     if (!/^[‘ʿ]?[\p{L}\p{M}]/u.test(p)) { metin += p; continue; }
-    const tam = normallestir(p);
-    if (bulundu(tam)) { kelime(p, tam); continue; }
-    const kesme = p.search(/[’'`´]/);
-    if (kesme > 0) {
-      const kok = p.slice(0, kesme);
-      const ka = normallestir(kok);
-      if (bulundu(ka)) { kelime(kok, ka); metin += p.slice(kesme); continue; }
+    const a = anahtarBul(p);
+    if (a) { kelime(p, a); continue; } // tireli olsa da bütün hâliyle sözlükte var
+    if (p.includes('-')) {
+      // Bütün hâliyle hiçbir sözlükte yok: parçalar ayrı sözcük sayılır
+      p.split(/(-)/).forEach((x) => (x === '-' || !x ? (metin += x) : tekParca(x)));
+      continue;
     }
-    metin += p;
+    tekParca(p);
   }
   bosalt();
   return out;

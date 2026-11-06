@@ -34,12 +34,16 @@ export function tekKelimeIndeksi(): Map<string, KaynakliMadde[]> {
   for (const m of maddeler()) {
     for (const parca of m.madde.replace(dilEki, '').split('/')) {
       const p = parca.trim();
-      if (!p || /[\s-]/.test(p)) continue;
+      if (!p || /\s/.test(p)) continue; // boşluklu (çok kelimeli) maddeler dizeye otomatik eşleşmez
       const a = normallestir(p);
       if (!a) continue;
-      const liste = tek.get(a) ?? [];
-      if (!liste.includes(m)) liste.push(m);
-      tek.set(a, liste);
+      // Tireli madde ("Bed-nâm") hem tireli hem tiresiz yazılışla aranabilir ("bed-nam", "bednam").
+      for (const anahtar of new Set([a, a.replace(/-/g, '')])) {
+        if (!anahtar || anahtar === '-') continue;
+        const liste = tek.get(anahtar) ?? [];
+        if (!liste.includes(m)) liste.push(m);
+        tek.set(anahtar, liste);
+      }
     }
   }
   return tek;
