@@ -42,6 +42,7 @@ const { baslik, aciklama = 'Türkçe dîvânları telefonda ve bilgisayarda raha
           <a href={yol('/')}>Kitaplar</a>
           <a href={yol('/ara/')}>Ara</a>
           <a href={yol('/sozluk/')}>Sözlük</a>
+          <slot name="menu-ek" />
           <button type="button" id="tema-dugme" aria-label="Açık ya da koyu temayı değiştir">☾ Tema</button>
         </nav>
       </div>

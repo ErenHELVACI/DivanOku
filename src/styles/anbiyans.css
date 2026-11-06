@@ -1,6 +1,7 @@
 /* Anbiyans modu: yalnız şiir, tam sayfa, sakin zemin; düğmeler 3 saniye sonra kaybolur.
    Sınıf <html> üzerindedir ve yalnız şiir sayfasında (içinde #siir olan) etkilidir. */
-.anbiyans-dugme { margin-top: .6rem; }
+/* Üst bandda, Tema düğmesinin yanında; dar ekranda yalnız simge */
+@media (max-width: 560px) { .anbiyans-dugme .yazi { display: none; } }
 
 html.anbiyans:has(#siir) header.ust,
 html.anbiyans:has(#siir) footer.alt,

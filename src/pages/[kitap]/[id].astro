@@ -96,6 +96,7 @@ const bentler = s.bentler.map((b) => ({ ...b, dizeler: b.dizeler.map(parcala), a
 const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin]));
 ---
 <Temel baslik={`${baslik} · ${k.kunye.sair}`} aciklama={ilkDize(s)}>
+  <button slot="menu-ek" type="button" id="anbiyans-ac" class="anbiyans-dugme" aria-label="Anbiyans modu: yalnız şiir, tam sayfa"><span aria-hidden="true">◐</span><span class="yazi"> Anbiyans</span></button>
   {onceki && <link rel="prev" href={yol(`/${k.kunye.slug}/${onceki.id}/`)} />}
   {sonraki && <link rel="next" href={yol(`/${k.kunye.slug}/${sonraki.id}/`)} />}
 
@@ -125,7 +126,6 @@ const dipnotMetinleri = Object.fromEntries(dipnotlar.map((d) => [d.no, d.metin])
       {s.baslikNotlari.map((n) => <p class="not">{n}</p>)}
       {s.vezinler.map((v) => <p class="vezin">{v}</p>)}
       <span class="tur">{turAdi[s.tur]}</span>
-      <p><button type="button" id="anbiyans-ac" class="dugme anbiyans-dugme" aria-label="Anbiyans modu: yalnız şiir, tam sayfa">☾ Anbiyans modu</button></p>
     </header>
 
     <div class="siir" id="siir" lang="tr" tabindex="0" role="region" aria-label={`${baslik}, şiir metni`}>
