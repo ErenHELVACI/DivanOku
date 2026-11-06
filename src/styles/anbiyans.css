@@ -26,9 +26,9 @@ html.anbiyans:has(#siir) main {
 html.anbiyans:has(#siir) main > .kap { margin: auto; max-width: 70rem; }
 html.anbiyans:has(#siir) .sayfa-cerceve { background: transparent; border: 0; box-shadow: none; padding: 0; margin: 0; }
 html.anbiyans:has(#siir) .sayfa-cerceve::before { display: none; }
-html.anbiyans:has(#siir) .siir { --yazi-boyu: clamp(1.5rem, 2.6vw, 2.4rem); overflow-x: auto; }
-html.anbiyans:has(#siir) .bent { margin-block: 1.3em; }
-html.anbiyans:has(#siir) .dize { line-height: 1.75; }
+html.anbiyans:has(#siir) .siir { --yazi-boyu: clamp(1.3rem, 2vw, 1.8rem); /* normal okumadan (1,4 rem) bir kademe büyük */ overflow-x: auto; }
+html.anbiyans:has(#siir) .bent { margin-block: 1.1em; }
+html.anbiyans:has(#siir) .dize { line-height: 1.7; }
 
 @media (prefers-reduced-motion: no-preference) {
   html.anbiyans:has(#siir) .siir { animation: anbiyans-belir 1.2s ease both; }
