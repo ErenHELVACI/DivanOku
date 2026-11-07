@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # Kullanıcının GitHub deposunun yerel kopyası (iç içe depo); bu projenin parçası değil
 /Divan/
+
+# Kişisel yazışma taslakları (izin e-postası vb.): depoya girmez
+/izin/
