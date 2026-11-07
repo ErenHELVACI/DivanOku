@@ -21,11 +21,11 @@
     Kamu vahdet oldu kesret götürüldü nûr u zulmet
     Dolu ‘arş u ferş tamâmet oldu anı görmez ‘amâ
 7. bent
-    Meğer Eşrefoğlu gene kendüden varıpdır anla⟦1⟧
+    Meğer Eşrefoğlu gene kendüden varıpdır anla⟦11⟧
     Halka bir ednâ kalıpdır pes anındır işbu gavgâ
 
 Dipnotlar:
-    ⟦1⟧ “gine” kelimesi “künhe” şeklinde de okunmalıdır.
+    ⟦11⟧ “gine” kelimesi “künhe” şeklinde de okunmalıdır.
 
 ## Şiir d-2: kaynak notlu · tür: belirsiz
 
@@ -56,9 +56,8 @@ Dipnotlar:
 9. bent
     Eşrefoğlu Rûm’ikilik defterin yakdı oda
     Bir olup birlik bulup birikti birle birliğe
-    Dîvân-ı İlâhiyât, Milli Kütüphane, Yz. A/756, vr. 22a.
 
-Kaynak notu: Dîvân-ı İlâhiyât, Milli Kütüphane, Yz. A/756, vr. 21b.
+Kaynak notu: Dîvân-ı İlâhiyât, Milli Kütüphane, Yz. A/756, vr. 21b.; Dîvân-ı İlâhiyât, Milli Kütüphane, Yz. A/756, vr. 22a.
 
 ## Şiir d-14: rastgele · tür: belirsiz
 
@@ -136,7 +135,7 @@ Kaynak notu: Dîvân-ı İlâhiyât, Milli Kütüphane, Yz. A/756, vr. 21b.
 
 1. bent
     Ben derdimden inler idim derdim bana dermân imiş
-    Bî-derd olan kimselerin den adı müselmân imiş⟦7⟧
+    Bî-derd olan kimselerin den adı müselmân imiş⟦17⟧
 2. bent
     Bî-derd olan insân değil hiç ‘ameli olmaz kabûl
     Derdsiz kişi bu ‘âlemde bir yularsız hayvân imiş
@@ -172,7 +171,7 @@ Kaynak notu: Dîvân-ı İlâhiyât, Milli Kütüphane, Yz. A/756, vr. 21b.
     Mağrûr olma devletine hîlesi çok fettân imiş
 
 Dipnotlar:
-    ⟦7⟧ den: deyin ki.
+    ⟦17⟧ den: deyin ki.
 
 ## Şiir d-48: rastgele · tür: belirsiz
 
@@ -475,7 +474,7 @@ Dipnotlar:
     Gâh top olup dost önünde şarkdan garba yuvarlanıram
 9. bent
     Gâh hâssü’l-hâs oluram gâh Hızır-İlyâs oluram
-    Yürürem yaşda kuruda büklülerde bulunuram⟦9⟧
+    Yürürem yaşda kuruda büklülerde bulunuram⟦19⟧
 10. bent
     Gâh deniz gâh göl oluram gâh sultân gâh kul oluram
     Gâh bahâr u gül oluram elden ele yülünürem
@@ -493,7 +492,7 @@ Dipnotlar:
     Gâh Eşrefoğlu Rûmî’yem bu dillerde söylenirem
 
 Dipnotlar:
-    ⟦9⟧ “büklülerde” bazı nüshalarda “bulutlarda” şeklindedir. Bük sahil demektir.
+    ⟦19⟧ “büklülerde” bazı nüshalarda “bulutlarda” şeklindedir. Bük sahildemektir.
 
 ## Şiir d-81: rastgele · tür: belirsiz
 
@@ -603,7 +602,7 @@ Dipnotlar:
 ## Şiir d-97: rastgele · tür: belirsiz
 
 1. bent
-    Hak’dan utan olma âsî⟦15⟧
+    Hak’dan utan olma âsî⟦25⟧
     Gel ikrâr eylegil ere
     Er dediğim Tanrı hâsı
     Gel ikrâr eylegil ere
@@ -612,34 +611,6 @@ Dipnotlar:
     Sekiz uçmak ere durak
     Etmeyesin yarın firak
     Gel ikrâr eylegil ere
-    Gider gönül teşvîşini
-    Bezeme hoyrat nakşını
-    Uçurmadın cân kuşunu
-    Gel ikrâr et erenlere
-    Geç bu uzun endîşeden
-    Erdire nefsin uşadan
-    Bakmagıl dosta taşradan
-    Gel ikrâr et erenlere
-    *
-    Bu cân sana bâkî kalmaz
-    Anda varan girü gelmez
-    Son pişmânlık assı kılmaz
-    Gel ikrâr et erenlere
-    *
-    Bu dünyâyı elden bırak
-    Âhirete eyle yerak
-    Erenlerden olma ırak
-    Gel ikrâr et erenlere
-    *
-    Eger seversen Allah’ı
-    Hoş nidâ eyle o şâhı
-    Hak rahmet ider va’llâhi
-    Gel ikrâr et erenlere
-    *
-    Yûnus sen pişmân olmadan
-    İrişgil ere ölmeden
-    Bu dünyâ sana gülmeden
-    Gel ikrâr et erenlere
 3. bent
     Er gönlü dolu Hak nûru
     Ere müştâk uçmak hûri
@@ -677,7 +648,7 @@ Dipnotlar:
     Gel ikrâr eylegil ere
 
 Dipnotlar:
-    ⟦15⟧ Bu nutk-ı şerîf, Yunus Emre’nin şu kıt’a ile başlayan nutkuna nazîredir: Dutgıl bir Tanrı hâsını Gel ikrâr et erenlere Sileler gönlün pâsını Gel ikrâr et erenlere * Öyle bir berkitgil ahdin Hem mâlın olsun hem rahtın Hakk’ı bilmek olsun cehdin Gel ikrâr et erenlere * Erenlerdir Tanrı hâsı Silerler gönülden pâsı Dostıladır mu‘amlesi Gel ikrâr et erenlere *
+    ⟦25⟧ Bu nutk-ı şerîf, Yunus Emre’nin şu kıt’a ile başlayan nutkuna nazîredir:Dutgıl bir Tanrı hâsınıGel ikrâr et erenlereSileler gönlün pâsınıGel ikrâr et erenlere*Öyle bir berkitgil ahdinHem mâlın olsun hem rahtınHakk’ı bilmek olsun cehdinGel ikrâr et erenlere*Erenlerdir Tanrı hâsıSilerler gönülden pâsıDostıladır mu‘amlesiGel ikrâr et erenlere*Gider gönül teşvîşiniBezeme hoyrat nakşınıUçurmadın cân kuşunuGel ikrâr et erenlere*Geç bu uzun endîşedenErdire nefsin uşadanBakmagıl dosta taşradanGel ikrâr et erenlere*Bu cân sana bâkî kalmazAnda varan girü gelmezSon pişmânlık assı kılmazGel ikrâr et erenlere*Bu dünyâyı elden bırakÂhirete eyle yerakErenlerden olma ırakGel ikrâr et erenlere*Eger seversen Allah’ıHoş nidâ eyle o şâhıHak rahmet ider va’llâhiGel ikrâr et erenlere*Yûnus sen pişmân olmadanİrişgil ere ölmedenBu dünyâ sana gülmedenGel ikrâr et erenlere
 
 ## Şiir d-107: en uzun · tür: belirsiz
 

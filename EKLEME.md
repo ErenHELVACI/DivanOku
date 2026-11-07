@@ -6,7 +6,7 @@ Bu prosedür, motor koduna (`src/`) dokunmadan yeni bir dîvân eklemeyi anlatı
 
 ## 0. Kaynağı değerlendir
 - **ePUB tercih edilir** (metin düzgündür). Diyanet ePUB'ları aynı şablonu kullanır.
-- Yalnız **PDF** varsa önce metin katmanını dene (`pdftotext`). Karakterler eksikse (ş, ğ, İ, ı kayıpsa) bu metin **kullanılamaz**: eksik harfi tahminle tamamlamak metne dokunmaktır. Yol: ePUB iste ya da OCR yapıp her sayfayı kitapla karşılaştır. Eşrefoğlu Rûmî PDF'i bu durumda (bkz. aşağıdaki not).
+- Yalnız **PDF** varsa kitap eklenmez: önce ePUB bulunur (Diyanet dijital kitaplığında çoğu kitabın ePUB'u var). PDF hattı bu projeden kaldırıldı; Eşrefoğlu Rûmî de PDF'ten eklenmişti, ePUB bulununca ePUB'a geçildi ve PDF verisi silindi.
 
 ## 1. Kaynağı koy ve dök
 ```bash
@@ -57,14 +57,9 @@ npm test && npm run build
 ```
 Site motoru yeni kitabı kendiliğinden bulur (`veri/*/siirler.json` olan her klasör). Ana sayfada cilt rengi sıradan atanır (`src/pages/index.astro`).
 
-## PDF kaynaklı kitap (Eşrefoğlu Rûmî)
-`Eşrefoğlu Rumi Divanı.pdf` ePUB olmadan eklendi. Dikkat edilecekler:
-- Metin katmanı `pdftotext -enc UTF-8` ile çıkarılmalı. Kodlama verilmezse ş, ğ, İ, ı sessizce düşer (bu yüzden önce yanlışlıkla "kullanılamaz" denmişti).
-- Döküm: `bash ayristirici/dokum-pdf.sh <slug>` (düzen metni) ve `node ayristirici/dokum-pdf.ts <slug>` (konumlu parçalar; çift sütunlu sözlük için).
-- Kitaba özel ayrıştırıcı: `ayristirici/esrefoglu-rumi.ts` (şiirler ">N" işaretli, dipnot işareti kelimeye yapışık rakam, sayfa üst bilgileri atılır, sözlük sütun konumlarından okunur).
-- Künyede yayın numarası ve ISBN rakamları PDF'te yok; uydurulmadı, boş bırakıldı. Basılı kitaptan tamamlanmalı.
+## Çok bölümlü kitap (Eşrefoğlu: Dîvân d, Mesnevîler m, Kıt'alar k)
+Numaraları her bölümde 1'den başlayan kitaplarda `diyanetAyristir` çağrısına `bolumler: [{ kaynak, dosya, kita? }]` verilir (bkz. `ayristirici/esrefoglu-rumi.ts`). `kita: true` her kıt'ayı ayrı, tek bentli şiir yapar (şiir numarası ilk dizenin "N-" öneki). Şiir dizini numara başa döndükçe sıradaki bölüme atanır.
 
 ## Şair/eser tanıtımı (sair.json)
 - ePUB'lar için: `ayristirici/sair.ts` içinde kitabın tanıtım dosyalarının numaraları listelenir, `node ayristirici/sair.ts <kitap>` çalıştırılır.
-- PDF için: düz akan metin olduğundan kitaba özel yazılır (`ayristirici/sair-pdf.ts`, Eşrefoğlu Rûmî): paragraf başı girintili satırdır, satır sonu tireleri birleştirilir, sayfa altı dipnotları basılı numarayla bağlanır.
 - `npm run dogrula -- <kitap>` şemayı ve dipnot işaretlerinin metinlerle eşleşmesini kontrol eder.

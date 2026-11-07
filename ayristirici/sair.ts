@@ -13,6 +13,7 @@ const KITAPLAR: Record<string, [string, number[]]> = {
   'kaygusuz-abdal': ['KaygusuzAbdal', [6, 8]],
   'ummi-sinan': ['UmmiSinanHalveti', [8]],
   'vahib-ummi': ['VahibUmmiHalveti', [7, 9, 10]],
+  'esrefoglu-rumi': ['EsrefogluRumi', [4, 7]],
 };
 
 type Oge = { t: 'ust' | 'alt' | 'p' | 'alinti'; m: string };

@@ -57,7 +57,7 @@
  },
  {
   "madde": "Ağ (t)",
-  "tanim": "Tuzak. 219 SÖZLÜK"
+  "tanim": "Tuzak."
  },
  {
   "madde": "Ağdırmak (t)",
@@ -157,35 +157,7 @@
  },
  {
   "madde": "Aşr okumak (a. t)",
-  "tanim": " Kur’an’dan on ayet mikdarı okumak."
- },
- {
-  "madde": "Bâb (a)",
-  "tanim": "Kapı, kısım, mevzu’, fasıl."
- },
- {
-  "madde": "Bâd (f)",
-  "tanim": "Rüzgâr, nefes."
- },
- {
-  "madde": "Bâde (f)",
-  "tanim": "Şarap, içki, kadeh."
- },
- {
-  "madde": "Bâğ (f)",
-  "tanim": "Bahçe, büyük bahçe."
- },
- {
-  "madde": "Bağır başı (t)",
-  "tanim": "Göğüs."
- },
- {
-  "madde": "Bahâ (f)",
-  "tanim": "Kıymet, değer."
- },
- {
-  "madde": "Bahil (a)",
-  "tanim": "Cimri, hasîs, tamahkâr, malına kıyamayan."
+  "tanim": "Kur’an’dan on ayet mikdarı okumak."
  },
  {
   "madde": "Atâ (a)",
@@ -230,6 +202,34 @@
  {
   "madde": "Azmak (t)",
   "tanim": "Şaşırmak, sapıtmak, yoldan çıkmak, ayrılmak, sapkınlığa düşmek."
+ },
+ {
+  "madde": "Bâb (a)",
+  "tanim": "Kapı, kısım, mevzu’, fasıl."
+ },
+ {
+  "madde": "Bâd (f)",
+  "tanim": "Rüzgâr, nefes."
+ },
+ {
+  "madde": "Bâde (f)",
+  "tanim": "Şarap, içki, kadeh."
+ },
+ {
+  "madde": "Bâğ (f)",
+  "tanim": "Bahçe, büyük bahçe."
+ },
+ {
+  "madde": "Bağır başı (t)",
+  "tanim": "Göğüs."
+ },
+ {
+  "madde": "Bahâ (f)",
+  "tanim": "Kıymet, değer."
+ },
+ {
+  "madde": "Bahil (a)",
+  "tanim": "Cimri, hasîs, tamahkâr, malına kıyamayan."
  },
  {
   "madde": "Bahillik (a)",
@@ -452,6 +452,38 @@
   "tanim": "Ciddiyet, önem vermek."
  },
  {
+  "madde": "Cîfe (a)",
+  "tanim": "Leş, kokmuş et."
+ },
+ {
+  "madde": "Cinân (a)",
+  "tanim": "Cennetler."
+ },
+ {
+  "madde": "Cisr (a)",
+  "tanim": "Köprü."
+ },
+ {
+  "madde": "Cur’a (a)",
+  "tanim": "Kadehin bir yudumu."
+ },
+ {
+  "madde": "Cûşa gelmek (f. t)",
+  "tanim": "Coşmak, kaynamak."
+ },
+ {
+  "madde": "Cümle (a)",
+  "tanim": "Bütün, hep."
+ },
+ {
+  "madde": "Cünbüş (f)",
+  "tanim": "Kımıldanma, oynama, eğlence, hareket, zevk."
+ },
+ {
+  "madde": "Cünûn (a)",
+  "tanim": "Delilik."
+ },
+ {
   "madde": "Çâh (f)",
   "tanim": "Kuyu, çukur."
  },
@@ -462,6 +494,18 @@
  {
   "madde": "Çerâğ (f)",
   "tanim": "Fitil, ışık, mum, kandîl, çıra."
+ },
+ {
+  "madde": "Çerh (f)",
+  "tanim": "Çarh, dünya, felek."
+ },
+ {
+  "madde": "Çevgân (f)",
+  "tanim": "Cirit oyununda kullanılan değnek."
+ },
+ {
+  "madde": "Çü/Çün (f)",
+  "tanim": "Çünkü, madem ki, ne zamân ki."
  },
  {
   "madde": "Dâd eylemek (f)",
@@ -496,51 +540,7 @@
   "tanim": "Herhangi birileri, çoğu kişiler."
  },
  {
-  "madde": "Cîfe (a)",
-  "tanim": "Leş, kokmuş et."
- },
- {
-  "madde": "Cinân (a)",
-  "tanim": "Cennetler."
- },
- {
-  "madde": "Cisr (a)",
-  "tanim": "Köprü."
- },
- {
-  "madde": "Cur’a (a)",
-  "tanim": "Kadehin bir yudumu."
- },
- {
-  "madde": "Cûşa gelmek (f. t)",
-  "tanim": "Coşmak, kaynamak."
- },
- {
-  "madde": "Cümle (a)",
-  "tanim": "Bütün, hep."
- },
- {
-  "madde": "Cünbüş (f)",
-  "tanim": "Kımıldanma, oynama, eğlence, hareket, zevk."
- },
- {
-  "madde": "Cünûn (a)",
-  "tanim": "Delilik."
- },
- {
-  "madde": "Çerh (f)",
-  "tanim": "Çarh, dünya, felek."
- },
- {
-  "madde": "Çevgân (f)",
-  "tanim": "Cirit oyununda kullanılan değnek."
- },
- {
-  "madde": "Çü/Çün (f)",
-  "tanim": "Çünkü, madem ki, ne zamân ki."
- },
- {
-  "madde": "Değşirmek (t)",
+  "madde": "Değşirmek(t)",
   "tanim": "Değişmek, değiştirmek."
  },
  {
@@ -612,18 +612,6 @@
   "tanim": "Dolunmak, batmak, dolanmak, grup etmek."
  },
  {
-  "madde": "Ebed (a)",
-  "tanim": "Sonsuz, gelecek, sonu olmayan gelecek zamân."
- },
- {
-  "madde": "Ebleh (a)",
-  "tanim": "Pek akılsız, ahmak, bön."
- },
- {
-  "madde": "Ebsem (a)",
-  "tanim": "Suskun."
- },
- {
   "madde": "Don (t)",
   "tanim": "Elbise, mecâzen suret, vücût."
  },
@@ -640,7 +628,7 @@
   "tanim": "Görmek, karşısına çıkmak, rastlamak."
  },
  {
-  "madde": "Duyı duy (t)",
+  "madde": "Duyı duy(t)",
   "tanim": "İyice duymak, anlamak, sezmek."
  },
  {
@@ -664,7 +652,7 @@
   "tanim": "İnci."
  },
  {
-  "madde": "Dürr-i yetîm (f. a)",
+  "madde": "Dürr-i yetîm(f. a)",
   "tanim": "Tek, iri, baha biçilmez inci. Eşsiz inci. Hz. Nûr-ı Muhammed."
  },
  {
@@ -678,6 +666,18 @@
  {
   "madde": "Düzmek (t)",
   "tanim": "Tertip ve tanzim etmek. Düzenleme."
+ },
+ {
+  "madde": "Ebed (a)",
+  "tanim": "Sonsuz, gelecek, sonu olmayan gelecek zamân."
+ },
+ {
+  "madde": "Ebleh (a)",
+  "tanim": "Pek akılsız, ahmak, bön."
+ },
+ {
+  "madde": "Ebsem (a)",
+  "tanim": "Suskun."
  },
  {
   "madde": "Ebter (a)",
@@ -709,35 +709,7 @@
  },
  {
   "madde": "Ene’l-Hak (a)",
-  "tanim": "Bağdadlı Hallâc-ı Mansur’un “Ben"
- },
- {
-  "madde": "Fahr (a)",
-  "tanim": "İftihar, öğünme."
- },
- {
-  "madde": "Fak (f)",
-  "tanim": "Tuzak."
- },
- {
-  "madde": "Fakî (a)",
-  "tanim": "İslâm hukukunu iyi bilen, fakih."
- },
- {
-  "madde": "Fânî (a)",
-  "tanim": "Geçici olan, yoklukla ilgili."
- },
- {
-  "madde": "Fârig (a)",
-  "tanim": "Vazgeçmiş. Elini eteğini çekmiş."
- },
- {
-  "madde": "Fâsık (a)",
-  "tanim": "Allah’ın emrinden çıkan. Kötülük yapan. Fıska düşen."
- },
- {
-  "madde": "Fâsid (a)",
-  "tanim": "Kötü, fena, yanlış, bozuk, fesad çıkaran. Kavgacı, bozucu. Hakk’ım” anlamına gelen ve asılmasına sebep olan sözü."
+  "tanim": "Bağdadlı Hallâc-ı Mansur’un “Ben Hakk’ım” anlamına gelen ve asılmasına sebep olan sözü."
  },
  {
   "madde": "Erzan (f)",
@@ -766,6 +738,34 @@
  {
   "madde": "Ezel (a)",
   "tanim": "Başlangıcı olmayan zamân."
+ },
+ {
+  "madde": "Fahr (a)",
+  "tanim": "İftihar, öğünme."
+ },
+ {
+  "madde": "Fak (f)",
+  "tanim": "Tuzak."
+ },
+ {
+  "madde": "Fakî (a)",
+  "tanim": "İslâm hukukunu iyi bilen, fakih."
+ },
+ {
+  "madde": "Fânî (a)",
+  "tanim": "Geçici olan, yoklukla ilgili."
+ },
+ {
+  "madde": "Fârig (a)",
+  "tanim": "Vazgeçmiş. Elini eteğini çekmiş."
+ },
+ {
+  "madde": "Fâsık (a)",
+  "tanim": "Allah’ın emrinden çıkan. Kötülük yapan. Fıska düşen."
+ },
+ {
+  "madde": "Fâsid (a)",
+  "tanim": "Kötü, fena, yanlış, bozuk, fesad çıkaran. Kavgacı, bozucu."
  },
  {
   "madde": "Fâş (f)",
@@ -852,10 +852,6 @@
   "tanim": "Mücevher, inci, esâs, öz."
  },
  {
-  "madde": "Habîb (a)",
-  "tanim": "Sevgili, sevilen, dost. Allah’ın isimlerinden."
- },
- {
   "madde": "Gılmân (a)",
   "tanim": "Cennettekilere hizmet eden güzel ve genç delikanlılar. Genç uşaklar."
  },
@@ -916,8 +912,12 @@
   "tanim": "Seçilmiş, beğenilmiş kişi, şey."
  },
  {
-  "madde": "Güzin (f)",
+  "madde": "Güzin(f)",
   "tanim": "Seçkin, seçilmiş, seçen."
+ },
+ {
+  "madde": "Habîb (a)",
+  "tanim": "Sevgili, sevilen, dost. Allah’ın isimlerinden."
  },
  {
   "madde": "Hacer (a)",
@@ -1068,7 +1068,7 @@
   "tanim": "Sırdaş, sır arkadaşı."
  },
  {
-  "madde": "Hergiz (f)",
+  "madde": "Hergiz(f)",
   "tanim": "Asla."
  },
  {
@@ -1082,46 +1082,6 @@
  {
   "madde": "Hod (f)",
   "tanim": "Kendi, esasen, bizzat."
- },
- {
-  "madde": "Irak (t)",
-  "tanim": "Uzak, ırak."
- },
- {
-  "madde": "Issı (t)",
-  "tanim": "Sahip. İbrâhîm Edhem: Belh şehzadesi iken Hak aşkı uğruna tâcını, tahtını terkedip derviş olan zât."
- },
- {
-  "madde": "İçre (t)",
-  "tanim": "İçinde."
- },
- {
-  "madde": "İkrâr (a)",
-  "tanim": "Diliyle söyleme."
- },
- {
-  "madde": "İl (t)",
-  "tanim": "Memleket, ülke, şehir."
- },
- {
-  "madde": "İl/el (t)",
-  "tanim": "Başkası, yabancı, gayrısı, el."
- },
- {
-  "madde": "İletmek/iltmek (t)",
-  "tanim": "Götürmek, ulaşmak."
- },
- {
-  "madde": "İlme’l-yakîn (a)",
-  "tanim": "Hakikati bilgi yoluyla elde etme."
- },
- {
-  "madde": "Ka’be (a)",
-  "tanim": "Beytullah."
- },
- {
-  "madde": "Kaçan (f)",
-  "tanim": "Ne vakit, ne zamân."
  },
  {
   "madde": "Hû (f)",
@@ -1148,8 +1108,44 @@
   "tanim": "Aklı başında olan."
  },
  {
+  "madde": "Irak (t)",
+  "tanim": "Uzak, ırak."
+ },
+ {
+  "madde": "Issı (t)",
+  "tanim": "Sahip."
+ },
+ {
   "madde": "Iyş (a)",
   "tanim": "Zevk ve sefâ, işret."
+ },
+ {
+  "madde": "İbrâhîm Edhem",
+  "tanim": "Belh şehzadesi iken Hak aşkı uğruna tâcını, tahtını terkedip derviş olan zât."
+ },
+ {
+  "madde": "İçre (t)",
+  "tanim": "İçinde."
+ },
+ {
+  "madde": "İkrâr (a)",
+  "tanim": "Diliyle söyleme."
+ },
+ {
+  "madde": "İl (t)",
+  "tanim": "Memleket, ülke, şehir."
+ },
+ {
+  "madde": "İl/el (t)",
+  "tanim": "Başkası, yabancı, gayrısı, el."
+ },
+ {
+  "madde": "İletmek/iltmek (t)",
+  "tanim": "Götürmek, ulaşmak."
+ },
+ {
+  "madde": "İlme’l-yakîn (a)",
+  "tanim": "Hakikati bilgi yoluyla elde etme."
  },
  {
   "madde": "İlm-i bâtın (a)",
@@ -1172,8 +1168,16 @@
   "tanim": "Açığa vurma, meydana çıkarma, gösterme, âşikâr etme."
  },
  {
-  "madde": "İzz/izzet (a)",
+  "madde": "İzz/izzet(a)",
   "tanim": "Değer, kıymet, yücelik, üstünlük, ululuk, şeref."
+ },
+ {
+  "madde": "Ka’be (a)",
+  "tanim": "Beytullah."
+ },
+ {
+  "madde": "Kaçan (f)",
+  "tanim": "Ne vakit, ne zamân."
  },
  {
   "madde": "Kadîr (a)",
@@ -1226,22 +1230,6 @@
  {
   "madde": "Kem (f)",
   "tanim": "Az, eksik, noksan, fenâ, kötü."
- },
- {
-  "madde": "Lâ (a)",
-  "tanim": "Yok."
- },
- {
-  "madde": "Lâ-büdd (a)",
-  "tanim": "Lazım, gerekli."
- },
- {
-  "madde": "Lâ-mekân (a)",
-  "tanim": "Mekân ihtiyacı olmayan mekânsız. Allah."
- },
- {
-  "madde": "Ledün (a)",
-  "tanim": "Allah’ın sırlarına ait bilgi, gayb ilmi."
  },
  {
   "madde": "Kemter (f)",
@@ -1300,6 +1288,22 @@
   "tanim": "Arş’ın altında bir düzlükte olan, levh-i mahfuzun bulunduğu yer."
  },
  {
+  "madde": "Lâ (a)",
+  "tanim": "Yok."
+ },
+ {
+  "madde": "Lâ-büdd (a)",
+  "tanim": "Lazım, gerekli."
+ },
+ {
+  "madde": "Lâ-mekân (a)",
+  "tanim": "Mekân ihtiyacı olmayan mekânsız. Allah."
+ },
+ {
+  "madde": "Ledün (a)",
+  "tanim": "Allah’ın sırlarına ait bilgi, gayb ilmi."
+ },
+ {
   "madde": "Levh ü kalem (a)",
   "tanim": "Allah’ın ezelî iradesinde yazılı olanlar."
  },
@@ -1320,12 +1324,16 @@
   "tanim": "Sevgili."
  },
  {
-  "madde": "Mahzûn (a)",
+  "madde": "Mahzûn(a)",
   "tanim": "Hüzünlü, tasalı."
  },
  {
   "madde": "Mânâ (a)",
-  "tanim": "Anlam. Bir şeyin iç yüzü. Mansûr: 9.-10. yüzyıllarda yaşayan büyük sufî. Bir ilahî cezbe anında “Ene’l-Hak”/”Ben Hakk’ım” dediği için zamanın fakîhlerince şeriate muhalif bulunarak asılmıştır"
+  "tanim": "Anlam. Bir şeyin iç yüzü."
+ },
+ {
+  "madde": "Mansûr",
+  "tanim": "9.-10. yüzyıllarda yaşayan büyük sufî. Bir ilahî cezbe anında “Ene’l-Hak”/”Ben Hakk’ım” dediği için zamanın fakîhlerince şeriate muhalif bulunarak asılmıştır"
  },
  {
   "madde": "Marifet (a)",
@@ -1456,46 +1464,6 @@
   "tanim": "Yasak etme, yasak."
  },
  {
-  "madde": "Od (t)",
-  "tanim": "Ateş."
- },
- {
-  "madde": "Ol (t)",
-  "tanim": "O."
- },
- {
-  "madde": "Onmak (t)",
-  "tanim": "İyileşmek, zenginleşmek."
- },
- {
-  "madde": "Öğ (t)",
-  "tanim": "Akıl."
- },
- {
-  "madde": "Palâs (f)",
-  "tanim": "Keçe, aba, çul, eski elbise."
- },
- {
-  "madde": "Pâre (f)",
-  "tanim": "Parça."
- },
- {
-  "madde": "Pasbân (f)",
-  "tanim": "Gece bekçisi."
- },
- {
-  "madde": "Pâyân (f)",
-  "tanim": "Son, nihâyet, uç, kenar."
- },
- {
-  "madde": "Per ü bâl (f)",
-  "tanim": "Kanat ve kol."
- },
- {
-  "madde": "Pertev (f)",
-  "tanim": "Işık, nûr."
- },
- {
   "madde": "Nekir (a)",
   "tanim": "Mezarda insanları sorguya çekecek iki melekten birinin adı."
  },
@@ -1533,7 +1501,23 @@
  },
  {
   "madde": "Nûş (f)",
-  "tanim": "Tatlı, bal. O-Ö"
+  "tanim": "Tatlı, bal."
+ },
+ {
+  "madde": "Od (t)",
+  "tanim": "Ateş."
+ },
+ {
+  "madde": "Ol (t)",
+  "tanim": "O."
+ },
+ {
+  "madde": "Onmak (t)",
+  "tanim": "İyileşmek, zenginleşmek."
+ },
+ {
+  "madde": "Öğ (t)",
+  "tanim": "Akıl."
  },
  {
   "madde": "Öküş (t)",
@@ -1550,6 +1534,30 @@
  {
   "madde": "Özge (t)",
   "tanim": "Başka."
+ },
+ {
+  "madde": "Palâs (f)",
+  "tanim": "Keçe, aba, çul, eski elbise."
+ },
+ {
+  "madde": "Pâre (f)",
+  "tanim": "Parça."
+ },
+ {
+  "madde": "Pasbân (f)",
+  "tanim": "Gece bekçisi."
+ },
+ {
+  "madde": "Pâyân (f)",
+  "tanim": "Son, nihâyet, uç, kenar."
+ },
+ {
+  "madde": "Per ü bâl (f)",
+  "tanim": "Kanat ve kol."
+ },
+ {
+  "madde": "Pertev (f)",
+  "tanim": "Işık, nûr."
  },
  {
   "madde": "Pervâne (f)",
@@ -1588,6 +1596,14 @@
   "tanim": "Ön ve arka."
  },
  {
+  "madde": "Pür (f)",
+  "tanim": "Dolu, çok."
+ },
+ {
+  "madde": "Pür-nûr (f. a)",
+  "tanim": "Nur dolu, nurla kaplanmış."
+ },
+ {
   "madde": "Rab (a)",
   "tanim": "Allah."
  },
@@ -1624,38 +1640,6 @@
   "tanim": "Umma, ümit etme, dileme, dilek."
  },
  {
-  "madde": "Saçu (t)",
-  "tanim": "Düğünlerde saçılan şeker ve para cinsinden şeyler."
- },
- {
-  "madde": "Sad (f)",
-  "tanim": "Yüz."
- },
- {
-  "madde": "Sadef (a)",
-  "tanim": "İnci kabuğu."
- },
- {
-  "madde": "Sâd-hezâr (f)",
-  "tanim": "Yüz bin."
- },
- {
-  "madde": "Sâdık (a)",
-  "tanim": "Doğru, sözüne güvenilir."
- },
- {
-  "madde": "Sadır (a)",
-  "tanim": "Göğüs,"
- },
- {
-  "madde": "Pür (f)",
-  "tanim": "Dolu, çok."
- },
- {
-  "madde": "Pür-nûr (f. a)",
-  "tanim": "Nur dolu, nurla kaplanmış."
- },
- {
   "madde": "Remz (a)",
   "tanim": "İşâret, sembol, sırrı anlatmak için başvurulan söz veya kelime."
  },
@@ -1690,6 +1674,30 @@
  {
   "madde": "Rü’yet (a)",
   "tanim": "Görme, bakma."
+ },
+ {
+  "madde": "Saçu (t)",
+  "tanim": "Düğünlerde saçılan şeker ve para cinsinden şeyler."
+ },
+ {
+  "madde": "Sad (f)",
+  "tanim": "Yüz."
+ },
+ {
+  "madde": "Sadef (a)",
+  "tanim": "İnci kabuğu."
+ },
+ {
+  "madde": "Sâd-hezâr (f)",
+  "tanim": "Yüz bin."
+ },
+ {
+  "madde": "Sâdık (a)",
+  "tanim": "Doğru, sözüne güvenilir."
+ },
+ {
+  "madde": "Sadır (a)",
+  "tanim": "Göğüs,"
  },
  {
   "madde": "Safâ (a)",
@@ -1769,7 +1777,11 @@
  },
  {
   "madde": "Sebak (a)",
-  "tanim": "Ders. Sebâl: Perde."
+  "tanim": "Ders."
+ },
+ {
+  "madde": "Sebâl",
+  "tanim": "Perde."
  },
  {
   "madde": "Sekbân (f)",
@@ -1786,10 +1798,6 @@
  {
   "madde": "Serd (f)",
   "tanim": "Soğuk."
- },
- {
-  "madde": "Şabaş (f)",
-  "tanim": "Aferin, alkış, bahşiş."
  },
  {
   "madde": "Sergerdân (f)",
@@ -1860,6 +1868,10 @@
   "tanim": "Gevşek, tembel."
  },
  {
+  "madde": "Şabaş (f)",
+  "tanim": "Aferin, alkış, bahşiş."
+ },
+ {
   "madde": "Şâd (f)",
   "tanim": "Sevinçli."
  },
@@ -1916,6 +1928,38 @@
   "tanim": "Çılgın, dîvâne."
  },
  {
+  "madde": "Şey’enli’llâh (a)",
+  "tanim": "“Allah için bir şey” anlamında derviş ve sâillerin bir şey isteyecekleri vakit söyledikleri söz."
+ },
+ {
+  "madde": "Şeyh (a)",
+  "tanim": "İhtiyar, pîr, tasavvufta mürşid."
+ },
+ {
+  "madde": "Şeyh San’an",
+  "tanim": "Feridüddîn Attâr’ın “Mantıku’t-Tayr”ında yer alan kıssaya göre, Hrıstiyan bir kıza âşık olan ve bu aşk uğruna dinini değiştirip onunla evlenen Abdürrezzâk adlı mutasavvıf."
+ },
+ {
+  "madde": "Şikâr (f)",
+  "tanim": "Av."
+ },
+ {
+  "madde": "Şûm (f)",
+  "tanim": "Uğursuz."
+ },
+ {
+  "madde": "Şumâr (f)",
+  "tanim": "Sayı, sayan."
+ },
+ {
+  "madde": "Şûr (f)",
+  "tanim": "Heyecan, coşku."
+ },
+ {
+  "madde": "Şûrîde (f)",
+  "tanim": "Âşık, perişan, tutkun."
+ },
+ {
   "madde": "Ta’n (a)",
   "tanim": "Kötülemek. Birisinin ayıp ve kusurlarını beyan etmek, arkadan konuşmak."
  },
@@ -1938,34 +1982,6 @@
  {
   "madde": "Taht (a)",
   "tanim": "Yer."
- },
- {
-  "madde": "Şey’enli’llâh (a)",
-  "tanim": "“Allah için bir şey” anlamında derviş ve sâillerin bir şey isteyecekleri vakit söyledikleri söz."
- },
- {
-  "madde": "Şeyh (a)",
-  "tanim": "İhtiyar, pîr, tasavvufta mürşid. Şeyh San’an: Feridüddîn Attâr’ın “Mantıku’t-Tayr”ında yer alan kıssaya göre, Hrıstiyan bir kıza âşık olan ve bu aşk uğruna dinini değiştirip onunla evlenen Abdürrezzâk adlı mutasavvıf."
- },
- {
-  "madde": "Şikâr (f)",
-  "tanim": "Av."
- },
- {
-  "madde": "Şûm (f)",
-  "tanim": "Uğursuz."
- },
- {
-  "madde": "Şumâr (f)",
-  "tanim": "Sayı, sayan."
- },
- {
-  "madde": "Şûr (f)",
-  "tanim": "Heyecan, coşku."
- },
- {
-  "madde": "Şûrîde (f)",
-  "tanim": "Âşık, perişan, tutkun."
  },
  {
   "madde": "Tahte’s-serâ (a)",
@@ -2032,54 +2048,6 @@
   "tanim": "Bakma, seyretme."
  },
  {
-  "madde": "Ucb (a)",
-  "tanim": "Kendini beğenme."
- },
- {
-  "madde": "Uçmak (t)",
-  "tanim": "Cennet."
- },
- {
-  "madde": "Uğru (t)",
-  "tanim": "Hırsız."
- },
- {
-  "madde": "Uğrulamak (t)",
-  "tanim": "Çalmak, hırsızlık yapmak."
- },
- {
-  "madde": "Ummân (a)",
-  "tanim": "Büyük deniz."
- },
- {
-  "madde": "Umu (t)",
-  "tanim": "Ümit, emel, arzû."
- },
- {
-  "madde": "Urmak (t)",
-  "tanim": "Çalmak, dikmek, üflemek."
- },
- {
-  "madde": "Uryân (a)",
-  "tanim": "Çıplak."
- },
- {
-  "madde": "Ümmet (a)",
-  "tanim": "Peygamber’e bağlı olanlar."
- },
- {
-  "madde": "Ün (t)",
-  "tanim": "Ses, nidâ."
- },
- {
-  "madde": "Üş (t)",
-  "tanim": "İşte."
- },
- {
-  "madde": "Vâcib (a)",
-  "tanim": "Lüzumlu, mecburi olan, yerine getirilmesi zarurî Allah’ın emirleri."
- },
- {
   "madde": "Temren (t)",
   "tanim": "Okun ucundaki sivri başlık."
  },
@@ -2112,6 +2080,38 @@
   "tanim": "Duman."
  },
  {
+  "madde": "Ucb (a)",
+  "tanim": "Kendini beğenme."
+ },
+ {
+  "madde": "Uçmak (t)",
+  "tanim": "Cennet."
+ },
+ {
+  "madde": "Uğru (t)",
+  "tanim": "Hırsız."
+ },
+ {
+  "madde": "Uğrulamak (t)",
+  "tanim": "Çalmak, hırsızlık yapmak."
+ },
+ {
+  "madde": "Ummân (a)",
+  "tanim": "Büyük deniz."
+ },
+ {
+  "madde": "Umu (t)",
+  "tanim": "Ümit, emel, arzû."
+ },
+ {
+  "madde": "Urmak (t)",
+  "tanim": "Çalmak, dikmek, üflemek."
+ },
+ {
+  "madde": "Uryân (a)",
+  "tanim": "Çıplak."
+ },
+ {
   "madde": "Us (t)",
   "tanim": "Akıl."
  },
@@ -2140,12 +2140,28 @@
   "tanim": "Allah’tan başka herşeyden tecrîd olunarak yaşama."
  },
  {
+  "madde": "Ümmet (a)",
+  "tanim": "Peygamber’e bağlı olanlar."
+ },
+ {
+  "madde": "Ün (t)",
+  "tanim": "Ses, nidâ."
+ },
+ {
+  "madde": "Üş (t)",
+  "tanim": "İşte."
+ },
+ {
   "madde": "Üzmek (t)",
   "tanim": "Koparmak, ayırmak, kesmek."
  },
  {
   "madde": "Üzmek (t)",
   "tanim": "Tasalandırmak, ayırmak."
+ },
+ {
+  "madde": "Vâcib (a)",
+  "tanim": "Lüzumlu, mecburi olan, yerine getirilmesi zarurî Allah’ın emirleri."
  },
  {
   "madde": "Vahdet (a)",
@@ -2164,6 +2180,10 @@
   "tanim": "Amma, fakat, lâkin, velâkin."
  },
  {
+  "madde": "Visâl (a)",
+  "tanim": "Kavuşma, ulaşma, birleşme."
+ },
+ {
   "madde": "Yaban (t)",
   "tanim": "1. Yabancı, taşralı 2. Dışarı, kır, şehir dışı. Hak’tan uzak."
  },
@@ -2172,7 +2192,7 @@
   "tanim": "Hatırlamak."
  },
  {
-  "madde": "Yad ( t)",
+  "madde": "Yad( t)",
   "tanim": "Yabancı, tanıdık olmayan, garîb."
  },
  {
@@ -2190,6 +2210,34 @@
  {
   "madde": "Yavlak (t)",
   "tanim": "Pek çok, gayet."
+ },
+ {
+  "madde": "Yavu kılmak (t)",
+  "tanim": "Kaybetmek, yok etmek, ortadan kaldırmak."
+ },
+ {
+  "madde": "Yavuz (t)",
+  "tanim": "Kötü, fena, yaman, kara yağız."
+ },
+ {
+  "madde": "Yaylak (t)",
+  "tanim": "Yayla."
+ },
+ {
+  "madde": "Yazık (t)",
+  "tanim": "Günah, suç."
+ },
+ {
+  "madde": "Yedilmek (t)",
+  "tanim": "Çekilmek, yedekte götürülmek."
+ },
+ {
+  "madde": "Yel (t)",
+  "tanim": "Yel, rüzgar."
+ },
+ {
+  "madde": "Yort savul (t)",
+  "tanim": "Koş, kaç, uzaklaş. Yolun ortasından çekil."
  },
  {
   "madde": "Zâğ (a)",
@@ -2226,38 +2274,6 @@
  {
   "madde": "Zeyrek (f)",
   "tanim": "Uyanık, akıllı."
- },
- {
-  "madde": "Visâl (a)",
-  "tanim": "Kavuşma, ulaşma, birleşme."
- },
- {
-  "madde": "Yavu kılmak (t)",
-  "tanim": "Kaybetmek, yok etmek, ortadan kaldırmak."
- },
- {
-  "madde": "Yavuz (t)",
-  "tanim": "Kötü, fena, yaman, kara yağız."
- },
- {
-  "madde": "Yaylak (t)",
-  "tanim": "Yayla."
- },
- {
-  "madde": "Yazık (t)",
-  "tanim": "Günah, suç."
- },
- {
-  "madde": "Yedilmek (t)",
-  "tanim": "Çekilmek, yedekte götürülmek."
- },
- {
-  "madde": "Yel (t)",
-  "tanim": "Yel, rüzgar."
- },
- {
-  "madde": "Yort savul (t)",
-  "tanim": "Koş, kaç, uzaklaş. Yolun ortasından çekil."
  },
  {
   "madde": "Zihî (f)",

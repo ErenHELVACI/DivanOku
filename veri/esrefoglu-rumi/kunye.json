@@ -7,8 +7,8 @@
   "sira": 3,
   "editor": "Mustafa Tatcı",
   "yayinci": "T.C. Diyanet İşleri Başkanlığı, Dini Yayınlar Genel Müdürlüğü",
-  "seri": "Diyanet İşleri Başkanlığı Yayınları, Edebî Eserler",
-  "baski": "1. Baskı, 2014",
+  "seri": "Diyanet İşleri Başkanlığı Yayınları 1003, Edebî Eserler 32",
+  "baski": "1. Baskı, İstanbul, 2014",
   "baskiYili": 2014,
   "isbn": "978-975-19-5968-3",
   "telifNotu": "© T.C. Diyanet İşleri Başkanlığı (künyede yazılı)",
@@ -28,6 +28,6 @@
     "m": "Mesnevîler",
     "k": "Kıt'alar"
   },
-  "kaynakDosya": "kaynak/esrefoglu-rumi/kaynak.pdf",
-  "kunyeNotu": "PDF kaynaklıdır (ePUB yok). Künye sayfasında yayın numarası ve baskı yeri PDF metin katmanında bulunmadığından boş bırakıldı. ISBN (978-975-19-5968-3) ve katalog kodu (2023-34-Y-0003-1003) basılı kitabın künye fotoğrafından alındı (kullanıcı); ISBN sağlama basamağı doğrulandı. Dikkat: katalog kodundaki 2023 yılı, PDF'teki '1. Baskı, 2014' ibaresiyle uyuşmuyor; basılı kitap farklı bir baskı olabilir, baskı yılı doğrulanmalı. Dipnot numaraları kitapta bölüm içinde sürer (Kıt'alar'da yeniden 1'den başlar); burada çakışmasın diye sıra numarası verildi. Sözlükte satır sonu tireleri birleştirildi."
+  "kaynakDosya": "kaynak/esrefoglu-rumi/kaynak.epub",
+  "kunyeNotu": "Künye bilgisi ePUB'daki 'EsrefogluRumi-1/2.xhtml' sayfalarından alınmıştır: hazırlayan ve editör Mustafa Tatcı; Diyanet İşleri Başkanlığı Yayınları 1003, Edebî Eserler 32; 1. Baskı, İstanbul - 2014; ISBN 978-975-19-5968-3; katalog kodu 2014-34-Y-0003-1003; Sertifika No 12930. Kitap ilk PDF'ten eklenmişti; ePUB bulununca veri ePUB'tan yeniden üretildi ve PDF hattı kaldırıldı. ePUB ile eski PDF metni arasında küçük sözcük farkları vardı (ör. d-88'de 'mahbûb/mahcûb', d-18'de 'sala dur/saladır'); veri ePUB'a göredir. Basılı kitabın künye fotoğrafında katalog kodu '2023-34-Y-0003-1003' görülmüştü; ePUB'daki kod '2014-34-Y-0003-1003'. Basılı nüsha sonraki bir basım olabilir; kullanıcı kontrol etmeli."
 }

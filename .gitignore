@@ -28,3 +28,4 @@ pnpm-debug.log*
 
 # Kişisel yazışma taslakları (izin e-postası vb.): depoya girmez
 /izin/
+/ekran/

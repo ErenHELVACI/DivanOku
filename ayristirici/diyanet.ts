@@ -11,6 +11,11 @@ export type Secenek = {
   dosyaOnEki: string; // dokum/<kitap>/OEBPS/<dosyaOnEki>-<n>.xhtml
   siirDosyalari: number[]; // şiirlerin bulunduğu dosyalar; numaralar bunlar boyunca kesintisiz sürer
   kaynak: string; // şiir kimliği öneki (ör. "d")
+  // İsteğe bağlı: kitapta numaraları her birinde yeniden 1'den başlayan birden çok bölüm varsa
+  // (Eşrefoğlu: Dîvân d, Mesnevîler m, Kıt'alar k). Verilirse siirDosyalari/kaynak yerine bu kullanılır;
+  // şiir dizini de numaranın başa dönüşüne göre bu sırayla bölümlere ayrılır.
+  bolumler?: { kaynak: string; dosya: number; kita?: boolean }[];
+  // kita: true -> numarası "N-" ile ilk dizede basılmış, tek bentli kıt'a bölümü (her kıt'a ayrı şiir, şiir numarası = N).
   dizinDosya: number;
   sozlukDosya: number;
 };
@@ -112,7 +117,10 @@ export function diyanetAyristir(o: Secenek) {
     numarasizlariCoz();
   }
 
-  for (const dosya of o.siirDosyalari) {
+  const bolumler = o.bolumler ?? o.siirDosyalari.map((dosya) => ({ kaynak: o.kaynak, dosya }));
+  for (const { kaynak, dosya, kita: kitaBolumu } of bolumler) {
+    if (su && su.kaynak !== kaynak) { siiriBitir(); su = null; } // yeni bölüm: numara 1'den başlar
+    const kita = !!kitaBolumu;
     const $ = cheerio.load(readFileSync(yol(dosya), 'utf8'));
     const dipnotMetni = new Map<string, string>();
     $('aside.\\_idFootnote').each((_, a) => {
@@ -136,11 +144,33 @@ export function diyanetAyristir(o: Secenek) {
       return bosluk(c.text());
     };
 
+    let bekleyenBaslik: cheerio.Cheerio<any> | null = null; // kıt'a bölümü: sonraki şiire bağlanacak bölüm başlığı
     $('body > div > p').each((_, e) => {
       const p = $(e);
       const sinif = p.attr('class') ?? '';
       const html = $.html(p);
       const ham = bosluk(p.text());
+
+      if (kita) {
+        if (sinif === 'ortayazi') { bekleyenBaslik = p; return; }
+        if (sinif === 'resim') return;
+        if (sinif === 'normalnesililk') {
+          const m = bosluk(p.text()).match(/^(\d+)\.?\s*-?\s*/);
+          if (!m) { uyar(`kıt'a numarası okunamadı: ${ham.slice(0, 40)}`, su?.id); return; }
+          siiriBitir();
+          const no = Number(m[1]);
+          su = { id: `${kaynak}-${no}`, kitap: o.kitap, kaynak, no, tur: 'belirsiz', vezinler: [],
+            baslikNotlari: [], bentler: [], anlamlar: [], kaynakNotu: null };
+          if (siirler.some((x) => x.id === su!.id)) uyar('yinelenen şiir kimliği', su.id);
+          siirler.push(su); evre = 'bent'; onSatirlar = [];
+          if (bekleyenBaslik) { su.baslikNotlari.push(metinVeDipnot(bekleyenBaslik, su.id)); bekleyenBaslik = null; }
+          su.bentler.push({ no: 1, dizeler: [metinVeDipnot(p, su.id).replace(/^\d+\s*-?\s*/, '')] });
+          return;
+        }
+        if (sinif.startsWith('normalnesil') && su) { su.bentler[0].dizeler.push(metinVeDipnot(p, su.id)); return; }
+        uyar(`beklenmeyen satır (${sinif}): ${ham.slice(0, 40)}`, su?.id);
+        return;
+      }
 
       // Şiir numarası: üst/alt süs görselleri arasındaki rakam ya da yalnız rakamlı "ortaitalik" satırı.
       // Bazı şiirlerde numara iki paragrafa bölünmüş (üst görsel ayrı, rakam+alt görsel ayrı).
@@ -149,7 +179,7 @@ export function diyanetAyristir(o: Secenek) {
       if ((susVar || sinif === 'ortaitalik') && rakam) {
         siiriBitir();
         const no = Number(rakam[1]);
-        su = { id: `${o.kaynak}-${no}`, kitap: o.kitap, kaynak: o.kaynak, no, tur: 'belirsiz', vezinler: [],
+        su = { id: `${kaynak}-${no}`, kitap: o.kitap, kaynak, no, tur: 'belirsiz', vezinler: [],
           baslikNotlari: [], bentler: [], anlamlar: [], kaynakNotu: null };
         if (siirler.some((x) => x.id === su!.id)) uyar('yinelenen şiir kimliği', su.id);
         siirler.push(su); evre = 'on'; onSatirlar = [];
@@ -165,7 +195,8 @@ export function diyanetAyristir(o: Secenek) {
 
       if (sinif === 'normalnesililk') {
         const t = metinVeDipnot(p, id);
-        const m = t.match(/^(\d+)\s*-?\s*(.*)$/s);
+        // "1.-Bu gönül…": kitapta bazı bent numaralarından sonra nokta basılmış (Eşrefoğlu d-1); numara ön ekinin parçası sayılır.
+        const m = t.match(/^(\d+)\.?\s*-?\s*(.*)$/s);
         const eksik = !m ? t.match(/^-\s*(.*)$/s) : null;
         if (eksik && eksik[1] && vezinMi(eksik[1]) && su.bentler.length === 0 && evre === 'on') {
           onSatirlar.push({ c: sinif, t: eksik[1] });
@@ -191,6 +222,11 @@ export function diyanetAyristir(o: Secenek) {
       }
       uyar(`beklenmeyen satır (${sinif}): ${ham.slice(0, 40)}`, id);
     });
+    if (kita) {
+      for (const x of siirler.filter((x) => x.kaynak === kaynak && x.bentler[0].dizeler.length !== 4)) {
+        uyar(`kıt'a ${x.bentler[0].dizeler.length} dizeden oluşuyor (4 beklenir); kitaptaki gibi tek bent bırakıldı`, x.id);
+      }
+    }
   }
   siiriBitir();
 
@@ -201,11 +237,20 @@ export function diyanetAyristir(o: Secenek) {
 
   // ---- Şiir dizini ----
   const $d = cheerio.load(readFileSync(yol(o.dizinDosya), 'utf8'));
-  const dizin: { no: number; ilkDize: string }[] = [];
+  const dizin: { kaynak?: string; no: number; ilkDize: string }[] = [];
+  const dizinBolumSirasi = [...new Set(bolumler.map((b) => b.kaynak))];
+  let dizinBolum = 0, dizinSon = 0;
   $d('body > div > p.normalnesililk').each((_, e) => {
     const t = bosluk($d(e).text());
-    const m = t.match(/^(\d+)\s*-?\s*(.*)$/s);
-    if (m) dizin.push({ no: Number(m[1]), ilkDize: m[2] });
+    const m = t.match(/^(\d+)\.?\s*-?\s*(.*)$/s);
+    if (m) {
+      const no = Number(m[1]);
+      if (dizinBolumSirasi.length > 1) {
+        if (no <= dizinSon && dizinBolum < dizinBolumSirasi.length - 1) dizinBolum++; // numara başa döndü: sonraki bölüm
+        dizinSon = no;
+        dizin.push({ kaynak: dizinBolumSirasi[dizinBolum], no, ilkDize: m[2] });
+      } else dizin.push({ no, ilkDize: m[2] });
+    }
     else {
       // Numarasız ilk-dize satırı: önceki kaydın ikinci dizesi ilk-dize sınıfıyla basılmış (ör. 102 → "Fenâdan son fenâ buldu").
       uyar(`dizinde numarasız satır önceki kaydın devamı sayıldı: ${t.slice(0, 40)}`);

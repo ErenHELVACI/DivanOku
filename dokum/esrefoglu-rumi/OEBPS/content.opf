@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 13.0" />
+		<meta name="cover" content="EsrefogluRumi.jpg" />
+		<dc:title>EŞREFOĞLU RUMİ DİVANI</dc:title>
+		<dc:publisher>DİYANET İŞLERİ BAŞKANLIĞI</dc:publisher>
+		<dc:date>2017-11-09T06:04:22Z</dc:date>
+		<dc:rights> </dc:rights>
+		<dc:language>tr-TR</dc:language>
+		<meta property="dcterms:modified">2017-11-09T06:04:22Z</meta>
+		<dc:identifier id="bookid">urn:uuid:498A93D5-B0DE-4175-805C-09A94955D2AB</dc:identifier>
+	</metadata>
+	<manifest>
+		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi" href="EsrefogluRumi.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-1" href="EsrefogluRumi-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-2" href="EsrefogluRumi-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-3" href="EsrefogluRumi-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-4" href="EsrefogluRumi-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-5" href="EsrefogluRumi-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-6" href="EsrefogluRumi-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-7" href="EsrefogluRumi-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-8" href="EsrefogluRumi-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-9" href="EsrefogluRumi-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-10" href="EsrefogluRumi-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-11" href="EsrefogluRumi-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-12" href="EsrefogluRumi-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-13" href="EsrefogluRumi-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-14" href="EsrefogluRumi-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-15" href="EsrefogluRumi-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-16" href="EsrefogluRumi-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-17" href="EsrefogluRumi-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-18" href="EsrefogluRumi-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="EsrefogluRumi-19" href="EsrefogluRumi-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="DiBSiirilkSatir5MM.css" href="css/DiBSiirilkSatir5MM.css" media-type="text/css" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" />
+		<item id="x1010.png" href="image/1010.png" media-type="image/png" />
+		<item id="x11.png" href="image/11.png" media-type="image/png" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x22.png" href="image/22.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x33.png" href="image/33.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x5.png" href="image/5.png" media-type="image/png" />
+		<item id="x55.png" href="image/55.png" media-type="image/png" />
+		<item id="x66.png" href="image/66.png" media-type="image/png" />
+		<item id="x77.png" href="image/77.png" media-type="image/png" />
+		<item id="x88.png" href="image/88.png" media-type="image/png" />
+		<item id="x99.png" href="image/99.png" media-type="image/png" />
+		<item id="alt.png" href="image/alt.png" media-type="image/png" />
+		<item id="EsrefogluRumi.jpg" href="image/EsrefogluRumi.jpg" media-type="image/jpeg" properties="cover-image" />
+		<item id="ust.png" href="image/ust.png" media-type="image/png" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover" linear="no" />
+		<itemref idref="EsrefogluRumi" />
+		<itemref idref="EsrefogluRumi-1" />
+		<itemref idref="EsrefogluRumi-2" />
+		<itemref idref="EsrefogluRumi-3" />
+		<itemref idref="EsrefogluRumi-4" />
+		<itemref idref="EsrefogluRumi-5" />
+		<itemref idref="EsrefogluRumi-6" />
+		<itemref idref="EsrefogluRumi-7" />
+		<itemref idref="EsrefogluRumi-8" />
+		<itemref idref="EsrefogluRumi-9" />
+		<itemref idref="EsrefogluRumi-10" />
+		<itemref idref="EsrefogluRumi-11" />
+		<itemref idref="EsrefogluRumi-12" />
+		<itemref idref="EsrefogluRumi-13" />
+		<itemref idref="EsrefogluRumi-14" />
+		<itemref idref="EsrefogluRumi-15" />
+		<itemref idref="EsrefogluRumi-16" />
+		<itemref idref="EsrefogluRumi-17" />
+		<itemref idref="EsrefogluRumi-18" />
+		<itemref idref="EsrefogluRumi-19" />
+	</spine>
+	<guide>
+		<reference type="cover" href="cover.xhtml" title="Cover" />
+	</guide>
+</package>
